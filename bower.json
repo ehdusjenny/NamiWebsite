@@ -1,0 +1,22 @@
+{
+  "name": "namiworld",
+  "description": "nami's website",
+  "main": "",
+  "authors": [
+    "Doyeon Nami Kim"
+  ],
+  "license": "MIT",
+  "homepage": "doyeonnamikim.ca",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.3.2",
+    "angular-bootstrap": "^2.3.0",
+    "angular": "^1.6.0"
+  }
+}

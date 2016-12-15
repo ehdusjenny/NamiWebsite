@@ -1,0 +1,6 @@
+(Object Oriented) Programming for Beginners
+30-Minutes
+What is a programming language? Programming language is a human-friendly language designed to communicate with machines and give machines instructions.
+There are many types of programming languages out there, and for this tutorial we'll be covering an Object Oriented Language - Java.
+An object in an OOP paradigm, in the most abstract definition, is a representation of anything that has a state and behaviour. So an object can be a dog, a dog is happy, sad, excited, etc, and the dog can run, jump, bite, etc.
+<Code Snippet of Said Example>

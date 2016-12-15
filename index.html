@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="namiworld">
+
+<head>
+	<title ng-bind="($title ? $title + ' - ' : '') + 'NamiWorld'"></title>
+	<base href="/">
+	<!-- bower:css -->
+	<!-- endbower -->
+	<link rel="stylesheet" href="style/main.css" type="text/css" />
+	<link rel="stylesheet" href="style/bootstrap.min.css" type="text/css" />
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<ul id="nav">
+			<li ui-sref-active="active"><a ui-sref="blog"><span class="glyphicon glyphicon-pencil"></span>Blog</a></li>
+			<li ui-sref-active="active"><a ui-sref="music"><span class="glyphicon glyphicon-music"></span>Random Music</a></li>
+			<li ui-sref-active="active"><a ui-sref="about"><span class="glyphicon glyphicon-home"></span>About</a></li>
+			<li ui-sref-active="active"><a ui-sref="contact"><span class="glyphicon glyphicon-phone"></span>Contact</a></li>
+		</ul>
+	</nav>
+
+	<ui-view>
+		<!-- page content is dynamically inserted inside this tag by angular -->
+	</ui-view>
+</body>
+
+<!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<!-- endbower -->
+
+<script src="app.js"></script>s
+<script src="controllers/about.js"></script>
+<script src="controllers/blog.js"></script>
+<script src="controllers/contact.js"></script>
+<script src="controllers/music.js"></script>
+</html>
+
+<!-- Home page center has the orage/blue cup with keywords floating inside, like CODE, GET HIRED, FOOD, etc -->
+<!-- Bottom footer has my social media - facebook, linkedin, github -->
