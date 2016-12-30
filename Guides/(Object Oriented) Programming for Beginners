@@ -31,4 +31,8 @@ Inheritance in action:
 
 
 Polymorphism
+In Java, there is another type called interfaces. Interfaces can contain constants and method signatures, but not the actual implementation.
+<Show interface example Shape, with Circle and Square implementing it>
+Circle and Square implements Shape, which means Circle and Square has to implement the methods defined by the Shape class. It also inherits the constants.
+
 A function that can take in a superclass as input parameter.
