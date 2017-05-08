@@ -1,54 +1,162 @@
+.my-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #242628;
+}
+
+.my-navbar li {
+    float: right;
+}
+
+.my-navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.bio-nav:hover {
+	background-color: #90daf0;
+}
+
+.tech-nav:hover {
+	background-color: #90f092;
+}
+
+.music-nav:hover {
+	background-color: #f0b790;
+}
+
+.food-nav:hover {
+	background-color: #ac90f0;
+}
+
+.ocean {
+	content: url('../images/ocean.gif');
+	width: 100%;
+	height: 500px;
+}
+
+.info {
+	height: 500px;
+}
+
+.info-inner {
+	float: left;
+	width: 25%;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.title {
+/*	font-family: "Verdana", Geneva, sans-serif;
+	font-size: 20px;*/
+	text-align: center;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+.info-image {
+	width: 280px;
+	height: 280px;
+	border-radius: 50px;
+	margin: 0 auto;
+}
+
+.bio {
+
+}
+
+.bio-image {
+	content: url('../images/bio.jpg');
+}
+
+.tech {
+
+}
+
+.tech-image {
+	content: url('../images/bio.jpg');
+}
+
+.food {
+
+}
+
+.food-image {
+	content: url('../images/bio.jpg');
+}
+
+.music {
+
+}
+
+.music-image {
+	content: url('../images/bio.jpg');
+}
+
+
+
 .outer {
-  overflow: hidden;
-  position: absolute;
-  height: 100%;
-  width: 100%;
+	overflow: hidden;
+	position: absolute;
+	height: 100%;
+	width: 100%;
 }
 
 .block {
 	width: 1000px;
 	height: 600px;
 	position: absolute;
+	font-size: 50px;
+	text-align: center;
 }
 
 .top-left {
-	-webkit-transform: rotate(-35deg);
-	-moz-transform: rotate(-35deg);
-	-o-transform: rotate(-35deg);
-	-ms-transform: rotate(-35deg);
-	transform: rotate(-35deg);
-    left: -350px;
-    top: -295px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+    left: -450px;
+    top: -450px;
 }
 
 .top-right {
-	-webkit-transform: rotate(35deg);
-	-moz-transform: rotate(35deg);
-	-o-transform: rotate(35deg);
-	-ms-transform: rotate(35deg);
-	transform: rotate(35deg);
-    right: -350px;
-    top: -295px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+    right: -450px;
+    top: -450px;
 }
 
 .bottom-left {
-	-webkit-transform: rotate(35deg);
-	-moz-transform: rotate(35deg);
-	-o-transform: rotate(35deg);
-	-ms-transform: rotate(35deg);
-	transform: rotate(35deg);
-    left: -350px;
-    bottom: -295px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+    left: -450px;
+    bottom: -450px;
 }
 
 .bottom-right {
-	-webkit-transform: rotate(-35deg);
-	-moz-transform: rotate(-35deg);
-	-o-transform: rotate(-35deg);
-	-ms-transform: rotate(-35deg);
-	transform: rotate(-35deg);
-    right: -350px;
-    bottom: -295px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+    right: -450px;
+    bottom: -450px;
 }
 
 .blue {

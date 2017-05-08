@@ -7,17 +7,50 @@
 	<!-- bower:css -->
 	<!-- endbower -->
 	<link rel="stylesheet" href="style/main.css" type="text/css" />
-	<link rel="stylesheet" href="style/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="style/bootstrap.min.css" type="text/css"/>
+	<link rel="stylesheet" href="font-awesome/font-awesome-4.7.0/css/font-awesome.min.css">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 
 <body>
-	<div class="outer">
+	<!-- <div class="outer">
 		<a ui-sref="bio"><div ui-sref-active="active" class="block blue top-left">BIO</div></a>
 		<a ui-sref="tech"><div ui-sref-active="active" class="block green top-right">TECH</div></a>
 		<a ui-sref="food"><div ui-sref-active="active" class="block purple bottom-left">FOOD</div></a>
 		<a ui-sref="music"><div ui-sref-active="active" class="block pink bottom-right">MUSIC</div></a>
+	</div> -->
+
+	<!-- Reference: http://designshopp.com/ -->
+	<div class="my-navbar">
+		<ul>
+			<li><a ui-sref="music" class="music-nav"><div ui-sref-active="active">MUSIC</div></a></li>
+			<li><a ui-sref="food" class="food-nav"><div ui-sref-active="active">FOOD</div></a></li>
+			<li><a ui-sref="tech" class="tech-nav"><div ui-sref-active="active">TECH</div></a></li>
+			<li><a ui-sref="bio" class="bio-nav"><div ui-sref-active="active">BIO</div></a></li>
+		</ul>
+	</div>
+
+	<div class="ocean"></div>
+	<div class="info">
+		<div class="info-border">
+			<div class="info-inner bio">
+				<div class="title">About Nami</div>
+				<div class="info-image bio-image"></div>
+			</div>
+			<div class="info-inner tech">
+				<div class="title">Techy Things</div>
+				<div class="info-image tech-image"></div>
+			</div>
+			<div class="info-inner music">
+				<div class="title">Music Things</div>
+				<div class="info-image music-image"></div>
+			</div>
+			<div class="info-inner food">
+				<div class="title">Food Things</div>
+				<div class="info-image food-image"></div>
+			</div>
+		</div>
 	</div>
 	<ui-view></ui-view>
 </body>
