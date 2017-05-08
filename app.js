@@ -4,13 +4,33 @@ angular.module('namiworld', ['ui.router', 'ui.bootstrap']) //include plugins in 
 	$locationProvider.html5Mode(true);
 //you define states in the config part of your app.js
 $stateProvider
-.state('blog', {
-	url: "/blog",
-	controller : 'BlogCtrl',
-	templateUrl : 'views/blog.html',
+.state('bio', {
+	url: "/bio",
+	controller : 'BioCtrl',
+	templateUrl : 'views/bio.html',
     resolve: {
         $title: function() {
-            return 'Blog';
+            return 'Bio';
+        }
+    }
+})
+.state('tech', {
+    url: "/tech",
+    controller : 'TechCtrl',
+    templateUrl : 'views/tech.html',
+    resolve: {
+        $title: function() {
+            return 'Tech';
+        }
+    }
+})
+.state('food', {
+    url: "/food",
+    controller : 'FoodCtrl',
+    templateUrl : 'views/food.html',
+    resolve: {
+        $title: function() {
+            return 'Food';
         }
     }
 })
@@ -23,28 +43,7 @@ $stateProvider
             return 'Music';
         }
     }
-})
-.state('about', {
-	url: "/about",
-	controller : 'AboutCtrl',
-	templateUrl : 'views/about.html',
-    resolve: {
-        $title: function() {
-            return 'About';
-        }
-    }
-})
-.state('contact', {
-	url: "/contact",
-	controller : 'ContactCtrl',
-	templateUrl : 'views/contact.html',
-    resolve: {
-        $title: function() {
-            return 'Contact';
-        }
-    }
 });
-
 }).run(function($rootScope) {
-//code to run when index.html loads
+    //code to run when index.html loads
 });

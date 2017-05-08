@@ -1,0 +1,68 @@
+.outer {
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.block {
+	width: 1000px;
+	height: 600px;
+	position: absolute;
+}
+
+.top-left {
+	-webkit-transform: rotate(-35deg);
+	-moz-transform: rotate(-35deg);
+	-o-transform: rotate(-35deg);
+	-ms-transform: rotate(-35deg);
+	transform: rotate(-35deg);
+    left: -350px;
+    top: -295px;
+}
+
+.top-right {
+	-webkit-transform: rotate(35deg);
+	-moz-transform: rotate(35deg);
+	-o-transform: rotate(35deg);
+	-ms-transform: rotate(35deg);
+	transform: rotate(35deg);
+    right: -350px;
+    top: -295px;
+}
+
+.bottom-left {
+	-webkit-transform: rotate(35deg);
+	-moz-transform: rotate(35deg);
+	-o-transform: rotate(35deg);
+	-ms-transform: rotate(35deg);
+	transform: rotate(35deg);
+    left: -350px;
+    bottom: -295px;
+}
+
+.bottom-right {
+	-webkit-transform: rotate(-35deg);
+	-moz-transform: rotate(-35deg);
+	-o-transform: rotate(-35deg);
+	-ms-transform: rotate(-35deg);
+	transform: rotate(-35deg);
+    right: -350px;
+    bottom: -295px;
+}
+
+.blue {
+	background: #90daf0;
+}
+
+.green {
+	background: #90f092;
+}
+
+.pink {
+	background: #f0b790;
+}
+
+.purple {
+	background: #ac90f0;
+}

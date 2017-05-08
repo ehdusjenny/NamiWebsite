@@ -1,4 +1,4 @@
 angular.module('namiworld')
-.controller('ContactCtrl', function($scope) {
+.controller('FoodController', function($scope) {
 $scope.something = "hello person";
 });

@@ -2,7 +2,7 @@
 <html ng-app="namiworld">
 
 <head>
-	<title ng-bind="($title ? $title + ' - ' : '') + 'NamiWorld'"></title>
+	<title ng-bind="($title ? $title + ' - ' : '') + 'hehexd'"></title>
 	<base href="/">
 	<!-- bower:css -->
 	<!-- endbower -->
@@ -13,18 +13,13 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<ul id="nav">
-			<li ui-sref-active="active"><a ui-sref="blog"><span class="glyphicon glyphicon-pencil"></span>Blog</a></li>
-			<li ui-sref-active="active"><a ui-sref="music"><span class="glyphicon glyphicon-music"></span>Random Music</a></li>
-			<li ui-sref-active="active"><a ui-sref="about"><span class="glyphicon glyphicon-home"></span>About</a></li>
-			<li ui-sref-active="active"><a ui-sref="contact"><span class="glyphicon glyphicon-phone"></span>Contact</a></li>
-		</ul>
-	</nav>
-
-	<ui-view>
-		<!-- page content is dynamically inserted inside this tag by angular -->
-	</ui-view>
+	<div class="outer">
+		<a ui-sref="bio"><div ui-sref-active="active" class="block blue top-left">BIO</div></a>
+		<a ui-sref="tech"><div ui-sref-active="active" class="block green top-right">TECH</div></a>
+		<a ui-sref="food"><div ui-sref-active="active" class="block purple bottom-left">FOOD</div></a>
+		<a ui-sref="music"><div ui-sref-active="active" class="block pink bottom-right">MUSIC</div></a>
+	</div>
+	<ui-view></ui-view>
 </body>
 
 <!-- bower:js -->
@@ -33,12 +28,9 @@
 <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
 <!-- endbower -->
 
-<script src="app.js"></script>s
-<script src="controllers/about.js"></script>
-<script src="controllers/blog.js"></script>
-<script src="controllers/contact.js"></script>
-<script src="controllers/music.js"></script>
+<script src="app.js"></script>
+<script src="controllers/BioController.js"></script>
+<script src="controllers/FoodController.js"></script>
+<script src="controllers/MusicController.js"></script>
+<script src="controllers/TechController.js"></script>
 </html>
-
-<!-- Home page center has the orage/blue cup with keywords floating inside, like CODE, GET HIRED, FOOD, etc -->
-<!-- Bottom footer has my social media - facebook, linkedin, github -->

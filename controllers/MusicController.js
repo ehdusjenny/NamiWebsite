@@ -1,4 +1,4 @@
 angular.module('namiworld')
-.controller('BlogCtrl', function($scope) {
+.controller('MusicController', function($scope) {
 $scope.something = "hello person";
 });
