@@ -16,7 +16,9 @@
     text-align: center;
     padding: 30px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
 }
 
 .bio-nav:hover {
@@ -36,25 +38,26 @@
 }
 
 .ocean {
-	position: absolute;
-	background-image: url('../images/ocean.gif');
+	position: relative;
+	background-image: url('../images/ocean.jpg');
+	background-repeat: no-repeat;
 	background-size: 100%;
-	width: 100%;
 	height: 500px;
-	filter: blur(5px) brightness(1);
-	overflow: hidden;
-	transform: scale(1.03);
+	-webkit-background-size: cover;
+  	background-size: cover;
 }
 
 .logo {
 	content: url('../images/logo.png');
-	width: 400px;
-	margin: 0 auto;
+	width: 200px;
 	position: absolute;
+	left: 50%;
+   	top: 40%;
+   	-webkit-transform: translate(-50%, -50%);
+   	transform: translate(-50%, -50%);
 }
 
 .info {
-	margin-top: 500px;
 	height: 500px;
 }
 
