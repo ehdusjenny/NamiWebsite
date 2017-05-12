@@ -1,3 +1,7 @@
+body {
+	position: relative;
+}
+
 .my-navbar ul {
     list-style-type: none;
     margin: 0;
@@ -37,27 +41,77 @@
 	background-color: #ac90f0;
 }
 
-.ocean {
+.logo-section {
 	position: relative;
-	background-image: url('../images/ocean.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
+	width: 100%;
+	margin: 0 auto;
 	height: 500px;
-	-webkit-background-size: cover;
-  	background-size: cover;
 }
 
-.logo {
+.ocean {
+	position: absolute;
+	background-image: url('../images/ocean.jpg');
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	-webkit-background-size: cover;
+  	background-size: cover;
+	height: 500px;
+}
+
+.centertext-on-image {
+	position: absolute;
+	z-index: 10;
+	left: 44%;
+	top: 40%;
+}
+
+#logo {
 	content: url('../images/logo.png');
 	width: 200px;
-	position: absolute;
-	left: 50%;
-   	top: 40%;
-   	-webkit-transform: translate(-50%, -50%);
-   	transform: translate(-50%, -50%);
+}
+
+#my-name {
+	float: left;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 50px;
+  	position: relative;
+  	transform: translateY(50%);
+  	color: white;
+  	opacity: 0;
+  	left: -300px;
+	opacity: 0;
+	display: none;
+}
+
+@keyframes nameslide {
+	0% {
+		left: -300px;
+		opacity: 0;
+	}
+    100% { 
+    	left: 0;
+    	opacity: 1;
+    }
+}
+
+@keyframes logoslide {
+    100% { 
+    	margin-left: 0px;
+    }
+}
+
+.name-update {
+	display: block !important;
+	animation: nameslide 1.0s forwards;
+}
+
+.logo-update {
+	animation: logoslide 1.0s forwards;
 }
 
 .info {
+	position: absolute;
 	height: 500px;
 }
 

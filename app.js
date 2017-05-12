@@ -45,5 +45,4 @@ $stateProvider
     }
 });
 }).run(function($rootScope) {
-    //code to run when index.html loads
 });

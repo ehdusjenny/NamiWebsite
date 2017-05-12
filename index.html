@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="namiworld">
+<html ng-app="namiworld" ng-controller="MainController">
 <!--POOP-->
 <head>
 	<title ng-bind="($title ? $title + ' - ' : '') + 'hehexd'"></title>
@@ -7,7 +7,7 @@
 	<!-- bower:css -->
 	<!-- endbower -->
 	<link rel="stylesheet" href="style/main.css" type="text/css" />
-	<link rel="stylesheet" href="style/bootstrap.min.css" type="text/css"/>
+	<link rel="stylesheet f"href="style/bootstrap.min.css" type="text/css"/>
 	<link rel="stylesheet" href="font-awesome/font-awesome-4.7.0/css/font-awesome.min.css">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -31,8 +31,13 @@
 		</ul>
 	</div>
 
-	<div class="ocean"></div>
-	<div class="logo"></div>
+	<div class="logo-section">
+		<div class="ocean"></div>
+		<div class="centertext-on-image">
+			<div id="logo" ng-mouseover="updateLogoCSS()"></div>
+			<div id="my-name">DoYeon Kim</div>
+		</div>
+	</div>
 
 	<div class="info">
 		<div class="info-border">
@@ -68,4 +73,5 @@
 <script src="controllers/FoodController.js"></script>
 <script src="controllers/MusicController.js"></script>
 <script src="controllers/TechController.js"></script>
+<script src="controllers/MainController.js"></script>
 </html>
