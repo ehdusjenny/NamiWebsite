@@ -14,20 +14,15 @@
 </head>
 
 <body>
-	<!-- <div class="outer">
-		<a ui-sref="bio"><div ui-sref-active="active" class="block blue top-left">BIO</div></a>
-		<a ui-sref="tech"><div ui-sref-active="active" class="block green top-right">TECH</div></a>
-		<a ui-sref="food"><div ui-sref-active="active" class="block purple bottom-left">FOOD</div></a>
-		<a ui-sref="music"><div ui-sref-active="active" class="block pink bottom-right">MUSIC</div></a>
-	</div> -->
 
 	<!-- Reference: http://designshopp.com/ -->
 	<div class="my-navbar">
+		<div class="top-logo"></div>
 		<ul>
-			<li><a ui-sref="music" class="music-nav"><div ui-sref-active="active">MUSIC</div></a></li>
-			<li><a ui-sref="food" class="food-nav"><div ui-sref-active="active">FOOD</div></a></li>
-			<li><a ui-sref="tech" class="tech-nav"><div ui-sref-active="active">TECH</div></a></li>
-			<li><a ui-sref="bio" class="bio-nav"><div ui-sref-active="active">BIO</div></a></li>
+			<li><a ui-sref="music" class="nav-category music-nav"><div ui-sref-active="active">MUSIC</div></a></li>
+			<li><a ui-sref="food" class="nav-category food-nav"><div ui-sref-active="active">FOOD</div></a></li>
+			<li><a ui-sref="tech" class="nav-category tech-nav"><div ui-sref-active="active">TECH</div></a></li>
+			<li><a ui-sref="bio" class="nav-category bio-nav"><div ui-sref-active="active">BIO</div></a></li>
 		</ul>
 	</div>
 
@@ -69,9 +64,10 @@
 <!-- endbower -->
 
 <script src="app.js"></script>
-<script src="controllers/BioController.js"></script>
-<script src="controllers/FoodController.js"></script>
-<script src="controllers/MusicController.js"></script>
-<script src="controllers/TechController.js"></script>
-<script src="controllers/MainController.js"></script>
+<script src="js/lib/jquery.arctext.js"></script>
+<script src="js/controllers/BioController.js"></script>
+<script src="js/controllers/FoodController.js"></script>
+<script src="js/controllers/MusicController.js"></script>
+<script src="js/controllers/TechController.js"></script>
+<script src="js/controllers/MainController.js"></script>
 </html>
