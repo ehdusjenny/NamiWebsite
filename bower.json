@@ -16,6 +16,8 @@
   "dependencies": {
     "angular-ui-router": "^0.3.2",
     "angular-bootstrap": "^2.5.0",
-    "angular": "^1.6.4"
+    "angular": "^1.6.4",
+    "Arctext.js": "arctext-js#*",
+    "jquery": "^3.2.1"
   }
 }

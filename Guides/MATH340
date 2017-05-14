@@ -1,0 +1,27 @@
+Theorem: Let G be a k-regular bipartite graph. Then X'(G) = k.
+Proof: Assume k >= 1. |A| = |B| = n. |E(G)| = k*n.
+k-edge colouring corresponds to partitioninig E(G) into k matchings. M1, M2, ..... Mk. |Mi| <= n.
+By the above, then theorem is equivalent to showing that edges of such graph can be partitioned into k perfect matchings.
+Proof by induction on k:
+	By the previous theorem, there exists a perfect matching Mk of G. Delete the edges of Mk from G to obtain a graph G'. G' is (k-1)-regular, so by induction hypothesis the edges of G' can be coloured using colors {1, 2, ...., k-1}. Use color k on edges of Mk to obtain a colouring of G with k colours.
+
+Lemma: If G is a bipartite graph with maximum degree of G <= k, then G is a subgraph of some k-regular bipartite graph.
+Proof:
+	Let (A, B) be a bipartition of G, by adding vertices to A and B if necessary we assume that |A| = |B| >= k.
+	If G is not k-regular, we'd like to add edges. Let G' be a graph with V(G') = V(G) s.t. max degree of G' <= k and subject to that |E(G)| is as large as possible. We want to show that G' is k-regular.
+	Suppose G' is not k-regular. Then deg(v) < k for some v in V(G'), say v in A. Counting as before |E(G')| < k|A| = k|B|. Therefore there exists u in B, deg(u) < k. 
+	Add an edge joining u and r to G', the resulting graph has max degree almost k, more edges than G', contradicting the choice of G'. So G' is k-regular.
+
+Theorem: If G is a bipartite graph then X'(G)=max degree of G
+Proof:
+	X'(G) >= max degree of G, as mentioned earlier. Let max degree of G = k. By the theorems before, there exists a k-regular bipartite graph G' s. t. G is a subgraph of G', and X'(G') = k. Every k-edge colouring of G' produces a k-edge coloring of G, so X'(G) <= k = max degree of G.
+
+Theorem: If G is a simple graph then X'(G)=max degree of (G) or X'(G)=max degree of G+1
+If P != NP, then there is no efficient way given a 3-regular graph G to determine whether X'(G)=3 or X'(G)=4
+
+What can we say about maximum size of a matching in a bipartite graph G?
+How can we certify that G has no matching of size k (with k edges)?
+Refer to graph on draw.io, what is the largest size of a matching?
+A vertex cover in a graph G is X in V(G) s. t. everyedge has grater than 1 end in X. If G has a vertex cover of size k then it has no matching of size >k . For bipartite graph the coverse holds . If there is no matching of size > k then there is a vertex cover of size <= k
+
+
