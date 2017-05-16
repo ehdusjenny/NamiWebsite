@@ -10,11 +10,13 @@ body {
 	 * Navigation Bar Section
 	 */
 
+	 	.my-navbar {
+		    background-color: #242628;
+	 	}
+
 		.my-navbar ul {
 		    list-style-type: none;
-		    margin: 0;
 		    overflow: hidden;
-		    background-color: #242628;
 		    padding-right: 12%;
 		}
 
@@ -29,8 +31,8 @@ body {
 		    padding: 30px;
 		    text-decoration: none;
 		    font-size: 18px;
-		    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-		    font-weight: 600;
+		    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		    font-weight: 550;
 		}
 
 		.top-logo {
@@ -92,7 +94,7 @@ body {
 		.centertext-on-image {
 			position: absolute;
 			z-index: 10;
-			left: 44%;
+			left: 40%;
 			top: 40%;
 		}
 
@@ -100,7 +102,7 @@ body {
 			float: left;
 			content: url('../images/logo.png');
 			width: 200px;
-			margin-left: -50px;
+			margin-left: 0px;
 		}
 
 		#my-name {
@@ -111,8 +113,6 @@ body {
 		  	transform: translateY(50%);
 		  	color: white;
 		  	opacity: 0;
-		  	left: -300px;
-			opacity: 0;
 		}
 
 		@keyframes nameslide {
@@ -121,14 +121,14 @@ body {
 				opacity: 0;
 			}
 		    100% { 
-		    	left: -20px;
+		    	left: 10px;
 		    	opacity: 1;
 		    }
 		}
 
 		@keyframes logoslide {
 		    100% { 
-		    	margin-left: -170px;
+		    	margin-left: -140px;
 		    }
 		}
 
@@ -188,7 +188,7 @@ body {
 		}
 
 		.tech-image {
-			content: url('../images/bio.jpg');
+			content: url('../images/poopjava.png');
 			border-color: #90f092;
 		}
 
@@ -200,4 +200,106 @@ body {
 		.music-image {
 			content: url('../images/bio.jpg');
 			border-color: #ac90f0;
+		}
+
+	/*
+	 * @media Adjustments
+	 */
+
+		@media (max-width: 810px) {
+
+			.my-navbar ul {
+				padding-right: 0%;
+				width: 380px;
+				margin: 0 auto;
+			}
+
+			.my-navbar li {
+				float: left;
+				width: 80px;
+				margin: 0 auto;
+			}
+
+			.my-navbar li a {
+			    padding-top: 20px;
+			    padding-bottom: 20px;
+			    font-size: 14px;
+			    font-weight: 400;
+			    margin: 0 auto;
+			}
+
+			.top-logo {
+				display: none;
+			}
+
+			.centertext-on-image {
+				left: 34%;
+			}
+
+			#logo {
+				float: left;
+				content: url('../images/logo.png');
+				width: 200px;
+				margin-left: 0px;
+			}
+
+			@keyframes nameslide {
+				0% {
+					left: -40px;
+					opacity: 0;
+				}
+				38% {
+					opacity: 0.1;
+				}
+			    100% {
+					left: -30px;
+			    	opacity: 1;
+			    }
+			}
+
+			@keyframes logoslide {
+			    100% { 
+			    	margin-left: -120px;
+			    }
+			}
+
+			.info-inner {
+				float: none;
+				width: 100%;
+			}
+		}
+
+		@media (max-width: 530px) {
+			.my-navbar ul {
+				width: 320px;
+			}
+
+			.my-navbar li {
+				width: 55px;
+			}
+
+			.my-navbar li a {
+			    padding-top: 20px;
+			    padding-bottom: 20px;
+			    font-size: 14px;
+			    font-weight: 400;
+			}
+
+			.centertext-on-image {
+				left: 30%;
+			}
+
+			#logo {
+				width: 150px;
+			}
+
+			#my-name {
+				display: none;
+			}
+
+			@keyframes logoslide {
+			    100% { 
+			    	margin-left: 0px;
+			    }
+			}
 		}
