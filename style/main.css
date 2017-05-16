@@ -94,7 +94,7 @@ body {
 		.centertext-on-image {
 			position: absolute;
 			z-index: 10;
-			left: 40%;
+			left: 43%;
 			top: 40%;
 		}
 
@@ -192,14 +192,14 @@ body {
 			border-color: #90f092;
 		}
 
-		.food-image {
-			content: url('../images/bio.jpg');
-			border-color: #f0b790;
+		.music-image {
+			content: url('../images/bio.png');
+			border-color: #ac90f0;
 		}
 
-		.music-image {
-			content: url('../images/bio.jpg');
-			border-color: #ac90f0;
+		.food-image {
+			content: url('../images/food.png');
+			border-color: #f0b790;
 		}
 
 	/*
