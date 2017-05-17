@@ -8,8 +8,6 @@ angular.module('namiworld')
 
 	$scope.updateLogoCSS = updateLogoCSS;
 	
-	var $curved	= $('.curved').hide();
-
-	$curved.show().arctext({radius: 200});
+	$('.curved').show().arctext({radius: 200});
 
 });
