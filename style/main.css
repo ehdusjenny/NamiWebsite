@@ -2,6 +2,12 @@ body {
 	position: relative;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 /*
  *	Main Page
  */
@@ -153,11 +159,10 @@ body {
 			-webkit-background-size: cover;
 		  	background-size: cover;
 			height: 500px;
-			opacity: 0.3;
 		}
 
 		.info {
-			position: relative;
+			position: absolute;
 			width: 75%;
 			margin-left: 12.5%;
 			margin-right: 12.5%;
@@ -218,14 +223,16 @@ body {
 	 * Footer Section
 	 */
 
-	 .footer {
-	 	background-color: #7ab648;
-	 	height: 200px;
-	 	width: 100%;
+	.footer {
 		position: relative;
-  		right: 0;
-  		bottom: 0;
-	 }
+		right: 0;
+		bottom: 0;
+		left: 0;
+		height: 50px;
+		background-color: #242628;
+		text-align: center;
+		margin-top: 500px;
+	}
 
 	/*
 	 * @media Adjustments
