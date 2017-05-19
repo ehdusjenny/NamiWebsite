@@ -1,12 +1,23 @@
 angular.module('namiworld', ['ui.router', 'ui.bootstrap']) //include plugins in an array on the first line
 .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
-	$urlRouterProvider.otherwise("/");
+	$urlRouterProvider.otherwise("/main");
+    $urlRouterProvider.when('/','/main');
 	$locationProvider.html5Mode(true);
 //you define states in the config part of your app.js
 $stateProvider
+.state('main', {
+    url: "/main",
+    controller : 'MainController',
+    templateUrl : 'views/main.html',
+    resolve: {
+        $title: function() {
+            return 'Main';
+        }
+    }
+})
 .state('bio', {
 	url: "/bio",
-	controller : 'BioCtrl',
+	controller : 'BioController',
 	templateUrl : 'views/bio.html',
     resolve: {
         $title: function() {
@@ -16,7 +27,7 @@ $stateProvider
 })
 .state('tech', {
     url: "/tech",
-    controller : 'TechCtrl',
+    controller : 'TechController',
     templateUrl : 'views/tech.html',
     resolve: {
         $title: function() {
@@ -26,7 +37,7 @@ $stateProvider
 })
 .state('food', {
     url: "/food",
-    controller : 'FoodCtrl',
+    controller : 'FoodController',
     templateUrl : 'views/food.html',
     resolve: {
         $title: function() {
@@ -36,7 +47,7 @@ $stateProvider
 })
 .state('music', {
 	url: "/music",
-	controller : 'MusicCtrl',
+	controller : 'MusicController',
 	templateUrl : 'views/music.html',
     resolve: {
         $title: function() {

@@ -1,0 +1,23 @@
+{
+  "name": "namiworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "wiredep": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehdusjenny/namiworld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehdusjenny/namiworld/issues"
+  },
+  "homepage": "https://github.com/ehdusjenny/namiworld#readme"
+}

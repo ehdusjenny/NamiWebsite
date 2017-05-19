@@ -18,6 +18,7 @@
     "angular-bootstrap": "^2.5.0",
     "angular": "^1.6.4",
     "Arctext.js": "arctext-js#*",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "font-awesome": "fontawesome#^4.7.0"
   }
 }
