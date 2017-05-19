@@ -1,7 +1,6 @@
 angular.module('namiworld', ['ui.router', 'ui.bootstrap']) //include plugins in an array on the first line
 .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 	$urlRouterProvider.otherwise("/main");
-    $urlRouterProvider.when('/','/main');
 	$locationProvider.html5Mode(true);
 //you define states in the config part of your app.js
 $stateProvider
