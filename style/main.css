@@ -1,7 +1,7 @@
 
 
 /*
- *	Main Page
+ *	Index Page
  */
 
 	/*
@@ -67,6 +67,130 @@
 			-o-transition: all 0.3s ease;
 			transition: all 0.3s ease;
 		}
+
+
+
+	/*
+	 * Footer Section
+	 */
+
+		.footer {
+			background-color: #242628;
+			text-align: center;
+			position: relative;
+	    	left: 0;
+	    	bottom: 0;
+	    	width: 100%;
+	    	overflow: hidden;
+	    	margin-top: 120px;
+	    	display: inline-block;
+		}
+
+		.footer-icons {
+			display: inline-block;
+			text-decoration: none;
+		}
+
+		.fa {
+			background-color: #58965c;
+			padding: 20px;
+			border-radius: 50px;
+			margin: 20px;
+			margin-top: 50px;
+			color: #ccc9c9;
+		}
+
+		.fa:hover {
+			color: #242628;
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}
+
+		.footer-link {
+			text-decoration: none;
+		}
+
+		.footer-info {
+			margin-top: 20px;
+			font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+			color: white;
+			font-size: 15px;
+			padding-bottom: 20px;
+		}
+
+	/*
+	 * @media Adjustments
+	 */
+
+		@media (max-width: 840px) {
+			.my-navbar {
+		    	text-align: center;
+		    	height: 60px;
+			}
+
+			.my-navbar ul {
+				padding-right: 0%;
+				display: inline-block;
+			}
+
+			.my-navbar li {
+				float: left;
+				width: 80px;
+				margin: 0 auto;
+			}
+
+			.my-navbar li a {
+				padding: 0px;
+			    padding-top: 20px;
+			    padding-bottom: 20px;
+			    font-size: 14px;
+			    font-weight: 400;
+			    margin: 0 auto;
+			}
+
+			.top-logo {
+				display: none;
+			}
+		}
+
+		@media (max-width: 530px) {
+			.my-navbar {
+		    	text-align: center;
+			}
+
+			.my-navbar ul {
+				display: inline-block;
+			}
+
+			.my-navbar li {
+				width: 55px;
+			}
+
+			.my-navbar li a {
+			    padding-top: 20px;
+			    padding-bottom: 20px;
+			    font-size: 14px;
+			    font-weight: 400;
+			}
+
+			.fa {
+				padding: 15px;
+				border-radius: 50px;
+				margin: 5px;
+				margin-top: 50px;
+			}
+
+
+		}
+
+
+/*
+ *	Main Page
+ */
+
 
 	/*
 	 * Ocean Image Section
@@ -200,90 +324,10 @@
 		}
 
 	/*
-	 * Footer Section
-	 */
-
-		.footer {
-			background-color: #242628;
-			text-align: center;
-			position: relative;
-	    	left: 0;
-	    	bottom: 0;
-	    	width: 100%;
-	    	overflow: hidden;
-	    	margin-top: 120px;
-	    	display: inline-block;
-		}
-
-		.footer-icons {
-			display: inline-block;
-			text-decoration: none;
-		}
-
-		.fa {
-			background-color: #58965c;
-			padding: 20px;
-			border-radius: 50px;
-			margin: 20px;
-			margin-top: 50px;
-			color: #ccc9c9;
-		}
-
-		.fa:hover {
-			color: #242628;
-			-webkit-transition: all 0.3s ease;
-			-moz-transition: all 0.3s ease;
-			-ms-transition: all 0.3s ease;
-			-o-transition: all 0.3s ease;
-			transition: all 0.3s ease;
-		}
-
-		.footer-link {
-			text-decoration: none;
-		}
-
-		.footer-info {
-			margin-top: 20px;
-			font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-			color: white;
-			font-size: 15px;
-			padding-bottom: 20px;
-		}
-
-	/*
 	 * @media Adjustments
 	 */
 
 		@media (max-width: 840px) {
-			.my-navbar {
-		    	text-align: center;
-		    	height: 60px;
-			}
-
-			.my-navbar ul {
-				padding-right: 0%;
-				display: inline-block;
-			}
-
-			.my-navbar li {
-				float: left;
-				width: 80px;
-				margin: 0 auto;
-			}
-
-			.my-navbar li a {
-				padding: 0px;
-			    padding-top: 20px;
-			    padding-bottom: 20px;
-			    font-size: 14px;
-			    font-weight: 400;
-			    margin: 0 auto;
-			}
-
-			.top-logo {
-				display: none;
-			}
-
 			.centertext-on-image {
 				left: 34%;
 			}
@@ -323,25 +367,6 @@
 		}
 
 		@media (max-width: 530px) {
-			.my-navbar {
-		    	text-align: center;
-			}
-
-			.my-navbar ul {
-				display: inline-block;
-			}
-
-			.my-navbar li {
-				width: 55px;
-			}
-
-			.my-navbar li a {
-			    padding-top: 20px;
-			    padding-bottom: 20px;
-			    font-size: 14px;
-			    font-weight: 400;
-			}
-
 			.centertext-on-image {
 				left: 30%;
 			}
@@ -360,3 +385,35 @@
 			    }
 			}
 		}
+
+/*
+ *	Bio Page
+ */
+
+ 	.container {
+		margin: 2em auto;
+		max-width: 900px;
+		padding: 1em;
+		background-color: white;
+		overflow: hidden;
+		color: #333;
+		text-align: justify;
+	}
+
+	.bio-photo {
+		width: 100%;
+		height: 600px;
+		float: right;
+		background-image: url(http://tympanus.net/codrops-playground/assets/images/cssref/properties/shape-margin/bear.jpg);
+		background-size: 100% 100%;
+		-webkit-clip-path: polygon(nonzero, 23% 90%, 23.75% 84%, 27.75% 78.5%, 33.75% 75.15%, 42.75% 75.65%, 46.25% 69.5%, 51.75% 68.15%, 52.75% 61.65%, 55.75% 54.15%, 42.5% 38%, 43% 29.15%, 46.25% 24.5%, 51.25% 23.65%, 53.75% 13.15%, 59.25% 5.65%, 68% 1%, 99.75% 0.65%, 100% 100%, 24% 100%);
+		clip-path: polygon(nonzero, 23% 90%, 23.75% 84%, 27.75% 78.5%, 33.75% 75.15%, 42.75% 75.65%, 46.25% 69.5%, 51.75% 68.15%, 52.75% 61.65%, 55.75% 54.15%, 42.5% 38%, 43% 29.15%, 46.25% 24.5%, 51.25% 23.65%, 53.75% 13.15%, 59.25% 5.65%, 68% 1%, 99.75% 0.65%, 100% 100%, 24% 100%);
+		-webkit-shape-outside: polygon(nonzero, 23% 90%, 23.75% 84%, 27.75% 78.5%, 33.75% 75.15%, 42.75% 75.65%, 46.25% 69.5%, 51.75% 68.15%, 52.75% 61.65%, 55.75% 54.15%, 42.5% 38%, 43% 29.15%, 46.25% 24.5%, 51.25% 23.65%, 53.75% 13.15%, 59.25% 5.65%, 68% 1%, 99.75% 0.65%, 100% 100%, 24% 100%) border-box;
+		shape-outside: polygon(nonzero, 23% 90%, 23.75% 84%, 27.75% 78.5%, 33.75% 75.15%, 42.75% 75.65%, 46.25% 69.5%, 51.75% 68.15%, 52.75% 61.65%, 55.75% 54.15%, 42.5% 38%, 43% 29.15%, 46.25% 24.5%, 51.25% 23.65%, 53.75% 13.15%, 59.25% 5.65%, 68% 1%, 99.75% 0.65%, 100% 100%, 24% 100%) border-box;
+		-webkit-shape-margin: 1em;
+		shape-margin: 1em;
+	}
+
+	.bio-paragraph {
+		padding-top: 40px;
+	}
