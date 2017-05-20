@@ -82,7 +82,6 @@
 	    	bottom: 0;
 	    	width: 100%;
 	    	overflow: hidden;
-	    	margin-top: 120px;
 	    	display: inline-block;
 		}
 
@@ -297,6 +296,7 @@
 			border-style: solid;
 			border-width: 10px;
 			opacity: 0.7;
+			margin-bottom: 100px;
 		}
 
 		.info-image:hover {
@@ -390,30 +390,31 @@
  *	Bio Page
  */
 
- 	.container {
-		margin: 2em auto;
-		max-width: 900px;
-		padding: 1em;
-		background-color: white;
+ 	.bio-section {
+		margin: 50px auto;
+		max-width: 90%;
 		overflow: hidden;
-		color: #333;
-		text-align: justify;
 	}
 
 	.bio-photo {
-		width: 100%;
-		height: 600px;
+		width: 50%;
+		height: 50%;
 		float: right;
-		background-image: url(http://tympanus.net/codrops-playground/assets/images/cssref/properties/shape-margin/bear.jpg);
-		background-size: 100% 100%;
-		-webkit-clip-path: polygon(nonzero, 23% 90%, 23.75% 84%, 27.75% 78.5%, 33.75% 75.15%, 42.75% 75.65%, 46.25% 69.5%, 51.75% 68.15%, 52.75% 61.65%, 55.75% 54.15%, 42.5% 38%, 43% 29.15%, 46.25% 24.5%, 51.25% 23.65%, 53.75% 13.15%, 59.25% 5.65%, 68% 1%, 99.75% 0.65%, 100% 100%, 24% 100%);
-		clip-path: polygon(nonzero, 23% 90%, 23.75% 84%, 27.75% 78.5%, 33.75% 75.15%, 42.75% 75.65%, 46.25% 69.5%, 51.75% 68.15%, 52.75% 61.65%, 55.75% 54.15%, 42.5% 38%, 43% 29.15%, 46.25% 24.5%, 51.25% 23.65%, 53.75% 13.15%, 59.25% 5.65%, 68% 1%, 99.75% 0.65%, 100% 100%, 24% 100%);
-		-webkit-shape-outside: polygon(nonzero, 23% 90%, 23.75% 84%, 27.75% 78.5%, 33.75% 75.15%, 42.75% 75.65%, 46.25% 69.5%, 51.75% 68.15%, 52.75% 61.65%, 55.75% 54.15%, 42.5% 38%, 43% 29.15%, 46.25% 24.5%, 51.25% 23.65%, 53.75% 13.15%, 59.25% 5.65%, 68% 1%, 99.75% 0.65%, 100% 100%, 24% 100%) border-box;
-		shape-outside: polygon(nonzero, 23% 90%, 23.75% 84%, 27.75% 78.5%, 33.75% 75.15%, 42.75% 75.65%, 46.25% 69.5%, 51.75% 68.15%, 52.75% 61.65%, 55.75% 54.15%, 42.5% 38%, 43% 29.15%, 46.25% 24.5%, 51.25% 23.65%, 53.75% 13.15%, 59.25% 5.65%, 68% 1%, 99.75% 0.65%, 100% 100%, 24% 100%) border-box;
-		-webkit-shape-margin: 1em;
-		shape-margin: 1em;
+		content: url('../images/selfie2.png');
+		shape-outside: url(../images/selfie2.png);
+		shape-image-threshold: 0.5;
+		-webkit-shape-margin: 2em;
+		shape-margin: 2em;
+	}
+
+	.bio-title {
+		font-size: 25px;
+	    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	    font-weight: 550;
 	}
 
 	.bio-paragraph {
-		padding-top: 40px;
+		padding-top: 25px;
+		font-size: 14px;
+	    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	}
