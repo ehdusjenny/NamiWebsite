@@ -1,3 +1,4 @@
-<div ng-controller="TechController as vm">
-	<div markdown-to-html="vm.oop_beginners_md"></div>
+<div class="article" ng-controller="TechController as vm">
+	<div class="article-inner" markdown-to-html="vm.md"></div>
+	<div in-view="$inview && vm.test()">HELLO</div>
 </div>

@@ -1,5 +1,5 @@
 angular.module('namiworld')
-.controller('MainController', function($scope, $timeout) {
+.controller('MainController', function($scope) {
 
 	function updateLogoCSS() {
 		document.getElementById("my-name").classList.add('name-update');

@@ -1,4 +1,4 @@
-# Object Oriented Programming for Babbies
+# Object Oriented Programming for Beginners
 
 What is a programming language? Programming language is a human-friendly language designed to communicate with machines and give machines instructions.
 

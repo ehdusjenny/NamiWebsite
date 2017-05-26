@@ -7,10 +7,16 @@ angular.module('namiworld')
 			url: '../../md/oop_beginners.md',
 			method: 'GET'
     }).then(function(response){
-        vm.oop_beginners_md = response.data;
+        vm.md = response.data;
     }, function(error){
-        vm.oop_beginners_md = 'error';
+        vm.md = 'error';
     });  
+
+    function test() {
+    	console.log("TEST");
+	}
+
+	vm.test = test;
 
 	// Look into ng-showdown (md to html) or Pandoc or 
 	// First view will bring up a table of images with overlay texts of the topics for each of the images
