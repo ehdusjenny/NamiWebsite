@@ -1,4 +1,4 @@
-angular.module('namiworld', ['ui.router', 'ui.bootstrap']) //include plugins in an array on the first line
+angular.module('namiworld', ['ui.router', 'ui.bootstrap', 'ng-showdown']) //include plugins in an array on the first line
 .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 	$urlRouterProvider.otherwise("/main");
 	//$locationProvider.html5Mode(true);

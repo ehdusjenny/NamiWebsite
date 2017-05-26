@@ -1,0 +1,33 @@
+<h1 id="object-oriented-programming-for-babbies">Object Oriented Programming for Babbies</h1>
+<p>What is a programming language? Programming language is a human-friendly language designed to communicate with machines and give machines instructions.</p>
+<p>This tutorial we'll be covering an Object Oriented Language - Java. This tutorial requires you to have a very basic programming background.</p>
+<h3 id="topics-to-cover">Topics to cover:</h3>
+<ol style="list-style-type: decimal">
+<li>Introduction to Objects</li>
+<li>Inhertance</li>
+<li>polymorphism</li>
+</ol>
+<h2 id="introduction-to-objects">Introduction to Objects</h2>
+<p>An <strong>object</strong> is a representation of anything that has a <span class="blue"><em>state</em></span> and <span class="red"><em>behaviour</em></span>. So an object can be a dog, a dog is <span class="blue">happy</span>, <span class="blue">sad</span>, <span class="blue">excited</span>, etc, and the dog can <span class="red">run</span>, <span class="red">jump</span>, <span class="red">bite</span>, etc.</p>
+<p><Create a little Java app that shows images of dogs doing things corresponding to the function></p>
+<p>So you can create a dog object and do all kinds of dog things.</p>
+<p>The blueprint that defines what an object <span class="blue">is</span> and can <span class="red">do</span> is called a <strong>class</strong>.</p>
+<h2 id="inheritance">Inheritance</h2>
+<p>A class can <em>inherit</em> attributes and methods from another class.</p>
+<h3 id="example-1">Example 1</h3>
+<p><Animal superclass with animal specific methods (emotion and bite)> <Change dog class to have only dog specific methods, inheriting the animal superclass attributes and methods></p>
+<p>The <code>Dog</code> class inherits properties and methods from the <code>Animal</code> class, since a dog is also an animal.</p>
+<p>Properties and methods within the <code>Dog</code> class are specific to dogs. <code>Cat</code> and <code>Fish</code> classes do not have properties and methods that dogs have. However, <code>Cat</code>, <code>Fish</code>, and <code>Dog</code> classes all share the same <code>Animal</code> properties and methods.</p>
+<h3 id="example-2">Example 2</h3>
+<p><Student class extending a Person class> Within McGill, a registered person is either a staff member or a student. A student is a person, so the <code>Student</code> class inherits everything from the <code>Person</code> class. Inheritance can be seen as a one-way <strong>IS-A</strong> relationship; a student IS A person. However, the inverse is not necessarily true; a person is not necessarily a student.</p>
+<p>The <code>Person</code> class has a property called <code>ID</code>, so both staff members and students have an <code>ID</code> associated with them.</p>
+<p>Students can take courses, a staff member cannot. So course-taking functionality only belongs to the Student class.</p>
+<h3 id="inheritance-in-action">Inheritance in Action:</h3>
+<p>Both students and staff members can be granted access to rooms. So it makes sense to add that functionality to the Person class.</p>
+<Example code + calling the method as both objects>
+<h2 id="polymorphism">Polymorphism</h2>
+<p>In Java, there is another type called <strong>interfaces</strong>. Interfaces can contain constants and method signatures, but <em>not the actual implementation</em>. <Show interface example Shape, with Circle and Square implementing it> <code>Circle</code> and <code>Square</code> classes implement the <code>Shape</code> interface, which means the <code>Circle</code> class and <code>Square</code> class have to implement the methods defined by the Shape class. It also inherits the constants. This is basically saying if your class is defining a shape, it should be able to compute its area and the perimeter.</p>
+<h3 id="polymorphism-in-action">Polymorphism in Action:</h3>
+<p>Why is polymorphism useful? Here's an example. <A function that can take in a superclass as input parameter></p>
+<p>Instead of worrying about the detailed implementations, you only need to look at the method signatures in the interfaces to make the right call.</p>
+<p>Those two I believe are the most fundamental concepts of OOP. There are more that comes with it, such as <a href="https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html" title="Abstraction in Java">Abstraction</a>, <a href="https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)" title="Encapsulation">Encapsulation</a>, <a href="http://beginnersbook.com/2013/05/method-overloading/" title="Overloading in Java">Overloading</a>.</p>

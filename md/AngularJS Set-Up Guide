@@ -147,3 +147,5 @@ ng-repeat is a for-loop that will print all the elements in someList.
 
 Reference: Kristian Picon's Guide (link)
 https://scotch.io/tutorials/angular-routing-using-ui-router
+
+https://stackoverflow.com/questions/11605917/this-vs-scope-in-angularjs-controllers

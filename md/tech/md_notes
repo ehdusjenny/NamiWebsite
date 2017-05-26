@@ -1,0 +1,39 @@
+Markdown Syntax
+
+# This is an H1
+## This is an H2
+###### This is an H6
+
+> This is a blockquote. Blah blah blah, blah blah blah.
+
+1. This is the first item of an ordered list.
+2. This is the second item of an ordered list.
+
+- This is the first item of an unordered list.
+- This is the second item of an unordered list.
+
+Indent your inner block to nest.
+
+	To produce code blocks, indent every line by 4 spaces or 1 tab.
+
+Use the backtick quotes to indicate code, like `printf()`.
+
+Horizontal Rules <hr> can be created with -------------
+
+This is [an example](http://google.com) inline link.
+
+This is [an example](google) reference-style link.
+[google]: http://google.com "Title"
+
+![Alt text](/path/to/image.jpg "Optional Title")
+
+![Alt text][id]
+[id]: /path/to/image.jpg "Optional Title"
+
+*Emphasizes text using <em>*
+
+**Emphasizes text using <strong>**
+
+Personal usage:
+**Use for DEFINITION**
+*Use for regular EMPHASIS*
