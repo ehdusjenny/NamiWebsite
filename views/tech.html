@@ -2,7 +2,10 @@
 <div class="tech-section" ng-controller="TechController as vm">
 	<div class="overview">
 		<div ng-repeat="article in vm.articles">
-			<div ng-click="vm.loadArticle(article.filename)" in-view="$inview && vm.makeVisible()" class="overview-box">
+			<div ng-click="vm.loadArticle(article.filename)" 
+				 ng-class="{ ' {{article.tags[0] + '-background'}}' : article.tags.length > 0 }" 
+				 in-view="$inview && vm.makeVisible(article.tags[0])" 
+				 class="overview-box">
 				<div class="article-title">{{article.title}}</div>
 			</div>
 		</div>

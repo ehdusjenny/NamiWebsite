@@ -434,6 +434,11 @@
 		font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
  	}
 
+ 	.tmp {
+ 		border-color: black;
+ 		border-width: 10px;
+ 	}
+
  	.overview {
  		display: inline-block;
  		width: 80%;
@@ -447,14 +452,29 @@
 		height: 170px;
 		border-radius: 10px;
 		margin: 1%;
-  		background-color: pink;
+ 	}
+
+ 	.Java-background {
+ 		background-image: url('../images/Java.png');
+ 	}
+
+ 	.CSS-background {
+ 		background-image: url('../images/CSS.png');
+ 	}
+
+ 	.Javascript-background {
+ 		background-image: url('../images/Javascript.jpg');
+ 	}
+
+ 	.Miscellaneous-background {
+ 		background-image: url('../images/Miscellaneous.jpg');
  	}
 
  	.article-title {
   		position: absolute;
- 		top: 50%;
+ 		bottom: 4%;
  		left: 50%;
-	  	transform: translate(-50%,-50%);
+	  	transform: translate(-50%, 0%);
 	  	font-weight: 600;
 	  	color: white;
  	}
