@@ -1,0 +1,39 @@
+{ 
+	"articles": [
+	{
+		"title": "AngularJS Set-Up Guide",
+		"filename": "angular_setup",
+		"created": "May 26th, 2017",
+		"tags": ["Javascript", "AngularJS", "Programming", "Web Development"]
+	},
+	{
+		"title": "CSS Animations",
+		"filename": "css_animation",
+		"created": "May 26th, 2017",
+		"tags": ["CSS", "Animation", "Programming", "Web Development"]
+	},
+	{
+		"title": "Getting Hired",
+		"filename": "hr_tips",
+		"created": "May 26th, 2017",
+		"tags": ["Miscellaneous"]
+	},
+	{
+		"title": "Basics of Java",
+		"filename": "java_basics",
+		"created": "May 26th, 2017",
+		"tags": ["Java", "Programming"]
+	},
+	{
+		"title": "Object Oriented Programming for Beginners",
+		"filename": "oop_beginners",
+		"created": "May 26th, 2017",
+		"tags": ["Java", "OOP", "Programming"]
+	},
+	{
+		"title": "Creating a Simple Java Game",
+		"filename": "simple_java_game",
+		"created": "May 26th, 2017",
+		"tags": ["Java", "Game", "Programming"]
+	}
+]}

@@ -1,3 +1,7 @@
+/*
+ * Author: DoYeon (Nami) Kim
+ */
+ 
 angular.module('namiworld')
 .controller('MainController', function($scope) {
 
