@@ -7,6 +7,8 @@ angular.module('namiworld')
 
 	var vm = this;
 
+	vm.articleOpen = false;
+
 	/*
 	 * articles.json has title, filename, tags,
 	 * and created properties for each article.
@@ -33,18 +35,18 @@ angular.module('namiworld')
 			method: 'GET'
 	    }).then(function(response){
 	        vm.md = response.data;
-	        console.log("HIIII");
+	        vm.articleOpen = true;
 	    }, function(error){
 	        vm.md = 'Error retrieving article for ' + filename + '.md!';
 	    });
 
 	}
 
-	function returnTrue() {
+	function backToOverview() {
 		return true;
 	}
 
-	vm.returnTrue = returnTrue;
+	vm.backToOverview = backToOverview;
 
 	vm.loadArticle = loadArticle;
 

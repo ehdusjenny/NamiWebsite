@@ -434,11 +434,6 @@
 		font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
  	}
 
- 	.tmp {
- 		border-color: black;
- 		border-width: 10px;
- 	}
-
  	.overview {
  		display: inline-block;
  		width: 80%;
@@ -448,26 +443,59 @@
  	.overview-box {
  		position: relative;
 		float: left;
-		width: 30%;
+		width: 28%;
 		height: 170px;
 		border-radius: 10px;
-		margin: 1%;
+		margin: 2%;
  	}
+
+ 	.slider {
+		overflow-y: hidden;
+		max-height: 500px;
+
+		transition-property: all;
+		transition-duration: .5s;
+		transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+	}
+
+	.slider-closed {
+		max-height: 0;
+	}
+
+	.slider-open {
+		max-height: 500px;
+	}
+
+	.back-to-overview {
+	    background-color: #4CAF50;
+	    border: none;
+	    color: white;
+	    padding: 15px 32px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 16px;
+		visibility: none;
+	}
 
  	.Java-background {
  		background-image: url('../images/Java.png');
+   		background-position: center; 
  	}
 
  	.CSS-background {
  		background-image: url('../images/CSS.png');
+   		background-position: center; 
  	}
 
  	.Javascript-background {
  		background-image: url('../images/Javascript.jpg');
+   		background-position: center; 
  	}
 
  	.Miscellaneous-background {
  		background-image: url('../images/Miscellaneous.jpg');
+   		background-position: center; 
  	}
 
  	.article-title {
@@ -477,6 +505,7 @@
 	  	transform: translate(-50%, 0%);
 	  	font-weight: 600;
 	  	color: white;
+	  	text-shadow: 1px 1px 2px black; 
  	}
 
 	.article {
