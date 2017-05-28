@@ -43,18 +43,13 @@ angular.module('namiworld')
 	}
 
 	function backToOverview() {
-		return true;
+	    vm.articleOpen = false;
+	    vm.md = "";
 	}
 
 	vm.backToOverview = backToOverview;
 
 	vm.loadArticle = loadArticle;
-
-	function makeVisible(tag) {
-		console.log(tag);
-	}
-
-	vm.makeVisible = makeVisible;
 
 	// Look into ng-showdown (md to html) or Pandoc or 
 	// First view will bring up a table of images with overlay texts of the topics for each of the images

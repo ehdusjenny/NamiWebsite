@@ -1,7 +1,7 @@
 <!-- Author: DoYeon (Nami) Kim -->
 <div class="tech-section" ng-controller="TechController as vm">
-	<div class="overview slider" ng-class="{ 'slider-closed' : vm.articleOpen, 'return-overview' : vm.articleOpen, 'slider-open' : !vm.articleOpen }">
-		<div ng-repeat="article in vm.articles">
+	<div class="overview overview-slider" ng-class="{ 'slider-closed' : vm.articleOpen, 'return-overview' : vm.articleOpen }">
+		<div class="overview-box-outer" ng-repeat="article in vm.articles">
 			<div ng-click="vm.loadArticle(article.filename)" 
 				 ng-class="{ '{{article.tags[0] + '-background'}}' : article.tags.length > 0 }" 
 				 in-view="$inview && vm.makeVisible(article.tags[0])" 
@@ -9,10 +9,10 @@
 				<div class="article-title">{{article.title}}</div>
 			</div>
 		</div>
-		<button class="back-to-overview" ng-click="vm.backToOverview()"></button>
 	</div>
+	<div><button class="back-to-overview" ng-class="{ 'set-visible' : vm.articleOpen }" ng-click="vm.backToOverview()">Back To Content List</button><div>
 	<div class="article">
-		<div class="article-inner" markdown-to-html="vm.md"></div>
+		<div class="article-inner article-slider" ng-class="{ 'slider-closed' : !vm.articleOpen, 'set-visible' : vm.articleOpen }" markdown-to-html="vm.md"></div>
 
 		<!-- Boxes for each blog post, blog article slides down when one is clicked. back button will slide the article back up and show the boxes again -->
 	</div>

@@ -437,24 +437,45 @@
  	.overview {
  		display: inline-block;
  		width: 80%;
- 		margin-top: 80px;
+ 		margin-top: 40px;
+ 	}
+
+ 	.overview-box-outer {
+ 		float: left;
+		width: 33%;
  	}
 
  	.overview-box {
- 		position: relative;
-		float: left;
-		width: 28%;
+		width: 90%;
 		height: 170px;
 		border-radius: 10px;
-		margin: 2%;
+		margin: 5%;
  	}
 
- 	.slider {
+ 	.article-title {
+ 		display: inline-block;
+ 		bottom: 4%;
+	  	font-weight: 600;
+	  	color: white;
+	  	font-size: 20px;
+	  	text-shadow: 1px 1px 2px black;
+ 	}
+
+ 	.overview-slider {
 		overflow-y: hidden;
-		max-height: 500px;
+		max-height: 440px; /* Set max-height to be (number of articles % 3) * 180 */
 
 		transition-property: all;
-		transition-duration: .5s;
+		transition-duration: 0.8s;
+		transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+	}
+
+	.article-slider {
+		overflow-y: hidden;
+		max-height: 1000px; /* Set max-height to be (number of articles % 3) * 180 */
+
+		transition-property: all;
+		transition-duration: 3s;
 		transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 	}
 
@@ -462,12 +483,8 @@
 		max-height: 0;
 	}
 
-	.slider-open {
-		max-height: 500px;
-	}
-
 	.back-to-overview {
-	    background-color: #4CAF50;
+	    background-color: #f0b790;
 	    border: none;
 	    color: white;
 	    padding: 15px 32px;
@@ -475,7 +492,7 @@
 	    text-decoration: none;
 	    display: inline-block;
 	    font-size: 16px;
-		visibility: none;
+		visibility: hidden;
 	}
 
  	.Java-background {
@@ -498,27 +515,21 @@
    		background-position: center; 
  	}
 
- 	.article-title {
-  		position: absolute;
- 		bottom: 4%;
- 		left: 50%;
-	  	transform: translate(-50%, 0%);
-	  	font-weight: 600;
-	  	color: white;
-	  	text-shadow: 1px 1px 2px black; 
- 	}
-
 	.article {
     	text-align: center;
     	margin-left: 20%;
     	margin-right: 20%;
-    	margin-top: 30px;
     	margin-bottom: 30px;
 	}
 
 	.article-inner {
 		display: inline-block;
 		text-align: left;
+		visibility: hidden;
+	}
+
+	.set-visible {
+		visibility: visible;
 	}
 
 	h1 {
