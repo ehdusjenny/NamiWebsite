@@ -7,13 +7,11 @@ angular.module('namiworld')
 
 	var vm = this;
 
-	vm.articleOpen = false;
-
 	/*
 	 * articles.json has title, filename, tags,
 	 * and created properties for each article.
 	 */
-
+	vm.articleOpen = false;
 	$http({
 			url: '../../md/tech/articles.json',
 			method: 'GET',
@@ -36,20 +34,19 @@ angular.module('namiworld')
 	    }).then(function(response){
 	        vm.md = response.data;
 	        vm.articleOpen = true;
+	        var offsetHeight = document.getElementById('article-inner').offsetHeight;
+	        console.log(offsetHeight);
 	    }, function(error){
 	        vm.md = 'Error retrieving article for ' + filename + '.md!';
 	    });
 
 	}
+	vm.loadArticle = loadArticle;
 
 	function backToOverview() {
 	    vm.articleOpen = false;
-	    vm.md = "";
 	}
-
 	vm.backToOverview = backToOverview;
-
-	vm.loadArticle = loadArticle;
 
 	// Look into ng-showdown (md to html) or Pandoc or 
 	// First view will bring up a table of images with overlay texts of the topics for each of the images

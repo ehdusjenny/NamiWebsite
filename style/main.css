@@ -34,7 +34,7 @@
 		    letter-spacing: 2px;
 		}
 
-		.top-logo {
+		.top-logo {--
 			position: absolute;
 			content: url('../images/top-logo.png');
 			float: left;
@@ -440,6 +440,20 @@
  		margin-top: 40px;
  	}
 
+ 	.overview-slider {
+		overflow: hidden;
+		max-height: 1000px;
+
+		transition-property: all;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transition: 1s cubic-bezier(0, 0.4, 1.6, 1);
+	}
+
+	.overview-slider-closed {
+		max-height: 0px;
+	}
+
  	.overview-box-outer {
  		float: left;
 		width: 33%;
@@ -461,40 +475,6 @@
 	  	text-shadow: 1px 1px 2px black;
  	}
 
- 	.overview-slider {
-		overflow-y: hidden;
-		max-height: 440px; /* Set max-height to be (number of articles % 3) * 180 */
-
-		transition-property: all;
-		transition-duration: 0.8s;
-		transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-	}
-
-	.article-slider {
-		overflow-y: hidden;
-		max-height: 1000px; /* Set max-height to be (number of articles % 3) * 180 */
-
-		transition-property: all;
-		transition-duration: 3s;
-		transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-	}
-
-	.slider-closed {
-		max-height: 0;
-	}
-
-	.back-to-overview {
-	    background-color: #f0b790;
-	    border: none;
-	    color: white;
-	    padding: 15px 32px;
-	    text-align: center;
-	    text-decoration: none;
-	    display: inline-block;
-	    font-size: 16px;
-		visibility: hidden;
-	}
-
  	.Java-background {
  		background-image: url('../images/Java.png');
    		background-position: center; 
@@ -515,6 +495,21 @@
    		background-position: center; 
  	}
 
+	.back-to-overview {
+	    background-color: #f0b790;
+	    border: none;
+	    color: white;
+	    padding: 15px 32px;
+	    text-align: center;
+	    text-decoration: none;
+	    font-size: 16px;
+		display: none;
+	}
+
+	.set-display {
+		display: inline-block;
+	}
+
 	.article {
     	text-align: center;
     	margin-left: 20%;
@@ -522,14 +517,24 @@
     	margin-bottom: 30px;
 	}
 
+	.article-slider {
+		overflow: hidden;
+		max-height: 0px; /* Set max-height to be (number of articles % 3) * 180 */
+
+		transition-property: all;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transition: 1s cubic-bezier(0, 1, 0, 1);
+	}
+
+	.article-slider-open {
+		max-height: 10000px;
+	}
+
 	.article-inner {
 		display: inline-block;
 		text-align: left;
-		visibility: hidden;
-	}
-
-	.set-visible {
-		visibility: visible;
+		/*visibility: hidden;*/
 	}
 
 	h1 {
