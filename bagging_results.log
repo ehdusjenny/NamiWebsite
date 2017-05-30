@@ -1,0 +1,628 @@
+Bagging regression: 
+	 Cross Validation mean squared errors:  2477.65847472, 2614.87749524, 2222.36739521, 2234.57355097, 2347.76684718
+	 Variance score: 0.08
+	 Mean squared error on test set: 2396.74
+	 Number of estimators:  1
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2501.78798429, 2615.00505046, 2216.5741736, 2215.83067359, 2344.61637278
+	 Variance score: 0.08
+	 Mean squared error on test set: 2388.29
+	 Number of estimators:  2
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2497.7017491, 2612.51309986, 2213.04083025, 2212.82056946, 2371.64706304
+	 Variance score: 0.08
+	 Mean squared error on test set: 2388.71
+	 Number of estimators:  3
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2491.30124453, 2620.31233598, 2223.29689431, 2202.88490135, 2352.92743118
+	 Variance score: 0.08
+	 Mean squared error on test set: 2394.11
+	 Number of estimators:  4
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2490.83313571, 2603.31394571, 2215.89146205, 2214.28182882, 2354.97013242
+	 Variance score: 0.08
+	 Mean squared error on test set: 2389.43
+	 Number of estimators:  5
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2498.80845752, 2603.96800635, 2220.47263937, 2200.45496793, 2344.77233901
+	 Variance score: 0.08
+	 Mean squared error on test set: 2391.74
+	 Number of estimators:  6
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2493.86632225, 2604.56213123, 2216.2003026, 2231.55615368, 2353.44231804
+	 Variance score: 0.08
+	 Mean squared error on test set: 2390.39
+	 Number of estimators:  7
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2488.25778158, 2605.59556096, 2217.11207037, 2212.76353768, 2345.59364198
+	 Variance score: 0.08
+	 Mean squared error on test set: 2389.31
+	 Number of estimators:  8
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2495.31708615, 2603.94007891, 2213.85826933, 2217.09549285, 2353.29751863
+	 Variance score: 0.08
+	 Mean squared error on test set: 2389.34
+	 Number of estimators:  9
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2492.39563136, 2606.72080162, 2216.64882029, 2216.22897615, 2348.55920292
+	 Variance score: 0.08
+	 Mean squared error on test set: 2386.66
+	 Number of estimators:  10
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2489.24377116, 2601.8404522, 2218.15713455, 2214.06946043, 2345.19127315
+	 Variance score: 0.08
+	 Mean squared error on test set: 2390.74
+	 Number of estimators:  11
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2492.01025747, 2595.24596975, 2213.9841717, 2223.39987666, 2346.54998463
+	 Variance score: 0.08
+	 Mean squared error on test set: 2388.77
+	 Number of estimators:  12
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2497.87012895, 2602.68890718, 2212.72351787, 2222.27963289, 2346.5666773
+	 Variance score: 0.08
+	 Mean squared error on test set: 2395.68
+	 Number of estimators:  13
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2495.85843766, 2601.0883222, 2211.70381629, 2222.76753287, 2349.29451697
+	 Variance score: 0.08
+	 Mean squared error on test set: 2387.66
+	 Number of estimators:  14
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2498.37980622, 2603.54030946, 2213.98697507, 2219.61829162, 2340.82933026
+	 Variance score: 0.08
+	 Mean squared error on test set: 2390.78
+	 Number of estimators:  15
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2498.94051309, 2601.99115619, 2216.38306507, 2220.7528539, 2344.97281855
+	 Variance score: 0.08
+	 Mean squared error on test set: 2388.52
+	 Number of estimators:  16
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2494.62100028, 2601.88774614, 2217.40736506, 2215.64796644, 2341.86746186
+	 Variance score: 0.08
+	 Mean squared error on test set: 2390.10
+	 Number of estimators:  17
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2492.32397646, 2602.55496838, 2215.21456914, 2218.89436384, 2346.54427563
+	 Variance score: 0.08
+	 Mean squared error on test set: 2389.00
+	 Number of estimators:  18
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2494.47854912, 2603.54780145, 2214.37552624, 2214.55498869, 2348.3185936
+	 Variance score: 0.08
+	 Mean squared error on test set: 2390.74
+	 Number of estimators:  19
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2514.26130127, 2602.76149457, 2216.28216449, 2254.40959746, 2363.6856278
+	 Variance score: 0.07
+	 Mean squared error on test set: 2405.94
+	 Number of estimators:  1
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2493.88128328, 2590.72681942, 2217.51379212, 2233.85773127, 2339.40615483
+	 Variance score: 0.08
+	 Mean squared error on test set: 2393.72
+	 Number of estimators:  2
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2500.79296052, 2613.36170592, 2218.37094858, 2205.16220981, 2345.71948051
+	 Variance score: 0.08
+	 Mean squared error on test set: 2391.48
+	 Number of estimators:  3
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2476.32566915, 2604.14278897, 2213.13725199, 2233.73915117, 2349.52508639
+	 Variance score: 0.08
+	 Mean squared error on test set: 2385.44
+	 Number of estimators:  4
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2494.6136605, 2595.66618215, 2219.7966859, 2210.62398765, 2353.14981765
+	 Variance score: 0.08
+	 Mean squared error on test set: 2386.03
+	 Number of estimators:  5
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2494.9849076, 2603.71659418, 2212.57045301, 2214.09736635, 2346.4061393
+	 Variance score: 0.08
+	 Mean squared error on test set: 2388.40
+	 Number of estimators:  6
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2490.1169519, 2603.21315885, 2212.05369867, 2212.62520797, 2348.3583471
+	 Variance score: 0.08
+	 Mean squared error on test set: 2391.08
+	 Number of estimators:  7
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2491.77988049, 2605.14334037, 2215.52891298, 2210.92435127, 2341.96293747
+	 Variance score: 0.08
+	 Mean squared error on test set: 2395.40
+	 Number of estimators:  8
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2494.86741264, 2606.95726122, 2212.12311229, 2215.50735272, 2349.85612154
+	 Variance score: 0.08
+	 Mean squared error on test set: 2385.67
+	 Number of estimators:  9
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2495.52245766, 2604.45965131, 2215.92976372, 2207.9093145, 2346.47003219
+	 Variance score: 0.08
+	 Mean squared error on test set: 2387.23
+	 Number of estimators:  10
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2494.00031781, 2604.94612802, 2214.79710039, 2207.56747917, 2345.29401659
+	 Variance score: 0.08
+	 Mean squared error on test set: 2383.81
+	 Number of estimators:  11
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2494.62029132, 2599.82193635, 2215.88083699, 2221.23650316, 2342.65166455
+	 Variance score: 0.08
+	 Mean squared error on test set: 2394.21
+	 Number of estimators:  12
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2494.89410524, 2597.60065312, 2214.4114075, 2221.46435425, 2353.24768689
+	 Variance score: 0.08
+	 Mean squared error on test set: 2388.86
+	 Number of estimators:  13
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2496.30445895, 2598.75734909, 2214.40769179, 2225.59097818, 2344.98277299
+	 Variance score: 0.08
+	 Mean squared error on test set: 2389.12
+	 Number of estimators:  14
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2498.10930179, 2601.84825971, 2217.12531528, 2211.54488052, 2349.03563101
+	 Variance score: 0.08
+	 Mean squared error on test set: 2391.01
+	 Number of estimators:  15
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2493.39714407, 2604.51577544, 2217.02586957, 2217.05803388, 2350.82159655
+	 Variance score: 0.08
+	 Mean squared error on test set: 2389.11
+	 Number of estimators:  16
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2500.16322081, 2606.69501509, 2213.66999655, 2220.96169836, 2343.38161931
+	 Variance score: 0.08
+	 Mean squared error on test set: 2392.99
+	 Number of estimators:  17
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2492.24703122, 2603.97153366, 2212.55992038, 2215.5382489, 2344.18700483
+	 Variance score: 0.08
+	 Mean squared error on test set: 2390.41
+	 Number of estimators:  18
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2493.00871455, 2596.98393736, 2212.63359923, 2223.45414332, 2350.31874549
+	 Variance score: 0.08
+	 Mean squared error on test set: 2392.65
+	 Number of estimators:  19
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2498.20602218, 2625.07250035, 2218.06412057, 2220.91257756, 2357.76594714
+	 Variance score: 0.08
+	 Mean squared error on test set: 2403.06
+	 Number of estimators:  1
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2484.65290336, 2603.72300088, 2216.74296321, 2193.72949617, 2350.2274841
+	 Variance score: 0.08
+	 Mean squared error on test set: 2392.50
+	 Number of estimators:  2
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2479.681719, 2611.42158898, 2217.76465692, 2203.81550683, 2346.47669165
+	 Variance score: 0.08
+	 Mean squared error on test set: 2395.65
+	 Number of estimators:  3
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2484.29675901, 2606.80538847, 2217.75336678, 2218.06366374, 2344.99090554
+	 Variance score: 0.08
+	 Mean squared error on test set: 2396.67
+	 Number of estimators:  4
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2491.05831198, 2611.65803905, 2218.73008093, 2221.66201003, 2345.80558616
+	 Variance score: 0.08
+	 Mean squared error on test set: 2397.86
+	 Number of estimators:  5
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2493.69981105, 2608.31423029, 2219.07910765, 2196.19550855, 2346.34124702
+	 Variance score: 0.08
+	 Mean squared error on test set: 2398.43
+	 Number of estimators:  6
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2482.89534879, 2607.79401791, 2219.47091854, 2207.47424807, 2341.07102573
+	 Variance score: 0.08
+	 Mean squared error on test set: 2397.82
+	 Number of estimators:  7
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2494.53974462, 2608.10650005, 2221.23327899, 2203.58872818, 2341.86034632
+	 Variance score: 0.08
+	 Mean squared error on test set: 2395.27
+	 Number of estimators:  8
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2488.748779, 2609.02602985, 2223.24875098, 2195.51210714, 2346.35910142
+	 Variance score: 0.08
+	 Mean squared error on test set: 2393.39
+	 Number of estimators:  9
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2481.551547, 2603.05085554, 2222.24241633, 2211.13431039, 2340.70286625
+	 Variance score: 0.08
+	 Mean squared error on test set: 2395.63
+	 Number of estimators:  10
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2488.59441756, 2607.82419255, 2222.88846335, 2198.51741385, 2341.57345678
+	 Variance score: 0.08
+	 Mean squared error on test set: 2396.22
+	 Number of estimators:  11
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2488.10449667, 2604.38641588, 2218.70047177, 2202.82103305, 2342.04278912
+	 Variance score: 0.08
+	 Mean squared error on test set: 2397.91
+	 Number of estimators:  12
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2490.1446547, 2601.20867308, 2220.56628406, 2198.28352354, 2344.51749937
+	 Variance score: 0.08
+	 Mean squared error on test set: 2400.56
+	 Number of estimators:  13
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2490.37648985, 2604.78450686, 2221.37931728, 2206.6837857, 2348.84860589
+	 Variance score: 0.08
+	 Mean squared error on test set: 2397.04
+	 Number of estimators:  14
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2487.56034279, 2605.01082319, 2219.55815936, 2202.32113822, 2339.90330987
+	 Variance score: 0.08
+	 Mean squared error on test set: 2397.25
+	 Number of estimators:  15
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2491.11214673, 2607.21273082, 2223.84125188, 2201.33384929, 2341.26802333
+	 Variance score: 0.08
+	 Mean squared error on test set: 2398.23
+	 Number of estimators:  16
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2488.17145133, 2604.01183171, 2221.15310032, 2197.24892794, 2343.15594734
+	 Variance score: 0.08
+	 Mean squared error on test set: 2395.98
+	 Number of estimators:  17
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2486.83112658, 2604.97689114, 2222.03783449, 2207.87457634, 2342.75967716
+	 Variance score: 0.08
+	 Mean squared error on test set: 2398.45
+	 Number of estimators:  18
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2487.92975672, 2602.18999381, 2220.75346703, 2204.45597245, 2339.60960985
+	 Variance score: 0.08
+	 Mean squared error on test set: 2395.38
+	 Number of estimators:  19
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2505.56507274, 2647.86338932, 2250.82186161, 2291.74961509, 2359.15038207
+	 Variance score: 0.07
+	 Mean squared error on test set: 2424.47
+	 Number of estimators:  1
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2491.97564223, 2633.07598497, 2252.02709364, 2246.73884709, 2369.48682301
+	 Variance score: 0.06
+	 Mean squared error on test set: 2432.82
+	 Number of estimators:  2
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2484.50138526, 2640.04240078, 2244.85271606, 2263.10326262, 2373.78715223
+	 Variance score: 0.07
+	 Mean squared error on test set: 2411.26
+	 Number of estimators:  3
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2497.20462049, 2637.14181456, 2253.38149749, 2249.64646159, 2355.41003517
+	 Variance score: 0.07
+	 Mean squared error on test set: 2418.76
+	 Number of estimators:  4
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2486.5821335, 2633.14973754, 2266.90958393, 2255.89397679, 2366.14610896
+	 Variance score: 0.07
+	 Mean squared error on test set: 2424.16
+	 Number of estimators:  5
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2490.18970133, 2636.27723835, 2253.40849976, 2258.70048961, 2357.42139613
+	 Variance score: 0.07
+	 Mean squared error on test set: 2415.08
+	 Number of estimators:  6
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2490.33255981, 2634.93431532, 2246.8741203, 2241.3928153, 2359.10015838
+	 Variance score: 0.07
+	 Mean squared error on test set: 2417.13
+	 Number of estimators:  7
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2492.7029155, 2631.47786984, 2254.91169547, 2252.50965883, 2354.79693871
+	 Variance score: 0.07
+	 Mean squared error on test set: 2421.10
+	 Number of estimators:  8
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2491.93085736, 2634.02497832, 2253.10348562, 2255.88550181, 2360.93436972
+	 Variance score: 0.07
+	 Mean squared error on test set: 2414.87
+	 Number of estimators:  9
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2493.40453583, 2638.5596122, 2249.90058114, 2260.91467848, 2353.85629662
+	 Variance score: 0.07
+	 Mean squared error on test set: 2421.97
+	 Number of estimators:  10
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2489.13826777, 2637.04930516, 2253.54559442, 2263.25861079, 2362.92931609
+	 Variance score: 0.07
+	 Mean squared error on test set: 2416.64
+	 Number of estimators:  11
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2493.78866608, 2631.07763752, 2250.15620164, 2251.43063593, 2354.04844909
+	 Variance score: 0.07
+	 Mean squared error on test set: 2411.65
+	 Number of estimators:  12
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2490.30441751, 2628.58123075, 2254.34526319, 2252.10506918, 2360.1607029
+	 Variance score: 0.07
+	 Mean squared error on test set: 2422.04
+	 Number of estimators:  13
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2490.07754316, 2634.2521066, 2260.64246096, 2254.40087572, 2362.10027678
+	 Variance score: 0.07
+	 Mean squared error on test set: 2421.90
+	 Number of estimators:  14
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2496.26648404, 2632.20662145, 2251.83280016, 2248.00620235, 2360.38845676
+	 Variance score: 0.07
+	 Mean squared error on test set: 2415.61
+	 Number of estimators:  15
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2489.06012285, 2632.81800285, 2252.4079967, 2251.48860125, 2357.89697811
+	 Variance score: 0.07
+	 Mean squared error on test set: 2417.82
+	 Number of estimators:  16
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2489.36845372, 2634.47759051, 2249.91498642, 2249.22715208, 2361.57398816
+	 Variance score: 0.07
+	 Mean squared error on test set: 2420.39
+	 Number of estimators:  17
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2496.60588119, 2631.26975329, 2255.12249419, 2254.8987064, 2359.18761638
+	 Variance score: 0.07
+	 Mean squared error on test set: 2415.14
+	 Number of estimators:  18
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+Bagging regression: 
+	 Cross Validation mean squared errors:  2490.58742618, 2631.72369943, 2254.7214291, 2249.62401816, 2357.90439001
+	 Variance score: 0.07
+	 Mean squared error on test set: 2419.96
+	 Number of estimators:  19
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+32.4681398869

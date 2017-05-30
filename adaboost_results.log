@@ -1,0 +1,1087 @@
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2509.67832046, 2616.43373171, 2224.91846099, 2205.07168375, 2365.28288937
+	 Variance score: 0.07
+	 Mean squared error on test set: 2405.64
+	 Number of estimators:  1
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2496.66660852, 2597.28081776, 2223.53694619, 2210.15892727, 2385.107963
+	 Variance score: 0.08
+	 Mean squared error on test set: 2394.53
+	 Number of estimators:  1
+	 Loss function:  square
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2509.94497819, 2598.7652513, 2214.85907327, 2203.87117868, 2332.47255368
+	 Variance score: 0.08
+	 Mean squared error on test set: 2398.22
+	 Number of estimators:  1
+	 Loss function:  exponential
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2486.79926658, 2592.08722273, 2219.62073988, 2204.67868542, 2363.16849684
+	 Variance score: 0.08
+	 Mean squared error on test set: 2389.32
+	 Number of estimators:  2
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2498.69982302, 2615.65758565, 2216.06049308, 2196.5595368, 2333.11339768
+	 Variance score: 0.08
+	 Mean squared error on test set: 2383.77
+	 Number of estimators:  2
+	 Loss function:  square
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2505.32493302, 2612.92662669, 2231.09102357, 2231.98326446, 2361.83244361
+	 Variance score: 0.08
+	 Mean squared error on test set: 2388.16
+	 Number of estimators:  2
+	 Loss function:  exponential
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2526.3903043, 2746.0037151, 2408.56782658, 2348.12611541, 2418.48382595
+	 Variance score: 0.02
+	 Mean squared error on test set: 2547.04
+	 Number of estimators:  3
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2501.06063241, 2598.73251248, 2210.74198782, 2938.60757991, 2352.0837818
+	 Variance score: 0.08
+	 Mean squared error on test set: 2395.27
+	 Number of estimators:  3
+	 Loss function:  square
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2496.19008096, 2627.85888019, 2278.30813293, 2259.84486424, 2393.56875396
+	 Variance score: 0.07
+	 Mean squared error on test set: 2418.81
+	 Number of estimators:  3
+	 Loss function:  exponential
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2512.85160661, 2714.39661199, 2342.88739571, 2348.58928809, 2497.43587879
+	 Variance score: 0.02
+	 Mean squared error on test set: 2537.94
+	 Number of estimators:  4
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2501.13624647, 2680.57281808, 2276.17733419, 2249.77707802, 2400.02112992
+	 Variance score: 0.06
+	 Mean squared error on test set: 2435.01
+	 Number of estimators:  4
+	 Loss function:  exponential
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2534.88420858, 2709.93656228, 2336.69290436, 2347.43581201, 2603.8558875
+	 Variance score: 0.04
+	 Mean squared error on test set: 2499.94
+	 Number of estimators:  5
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2483.96759579, 2640.19646355, 2280.11857203, 2244.90917865, 2406.5944777
+	 Variance score: 0.07
+	 Mean squared error on test set: 2429.22
+	 Number of estimators:  5
+	 Loss function:  exponential
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2492.48663826, 2704.18805698, 2321.68206151, 2376.73701417, 2545.19470317
+	 Variance score: 0.04
+	 Mean squared error on test set: 2500.63
+	 Number of estimators:  6
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2525.4822817, 2736.02443316, 2311.37188729, 2371.31924774, 2519.80647883
+	 Variance score: 0.04
+	 Mean squared error on test set: 2485.66
+	 Number of estimators:  7
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2532.09816146, 2760.34478347, 2293.74060622, 2328.25010087, 2604.16869912
+	 Variance score: 0.03
+	 Mean squared error on test set: 2523.55
+	 Number of estimators:  8
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2507.55115753, 2726.73362608, 2398.33437051, 2337.4256492, 2563.52985647
+	 Variance score: 0.03
+	 Mean squared error on test set: 2516.65
+	 Number of estimators:  9
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2544.21608579, 2714.06487936, 2354.94794743, 2301.68867057, 2518.9624507
+	 Variance score: 0.04
+	 Mean squared error on test set: 2506.50
+	 Number of estimators:  10
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2520.77971169, 2733.6871609, 2415.26369886, 2401.14013866, 2625.21858688
+	 Variance score: 0.05
+	 Mean squared error on test set: 2472.84
+	 Number of estimators:  11
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2519.89144348, 2736.52458858, 2365.71996651, 2310.40350259, 2598.56708472
+	 Variance score: 0.04
+	 Mean squared error on test set: 2483.74
+	 Number of estimators:  12
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2558.85104493, 2663.35134244, 2376.36871282, 2286.09451313, 2502.65539998
+	 Variance score: 0.05
+	 Mean squared error on test set: 2460.48
+	 Number of estimators:  13
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2524.78019254, 2819.66392637, 2376.42196278, 2313.02774543, 2658.52586734
+	 Variance score: 0.05
+	 Mean squared error on test set: 2462.07
+	 Number of estimators:  14
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2527.39410863, 2801.36858744, 2305.53492282, 2378.30322147, 2452.75214397
+	 Variance score: 0.03
+	 Mean squared error on test set: 2510.80
+	 Number of estimators:  15
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2525.77375405, 2709.93261201, 2336.48250367, 2341.1386143, 2549.79216786
+	 Variance score: 0.02
+	 Mean squared error on test set: 2543.20
+	 Number of estimators:  16
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2555.17823207, 2729.98388461, 2339.40723663, 2299.90208707, 2492.32739093
+	 Variance score: 0.03
+	 Mean squared error on test set: 2520.69
+	 Number of estimators:  17
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2514.77633571, 2732.12296007, 2350.93491472, 2299.15251658, 2595.31932468
+	 Variance score: 0.02
+	 Mean squared error on test set: 2535.46
+	 Number of estimators:  18
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2524.61583094, 2750.566217, 2404.91285242, 2287.96744986, 2556.83265347
+	 Variance score: 0.05
+	 Mean squared error on test set: 2468.70
+	 Number of estimators:  19
+	 Loss function:  linear
+	 Base estimator:  LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2491.04142438, 2593.97485591, 2218.00750941, 2228.29911022, 2344.90995958
+	 Variance score: 0.08
+	 Mean squared error on test set: 2389.93
+	 Number of estimators:  1
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2498.41213282, 2608.27881323, 2226.91688993, 2224.58110914, 2350.31120476
+	 Variance score: 0.08
+	 Mean squared error on test set: 2387.68
+	 Number of estimators:  1
+	 Loss function:  square
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2517.48312136, 2605.6372661, 2216.57613718, 2220.40321064, 2339.33796007
+	 Variance score: 0.08
+	 Mean squared error on test set: 2402.64
+	 Number of estimators:  1
+	 Loss function:  exponential
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2483.82121572, 2604.3725976, 2213.96103036, 2191.3216469, 2334.2923244
+	 Variance score: 0.08
+	 Mean squared error on test set: 2380.42
+	 Number of estimators:  2
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2480.42212132, 2606.40055325, 2215.95396766, 2221.00309554, 2355.36824909
+	 Variance score: 0.08
+	 Mean squared error on test set: 2398.13
+	 Number of estimators:  2
+	 Loss function:  square
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2511.28028525, 2622.74290111, 2222.86593623, 2222.29807456, 2350.08374124
+	 Variance score: 0.08
+	 Mean squared error on test set: 2385.77
+	 Number of estimators:  2
+	 Loss function:  exponential
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2516.17183627, 2729.76557014, 2291.89362377, 2291.43017556, 2626.9920939
+	 Variance score: 0.03
+	 Mean squared error on test set: 2522.07
+	 Number of estimators:  3
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2486.96915819, 2657.07124632, 2238.45898265, 2276.69356151, 2439.26167168
+	 Variance score: 0.07
+	 Mean squared error on test set: 2412.30
+	 Number of estimators:  3
+	 Loss function:  exponential
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2524.41775596, 2702.25848584, 2319.21790476, 2371.07174987, 2479.54340694
+	 Variance score: 0.01
+	 Mean squared error on test set: 2570.56
+	 Number of estimators:  4
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2495.17875268, 2663.81332568, 2272.77058782, 2281.50938127, 2430.97338526
+	 Variance score: 0.08
+	 Mean squared error on test set: 2403.06
+	 Number of estimators:  4
+	 Loss function:  exponential
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2520.56229416, 2699.14305393, 2374.50296915, 2263.53226966, 2533.99950561
+	 Variance score: 0.02
+	 Mean squared error on test set: 2539.06
+	 Number of estimators:  5
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2495.96825613, 2655.7180089, 2243.06679776, 2260.29633736, 2385.44367947
+	 Variance score: 0.07
+	 Mean squared error on test set: 2425.63
+	 Number of estimators:  5
+	 Loss function:  exponential
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2501.90156583, 2687.46913489, 2313.38352333, 2388.14712248, 2546.24733392
+	 Variance score: 0.06
+	 Mean squared error on test set: 2456.42
+	 Number of estimators:  6
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2556.27561512, 2863.94956309, 2401.23907497, 2519.07917535, 2729.56361081
+	 Variance score: 0.00
+	 Mean squared error on test set: 2590.50
+	 Number of estimators:  6
+	 Loss function:  exponential
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2565.65904036, 2733.55054727, 2313.86032998, 2294.71214978, 2442.75401688
+	 Variance score: 0.05
+	 Mean squared error on test set: 2479.55
+	 Number of estimators:  7
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2491.47215304, 2757.46686773, 2269.67131245, 2299.62776333, 2477.35593976
+	 Variance score: 0.03
+	 Mean squared error on test set: 2514.37
+	 Number of estimators:  8
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2537.40849736, 2722.88335515, 2407.95174342, 2398.18320738, 2723.11935048
+	 Variance score: 0.00
+	 Mean squared error on test set: 2595.76
+	 Number of estimators:  8
+	 Loss function:  exponential
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2564.21582751, 2783.70877115, 2350.68974605, 2374.26947696, 2600.9635715
+	 Variance score: 0.05
+	 Mean squared error on test set: 2470.18
+	 Number of estimators:  9
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2583.64099384, 2919.82332969, 2405.16064781, 2505.81238822, 2661.7803929
+	 Variance score: 0.00
+	 Mean squared error on test set: 2591.77
+	 Number of estimators:  9
+	 Loss function:  exponential
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2506.90018669, 2617.28184336, 2325.64318166, 2365.38923637, 2542.74178124
+	 Variance score: 0.04
+	 Mean squared error on test set: 2500.93
+	 Number of estimators:  10
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2572.91579046, 2881.61110304, 2467.34515969, 2887.67578151, 2648.57658976
+	 Variance score: 0.03
+	 Mean squared error on test set: 2526.64
+	 Number of estimators:  10
+	 Loss function:  exponential
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2589.54928942, 2745.79334239, 2317.74227649, 2383.3114461, 2428.47748839
+	 Variance score: 0.05
+	 Mean squared error on test set: 2474.89
+	 Number of estimators:  11
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2552.20574488, 2680.34451557, 2331.62435293, 2281.90530846, 2516.08559334
+	 Variance score: 0.03
+	 Mean squared error on test set: 2519.64
+	 Number of estimators:  12
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2502.69183798, 2748.67274833, 2309.9761927, 2334.19807406, 2484.53124895
+	 Variance score: 0.04
+	 Mean squared error on test set: 2508.76
+	 Number of estimators:  13
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2522.5683345, 2694.44636585, 2343.75764157, 2358.3279648, 2708.93841385
+	 Variance score: 0.03
+	 Mean squared error on test set: 2524.48
+	 Number of estimators:  14
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2545.86809836, 2731.86658903, 2376.38138486, 2281.37633049, 2525.87761137
+	 Variance score: 0.03
+	 Mean squared error on test set: 2513.40
+	 Number of estimators:  15
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2548.71208858, 2683.38220118, 2334.82691736, 2388.56688157, 2484.13177186
+	 Variance score: 0.04
+	 Mean squared error on test set: 2497.63
+	 Number of estimators:  16
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2513.67345327, 2757.07769683, 2289.4768374, 2317.54986602, 2550.74753537
+	 Variance score: 0.05
+	 Mean squared error on test set: 2475.51
+	 Number of estimators:  17
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2552.80738103, 2700.82468563, 2313.26671692, 2298.09516337, 2575.11032146
+	 Variance score: 0.05
+	 Mean squared error on test set: 2463.49
+	 Number of estimators:  18
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2511.40509168, 2735.59347716, 2335.98884376, 2304.71498681, 2574.12343804
+	 Variance score: 0.03
+	 Mean squared error on test set: 2510.74
+	 Number of estimators:  19
+	 Loss function:  linear
+	 Base estimator:  Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, random_state=None, solver='auto', tol=0.001)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2491.80660883, 2604.76555697, 2220.36834692, 2221.21357646, 2355.88911555
+	 Variance score: 0.08
+	 Mean squared error on test set: 2395.57
+	 Number of estimators:  1
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2496.59300687, 2597.74088442, 2221.25522156, 2193.25046427, 2346.38402603
+	 Variance score: 0.08
+	 Mean squared error on test set: 2398.88
+	 Number of estimators:  1
+	 Loss function:  square
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2477.32081517, 2607.253917, 2225.59321129, 2210.26544117, 2349.48494834
+	 Variance score: 0.08
+	 Mean squared error on test set: 2393.50
+	 Number of estimators:  1
+	 Loss function:  exponential
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2493.60594951, 2610.96913779, 2229.88338019, 2268.90633577, 2348.89258396
+	 Variance score: 0.08
+	 Mean squared error on test set: 2402.47
+	 Number of estimators:  2
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2490.7123267, 2605.93558982, 2223.17520717, 2220.42255611, 2347.59447448
+	 Variance score: 0.08
+	 Mean squared error on test set: 2399.36
+	 Number of estimators:  2
+	 Loss function:  square
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2481.50860361, 2602.41655369, 2226.72339083, 2230.71551561, 2353.69171538
+	 Variance score: 0.07
+	 Mean squared error on test set: 2406.90
+	 Number of estimators:  2
+	 Loss function:  exponential
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2531.68398065, 2676.35061635, 2322.10924311, 2357.28137821, 2533.61085905
+	 Variance score: 0.03
+	 Mean squared error on test set: 2511.34
+	 Number of estimators:  3
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2489.00474793, 2602.30598281, 2217.4659932, 2230.5078458, 2342.10871143
+	 Variance score: 0.08
+	 Mean squared error on test set: 2390.85
+	 Number of estimators:  3
+	 Loss function:  square
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2489.72763551, 2640.9558142, 2267.9550105, 2251.34990224, 2388.84591224
+	 Variance score: 0.06
+	 Mean squared error on test set: 2445.93
+	 Number of estimators:  3
+	 Loss function:  exponential
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2529.34768147, 2718.26489618, 2373.05968999, 2304.09245765, 2563.92541785
+	 Variance score: 0.06
+	 Mean squared error on test set: 2444.65
+	 Number of estimators:  4
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2491.7364999, 2650.31032724, 2239.99298698, 2281.70350405, 2442.22177074
+	 Variance score: 0.05
+	 Mean squared error on test set: 2467.99
+	 Number of estimators:  4
+	 Loss function:  exponential
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2507.52298868, 2722.53770609, 2395.01661195, 2381.3588433, 2498.88832647
+	 Variance score: 0.04
+	 Mean squared error on test set: 2493.07
+	 Number of estimators:  5
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2492.80182469, 2641.37314054, 2295.80982235, 2213.0878169, 2424.21405526
+	 Variance score: 0.07
+	 Mean squared error on test set: 2425.26
+	 Number of estimators:  5
+	 Loss function:  exponential
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2507.42293576, 2680.45439762, 2265.42523482, 2453.68600339, 2500.94584047
+	 Variance score: 0.06
+	 Mean squared error on test set: 2454.07
+	 Number of estimators:  6
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2586.85235346, 2773.80236007, 2494.11321035, 2526.06614621, 2655.01556432
+	 Variance score: 0.02
+	 Mean squared error on test set: 2552.71
+	 Number of estimators:  6
+	 Loss function:  exponential
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2510.34363927, 2709.45690452, 2392.46979306, 2481.5957025, 2543.95818181
+	 Variance score: 0.03
+	 Mean squared error on test set: 2525.63
+	 Number of estimators:  7
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2574.85925356, 2808.20951511, 2529.26598773, 2482.81586817, 2557.84393914
+	 Variance score: 0.04
+	 Mean squared error on test set: 2496.92
+	 Number of estimators:  7
+	 Loss function:  exponential
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2546.34112333, 2709.60932428, 2300.10961725, 2322.65637119, 2595.91420366
+	 Variance score: 0.04
+	 Mean squared error on test set: 2507.51
+	 Number of estimators:  8
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2478.41861245, 2721.17920228, 2364.76265739, 2311.34801623, 2477.9162123
+	 Variance score: 0.05
+	 Mean squared error on test set: 2460.89
+	 Number of estimators:  9
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2558.18011081, 2788.66490408, 2413.9946076, 2417.73674785, 2753.85432317
+	 Variance score: 0.01
+	 Mean squared error on test set: 2577.09
+	 Number of estimators:  9
+	 Loss function:  exponential
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2571.70312738, 2753.20216658, 2410.51177796, 2461.85282768, 2532.08103931
+	 Variance score: 0.04
+	 Mean squared error on test set: 2507.09
+	 Number of estimators:  10
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2515.89557152, 2802.29647627, 2400.89325228, 2803.58136606, 2683.23867841
+	 Variance score: 0.02
+	 Mean squared error on test set: 2535.78
+	 Number of estimators:  10
+	 Loss function:  exponential
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2548.13072273, 2704.92945423, 2327.47660226, 2350.72137829, 2499.74620365
+	 Variance score: 0.02
+	 Mean squared error on test set: 2548.90
+	 Number of estimators:  11
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2512.80551615, 2687.34861196, 2356.19170076, 2304.41455029, 2433.32996803
+	 Variance score: 0.04
+	 Mean squared error on test set: 2484.78
+	 Number of estimators:  12
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2528.00150447, 2688.49357257, 2332.87795735, 2373.37112606, 2475.47750005
+	 Variance score: 0.05
+	 Mean squared error on test set: 2481.50
+	 Number of estimators:  13
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2496.89560725, 2773.07683974, 2338.36236279, 2347.12895201, 2505.30613686
+	 Variance score: 0.04
+	 Mean squared error on test set: 2484.94
+	 Number of estimators:  14
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2567.60559926, 2671.25217079, 2343.95544518, 2494.94349348, 2464.70023224
+	 Variance score: 0.05
+	 Mean squared error on test set: 2479.10
+	 Number of estimators:  15
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2520.44214597, 2750.64418189, 2321.34991341, 2285.75144605, 2509.80096689
+	 Variance score: 0.05
+	 Mean squared error on test set: 2470.62
+	 Number of estimators:  16
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2504.10144834, 2711.62411074, 2387.02141874, 2337.73974054, 2581.80997485
+	 Variance score: 0.04
+	 Mean squared error on test set: 2487.77
+	 Number of estimators:  17
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2531.72989006, 2711.08243017, 2283.95722278, 2316.2963459, 2509.85406044
+	 Variance score: 0.04
+	 Mean squared error on test set: 2495.19
+	 Number of estimators:  18
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2545.63522872, 2685.53024932, 2337.35026353, 2365.38708108, 2576.66379924
+	 Variance score: 0.05
+	 Mean squared error on test set: 2465.08
+	 Number of estimators:  19
+	 Loss function:  linear
+	 Base estimator:  Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=None,
+   selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2489.30732266, 2640.28525297, 2248.06807383, 2239.15623222, 2359.84094163
+	 Variance score: 0.07
+	 Mean squared error on test set: 2410.93
+	 Number of estimators:  1
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2501.04667193, 2646.74836504, 2241.6796015, 2254.8707331, 2371.6201489
+	 Variance score: 0.08
+	 Mean squared error on test set: 2404.64
+	 Number of estimators:  1
+	 Loss function:  square
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2483.29831205, 2635.94284161, 2235.35612619, 2255.53854981, 2383.28805366
+	 Variance score: 0.07
+	 Mean squared error on test set: 2414.55
+	 Number of estimators:  1
+	 Loss function:  exponential
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2482.10144895, 2623.89698556, 2281.01994375, 2239.03519857, 2348.09302501
+	 Variance score: 0.07
+	 Mean squared error on test set: 2422.89
+	 Number of estimators:  2
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2495.87895529, 2646.88682175, 2266.96815536, 2249.11118493, 2367.0462412
+	 Variance score: 0.06
+	 Mean squared error on test set: 2432.58
+	 Number of estimators:  2
+	 Loss function:  square
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2495.94920691, 2633.56871239, 2241.33526927, 2221.47700271, 2349.42181284
+	 Variance score: 0.07
+	 Mean squared error on test set: 2417.21
+	 Number of estimators:  2
+	 Loss function:  exponential
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2516.35409324, 2683.90046569, 2383.64699767, 2356.36995803, 2503.45165864
+	 Variance score: 0.04
+	 Mean squared error on test set: 2502.21
+	 Number of estimators:  3
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2488.12711983, 2637.49992797, 2255.6435834, 3200.17168579, 2350.96962164
+	 Variance score: 0.07
+	 Mean squared error on test set: 2420.13
+	 Number of estimators:  3
+	 Loss function:  square
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2506.87761468, 2679.93085034, 2268.47475547, 2362.41988709, 2448.65743492
+	 Variance score: 0.06
+	 Mean squared error on test set: 2440.85
+	 Number of estimators:  3
+	 Loss function:  exponential
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2536.42950053, 2692.18218417, 2314.70227768, 2451.61400501, 2528.08075686
+	 Variance score: 0.03
+	 Mean squared error on test set: 2528.49
+	 Number of estimators:  4
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2496.11346214, 2698.60327677, 2286.21376209, 2321.98692182, 2414.68263341
+	 Variance score: 0.06
+	 Mean squared error on test set: 2436.18
+	 Number of estimators:  4
+	 Loss function:  exponential
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2525.97411046, 2695.43941439, 2306.58656256, 2377.59853789, 2530.29909087
+	 Variance score: 0.03
+	 Mean squared error on test set: 2526.27
+	 Number of estimators:  5
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2503.2890596, 2639.57168456, 2285.13222266, 2289.40826993, 2398.49755534
+	 Variance score: 0.06
+	 Mean squared error on test set: 2455.40
+	 Number of estimators:  5
+	 Loss function:  exponential
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2504.89281863, 2640.28923838, 2325.01826967, 2380.00170147, 2494.70440739
+	 Variance score: 0.03
+	 Mean squared error on test set: 2521.15
+	 Number of estimators:  6
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2637.15947913, 2810.4032916, 2428.75643007, 2393.8705916, 2611.98397529
+	 Variance score: 0.02
+	 Mean squared error on test set: 2540.49
+	 Number of estimators:  6
+	 Loss function:  exponential
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2600.39816307, 2733.15544297, 2362.22825831, 2327.3736708, 2482.60945624
+	 Variance score: 0.04
+	 Mean squared error on test set: 2498.98
+	 Number of estimators:  7
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2513.70984125, 2720.10401374, 2430.3122842, 2381.2056029, 2542.25499783
+	 Variance score: 0.04
+	 Mean squared error on test set: 2500.27
+	 Number of estimators:  8
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2504.80464477, 2722.28268638, 2327.97595494, 2367.97545914, 2505.94412998
+	 Variance score: 0.03
+	 Mean squared error on test set: 2515.43
+	 Number of estimators:  9
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2567.22681055, 2717.16959231, 2461.50960426, 2471.32176619, 2601.36475561
+	 Variance score: 0.01
+	 Mean squared error on test set: 2569.38
+	 Number of estimators:  9
+	 Loss function:  exponential
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2486.78452138, 2685.61443501, 2328.22441804, 2296.56104188, 2510.08448541
+	 Variance score: 0.03
+	 Mean squared error on test set: 2521.81
+	 Number of estimators:  10
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2537.93824257, 2745.45252779, 2317.17571874, 2381.79318557, 2571.5695552
+	 Variance score: 0.03
+	 Mean squared error on test set: 2528.36
+	 Number of estimators:  11
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2522.39103065, 2740.35099528, 2379.00812549, 2356.61978538, 2532.46942349
+	 Variance score: 0.03
+	 Mean squared error on test set: 2531.19
+	 Number of estimators:  12
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2501.25486065, 2657.09876791, 2313.50796258, 2275.62780326, 2518.0254562
+	 Variance score: 0.06
+	 Mean squared error on test set: 2443.89
+	 Number of estimators:  13
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2511.39222098, 2639.28905446, 2389.21587662, 2367.90126066, 2547.5984457
+	 Variance score: 0.06
+	 Mean squared error on test set: 2454.44
+	 Number of estimators:  14
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2523.06821128, 2735.91333917, 2293.0488932, 2322.51394086, 2492.94307844
+	 Variance score: 0.03
+	 Mean squared error on test set: 2528.33
+	 Number of estimators:  15
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2518.85047706, 2674.46695513, 2306.04354463, 2334.17390466, 2525.79186668
+	 Variance score: 0.04
+	 Mean squared error on test set: 2488.57
+	 Number of estimators:  16
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2582.83961865, 2721.666804, 2332.38853631, 2380.78936757, 2513.55217175
+	 Variance score: 0.05
+	 Mean squared error on test set: 2469.06
+	 Number of estimators:  17
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2529.14517383, 2756.14999396, 2287.29669761, 2302.52890356, 2494.41245854
+	 Variance score: 0.03
+	 Mean squared error on test set: 2529.08
+	 Number of estimators:  18
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+AdaBoost regression: 
+	 Cross Validation mean squared errors:  2507.71031497, 2676.92168035, 2336.141713, 2401.98608967, 2550.34428687
+	 Variance score: 0.06
+	 Mean squared error on test set: 2445.86
+	 Number of estimators:  19
+	 Loss function:  linear
+	 Base estimator:  ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+
+102.799252033

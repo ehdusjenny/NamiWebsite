@@ -1,0 +1,3873 @@
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2485.10135056, 2845.18198594, 2453.3570199, 2494.20566611, 2507.98177803
+	 Variance score: 0.00
+	 Mean squared error on test set: 2595.14
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2505.86771034, 2834.19757018, 2407.35085893, 2485.22250921, 2446.89346545
+	 Variance score: 0.02
+	 Mean squared error on test set: 2554.35
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2599.03109362, 2800.65485737, 2372.42520817, 2297.91017734, 2556.24347852
+	 Variance score: 0.00
+	 Mean squared error on test set: 2592.47
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2623.94705388, 2765.61646659, 2412.17237583, 2465.75105337, 2494.47111528
+	 Variance score: 0.03
+	 Mean squared error on test set: 2532.68
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2561.72505342, 2785.76925234, 2405.3708287, 2494.08637194, 2481.16346781
+	 Variance score: 0.03
+	 Mean squared error on test set: 2518.93
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2560.81708821, 2749.79127441, 2389.0465622, 2358.53043184, 2476.53330728
+	 Variance score: 0.00
+	 Mean squared error on test set: 2591.15
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2560.63332007, 2781.98744625, 2388.37882319, 2370.02096113, 2456.03309211
+	 Variance score: 0.04
+	 Mean squared error on test set: 2507.41
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2544.6835159, 2827.40270165, 2387.8778996, 2459.5793625, 2440.53226355
+	 Variance score: 0.02
+	 Mean squared error on test set: 2547.57
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2562.36277105, 2776.49359517, 2367.14744383, 2410.97493812, 2446.20229928
+	 Variance score: 0.02
+	 Mean squared error on test set: 2545.23
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2616.66793227, 2810.29437349, 2381.74221525, 2418.28670848, 2460.3736015
+	 Variance score: 0.02
+	 Mean squared error on test set: 2555.11
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2566.58563945, 2797.30286277, 2363.95804242, 2365.46111825, 2486.31932378
+	 Variance score: 0.01
+	 Mean squared error on test set: 2562.65
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2588.23047155, 2758.73891068, 2390.13905755, 2442.94584037, 2466.51316764
+	 Variance score: 0.04
+	 Mean squared error on test set: 2502.82
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2583.49655072, 2754.38336958, 2378.28903528, 2416.10649112, 2494.65319559
+	 Variance score: 0.02
+	 Mean squared error on test set: 2537.84
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2585.55857056, 2785.01418637, 2395.77866887, 2405.87706364, 2469.3034193
+	 Variance score: 0.02
+	 Mean squared error on test set: 2557.38
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2587.77130813, 2769.08533195, 2418.70697287, 2442.452008, 2416.31312482
+	 Variance score: 0.01
+	 Mean squared error on test set: 2578.09
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2574.75858425, 2768.37679184, 2329.86487767, 2420.99094334, 2457.19118164
+	 Variance score: 0.02
+	 Mean squared error on test set: 2540.44
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2573.97894593, 2769.49804711, 2420.68065782, 2451.65161515, 2425.77862491
+	 Variance score: 0.02
+	 Mean squared error on test set: 2546.42
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2567.21547898, 2791.45324908, 2404.29529962, 2472.07647329, 2452.98170267
+	 Variance score: 0.02
+	 Mean squared error on test set: 2556.81
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2604.10013627, 2740.33964462, 2356.3789341, 2410.59654962, 2455.29469158
+	 Variance score: 0.02
+	 Mean squared error on test set: 2549.97
+	 Boostrap?:  True
+	 Max depth:  1
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2629.58428292, 2863.75486593, 2293.57781616, 2373.93901397, 2505.61437619
+	 Variance score: 0.03
+	 Mean squared error on test set: 2532.45
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2502.82681069, 2630.82203172, 2347.37302503, 2305.46531937, 2408.36260469
+	 Variance score: 0.04
+	 Mean squared error on test set: 2484.17
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2551.8540559, 2792.66019057, 2299.18131759, 2381.37971927, 2476.27300905
+	 Variance score: 0.06
+	 Mean squared error on test set: 2431.65
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2517.4323862, 2682.71612236, 2361.75770739, 2368.72774199, 2496.46378693
+	 Variance score: 0.04
+	 Mean squared error on test set: 2494.52
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2569.57153907, 2752.37705171, 2287.94174038, 2355.32092087, 2467.57025683
+	 Variance score: 0.01
+	 Mean squared error on test set: 2564.18
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2552.23878631, 2683.64424327, 2314.0171664, 2309.20222878, 2434.68250108
+	 Variance score: 0.03
+	 Mean squared error on test set: 2510.36
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2546.29214175, 2626.02620726, 2360.49249054, 2346.89990743, 2449.80933473
+	 Variance score: 0.03
+	 Mean squared error on test set: 2517.58
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2558.38668665, 2771.08199287, 2330.39865878, 2374.23847445, 2430.69596173
+	 Variance score: 0.04
+	 Mean squared error on test set: 2484.75
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2552.33048132, 2692.58340795, 2333.02953158, 2377.60953268, 2420.87013572
+	 Variance score: 0.05
+	 Mean squared error on test set: 2477.22
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2584.00631249, 2670.87810759, 2340.16919034, 2327.16703371, 2417.22469007
+	 Variance score: 0.02
+	 Mean squared error on test set: 2549.71
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2523.87765696, 2706.7956417, 2371.70081719, 2327.64467044, 2457.30190759
+	 Variance score: 0.04
+	 Mean squared error on test set: 2485.74
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2519.11998103, 2651.1777676, 2314.96115887, 2380.46416828, 2395.6334593
+	 Variance score: 0.03
+	 Mean squared error on test set: 2520.45
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2523.34656679, 2661.77951022, 2351.812207, 2321.16665179, 2385.87663713
+	 Variance score: 0.04
+	 Mean squared error on test set: 2487.75
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2549.33943097, 2693.05883324, 2321.12948269, 2330.17868494, 2433.93648457
+	 Variance score: 0.03
+	 Mean squared error on test set: 2513.13
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2545.90234571, 2652.26345237, 2342.25882757, 2379.07952349, 2427.21755998
+	 Variance score: 0.04
+	 Mean squared error on test set: 2506.86
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2511.08366709, 2714.87627764, 2357.48248879, 2362.42259262, 2384.73780651
+	 Variance score: 0.03
+	 Mean squared error on test set: 2529.70
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2503.01215217, 2688.85821877, 2287.80888551, 2391.202118, 2404.05289378
+	 Variance score: 0.02
+	 Mean squared error on test set: 2547.75
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2564.84145009, 2642.39277156, 2325.61161228, 2357.36479544, 2445.28882001
+	 Variance score: 0.04
+	 Mean squared error on test set: 2499.20
+	 Boostrap?:  True
+	 Max depth:  2
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2485.76635668, 2624.03630367, 2442.3359596, 2529.88663949, 2437.61426351
+	 Variance score: 0.05
+	 Mean squared error on test set: 2463.82
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2506.47667379, 2613.34615585, 2318.80014017, 2377.55699523, 2441.47486685
+	 Variance score: 0.01
+	 Mean squared error on test set: 2586.61
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2507.99082798, 2615.9957285, 2250.1233491, 2187.48536553, 2436.47881925
+	 Variance score: 0.05
+	 Mean squared error on test set: 2471.44
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2506.82140054, 2651.53248767, 2385.90223872, 2415.61763222, 2412.56782164
+	 Variance score: 0.04
+	 Mean squared error on test set: 2498.91
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2502.17130638, 2626.50321951, 2272.02413025, 2311.15354678, 2423.22502568
+	 Variance score: 0.04
+	 Mean squared error on test set: 2496.77
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2499.69199944, 2627.72780892, 2290.46854307, 2194.82173388, 2423.38864908
+	 Variance score: 0.06
+	 Mean squared error on test set: 2435.69
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2487.29492997, 2689.18946716, 2382.39287835, 2301.24004104, 2462.57154951
+	 Variance score: 0.07
+	 Mean squared error on test set: 2430.28
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2502.03084624, 2638.18532876, 2290.28346428, 2331.09401855, 2384.71609771
+	 Variance score: 0.05
+	 Mean squared error on test set: 2480.16
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2483.295594, 2648.20823736, 2282.05288251, 2224.93790495, 2407.91851647
+	 Variance score: 0.06
+	 Mean squared error on test set: 2435.02
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2471.33557745, 2583.13531705, 2248.96410296, 2335.95767427, 2388.26831786
+	 Variance score: 0.04
+	 Mean squared error on test set: 2483.74
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2522.89625502, 2561.52929381, 2299.70083451, 2312.06903806, 2411.89919348
+	 Variance score: 0.06
+	 Mean squared error on test set: 2438.97
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2523.5672405, 2605.15348198, 2259.46644597, 2301.8163346, 2415.27341653
+	 Variance score: 0.05
+	 Mean squared error on test set: 2462.40
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2499.96409948, 2572.53599881, 2301.05557777, 2293.42556222, 2392.23768253
+	 Variance score: 0.06
+	 Mean squared error on test set: 2446.45
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2498.05059018, 2577.79027616, 2269.3659016, 2312.66502984, 2371.79533731
+	 Variance score: 0.04
+	 Mean squared error on test set: 2490.23
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2507.31440126, 2603.61249701, 2260.74324495, 2261.428912, 2396.16746235
+	 Variance score: 0.05
+	 Mean squared error on test set: 2474.77
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2551.54639093, 2603.39075242, 2269.0421489, 2297.98663833, 2396.33917759
+	 Variance score: 0.06
+	 Mean squared error on test set: 2443.15
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2517.94379468, 2627.92410084, 2279.99685609, 2275.58567609, 2377.54734239
+	 Variance score: 0.05
+	 Mean squared error on test set: 2468.21
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2493.70364579, 2640.79972506, 2292.4654552, 2335.61173426, 2383.43237242
+	 Variance score: 0.05
+	 Mean squared error on test set: 2471.11
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2480.71904515, 2660.92061363, 2318.86235792, 2295.84303065, 2350.06703351
+	 Variance score: 0.05
+	 Mean squared error on test set: 2475.73
+	 Boostrap?:  True
+	 Max depth:  3
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2551.71266604, 2942.64292843, 2404.97229062, 2317.58874157, 2453.00642774
+	 Variance score: 0.04
+	 Mean squared error on test set: 2505.11
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2527.28935119, 2644.26337824, 2274.38056691, 2283.23024629, 2440.89529322
+	 Variance score: 0.07
+	 Mean squared error on test set: 2421.66
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2542.32119839, 2538.00607667, 2301.66430386, 2353.59075018, 2356.16687916
+	 Variance score: 0.06
+	 Mean squared error on test set: 2438.29
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2523.23854526, 2559.15316923, 2312.19653498, 2332.22313658, 2374.51064499
+	 Variance score: 0.07
+	 Mean squared error on test set: 2428.83
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2496.13169888, 2622.83603226, 2289.10117404, 2245.73161231, 2349.92436857
+	 Variance score: 0.06
+	 Mean squared error on test set: 2431.26
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2457.24639085, 2619.47154348, 2305.03502404, 2235.90909331, 2366.34526904
+	 Variance score: 0.06
+	 Mean squared error on test set: 2438.09
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2515.51323618, 2557.09720728, 2258.41140555, 2220.67900622, 2357.00539605
+	 Variance score: 0.07
+	 Mean squared error on test set: 2424.79
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2502.59913977, 2561.25429802, 2269.28123454, 2352.06545878, 2345.14524196
+	 Variance score: 0.06
+	 Mean squared error on test set: 2448.92
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2487.27228444, 2604.93317323, 2261.48167165, 2262.39165825, 2384.08658646
+	 Variance score: 0.06
+	 Mean squared error on test set: 2445.85
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2501.65857724, 2646.67662076, 2252.39282947, 2280.63460442, 2359.47061333
+	 Variance score: 0.06
+	 Mean squared error on test set: 2448.29
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2498.10932471, 2546.46395143, 2252.42492007, 2270.94158047, 2377.97301394
+	 Variance score: 0.07
+	 Mean squared error on test set: 2415.01
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2514.50145715, 2643.76837792, 2248.27305208, 2261.10954412, 2358.6409581
+	 Variance score: 0.08
+	 Mean squared error on test set: 2400.27
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2491.52154444, 2562.38422781, 2267.88467718, 2297.22710375, 2353.59564817
+	 Variance score: 0.07
+	 Mean squared error on test set: 2425.02
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2506.73947137, 2582.10801966, 2287.83422751, 2248.52750968, 2378.45565425
+	 Variance score: 0.05
+	 Mean squared error on test set: 2461.77
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2482.395901, 2592.8829426, 2207.8087217, 2233.10962641, 2359.3968395
+	 Variance score: 0.06
+	 Mean squared error on test set: 2439.00
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2481.29271605, 2559.00493857, 2244.98100646, 2239.17894904, 2352.26439942
+	 Variance score: 0.06
+	 Mean squared error on test set: 2454.52
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2516.28116582, 2597.80284404, 2221.89282074, 2274.58076666, 2372.12210778
+	 Variance score: 0.05
+	 Mean squared error on test set: 2466.76
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2476.1670133, 2525.30261755, 2253.47055518, 2253.86493075, 2363.0181102
+	 Variance score: 0.07
+	 Mean squared error on test set: 2411.45
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2491.09829325, 2562.0925371, 2217.19553463, 2250.53204162, 2374.65623783
+	 Variance score: 0.07
+	 Mean squared error on test set: 2425.99
+	 Boostrap?:  True
+	 Max depth:  4
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2576.73228318, 2458.11018516, 2309.3193991, 2457.91237267, 2556.6558211
+	 Variance score: 0.05
+	 Mean squared error on test set: 2478.07
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2586.16894539, 2643.64086557, 2300.42944698, 2261.73082152, 2462.57699859
+	 Variance score: 0.07
+	 Mean squared error on test set: 2421.39
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2525.35550694, 2633.52673498, 2233.07188783, 2269.934502, 2363.74565831
+	 Variance score: 0.05
+	 Mean squared error on test set: 2478.97
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2467.88420728, 2680.21405858, 2284.36001078, 2234.78072541, 2368.41837249
+	 Variance score: 0.05
+	 Mean squared error on test set: 2464.30
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2461.15301813, 2513.44916431, 2292.25876277, 2271.21290072, 2352.54402584
+	 Variance score: 0.07
+	 Mean squared error on test set: 2421.74
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2481.4519773, 2532.85335851, 2216.17298051, 2254.20709178, 2365.30050655
+	 Variance score: 0.07
+	 Mean squared error on test set: 2408.67
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2504.30857257, 2537.3986011, 2194.94153958, 2257.78170363, 2336.57917786
+	 Variance score: 0.07
+	 Mean squared error on test set: 2426.32
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2475.19198222, 2579.85481817, 2204.47798124, 2211.89937416, 2423.2513997
+	 Variance score: 0.07
+	 Mean squared error on test set: 2418.19
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2503.49359039, 2545.38703667, 2195.89130621, 2222.86842728, 2373.14127594
+	 Variance score: 0.08
+	 Mean squared error on test set: 2404.64
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2507.24168802, 2508.37873644, 2215.63150802, 2252.18992151, 2339.69655015
+	 Variance score: 0.06
+	 Mean squared error on test set: 2433.61
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2477.41710603, 2468.06443724, 2225.80793769, 2237.1149319, 2393.12329244
+	 Variance score: 0.07
+	 Mean squared error on test set: 2426.64
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2453.61963212, 2499.69097549, 2252.20742586, 2237.9336333, 2358.85273214
+	 Variance score: 0.07
+	 Mean squared error on test set: 2415.22
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2458.23480177, 2534.1089677, 2220.83645318, 2223.40687944, 2348.55767502
+	 Variance score: 0.07
+	 Mean squared error on test set: 2427.14
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2457.5517087, 2568.65759635, 2200.37801161, 2217.65283351, 2361.71947971
+	 Variance score: 0.06
+	 Mean squared error on test set: 2431.01
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2511.63604474, 2519.67001459, 2220.45642045, 2202.12738901, 2362.87808511
+	 Variance score: 0.06
+	 Mean squared error on test set: 2436.89
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2467.83451577, 2516.13577935, 2189.60356691, 2255.48787934, 2349.99028187
+	 Variance score: 0.07
+	 Mean squared error on test set: 2414.06
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2482.40229955, 2538.87802836, 2192.82626232, 2212.82416795, 2357.41357976
+	 Variance score: 0.06
+	 Mean squared error on test set: 2431.06
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2474.59070349, 2561.7480754, 2186.12405762, 2227.99746129, 2336.72324798
+	 Variance score: 0.07
+	 Mean squared error on test set: 2426.34
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2478.47218652, 2508.21848316, 2216.84327455, 2248.90392623, 2358.11714554
+	 Variance score: 0.07
+	 Mean squared error on test set: 2421.83
+	 Boostrap?:  True
+	 Max depth:  5
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2596.00556014, 2774.97986106, 2476.3689201, 2492.40682305, 2726.51100059
+	 Variance score: 0.06
+	 Mean squared error on test set: 2435.13
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2595.0472023, 2628.07792499, 2298.5742978, 2339.44690828, 2602.47002842
+	 Variance score: 0.01
+	 Mean squared error on test set: 2573.06
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2527.42139599, 2544.65428131, 2201.2174007, 2251.82820571, 2383.13727553
+	 Variance score: 0.06
+	 Mean squared error on test set: 2449.01
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2528.98853838, 2514.42612462, 2263.24269025, 2275.20683375, 2481.95443819
+	 Variance score: 0.04
+	 Mean squared error on test set: 2489.15
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2497.87251363, 2546.10718625, 2225.53120669, 2348.00464252, 2376.89404071
+	 Variance score: 0.06
+	 Mean squared error on test set: 2440.65
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2469.90209348, 2550.32503989, 2237.9121796, 2208.90166815, 2357.2214811
+	 Variance score: 0.06
+	 Mean squared error on test set: 2431.17
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2486.52069363, 2509.15911642, 2191.95376628, 2277.58766563, 2352.2521068
+	 Variance score: 0.06
+	 Mean squared error on test set: 2441.46
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2507.09411769, 2557.17862538, 2194.09583853, 2226.76259767, 2377.46896803
+	 Variance score: 0.07
+	 Mean squared error on test set: 2418.70
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2500.13720955, 2503.50256981, 2163.85138061, 2188.00215987, 2337.99735472
+	 Variance score: 0.06
+	 Mean squared error on test set: 2443.42
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2463.45869001, 2582.39138602, 2236.10376441, 2209.54830533, 2367.36989854
+	 Variance score: 0.07
+	 Mean squared error on test set: 2415.41
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2440.52874597, 2520.27506624, 2229.80335977, 2213.22595421, 2312.01171779
+	 Variance score: 0.07
+	 Mean squared error on test set: 2424.29
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2494.6733251, 2584.88415323, 2209.78931589, 2270.65365484, 2361.67680592
+	 Variance score: 0.07
+	 Mean squared error on test set: 2413.81
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2495.50320087, 2541.63793031, 2206.52645445, 2241.81346235, 2383.6223227
+	 Variance score: 0.08
+	 Mean squared error on test set: 2400.08
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2466.9706515, 2489.20937185, 2216.70642603, 2253.25894412, 2340.92610232
+	 Variance score: 0.07
+	 Mean squared error on test set: 2410.08
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2482.29287035, 2447.03339638, 2187.49831635, 2215.46049542, 2368.57958792
+	 Variance score: 0.09
+	 Mean squared error on test set: 2374.55
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2451.56589797, 2548.0258461, 2198.5445798, 2201.1982267, 2336.7121155
+	 Variance score: 0.07
+	 Mean squared error on test set: 2408.26
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2436.04359836, 2563.2474072, 2210.42847154, 2247.54684996, 2328.11633582
+	 Variance score: 0.07
+	 Mean squared error on test set: 2427.28
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2452.69450662, 2543.29006011, 2213.04285705, 2210.44503308, 2332.86426316
+	 Variance score: 0.07
+	 Mean squared error on test set: 2415.37
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2466.56116407, 2531.20897577, 2230.34401085, 2221.02943887, 2345.67854068
+	 Variance score: 0.08
+	 Mean squared error on test set: 2402.16
+	 Boostrap?:  True
+	 Max depth:  6
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2685.42519777, 2780.23981531, 2334.54542018, 2247.73575722, 2580.08991147
+	 Variance score: 0.00
+	 Mean squared error on test set: 2587.53
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2523.31674229, 2501.58936666, 2403.12451279, 2135.67205124, 2438.97475877
+	 Variance score: 0.04
+	 Mean squared error on test set: 2492.47
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2578.8328893, 2478.89432505, 2410.79923238, 2397.81439577, 2435.39537008
+	 Variance score: 0.04
+	 Mean squared error on test set: 2488.74
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2486.75286766, 2599.47226157, 2208.36538012, 2268.26073566, 2370.76256539
+	 Variance score: 0.04
+	 Mean squared error on test set: 2494.52
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2510.21887213, 2549.24778018, 2271.15610479, 2287.61060854, 2443.61265092
+	 Variance score: 0.06
+	 Mean squared error on test set: 2434.46
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2509.35678895, 2510.05196131, 2201.17301409, 2228.966431, 2411.74845411
+	 Variance score: 0.05
+	 Mean squared error on test set: 2473.37
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2516.09956607, 2489.37010475, 2219.22893515, 2230.22300742, 2369.6284738
+	 Variance score: 0.08
+	 Mean squared error on test set: 2400.13
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2491.26793766, 2577.1818156, 2202.69121152, 2217.63621205, 2389.81142031
+	 Variance score: 0.06
+	 Mean squared error on test set: 2431.86
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2487.8075011, 2583.74923665, 2203.14228917, 2268.15197124, 2410.08549048
+	 Variance score: 0.06
+	 Mean squared error on test set: 2449.54
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2445.95704217, 2503.0864629, 2203.53508892, 2242.57670915, 2386.96068383
+	 Variance score: 0.07
+	 Mean squared error on test set: 2428.06
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2493.52929626, 2486.16729674, 2225.10377099, 2261.31534507, 2406.54777127
+	 Variance score: 0.06
+	 Mean squared error on test set: 2444.91
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2456.50973158, 2524.39902199, 2172.24706582, 2245.93373587, 2393.92189061
+	 Variance score: 0.07
+	 Mean squared error on test set: 2409.51
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2475.94265336, 2546.69532026, 2217.69813059, 2227.2583727, 2350.78969711
+	 Variance score: 0.07
+	 Mean squared error on test set: 2406.27
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2477.24947368, 2495.62395794, 2169.24178757, 2228.49274022, 2327.63267396
+	 Variance score: 0.07
+	 Mean squared error on test set: 2406.22
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2470.10096292, 2481.64838881, 2229.52678139, 2208.18355417, 2366.70353315
+	 Variance score: 0.07
+	 Mean squared error on test set: 2414.74
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2475.4157106, 2469.09309687, 2203.50692987, 2221.59741421, 2350.39306943
+	 Variance score: 0.07
+	 Mean squared error on test set: 2427.03
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2458.12559792, 2466.4756728, 2201.00738113, 2228.20823225, 2337.84537127
+	 Variance score: 0.07
+	 Mean squared error on test set: 2425.30
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2478.40433333, 2494.35351105, 2211.21052373, 2233.3463557, 2354.19556476
+	 Variance score: 0.08
+	 Mean squared error on test set: 2399.11
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2478.86819335, 2475.32506836, 2188.53977391, 2167.60876582, 2354.37636105
+	 Variance score: 0.08
+	 Mean squared error on test set: 2398.61
+	 Boostrap?:  True
+	 Max depth:  7
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2809.8217507, 2568.36719502, 2357.48312953, 2316.75329792, 2515.10036904
+	 Variance score: 0.03
+	 Mean squared error on test set: 2521.92
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2766.09833913, 2574.90546341, 2287.81527653, 2289.65085423, 2585.42228278
+	 Variance score: 0.01
+	 Mean squared error on test set: 2575.23
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2556.93817375, 2539.75423837, 2339.83959714, 2261.65412484, 2382.02147296
+	 Variance score: 0.02
+	 Mean squared error on test set: 2537.14
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2475.51977654, 2455.37677285, 2338.21791761, 2304.32941305, 2408.09878771
+	 Variance score: 0.06
+	 Mean squared error on test set: 2437.90
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2461.36313096, 2473.05061651, 2216.77128984, 2294.1546702, 2426.93969508
+	 Variance score: 0.08
+	 Mean squared error on test set: 2397.56
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2535.87118156, 2463.31922242, 2234.98105939, 2148.1186416, 2367.76487403
+	 Variance score: 0.06
+	 Mean squared error on test set: 2440.01
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2473.31721544, 2517.04856326, 2157.93971415, 2230.31046082, 2358.1925402
+	 Variance score: 0.05
+	 Mean squared error on test set: 2462.82
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2490.30231505, 2487.57722593, 2253.22555582, 2244.32099865, 2340.33135791
+	 Variance score: 0.06
+	 Mean squared error on test set: 2441.88
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2418.90137503, 2506.24224424, 2218.81248384, 2188.37135307, 2385.60360109
+	 Variance score: 0.07
+	 Mean squared error on test set: 2423.64
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2487.45102148, 2570.42146262, 2192.40040641, 2255.08807226, 2365.41263265
+	 Variance score: 0.05
+	 Mean squared error on test set: 2461.50
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2477.54625205, 2459.27404536, 2196.78518575, 2265.79648273, 2377.05851906
+	 Variance score: 0.06
+	 Mean squared error on test set: 2441.09
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2468.56432451, 2574.76650284, 2203.36443124, 2210.47817245, 2364.34630776
+	 Variance score: 0.06
+	 Mean squared error on test set: 2437.90
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2518.7610862, 2460.24283313, 2204.84042993, 2236.96408095, 2357.62475443
+	 Variance score: 0.07
+	 Mean squared error on test set: 2423.35
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2466.79435712, 2535.84858462, 2236.37802078, 2306.04195939, 2392.84342253
+	 Variance score: 0.06
+	 Mean squared error on test set: 2438.07
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2478.28717674, 2522.52193197, 2223.09793647, 2233.6099439, 2320.5888977
+	 Variance score: 0.08
+	 Mean squared error on test set: 2388.53
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2473.51896844, 2468.10488942, 2233.91109347, 2223.81702761, 2364.68947184
+	 Variance score: 0.07
+	 Mean squared error on test set: 2421.43
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2506.28803118, 2475.99940184, 2214.26146355, 2192.99365065, 2363.56464519
+	 Variance score: 0.08
+	 Mean squared error on test set: 2384.28
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2476.84533205, 2498.45905603, 2196.36964437, 2220.72211154, 2363.20210558
+	 Variance score: 0.08
+	 Mean squared error on test set: 2394.26
+	 Boostrap?:  True
+	 Max depth:  8
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2753.12379263, 2761.23959881, 2527.76456603, 2374.81233245, 2559.19887842
+	 Variance score: 0.05
+	 Mean squared error on test set: 2474.37
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2684.63692776, 2673.68016282, 2246.12727431, 2510.08055248, 2489.42041682
+	 Variance score: 0.04
+	 Mean squared error on test set: 2486.79
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2532.80195294, 2619.66297513, 2270.01780788, 2241.39018519, 2435.81858294
+	 Variance score: 0.06
+	 Mean squared error on test set: 2449.28
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2600.31194108, 2563.09163217, 2364.07619641, 2496.25473718, 2348.41347011
+	 Variance score: 0.04
+	 Mean squared error on test set: 2486.48
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2519.17884654, 2588.51833989, 2267.92005715, 2266.07443606, 2366.11795489
+	 Variance score: 0.05
+	 Mean squared error on test set: 2461.92
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2585.02300791, 2662.26013389, 2253.13567988, 2225.2761989, 2377.07407552
+	 Variance score: 0.04
+	 Mean squared error on test set: 2489.28
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2523.1350726, 2541.19033314, 2288.68113873, 2274.93634102, 2497.70040923
+	 Variance score: 0.06
+	 Mean squared error on test set: 2453.78
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2529.6415826, 2604.56454818, 2303.25214202, 2300.51219598, 2397.70136176
+	 Variance score: 0.06
+	 Mean squared error on test set: 2451.43
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2554.58035237, 2581.05702422, 2217.4584309, 2241.45522622, 2365.87732497
+	 Variance score: 0.07
+	 Mean squared error on test set: 2411.70
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2546.13078362, 2582.86412511, 2295.48150219, 2255.56635205, 2390.51387221
+	 Variance score: 0.07
+	 Mean squared error on test set: 2418.45
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2502.42947499, 2593.75595085, 2234.78246874, 2203.37825552, 2415.13405931
+	 Variance score: 0.06
+	 Mean squared error on test set: 2433.32
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2475.10319627, 2567.10171397, 2233.86408736, 2240.96471405, 2369.46113878
+	 Variance score: 0.05
+	 Mean squared error on test set: 2478.36
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2533.85359594, 2491.8119854, 2255.13519528, 2225.67266831, 2452.8361304
+	 Variance score: 0.06
+	 Mean squared error on test set: 2456.36
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2524.45075656, 2563.12715398, 2168.03449621, 2259.43937112, 2345.76493287
+	 Variance score: 0.07
+	 Mean squared error on test set: 2413.33
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2467.13184659, 2560.50499316, 2171.03046157, 2252.25814139, 2402.24987834
+	 Variance score: 0.06
+	 Mean squared error on test set: 2449.02
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2533.58114526, 2509.82156033, 2224.74177556, 2308.13684039, 2364.58901318
+	 Variance score: 0.06
+	 Mean squared error on test set: 2434.24
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2519.35934565, 2497.76487452, 2217.84201218, 2230.6696447, 2349.21126485
+	 Variance score: 0.07
+	 Mean squared error on test set: 2423.70
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2513.57920738, 2556.01589173, 2207.68945928, 2218.52839486, 2390.14015176
+	 Variance score: 0.05
+	 Mean squared error on test set: 2474.23
+	 Boostrap?:  True
+	 Max depth:  9
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2728.845994, 2929.16023943, 2346.09798904, 2382.8154136, 2701.02554064
+	 Variance score: 0.02
+	 Mean squared error on test set: 2550.14
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2692.76142503, 2683.72625475, 2366.68995979, 2278.17405995, 2414.10217703
+	 Variance score: 0.05
+	 Mean squared error on test set: 2470.92
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2627.72092603, 2670.91682051, 2231.37860409, 2263.96662664, 2505.58539674
+	 Variance score: 0.04
+	 Mean squared error on test set: 2484.82
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2591.4669705, 2554.95620376, 2247.22066195, 2198.81077626, 2446.56926351
+	 Variance score: 0.02
+	 Mean squared error on test set: 2547.03
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2635.14499771, 2666.4337333, 2318.27835925, 2309.71646902, 2363.44508806
+	 Variance score: 0.04
+	 Mean squared error on test set: 2500.97
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2514.48518815, 2631.31341881, 2216.72695254, 2265.11055432, 2470.56508729
+	 Variance score: 0.05
+	 Mean squared error on test set: 2478.83
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2529.52155063, 2553.11849042, 2242.92451929, 2315.05541339, 2366.1727544
+	 Variance score: 0.04
+	 Mean squared error on test set: 2496.88
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2634.69870267, 2572.93877337, 2243.2182512, 2163.69883914, 2460.02533526
+	 Variance score: 0.06
+	 Mean squared error on test set: 2450.80
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2525.15703831, 2507.00270937, 2311.75602073, 2264.06920922, 2470.44941642
+	 Variance score: 0.05
+	 Mean squared error on test set: 2473.21
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2570.78269424, 2552.2962607, 2244.46208033, 2160.14110204, 2420.1042424
+	 Variance score: 0.05
+	 Mean squared error on test set: 2458.68
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2614.22245923, 2564.41755559, 2219.10433815, 2253.00632379, 2392.93227571
+	 Variance score: 0.05
+	 Mean squared error on test set: 2459.10
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2505.82823404, 2531.37164335, 2251.6867867, 2186.72286363, 2439.43348561
+	 Variance score: 0.05
+	 Mean squared error on test set: 2467.35
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2487.23958829, 2545.66149198, 2244.32085666, 2289.21603254, 2462.91647727
+	 Variance score: 0.07
+	 Mean squared error on test set: 2427.84
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2559.99693538, 2596.73276766, 2237.51689539, 2190.86259358, 2381.64982665
+	 Variance score: 0.07
+	 Mean squared error on test set: 2418.55
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2572.90137887, 2479.93496564, 2205.61100902, 2241.82565082, 2436.76133626
+	 Variance score: 0.06
+	 Mean squared error on test set: 2448.80
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2533.8222131, 2582.15532298, 2200.11540038, 2222.15042436, 2408.68418384
+	 Variance score: 0.06
+	 Mean squared error on test set: 2432.21
+	 Boostrap?:  True
+	 Max depth:  10
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2822.51847785, 2662.90130174, 2355.12480598, 2402.52174017, 2468.85893489
+	 Variance score: 0.02
+	 Mean squared error on test set: 2556.84
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2602.98781356, 2555.25879438, 2268.67585832, 2315.51156535, 2538.66611879
+	 Variance score: 0.03
+	 Mean squared error on test set: 2518.12
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2705.48203816, 2571.15612414, 2342.1573554, 2264.10737292, 2445.7184223
+	 Variance score: 0.01
+	 Mean squared error on test set: 2564.95
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2611.89841262, 2623.33717678, 2312.6226397, 2317.76411331, 2463.30980681
+	 Variance score: 0.02
+	 Mean squared error on test set: 2547.83
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2599.79299242, 2558.84833874, 2205.63302908, 2341.83450396, 2523.06941986
+	 Variance score: 0.04
+	 Mean squared error on test set: 2506.51
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2536.57347599, 2580.02819047, 2271.92626115, 2288.98154626, 2335.19413005
+	 Variance score: 0.04
+	 Mean squared error on test set: 2488.47
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2546.01049848, 2516.31466721, 2229.80932502, 2199.79347392, 2416.55362111
+	 Variance score: 0.04
+	 Mean squared error on test set: 2498.84
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2548.10412864, 2606.50917253, 2240.70175408, 2306.27721124, 2416.52276796
+	 Variance score: 0.04
+	 Mean squared error on test set: 2503.78
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2530.51581846, 2551.15107568, 2261.37650614, 2273.24594344, 2390.87166229
+	 Variance score: 0.05
+	 Mean squared error on test set: 2481.05
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2546.35028409, 2570.74300332, 2273.1679507, 2245.3449425, 2402.30961889
+	 Variance score: 0.08
+	 Mean squared error on test set: 2393.80
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2604.28224526, 2588.49016924, 2279.35743709, 2214.89298559, 2436.17294415
+	 Variance score: 0.05
+	 Mean squared error on test set: 2464.21
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2528.43707915, 2522.55258555, 2247.83318691, 2271.367664, 2434.67232482
+	 Variance score: 0.06
+	 Mean squared error on test set: 2433.15
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2529.65996259, 2519.52030399, 2231.94376686, 2281.77922741, 2409.1032619
+	 Variance score: 0.05
+	 Mean squared error on test set: 2458.80
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2576.26062373, 2542.30156511, 2282.57644112, 2268.65919146, 2339.15698004
+	 Variance score: 0.04
+	 Mean squared error on test set: 2487.24
+	 Boostrap?:  True
+	 Max depth:  11
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2711.62458294, 2758.534251, 2495.46102192, 2412.96015693, 2641.49527764
+	 Variance score: 0.01
+	 Mean squared error on test set: 2563.49
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2688.77355827, 2672.38659254, 2344.86991627, 2324.0205258, 2467.05685073
+	 Variance score: 0.01
+	 Mean squared error on test set: 2583.56
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2737.76998864, 2645.14283687, 2341.55139984, 2466.34342763, 2550.12306188
+	 Variance score: 0.02
+	 Mean squared error on test set: 2539.53
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2593.2475974, 2675.20977814, 2303.14050397, 2233.48217581, 2423.02682586
+	 Variance score: 0.03
+	 Mean squared error on test set: 2512.57
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2598.43281168, 2665.76929635, 2328.58005241, 2286.07273234, 2615.8197078
+	 Variance score: 0.03
+	 Mean squared error on test set: 2526.41
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2663.7000969, 2615.07871417, 2289.57574346, 2300.02893734, 2364.35889831
+	 Variance score: 0.03
+	 Mean squared error on test set: 2518.99
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2602.37164329, 2595.13761758, 2332.92263964, 2279.15560543, 2456.66305766
+	 Variance score: 0.06
+	 Mean squared error on test set: 2447.59
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2638.58402452, 2619.93978344, 2294.77703698, 2299.07091097, 2416.91452988
+	 Variance score: 0.04
+	 Mean squared error on test set: 2500.13
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2537.66726254, 2579.18078608, 2310.15220102, 2284.40398614, 2451.99402887
+	 Variance score: 0.04
+	 Mean squared error on test set: 2503.77
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2608.3020899, 2528.13662246, 2323.75912809, 2254.03905313, 2425.31156531
+	 Variance score: 0.06
+	 Mean squared error on test set: 2446.44
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2604.00847821, 2557.39123528, 2323.80673539, 2280.88482294, 2409.69459998
+	 Variance score: 0.06
+	 Mean squared error on test set: 2453.31
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2604.81703778, 2679.11313119, 2300.80168793, 2292.31870337, 2425.39829872
+	 Variance score: 0.04
+	 Mean squared error on test set: 2505.02
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2609.92651123, 2610.3283035, 2300.1267656, 2324.28929366, 2462.20883199
+	 Variance score: 0.04
+	 Mean squared error on test set: 2501.91
+	 Boostrap?:  True
+	 Max depth:  12
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2748.84896557, 2814.73891111, 2438.8872394, 2496.57716837, 2539.10159282
+	 Variance score: 0.00
+	 Mean squared error on test set: 2590.89
+	 Boostrap?:  True
+	 Max depth:  13
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2748.04838282, 2764.21964715, 2352.67804315, 2384.96290965, 2604.66091597
+	 Variance score: 0.02
+	 Mean squared error on test set: 2538.00
+	 Boostrap?:  True
+	 Max depth:  13
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2726.22448702, 2746.69065026, 2303.84921959, 2444.48262556, 2486.82089063
+	 Variance score: 0.01
+	 Mean squared error on test set: 2571.19
+	 Boostrap?:  True
+	 Max depth:  13
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2722.40137977, 2645.97731615, 2356.5600991, 2357.42094634, 2507.0999113
+	 Variance score: 0.03
+	 Mean squared error on test set: 2523.18
+	 Boostrap?:  True
+	 Max depth:  13
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2686.01001185, 2688.00571085, 2289.44601192, 2353.55067802, 2525.51613553
+	 Variance score: 0.02
+	 Mean squared error on test set: 2548.45
+	 Boostrap?:  True
+	 Max depth:  13
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2725.31723348, 2514.13810044, 2297.45585545, 2317.75269002, 2649.09430909
+	 Variance score: 0.03
+	 Mean squared error on test set: 2521.84
+	 Boostrap?:  True
+	 Max depth:  13
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2610.06476883, 2588.88026132, 2265.31952654, 2316.39358877, 2436.65670005
+	 Variance score: 0.02
+	 Mean squared error on test set: 2551.76
+	 Boostrap?:  True
+	 Max depth:  13
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2665.2911368, 2607.85511004, 2286.4151776, 2346.81213494, 2393.84754261
+	 Variance score: 0.01
+	 Mean squared error on test set: 2571.20
+	 Boostrap?:  True
+	 Max depth:  13
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2547.54388096, 2664.19258862, 2323.43716945, 2318.83370784, 2429.34536981
+	 Variance score: 0.04
+	 Mean squared error on test set: 2485.54
+	 Boostrap?:  True
+	 Max depth:  13
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2670.97543735, 2598.81658993, 2269.20977494, 2334.67991982, 2513.90796374
+	 Variance score: 0.02
+	 Mean squared error on test set: 2552.44
+	 Boostrap?:  True
+	 Max depth:  13
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2662.79424518, 2622.96429629, 2317.20071767, 2340.51991906, 2528.80156272
+	 Variance score: 0.01
+	 Mean squared error on test set: 2561.25
+	 Boostrap?:  True
+	 Max depth:  13
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2656.87116401, 2599.02926238, 2298.84715517, 2270.03580794, 2465.887963
+	 Variance score: 0.03
+	 Mean squared error on test set: 2519.65
+	 Boostrap?:  True
+	 Max depth:  13
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2734.72778466, 2786.74637418, 2548.09807618, 2472.21962774, 2446.82064895
+	 Variance score: 0.01
+	 Mean squared error on test set: 2565.69
+	 Boostrap?:  True
+	 Max depth:  14
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2674.49598499, 2619.31257385, 2402.71495478, 2433.65992281, 2487.7731702
+	 Variance score: 0.02
+	 Mean squared error on test set: 2545.07
+	 Boostrap?:  True
+	 Max depth:  14
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2648.08832583, 2710.09434992, 2388.70437923, 2337.53931626, 2460.36376155
+	 Variance score: 0.03
+	 Mean squared error on test set: 2533.07
+	 Boostrap?:  True
+	 Max depth:  14
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2707.32104296, 2800.3313497, 2457.61489544, 2430.44085973, 2466.67275237
+	 Variance score: 0.00
+	 Mean squared error on test set: 2595.73
+	 Boostrap?:  True
+	 Max depth:  14
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2738.6043984, 2694.00261533, 2373.61306171, 2364.65216683, 2569.2310613
+	 Variance score: 0.02
+	 Mean squared error on test set: 2537.40
+	 Boostrap?:  True
+	 Max depth:  14
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2620.67929344, 2683.5918133, 2292.32294921, 2371.56446326, 2501.82993173
+	 Variance score: 0.02
+	 Mean squared error on test set: 2556.19
+	 Boostrap?:  True
+	 Max depth:  14
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2686.4536584, 2636.68854315, 2360.05348617, 2395.55906537, 2470.27653542
+	 Variance score: 0.03
+	 Mean squared error on test set: 2527.33
+	 Boostrap?:  True
+	 Max depth:  14
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2655.10441534, 2593.05673713, 2324.69216785, 2319.76319002, 2486.12385594
+	 Variance score: 0.00
+	 Mean squared error on test set: 2591.29
+	 Boostrap?:  True
+	 Max depth:  14
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2813.17435707, 2759.10950287, 2449.83874328, 2498.03152153, 2600.21150948
+	 Variance score: 0.04
+	 Mean squared error on test set: 2485.68
+	 Boostrap?:  True
+	 Max depth:  15
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2646.04526348, 2683.31250816, 2494.55137249, 2518.56057431, 2655.44723135
+	 Variance score: 0.01
+	 Mean squared error on test set: 2574.55
+	 Boostrap?:  True
+	 Max depth:  15
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2671.1958582, 2698.76567905, 2331.49194946, 2431.85664515, 2531.65167783
+	 Variance score: 0.01
+	 Mean squared error on test set: 2584.06
+	 Boostrap?:  True
+	 Max depth:  15
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2740.99505067, 2682.9624687, 2391.65420818, 2420.53694324, 2565.02044497
+	 Variance score: 0.01
+	 Mean squared error on test set: 2573.47
+	 Boostrap?:  True
+	 Max depth:  15
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2718.88208102, 2697.87986808, 2347.63393127, 2298.07638216, 2604.36415006
+	 Variance score: 0.02
+	 Mean squared error on test set: 2553.49
+	 Boostrap?:  True
+	 Max depth:  15
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2695.86047495, 2722.01075744, 2446.59140822, 2351.49391199, 2507.09215961
+	 Variance score: 0.00
+	 Mean squared error on test set: 2594.24
+	 Boostrap?:  True
+	 Max depth:  15
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2897.98465953, 2658.40303076, 2543.59139743, 2492.78756868, 2780.56871042
+	 Variance score: 0.01
+	 Mean squared error on test set: 2581.22
+	 Boostrap?:  True
+	 Max depth:  16
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2840.44702789, 2755.09199135, 2463.38513474, 2491.74379179, 2638.65981976
+	 Variance score: 0.00
+	 Mean squared error on test set: 2598.83
+	 Boostrap?:  True
+	 Max depth:  16
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2741.91278176, 2719.20488406, 2411.68147624, 2367.08933777, 2565.79133474
+	 Variance score: 0.01
+	 Mean squared error on test set: 2576.20
+	 Boostrap?:  True
+	 Max depth:  16
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2710.85011001, 2781.07253842, 2396.78084363, 2353.14034006, 2558.53426923
+	 Variance score: 0.01
+	 Mean squared error on test set: 2572.54
+	 Boostrap?:  True
+	 Max depth:  17
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2700.7123659, 2709.13925397, 2473.40066664, 2449.10277329, 2508.75616348
+	 Variance score: 0.01
+	 Mean squared error on test set: 2580.30
+	 Boostrap?:  True
+	 Max depth:  17
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2787.71413267, 2663.09139444, 2436.83055462, 2522.89040835, 2596.41080894
+	 Variance score: 0.01
+	 Mean squared error on test set: 2578.25
+	 Boostrap?:  True
+	 Max depth:  18
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2624.63838429, 2691.40090418, 2281.07592683, 2479.34256661, 2509.45493139
+	 Variance score: 0.03
+	 Mean squared error on test set: 2516.46
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2619.40356976, 2668.2897159, 2343.42350377, 2460.54565316, 2503.41437764
+	 Variance score: 0.00
+	 Mean squared error on test set: 2590.31
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2632.0772185, 2836.09870894, 2282.89798518, 2453.3064999, 2468.24363651
+	 Variance score: 0.00
+	 Mean squared error on test set: 2587.03
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2609.57881497, 2826.36945274, 2449.65154916, 2487.81643893, 2503.99221494
+	 Variance score: 0.03
+	 Mean squared error on test set: 2532.27
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2604.74557395, 2656.96160181, 2364.52746687, 2434.8962128, 2501.62068177
+	 Variance score: 0.01
+	 Mean squared error on test set: 2576.71
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2589.22286328, 2764.20244222, 2397.2361712, 2464.5922582, 2433.31080916
+	 Variance score: 0.05
+	 Mean squared error on test set: 2477.28
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2607.32314688, 2762.03515685, 2381.60083502, 2391.88675387, 2439.74088207
+	 Variance score: 0.01
+	 Mean squared error on test set: 2565.87
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2593.20798681, 2797.20577962, 2452.33087012, 2399.37551906, 2452.5380814
+	 Variance score: 0.02
+	 Mean squared error on test set: 2556.36
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2618.95559086, 2775.50461548, 2393.84898428, 2443.17408868, 2503.01652299
+	 Variance score: 0.01
+	 Mean squared error on test set: 2576.06
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2589.24557625, 2775.6676923, 2401.59396875, 2404.44100257, 2468.96313695
+	 Variance score: 0.02
+	 Mean squared error on test set: 2550.70
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2612.57533373, 2702.5885239, 2413.90908207, 2458.92245551, 2468.50373283
+	 Variance score: 0.00
+	 Mean squared error on test set: 2587.03
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2567.60520602, 2739.36823418, 2394.19870824, 2446.46781821, 2445.31380275
+	 Variance score: 0.01
+	 Mean squared error on test set: 2566.28
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2622.16118058, 2726.7251389, 2392.71614334, 2417.28846613, 2451.03586774
+	 Variance score: 0.02
+	 Mean squared error on test set: 2535.81
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2586.37604467, 2689.30289401, 2435.97532066, 2401.46072824, 2482.7902543
+	 Variance score: 0.03
+	 Mean squared error on test set: 2529.41
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2572.73913316, 2779.51193365, 2404.50711763, 2386.61741074, 2450.36200521
+	 Variance score: 0.02
+	 Mean squared error on test set: 2546.75
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2576.63915546, 2748.95901761, 2378.53993386, 2381.50377868, 2479.4648268
+	 Variance score: 0.01
+	 Mean squared error on test set: 2562.11
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2577.02792824, 2746.72720878, 2378.53577992, 2395.53189945, 2460.06802503
+	 Variance score: 0.04
+	 Mean squared error on test set: 2507.33
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2585.5935532, 2779.26334279, 2387.16583962, 2391.85920713, 2445.28641562
+	 Variance score: 0.01
+	 Mean squared error on test set: 2562.94
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2581.41787105, 2745.13852306, 2389.3099674, 2417.46917905, 2452.6038175
+	 Variance score: 0.01
+	 Mean squared error on test set: 2578.49
+	 Boostrap?:  False
+	 Max depth:  1
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2647.8898262, 2823.86482752, 2453.46456551, 2471.20359435, 2493.38801132
+	 Variance score: 0.00
+	 Mean squared error on test set: 2588.35
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2519.69984897, 2750.75374939, 2430.17883569, 2395.13780667, 2389.83631753
+	 Variance score: 0.03
+	 Mean squared error on test set: 2515.14
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2534.76006325, 2873.9996138, 2426.14996508, 2368.3876847, 2413.07814107
+	 Variance score: 0.06
+	 Mean squared error on test set: 2445.89
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2622.38305392, 2724.92410893, 2343.75776268, 2382.88641441, 2407.19684851
+	 Variance score: 0.03
+	 Mean squared error on test set: 2526.60
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2562.67026744, 2551.50833656, 2375.58087076, 2346.47552205, 2418.35855074
+	 Variance score: 0.01
+	 Mean squared error on test set: 2562.69
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2522.01230961, 2707.67250236, 2353.49462195, 2390.94101378, 2468.2652576
+	 Variance score: 0.02
+	 Mean squared error on test set: 2554.27
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2515.90908253, 2655.06503713, 2351.21694904, 2380.41032686, 2402.14699079
+	 Variance score: 0.04
+	 Mean squared error on test set: 2507.84
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2510.34418814, 2710.35243846, 2343.32890853, 2369.36064965, 2419.65046716
+	 Variance score: 0.02
+	 Mean squared error on test set: 2544.34
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2579.2409676, 2733.70834518, 2331.88300047, 2341.16226042, 2434.30333296
+	 Variance score: 0.04
+	 Mean squared error on test set: 2499.67
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2567.6322207, 2663.11755109, 2379.87943566, 2378.57632554, 2426.09528214
+	 Variance score: 0.04
+	 Mean squared error on test set: 2507.22
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2593.81191583, 2675.27563254, 2303.75237784, 2407.78663042, 2460.29186616
+	 Variance score: 0.03
+	 Mean squared error on test set: 2524.85
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2528.46353876, 2620.43309759, 2296.55842395, 2351.79753468, 2469.53651072
+	 Variance score: 0.05
+	 Mean squared error on test set: 2481.38
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2517.21935989, 2738.76120919, 2302.68452727, 2347.70491384, 2455.33106602
+	 Variance score: 0.02
+	 Mean squared error on test set: 2541.10
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2566.48298729, 2662.06614408, 2349.26495027, 2369.02529779, 2415.52800499
+	 Variance score: 0.03
+	 Mean squared error on test set: 2519.19
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2544.98191747, 2730.77866131, 2334.94456816, 2358.83590186, 2428.43091351
+	 Variance score: 0.03
+	 Mean squared error on test set: 2509.62
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2528.57170297, 2672.18163608, 2314.98162266, 2343.059992, 2454.38294781
+	 Variance score: 0.03
+	 Mean squared error on test set: 2514.22
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2514.4593979, 2763.89502772, 2334.6781051, 2340.33654292, 2421.98598404
+	 Variance score: 0.03
+	 Mean squared error on test set: 2523.27
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2551.868856, 2659.37942599, 2312.42609581, 2356.13463941, 2428.35868915
+	 Variance score: 0.05
+	 Mean squared error on test set: 2476.64
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2550.58487095, 2666.92328556, 2347.88274451, 2315.06697502, 2444.72565638
+	 Variance score: 0.04
+	 Mean squared error on test set: 2496.68
+	 Boostrap?:  False
+	 Max depth:  2
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2531.16000524, 2509.42509026, 2396.96046211, 2439.6093554, 2442.62078029
+	 Variance score: 0.00
+	 Mean squared error on test set: 2594.03
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2466.26043616, 2665.60724538, 2321.98318516, 2360.56122132, 2481.70595676
+	 Variance score: 0.05
+	 Mean squared error on test set: 2469.47
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2501.84598317, 2639.59931969, 2402.86968774, 2333.5514517, 2360.89982204
+	 Variance score: 0.04
+	 Mean squared error on test set: 2494.10
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2553.99159414, 2694.20632996, 2398.30533644, 2208.22783697, 2365.84365542
+	 Variance score: 0.06
+	 Mean squared error on test set: 2455.60
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2513.69028287, 2650.73496123, 2288.62697131, 2331.04479795, 2442.76447321
+	 Variance score: 0.04
+	 Mean squared error on test set: 2497.85
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2506.4811651, 2631.99273774, 2305.26065522, 2330.94140681, 2428.90545298
+	 Variance score: 0.04
+	 Mean squared error on test set: 2486.64
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2462.34760434, 2659.24142219, 2265.02089173, 2300.39362571, 2433.90027992
+	 Variance score: 0.03
+	 Mean squared error on test set: 2521.57
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2482.32672244, 2628.18114609, 2261.72771787, 2334.15857789, 2377.58503036
+	 Variance score: 0.05
+	 Mean squared error on test set: 2457.08
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2489.29374476, 2617.67299683, 2310.61024041, 2282.61310785, 2409.70941278
+	 Variance score: 0.06
+	 Mean squared error on test set: 2438.01
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2509.40359066, 2678.51749003, 2263.43126679, 2299.46386094, 2393.79557506
+	 Variance score: 0.04
+	 Mean squared error on test set: 2492.50
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2492.58650732, 2643.65145881, 2277.41545678, 2291.91375533, 2372.58538284
+	 Variance score: 0.05
+	 Mean squared error on test set: 2482.01
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2505.24095345, 2649.20518822, 2284.38986752, 2336.64579197, 2463.17163989
+	 Variance score: 0.04
+	 Mean squared error on test set: 2493.25
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2541.08540652, 2601.22343114, 2325.91098266, 2346.15857068, 2414.91662331
+	 Variance score: 0.04
+	 Mean squared error on test set: 2507.51
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2515.08377059, 2667.41245943, 2267.38773227, 2332.56158427, 2381.91791874
+	 Variance score: 0.06
+	 Mean squared error on test set: 2446.85
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2471.8856365, 2629.73781224, 2265.25810268, 2319.24458187, 2397.7585859
+	 Variance score: 0.05
+	 Mean squared error on test set: 2471.70
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2493.59012258, 2654.08673803, 2273.63639066, 2294.0982408, 2440.91539382
+	 Variance score: 0.05
+	 Mean squared error on test set: 2463.82
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2506.19678414, 2626.39496565, 2279.65135892, 2315.89314194, 2386.91096409
+	 Variance score: 0.04
+	 Mean squared error on test set: 2499.13
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2493.50032477, 2604.05443535, 2281.05760568, 2296.70757952, 2427.42832373
+	 Variance score: 0.05
+	 Mean squared error on test set: 2473.49
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2512.93222096, 2624.60619241, 2264.56575409, 2307.30005948, 2388.74845441
+	 Variance score: 0.05
+	 Mean squared error on test set: 2470.26
+	 Boostrap?:  False
+	 Max depth:  3
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2570.92119442, 2569.2744571, 2306.08312334, 2404.76164942, 2447.04615251
+	 Variance score: 0.06
+	 Mean squared error on test set: 2454.73
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2524.83976305, 2592.43439036, 2319.12574198, 2225.05260002, 2417.91976895
+	 Variance score: 0.06
+	 Mean squared error on test set: 2436.21
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2500.13827066, 2606.52709049, 2255.30066253, 2278.1076924, 2391.07075697
+	 Variance score: 0.01
+	 Mean squared error on test set: 2573.57
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2515.32843928, 2604.28912514, 2245.6272517, 2256.88342837, 2353.97967165
+	 Variance score: 0.03
+	 Mean squared error on test set: 2519.49
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2526.54301719, 2678.81533748, 2302.87973708, 2225.56020255, 2386.89422621
+	 Variance score: 0.02
+	 Mean squared error on test set: 2537.83
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2482.92560215, 2536.96932388, 2299.07461045, 2239.18946027, 2407.10491612
+	 Variance score: 0.06
+	 Mean squared error on test set: 2454.24
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2516.59736435, 2575.26685163, 2256.1024815, 2226.5745584, 2399.15647616
+	 Variance score: 0.04
+	 Mean squared error on test set: 2492.96
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2512.37327042, 2604.70705236, 2253.00412929, 2265.96871609, 2399.98929819
+	 Variance score: 0.07
+	 Mean squared error on test set: 2425.88
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2495.72389277, 2671.95834284, 2287.73828618, 2264.57959369, 2376.93063995
+	 Variance score: 0.07
+	 Mean squared error on test set: 2415.08
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2491.19094669, 2611.98275672, 2228.13577903, 2271.08701716, 2360.05466235
+	 Variance score: 0.07
+	 Mean squared error on test set: 2419.35
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2466.10638609, 2588.4282089, 2251.40363896, 2263.24830191, 2349.71263033
+	 Variance score: 0.06
+	 Mean squared error on test set: 2444.16
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2457.11139178, 2629.7071818, 2277.81187361, 2253.82447899, 2368.34441685
+	 Variance score: 0.06
+	 Mean squared error on test set: 2455.86
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2465.23845907, 2563.83822413, 2261.85961914, 2283.64108943, 2340.02453172
+	 Variance score: 0.06
+	 Mean squared error on test set: 2454.75
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2514.17605387, 2544.19775766, 2244.51498621, 2234.08741068, 2360.40436239
+	 Variance score: 0.05
+	 Mean squared error on test set: 2463.69
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2462.31555624, 2551.03176389, 2220.78710445, 2259.24513183, 2385.7180028
+	 Variance score: 0.06
+	 Mean squared error on test set: 2442.16
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2481.06507527, 2599.38642028, 2234.03946464, 2256.39565613, 2364.99621911
+	 Variance score: 0.06
+	 Mean squared error on test set: 2455.88
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2491.41946465, 2575.75835591, 2275.13728784, 2273.34669453, 2393.40071535
+	 Variance score: 0.06
+	 Mean squared error on test set: 2456.77
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2464.1466429, 2601.54232, 2241.63374308, 2268.81445681, 2338.42727419
+	 Variance score: 0.06
+	 Mean squared error on test set: 2434.60
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2494.03768455, 2536.20328012, 2275.93444958, 2279.30045175, 2381.53812291
+	 Variance score: 0.07
+	 Mean squared error on test set: 2425.37
+	 Boostrap?:  False
+	 Max depth:  4
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2539.41122243, 2686.89791525, 2363.11216296, 2322.48179276, 2385.4785092
+	 Variance score: 0.01
+	 Mean squared error on test set: 2581.20
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2509.91348417, 2528.19816428, 2247.66515196, 2334.73784887, 2410.39613313
+	 Variance score: 0.05
+	 Mean squared error on test set: 2460.35
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2496.84624963, 2536.52078313, 2232.60481553, 2282.12619427, 2413.48129509
+	 Variance score: 0.07
+	 Mean squared error on test set: 2413.57
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2486.75109584, 2511.15986562, 2194.03193142, 2320.28628547, 2404.58471917
+	 Variance score: 0.08
+	 Mean squared error on test set: 2380.25
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2475.94670475, 2505.15106524, 2235.70284208, 2268.36397655, 2378.03789429
+	 Variance score: 0.05
+	 Mean squared error on test set: 2468.57
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2476.08345812, 2559.50955512, 2270.97773244, 2283.13394256, 2327.4686527
+	 Variance score: 0.06
+	 Mean squared error on test set: 2438.53
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2454.45069037, 2580.81482736, 2294.2424678, 2185.51755728, 2383.8090457
+	 Variance score: 0.07
+	 Mean squared error on test set: 2424.56
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2496.49946246, 2530.09845684, 2215.81239525, 2243.10243379, 2368.0159804
+	 Variance score: 0.07
+	 Mean squared error on test set: 2430.21
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2476.56845045, 2524.009195, 2234.74222559, 2268.52769655, 2374.78779467
+	 Variance score: 0.07
+	 Mean squared error on test set: 2419.19
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2477.39700553, 2517.99141401, 2224.78619188, 2218.58771083, 2345.58481462
+	 Variance score: 0.06
+	 Mean squared error on test set: 2440.39
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2487.9538887, 2593.2238938, 2229.12668917, 2263.37209462, 2348.37456586
+	 Variance score: 0.07
+	 Mean squared error on test set: 2412.75
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2466.13803957, 2586.96361752, 2226.01128909, 2233.73262028, 2367.97845653
+	 Variance score: 0.07
+	 Mean squared error on test set: 2428.82
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2505.11143588, 2564.76190836, 2207.06728171, 2231.99297759, 2358.03552241
+	 Variance score: 0.07
+	 Mean squared error on test set: 2423.85
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2467.35263235, 2562.75511821, 2217.2893191, 2237.52392487, 2381.05098742
+	 Variance score: 0.06
+	 Mean squared error on test set: 2443.65
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2485.26338539, 2514.48407396, 2235.58368881, 2248.32760995, 2336.81311254
+	 Variance score: 0.07
+	 Mean squared error on test set: 2424.82
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2488.70315189, 2536.08489244, 2225.93461867, 2262.94294699, 2356.1150138
+	 Variance score: 0.08
+	 Mean squared error on test set: 2401.30
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2472.34892734, 2545.6110806, 2229.09118069, 2235.29386418, 2354.89102516
+	 Variance score: 0.07
+	 Mean squared error on test set: 2430.21
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2450.6570078, 2576.16215108, 2197.22735837, 2236.55921011, 2361.97780879
+	 Variance score: 0.06
+	 Mean squared error on test set: 2433.02
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2456.38589412, 2640.81545513, 2218.70786196, 2239.44655407, 2344.84992026
+	 Variance score: 0.07
+	 Mean squared error on test set: 2415.78
+	 Boostrap?:  False
+	 Max depth:  5
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2971.34165205, 2677.72983854, 2258.98610128, 2252.33432049, 2494.85434352
+	 Variance score: 0.05
+	 Mean squared error on test set: 2468.12
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2547.81909151, 2485.70584125, 2371.43692344, 2298.03627028, 2352.36543245
+	 Variance score: 0.06
+	 Mean squared error on test set: 2448.52
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2526.4101071, 2581.65741305, 2218.03624375, 2291.31632663, 2398.6810075
+	 Variance score: 0.06
+	 Mean squared error on test set: 2434.83
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2499.26968897, 2559.28301974, 2232.19388858, 2283.13362336, 2376.77083709
+	 Variance score: 0.06
+	 Mean squared error on test set: 2433.93
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2509.31107743, 2525.96090595, 2220.43842881, 2307.90132087, 2316.27745664
+	 Variance score: 0.06
+	 Mean squared error on test set: 2434.56
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2478.87542095, 2529.71098789, 2184.7164165, 2217.9989661, 2369.78215735
+	 Variance score: 0.08
+	 Mean squared error on test set: 2390.01
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2503.29373728, 2560.43516543, 2242.57344041, 2238.07891639, 2340.40863147
+	 Variance score: 0.06
+	 Mean squared error on test set: 2448.55
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2479.154003, 2511.27253245, 2229.98079374, 2195.69686516, 2365.99007421
+	 Variance score: 0.07
+	 Mean squared error on test set: 2411.68
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2482.67964762, 2535.23599811, 2232.90280292, 2237.44595903, 2336.43448587
+	 Variance score: 0.07
+	 Mean squared error on test set: 2428.55
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2483.45389718, 2583.84223122, 2231.48965075, 2200.32602617, 2354.66833002
+	 Variance score: 0.08
+	 Mean squared error on test set: 2402.63
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2486.20463988, 2525.56348238, 2193.59003233, 2244.22626468, 2356.48710124
+	 Variance score: 0.06
+	 Mean squared error on test set: 2442.43
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2464.90229013, 2578.83343166, 2202.44032366, 2214.39730522, 2358.42907998
+	 Variance score: 0.07
+	 Mean squared error on test set: 2412.30
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2453.63615134, 2511.2931955, 2216.1088747, 2239.92128102, 2355.34851656
+	 Variance score: 0.07
+	 Mean squared error on test set: 2419.52
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2449.711456, 2509.40133336, 2197.25581275, 2187.95803276, 2336.97091006
+	 Variance score: 0.07
+	 Mean squared error on test set: 2426.59
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2443.06872133, 2539.99623357, 2211.50044763, 2200.11428719, 2347.11446726
+	 Variance score: 0.07
+	 Mean squared error on test set: 2412.66
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2468.29264999, 2590.34727281, 2186.96887186, 2227.05789245, 2349.594317
+	 Variance score: 0.07
+	 Mean squared error on test set: 2409.34
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2457.59562655, 2538.12245213, 2233.05217201, 2216.16711969, 2333.22051735
+	 Variance score: 0.07
+	 Mean squared error on test set: 2415.48
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2455.26111922, 2539.1872265, 2189.89618406, 2233.543201, 2342.55382246
+	 Variance score: 0.07
+	 Mean squared error on test set: 2407.76
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2442.02614235, 2537.36019532, 2200.19846713, 2206.81714757, 2326.26273847
+	 Variance score: 0.06
+	 Mean squared error on test set: 2436.29
+	 Boostrap?:  False
+	 Max depth:  6
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2512.13725102, 2839.45981232, 2198.67146815, 2201.27794674, 2576.51700449
+	 Variance score: 0.03
+	 Mean squared error on test set: 2531.39
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2535.94330676, 2615.2406406, 2250.46679164, 2353.47762145, 2389.07628194
+	 Variance score: 0.05
+	 Mean squared error on test set: 2477.03
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2575.66567734, 2660.15486196, 2332.90193105, 2291.03036787, 2420.95917589
+	 Variance score: 0.06
+	 Mean squared error on test set: 2450.11
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2504.41455023, 2453.34534852, 2213.10809065, 2232.74403179, 2449.92191393
+	 Variance score: 0.06
+	 Mean squared error on test set: 2455.67
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2523.34946572, 2512.6273037, 2221.55167739, 2243.10819991, 2368.25553252
+	 Variance score: 0.06
+	 Mean squared error on test set: 2437.78
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2458.05267407, 2537.71322915, 2251.88410634, 2262.52664197, 2381.71539543
+	 Variance score: 0.05
+	 Mean squared error on test set: 2470.89
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2484.14547068, 2487.8167249, 2206.63673402, 2199.67031669, 2348.41204916
+	 Variance score: 0.07
+	 Mean squared error on test set: 2405.08
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2500.22784273, 2547.65548646, 2251.84618218, 2252.84083732, 2355.3078177
+	 Variance score: 0.08
+	 Mean squared error on test set: 2390.77
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2452.79382075, 2444.92123151, 2235.75912365, 2240.4276895, 2345.79003979
+	 Variance score: 0.08
+	 Mean squared error on test set: 2384.64
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2481.29103478, 2538.6569349, 2181.22705438, 2190.29578337, 2352.89995349
+	 Variance score: 0.07
+	 Mean squared error on test set: 2413.42
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2523.67203295, 2528.23353312, 2224.22260888, 2223.09183682, 2344.98536438
+	 Variance score: 0.07
+	 Mean squared error on test set: 2418.12
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2449.20109026, 2573.14371904, 2190.84316048, 2271.16738897, 2355.34678157
+	 Variance score: 0.06
+	 Mean squared error on test set: 2440.63
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2489.59988275, 2515.51979248, 2187.42824895, 2237.93290087, 2325.77855607
+	 Variance score: 0.08
+	 Mean squared error on test set: 2400.99
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2449.23113367, 2494.81251703, 2174.93043452, 2230.73908869, 2348.95667486
+	 Variance score: 0.07
+	 Mean squared error on test set: 2414.56
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2463.68909346, 2529.50336263, 2238.68948898, 2225.253078, 2354.47757018
+	 Variance score: 0.07
+	 Mean squared error on test set: 2419.96
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2462.35230851, 2537.43444681, 2205.80509581, 2289.8355331, 2371.80979112
+	 Variance score: 0.07
+	 Mean squared error on test set: 2408.01
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2490.3957925, 2481.22903618, 2208.61188648, 2211.60502984, 2326.82996602
+	 Variance score: 0.07
+	 Mean squared error on test set: 2408.20
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2460.10469879, 2513.80720389, 2211.89609759, 2214.84823105, 2321.16603981
+	 Variance score: 0.07
+	 Mean squared error on test set: 2405.31
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2452.08691464, 2500.5015224, 2189.76040596, 2213.63494961, 2332.37041521
+	 Variance score: 0.08
+	 Mean squared error on test set: 2385.78
+	 Boostrap?:  False
+	 Max depth:  7
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2705.15839245, 2645.26237326, 2264.03673479, 2255.29688486, 2519.54060672
+	 Variance score: 0.05
+	 Mean squared error on test set: 2471.48
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2545.49629753, 2634.92053749, 2287.60741849, 2267.99412301, 2382.3019618
+	 Variance score: 0.06
+	 Mean squared error on test set: 2446.28
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2486.54285585, 2563.78645056, 2262.19264374, 2252.75924012, 2484.15363878
+	 Variance score: 0.07
+	 Mean squared error on test set: 2417.16
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2491.12706586, 2627.89412861, 2243.95501763, 2262.29343605, 2371.45171758
+	 Variance score: 0.04
+	 Mean squared error on test set: 2498.66
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2480.12957542, 2557.00133937, 2237.48116357, 2252.40953996, 2435.25103916
+	 Variance score: 0.07
+	 Mean squared error on test set: 2409.35
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2508.48830003, 2537.40266785, 2166.57264451, 2284.86496543, 2384.79306265
+	 Variance score: 0.07
+	 Mean squared error on test set: 2419.37
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2482.6476714, 2620.1555433, 2217.49409318, 2225.9152767, 2381.92524919
+	 Variance score: 0.06
+	 Mean squared error on test set: 2433.19
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2541.02295212, 2533.41247023, 2179.17596663, 2262.99789779, 2376.9766463
+	 Variance score: 0.06
+	 Mean squared error on test set: 2446.16
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2506.53002998, 2541.76764106, 2200.97113917, 2284.68154406, 2345.31342629
+	 Variance score: 0.07
+	 Mean squared error on test set: 2413.88
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2499.35379188, 2553.0215466, 2201.66291152, 2219.29280843, 2357.57281374
+	 Variance score: 0.07
+	 Mean squared error on test set: 2430.27
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2493.95906669, 2555.6268135, 2223.91552428, 2208.23476998, 2339.05264892
+	 Variance score: 0.07
+	 Mean squared error on test set: 2426.66
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2485.28419003, 2501.19586845, 2192.74430259, 2245.22442884, 2342.79411901
+	 Variance score: 0.07
+	 Mean squared error on test set: 2407.14
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2477.2176647, 2581.55094279, 2218.63099209, 2271.13591211, 2338.57390443
+	 Variance score: 0.07
+	 Mean squared error on test set: 2418.21
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2494.75510772, 2497.75474933, 2191.76856255, 2240.39998544, 2350.66173352
+	 Variance score: 0.07
+	 Mean squared error on test set: 2413.54
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2480.97041777, 2546.50879187, 2208.36402982, 2216.85276349, 2316.92416285
+	 Variance score: 0.07
+	 Mean squared error on test set: 2422.51
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2472.00127171, 2555.86758687, 2218.48740443, 2209.74673813, 2335.79180643
+	 Variance score: 0.08
+	 Mean squared error on test set: 2404.57
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2502.12612818, 2485.47435152, 2213.47094958, 2186.56649153, 2319.95692797
+	 Variance score: 0.08
+	 Mean squared error on test set: 2394.18
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2461.17007305, 2525.50812925, 2209.93852449, 2230.19673111, 2363.84404329
+	 Variance score: 0.07
+	 Mean squared error on test set: 2409.16
+	 Boostrap?:  False
+	 Max depth:  8
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  3492.20909475, 3006.61069282, 2332.32804353, 2260.45398803, 2671.97830057
+	 Variance score: 0.01
+	 Mean squared error on test set: 2563.67
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  1
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2825.97587076, 2578.01762621, 2381.7558606, 2360.05053046, 2536.38347285
+	 Variance score: 0.03
+	 Mean squared error on test set: 2513.34
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2609.21006189, 2595.53866162, 2294.05200366, 2317.26151171, 2444.21569267
+	 Variance score: 0.06
+	 Mean squared error on test set: 2451.15
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2587.92272127, 2614.54900043, 2225.61061742, 2251.49046296, 2507.35083132
+	 Variance score: 0.01
+	 Mean squared error on test set: 2570.61
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2479.21304288, 2548.02195331, 2350.7645111, 2348.3269647, 2389.16099529
+	 Variance score: 0.06
+	 Mean squared error on test set: 2437.73
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2599.38623896, 2589.79616577, 2228.41312901, 2210.23560079, 2412.41156227
+	 Variance score: 0.02
+	 Mean squared error on test set: 2535.51
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2490.4708046, 2564.67040492, 2170.46743307, 2281.84830975, 2418.74272084
+	 Variance score: 0.06
+	 Mean squared error on test set: 2439.62
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2541.02179063, 2558.56181136, 2258.78230896, 2224.6468567, 2424.47746541
+	 Variance score: 0.04
+	 Mean squared error on test set: 2490.39
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2533.63022328, 2524.03134735, 2211.37297774, 2267.26731644, 2355.31374141
+	 Variance score: 0.07
+	 Mean squared error on test set: 2409.87
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2560.94233983, 2540.89263326, 2252.05265686, 2191.90661644, 2336.89060557
+	 Variance score: 0.05
+	 Mean squared error on test set: 2464.48
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2475.52519721, 2540.93222198, 2231.93064384, 2312.51241411, 2342.68534339
+	 Variance score: 0.07
+	 Mean squared error on test set: 2426.09
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2520.25179873, 2497.97512772, 2205.94277642, 2241.30899448, 2324.20565157
+	 Variance score: 0.07
+	 Mean squared error on test set: 2411.76
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2535.80359218, 2523.19831913, 2209.46895325, 2171.84874603, 2365.7746871
+	 Variance score: 0.07
+	 Mean squared error on test set: 2411.71
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2509.7336258, 2503.29532458, 2234.99506273, 2254.42438675, 2361.34532886
+	 Variance score: 0.07
+	 Mean squared error on test set: 2409.74
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2493.16544867, 2562.88793323, 2206.5960428, 2224.00309725, 2337.55303683
+	 Variance score: 0.07
+	 Mean squared error on test set: 2417.89
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2520.75029869, 2526.90955705, 2186.55436029, 2213.84452014, 2357.30737379
+	 Variance score: 0.07
+	 Mean squared error on test set: 2425.45
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2504.23828236, 2544.14197028, 2213.11710131, 2205.39094927, 2352.91781679
+	 Variance score: 0.08
+	 Mean squared error on test set: 2401.29
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2509.82058893, 2562.34126412, 2226.8818774, 2217.55363954, 2341.81603859
+	 Variance score: 0.07
+	 Mean squared error on test set: 2407.05
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2489.78940381, 2538.63229761, 2170.08026212, 2265.49695736, 2333.98053727
+	 Variance score: 0.08
+	 Mean squared error on test set: 2401.34
+	 Boostrap?:  False
+	 Max depth:  9
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2657.94710219, 2718.06329899, 2445.25937847, 2363.79998174, 2616.87101962
+	 Variance score: 0.01
+	 Mean squared error on test set: 2565.36
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2692.19222066, 2652.33830437, 2393.1982372, 2190.42891723, 2538.48175255
+	 Variance score: 0.00
+	 Mean squared error on test set: 2590.36
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2715.87746916, 2740.49642017, 2272.34298428, 2261.5617434, 2423.35017579
+	 Variance score: 0.02
+	 Mean squared error on test set: 2557.93
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2573.19748406, 2679.27082676, 2304.29177199, 2335.95847389, 2391.39932968
+	 Variance score: 0.05
+	 Mean squared error on test set: 2471.88
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2560.2768658, 2628.05353386, 2285.5648324, 2277.70999131, 2382.98648704
+	 Variance score: 0.04
+	 Mean squared error on test set: 2484.55
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2684.83802586, 2645.54109345, 2211.98341121, 2305.2390511, 2377.73442795
+	 Variance score: 0.05
+	 Mean squared error on test set: 2462.78
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2566.98315286, 2569.55880454, 2270.6588752, 2281.46127602, 2404.57370915
+	 Variance score: 0.05
+	 Mean squared error on test set: 2481.18
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2470.25264218, 2536.20076667, 2230.3992068, 2261.46904006, 2420.65665605
+	 Variance score: 0.06
+	 Mean squared error on test set: 2453.84
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2591.90170663, 2575.15090493, 2207.29328922, 2193.25207386, 2375.91363153
+	 Variance score: 0.05
+	 Mean squared error on test set: 2464.20
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2533.87955122, 2617.96739504, 2239.57633463, 2263.34526514, 2434.39477013
+	 Variance score: 0.07
+	 Mean squared error on test set: 2418.21
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2547.01304062, 2544.61180412, 2223.50890198, 2228.99674382, 2366.21775565
+	 Variance score: 0.05
+	 Mean squared error on test set: 2466.26
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2561.29871525, 2557.57588975, 2224.86987123, 2217.61386592, 2385.15387943
+	 Variance score: 0.06
+	 Mean squared error on test set: 2444.94
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2501.93996679, 2530.26876667, 2219.6059489, 2237.13604889, 2358.73281791
+	 Variance score: 0.09
+	 Mean squared error on test set: 2374.55
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2493.50427304, 2559.2858557, 2242.92299179, 2205.04653227, 2359.02293624
+	 Variance score: 0.05
+	 Mean squared error on test set: 2460.94
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2543.86501268, 2558.43326239, 2261.7674994, 2272.41628581, 2310.20073135
+	 Variance score: 0.07
+	 Mean squared error on test set: 2415.96
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2563.96646994, 2521.46857923, 2253.06351485, 2257.16612801, 2331.42232097
+	 Variance score: 0.06
+	 Mean squared error on test set: 2451.13
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2589.27431695, 2517.41459374, 2208.9578894, 2226.97459051, 2344.9579689
+	 Variance score: 0.07
+	 Mean squared error on test set: 2428.81
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2570.36122177, 2519.0580039, 2205.84298726, 2225.32861976, 2307.7652589
+	 Variance score: 0.06
+	 Mean squared error on test set: 2433.79
+	 Boostrap?:  False
+	 Max depth:  10
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2912.40833751, 2753.61267887, 2505.97293171, 2754.80025114, 2693.7863802
+	 Variance score: 0.02
+	 Mean squared error on test set: 2536.67
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  2
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2712.93275309, 2660.78998556, 2245.82963719, 2326.68439393, 2576.10279106
+	 Variance score: 0.03
+	 Mean squared error on test set: 2527.64
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  4
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2601.18067864, 2537.55888943, 2285.29087079, 2385.78996535, 2564.61467474
+	 Variance score: 0.04
+	 Mean squared error on test set: 2486.48
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2614.32969171, 2709.87618138, 2225.24209207, 2310.37531235, 2415.69037606
+	 Variance score: 0.04
+	 Mean squared error on test set: 2493.81
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2568.20843989, 2622.46428212, 2298.06101911, 2277.9855599, 2403.56410706
+	 Variance score: 0.05
+	 Mean squared error on test set: 2459.39
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2698.06155337, 2524.26869124, 2236.75000218, 2254.0314187, 2442.15625657
+	 Variance score: 0.04
+	 Mean squared error on test set: 2507.98
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2621.94981602, 2626.47855489, 2247.46087972, 2279.72954895, 2435.8380151
+	 Variance score: 0.06
+	 Mean squared error on test set: 2446.63
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2578.1811128, 2539.77329444, 2263.76137135, 2240.53015298, 2405.78445403
+	 Variance score: 0.06
+	 Mean squared error on test set: 2452.80
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2617.07598399, 2618.45623449, 2248.43517163, 2247.45836425, 2454.67334883
+	 Variance score: 0.05
+	 Mean squared error on test set: 2475.51
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2578.06616112, 2610.28208997, 2269.43258065, 2245.98829397, 2368.56025083
+	 Variance score: 0.07
+	 Mean squared error on test set: 2428.55
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2663.25699689, 2616.46292763, 2235.85312552, 2279.27705832, 2410.28568386
+	 Variance score: 0.07
+	 Mean squared error on test set: 2424.06
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2579.66181654, 2607.64230571, 2251.54714165, 2254.88481497, 2327.3289384
+	 Variance score: 0.06
+	 Mean squared error on test set: 2451.99
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2668.64349918, 2540.97415057, 2257.38749132, 2241.20545278, 2378.90689539
+	 Variance score: 0.05
+	 Mean squared error on test set: 2465.83
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2609.56919544, 2532.20003196, 2197.6669771, 2288.27868931, 2403.82265793
+	 Variance score: 0.06
+	 Mean squared error on test set: 2432.88
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2501.23338305, 2577.81495744, 2280.59985195, 2260.69686899, 2353.33263297
+	 Variance score: 0.05
+	 Mean squared error on test set: 2461.53
+	 Boostrap?:  False
+	 Max depth:  11
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2897.86776251, 2734.91905345, 2460.70580068, 2445.0305659, 2686.98385785
+	 Variance score: 0.03
+	 Mean squared error on test set: 2516.88
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  3
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2793.94920895, 2643.85621627, 2394.43598587, 2474.69620022, 2539.17567145
+	 Variance score: 0.02
+	 Mean squared error on test set: 2551.68
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  6
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2532.90566493, 2644.77703224, 2245.75353385, 2308.57713898, 2514.36562637
+	 Variance score: 0.03
+	 Mean squared error on test set: 2527.11
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2615.22739136, 2645.34387971, 2297.24127042, 2342.16750748, 2539.62582709
+	 Variance score: 0.04
+	 Mean squared error on test set: 2498.88
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2672.27416397, 2629.50231375, 2288.64331042, 2305.71926414, 2416.70196527
+	 Variance score: 0.04
+	 Mean squared error on test set: 2501.33
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2595.80621289, 2579.66737403, 2315.96605014, 2315.77147104, 2399.62408794
+	 Variance score: 0.04
+	 Mean squared error on test set: 2497.18
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2569.53598554, 2628.82344105, 2304.17148008, 2319.87375911, 2453.67157376
+	 Variance score: 0.03
+	 Mean squared error on test set: 2517.35
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2571.6125599, 2593.5320517, 2310.49330848, 2260.98958575, 2422.60251227
+	 Variance score: 0.03
+	 Mean squared error on test set: 2519.50
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2672.40917213, 2587.49360874, 2320.21950556, 2285.70674994, 2426.34516492
+	 Variance score: 0.04
+	 Mean squared error on test set: 2493.12
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2560.10855505, 2634.07832201, 2352.93763834, 2254.04400512, 2449.62054613
+	 Variance score: 0.06
+	 Mean squared error on test set: 2446.01
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2631.58875996, 2651.10977649, 2274.22886712, 2314.4251527, 2470.4657305
+	 Variance score: 0.05
+	 Mean squared error on test set: 2474.64
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2594.40787925, 2681.65305487, 2234.64672144, 2265.18390262, 2414.55279479
+	 Variance score: 0.05
+	 Mean squared error on test set: 2477.65
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2578.09636747, 2571.109025, 2229.94498304, 2327.86003767, 2372.61963088
+	 Variance score: 0.04
+	 Mean squared error on test set: 2507.15
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2627.51506278, 2532.42407846, 2266.48632015, 2281.88917721, 2417.03487061
+	 Variance score: 0.04
+	 Mean squared error on test set: 2497.00
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2607.05290037, 2621.75337841, 2272.25621608, 2344.39094534, 2422.75782556
+	 Variance score: 0.04
+	 Mean squared error on test set: 2507.63
+	 Boostrap?:  False
+	 Max depth:  12
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2713.36463999, 2741.7007654, 2351.16789719, 2384.71268015, 2430.55765562
+	 Variance score: 0.02
+	 Mean squared error on test set: 2556.97
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  5
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2573.10655, 2680.37766908, 2292.80124311, 2416.81124095, 2567.62395823
+	 Variance score: 0.03
+	 Mean squared error on test set: 2528.55
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2681.0441527, 2688.69284977, 2356.42415379, 2398.92863845, 2606.24340771
+	 Variance score: 0.03
+	 Mean squared error on test set: 2521.12
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  8
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2640.99001226, 2673.65488213, 2391.96163727, 2302.29444312, 2590.96175872
+	 Variance score: 0.02
+	 Mean squared error on test set: 2536.47
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2615.27050267, 2619.19566249, 2329.77747993, 2389.0065966, 2477.17778978
+	 Variance score: 0.02
+	 Mean squared error on test set: 2556.71
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2655.69416822, 2709.71077358, 2291.70816483, 2348.16776287, 2517.66939931
+	 Variance score: 0.02
+	 Mean squared error on test set: 2553.67
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  11
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2634.47082626, 2592.86947045, 2305.59656494, 2365.13896752, 2512.97252214
+	 Variance score: 0.03
+	 Mean squared error on test set: 2525.07
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  12
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2622.26905442, 2529.9245077, 2297.44787781, 2334.13145547, 2376.43346632
+	 Variance score: 0.00
+	 Mean squared error on test set: 2592.50
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2734.69780511, 2599.09266402, 2315.64082887, 2349.74195223, 2479.82605227
+	 Variance score: 0.01
+	 Mean squared error on test set: 2569.62
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2723.12125529, 2664.29634147, 2307.26638194, 2291.26675905, 2476.56374609
+	 Variance score: 0.04
+	 Mean squared error on test set: 2490.57
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  15
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2626.81520324, 2587.4475276, 2310.16306579, 2286.14982565, 2504.73617824
+	 Variance score: 0.06
+	 Mean squared error on test set: 2444.21
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2632.45487577, 2613.63638391, 2331.0628104, 2272.872368, 2447.39458807
+	 Variance score: 0.01
+	 Mean squared error on test set: 2577.78
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2705.65080542, 2555.48027475, 2266.86746456, 2346.94441112, 2422.17823226
+	 Variance score: 0.03
+	 Mean squared error on test set: 2518.83
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  18
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2622.32008233, 2660.68064685, 2269.76628473, 2330.25701306, 2450.70754283
+	 Variance score: 0.04
+	 Mean squared error on test set: 2486.07
+	 Boostrap?:  False
+	 Max depth:  13
+	 Number of estimators:  19
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2886.11341863, 2841.75093894, 2430.2527661, 2325.73227138, 2706.56886589
+	 Variance score: 0.04
+	 Mean squared error on test set: 2505.99
+	 Boostrap?:  False
+	 Max depth:  14
+	 Number of estimators:  7
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2747.25389831, 2564.02696764, 2362.08323858, 2425.09196241, 2574.8379901
+	 Variance score: 0.00
+	 Mean squared error on test set: 2599.18
+	 Boostrap?:  False
+	 Max depth:  14
+	 Number of estimators:  10
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2705.58788135, 2764.7389497, 2397.85942679, 2307.05117062, 2500.09325333
+	 Variance score: 0.02
+	 Mean squared error on test set: 2555.10
+	 Boostrap?:  False
+	 Max depth:  14
+	 Number of estimators:  14
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2719.8774266, 2642.63278738, 2374.93942713, 2378.22892884, 2551.65423799
+	 Variance score: 0.00
+	 Mean squared error on test set: 2597.19
+	 Boostrap?:  False
+	 Max depth:  14
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2659.86707773, 2589.05730092, 2356.70197055, 2318.27295148, 2496.17235632
+	 Variance score: 0.02
+	 Mean squared error on test set: 2544.15
+	 Boostrap?:  False
+	 Max depth:  14
+	 Number of estimators:  17
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2868.23492467, 2734.7516729, 2362.57329347, 2475.42307863, 2703.11055678
+	 Variance score: 0.00
+	 Mean squared error on test set: 2595.17
+	 Boostrap?:  False
+	 Max depth:  15
+	 Number of estimators:  9
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2834.48651007, 2664.44488406, 2365.68451686, 2444.55231337, 2494.63628567
+	 Variance score: 0.00
+	 Mean squared error on test set: 2592.31
+	 Boostrap?:  False
+	 Max depth:  15
+	 Number of estimators:  13
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2714.65174518, 2797.59563466, 2477.01064056, 2358.36870987, 2629.7960044
+	 Variance score: 0.01
+	 Mean squared error on test set: 2586.38
+	 Boostrap?:  False
+	 Max depth:  15
+	 Number of estimators:  16
+
+Extra Trees regression: 
+	 Cross Validation mean squared errors:  2691.4357474, 2797.53224785, 2321.43801438, 2444.6388397, 2614.78413191
+	 Variance score: 0.01
+	 Mean squared error on test set: 2571.46
+	 Boostrap?:  False
+	 Max depth:  15
+	 Number of estimators:  17
+
+246.763983011
