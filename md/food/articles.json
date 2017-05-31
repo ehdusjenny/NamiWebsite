@@ -1,0 +1,47 @@
+{ 
+	"cities": [
+		{
+			"name": "Montreal",
+			"region": "Quebec",
+			"country": "Canada",
+			"image": "../images/food/montreal.jpg",
+			"articles": [
+				{
+					"title": "Earlier Food Stuff",
+					"filename": "../images/food/montreal/some_food_place.jpg",
+					"synopsis": "Blah blah blah blah...",
+					"created": "05/30/2017",
+					"tags": ["Dine-In", "Asian"]
+				},
+				{
+					"title": "Later Food Stuff",
+					"filename": "../images/food/montreal/some_other_place.jpg",
+					"synopsis": "Hehe Hehe Hehe...",
+					"created": "05/31/2017",
+					"tags": ["French", "Dine-In"]
+				}
+			]
+		},
+		{
+			"name": "Toronto",
+			"region": "Ontario",
+			"country": "Canada",
+			"image": "../images/food/toronto.jpg",
+			"articles": [
+				{
+					"title": "Earlier Toronto Place",
+					"filename": "../images/food/toronto/some_other_toronto_place.jpg",
+					"synopsis": "Yay Yoy Yey...",
+					"created": "02/30/2017",
+					"tags": ["Vegetarian"]
+				},
+				{
+					"title": "Later Toronto Place",
+					"filename": "../images/food/toronto/some_toronto_place.jpg",
+					"synopsis": "Yip Yap Yop...",
+					"created": "04/30/2017",
+					"tags": ["Cafe", "Dessert"]
+				}
+			]
+		}
+	]}

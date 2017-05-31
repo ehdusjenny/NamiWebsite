@@ -1,3 +1,6 @@
+/*
+ * Create an admin portal to easily add articles
+ */
 
 
 /*
@@ -36,7 +39,8 @@
 
 		.top-logo {--
 			position: absolute;
-			content: url('../images/top-logo.png');
+			background: url('../images/top-logo.png');
+			background-size: 100% 100%;
 			float: left;
 			width: 70px;
 			height: 50px;
@@ -202,7 +206,7 @@
 
 		.logo-background {
 			position: relative;
-			background-image: url('../images/ocean.jpg');
+			background-image: url('../images/main/ocean.jpg');
 			width: 100%;
 			background-repeat: no-repeat;
 			background-size: 100%;
@@ -220,7 +224,7 @@
 
 		#logo {
 			float: left;
-			content: url('../images/logo.png');
+			content: url('../images/main/logo.png');
 			width: 200px;
 			margin-left: 0px;
 		}
@@ -303,22 +307,26 @@
 		}
 
 		.bio-image {
-			content: url('../images/bio.jpg');
+			background: url('../images/main/bio.jpg');
+			background-size: 100% 100%;
 			border-color: #579389;
 		}
 
 		.tech-image {
-			content: url('../images/poopjava.png');
+			background: url('../images/main/poopjava.png');
+			background-size: 100% 100%;
 			border-color: #58965c;
 		}
 
 		.music-image {
-			content: url('../images/bio.jpg');
+			background: url('../images/main/music.jpg');
+			background-size: 100% 100%;
 			border-color: #85548e;
 		}
 
 		.food-image {
-			content: url('../images/food.png');
+			background: url('../images/main/food.png');
+			background-size: 100% 100%;
 			border-color: #897652;
 		}
 
@@ -333,8 +341,8 @@
 
 			#logo {
 				float: left;
-				content: url('../images/logo.png');
-				width: 200px;
+				content: url('../images/main/logo.png');
+				width: 200px
 				margin-left: 0px;
 			}
 
@@ -399,8 +407,9 @@
 		width: 300px;
 		height: 420px;
 		float: right;
-		content: url('../images/selfie2.png');
-		shape-outside: url(../images/selfie2.png);
+		background: url('../images/bio/selfie2.png');
+		background-size: 100% 100%;
+		shape-outside: url(../images/bio/selfie2.png);
 		shape-image-threshold: 0.5;
 		-webkit-shape-margin: 1em;
 		shape-margin: 1em;
@@ -466,32 +475,36 @@
 		margin: 5%;
  	}
 
- 	.article-title {
+ 	.set-display-off {
+ 		display: none;
+ 	}
+
+ 	.tech-article-title {
  		display: inline-block;
  		bottom: 4%;
 	  	font-weight: 600;
 	  	color: white;
 	  	font-size: 20px;
-	  	text-shadow: 1px 1px 2px black;
+	  	text-shadow: 1px 1px 1px grey;
  	}
 
  	.Java-background {
- 		background-image: url('../images/Java.png');
+ 		background-image: url('../images/tech/Java2.png');
    		background-position: center; 
  	}
 
  	.CSS-background {
- 		background-image: url('../images/CSS.png');
+ 		background-image: url('../images/tech/CSS2.png');
    		background-position: center; 
  	}
 
  	.Javascript-background {
- 		background-image: url('../images/Javascript.jpg');
+ 		background-image: url('../images/tech/Javascript2.jpg');
    		background-position: center; 
  	}
 
  	.Miscellaneous-background {
- 		background-image: url('../images/Miscellaneous.jpg');
+ 		background-image: url('../images/tech/Miscellaneous2.jpg');
    		background-position: center; 
  	}
 
@@ -549,3 +562,59 @@
 
 	p {
 	}
+
+	@media (max-width: 530px) {
+			.overview-box-outer {
+		 		float: none;
+				width: 100%;
+		 	}
+
+		 	.overview-box {
+				width: 85%;
+				height: 100px;
+				border-radius: 10px;
+				margin: 7.5%;
+		 	}
+		}
+
+/*
+ *	Food Page
+ */
+
+ 	.food-section {
+		position: relative;
+		width: 100%;
+		text-align: center;
+		font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ 	}
+
+ 	.cities {
+ 		display: inline-block;
+ 		width: 80%;
+ 		margin-top: 40px;
+ 	}
+
+ 	.city {
+ 		width: 100%;
+ 		overflow: hidden;
+ 	}
+
+ 	.city-image-outer {
+ 		position: relative;
+ 		float: left;
+ 	}
+
+ 	.city-top-articles {
+ 		float: left;
+ 	}
+
+ 	.city-title {
+ 		left: 0;
+	    position:absolute;
+	    text-align:center;
+	    bottom: 40%;
+	    width: 100%;
+	    font-size: 40px;
+	    color: white;
+	    font-weight: 500;
+ 	}

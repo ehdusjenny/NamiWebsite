@@ -21,6 +21,7 @@
     "Arctext.js": "arctext-js#*",
     "font-awesome": "fontawesome#^4.7.0",
     "ng-showdown": "^1.1.0",
-    "angular-inview": "^2.2.0"
+    "angular-inview": "^2.2.0",
+    "angular-ui-router-title": "^0.1.1"
   }
 }

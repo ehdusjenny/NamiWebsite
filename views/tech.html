@@ -4,9 +4,8 @@
 		<div class="overview-box-outer" ng-repeat="article in vm.articles">
 			<div ng-click="vm.loadArticle(article.filename)" 
 				 ng-class="{ '{{article.tags[0] + '-background'}}' : article.tags.length > 0 }" 
-				 in-view="$inview && vm.makeVisible(article.tags[0])" 
 				 class="overview-box">
-				<div class="article-title">{{article.title}}</div>
+				<div class="tech-article-title">{{article.title}}</div>
 			</div>
 		</div>
 	</div>
