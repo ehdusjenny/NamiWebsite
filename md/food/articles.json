@@ -11,6 +11,7 @@
 					"filename": "../images/food/montreal/some_food_place.jpg",
 					"synopsis": "Blah blah blah blah...",
 					"created": "05/30/2017",
+					"image": "../images/food/montreal.jpg",
 					"tags": ["Dine-In", "Asian"]
 				},
 				{
@@ -18,6 +19,7 @@
 					"filename": "../images/food/montreal/some_other_place.jpg",
 					"synopsis": "Hehe Hehe Hehe...",
 					"created": "05/31/2017",
+					"image": "../images/food/montreal.jpg",
 					"tags": ["French", "Dine-In"]
 				}
 			]
@@ -33,6 +35,7 @@
 					"filename": "../images/food/toronto/some_other_toronto_place.jpg",
 					"synopsis": "Yay Yoy Yey...",
 					"created": "02/30/2017",
+					"image": "../images/food/toronto.jpg",
 					"tags": ["Vegetarian"]
 				},
 				{
@@ -40,6 +43,7 @@
 					"filename": "../images/food/toronto/some_toronto_place.jpg",
 					"synopsis": "Yip Yap Yop...",
 					"created": "04/30/2017",
+					"image": "../images/food/toronto.jpg",
 					"tags": ["Cafe", "Dessert"]
 				}
 			]

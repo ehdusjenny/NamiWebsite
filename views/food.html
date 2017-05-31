@@ -11,13 +11,14 @@
 	<div class="cities">
 		<div ng-repeat="city in vm.cities" class="city">
 			<div class="city-image-outer">
-				<img class="city-image" src="{{city.image}}" height="300" width="300"/>
+				<img class="city-image" src="{{city.image}}"/>
 				<span class="city-title">{{city.name}}</span>
 			</div>
 			<div ng-repeat="article in vm.getThreeLatestArticles(city.name)" class="city-top-articles">
-				<span class="article-title">{{article.title}}</span>
-				<span class="article-synopsis">{{article.synopsis}}</span>
-				<span class="article-tags" ng-repeat="tag in article.tags">{{tag}}</span>
+				<img class="food-article-image" src="{{article.image}}" height="250" width="250"/>
+				<span class="food-article-title">{{article.title}}</span>
+				<span class="food-article-synopsis">{{article.synopsis}}</span>
+				<div class="food-article-tags" ng-repeat="tag in article.tags">{{tag}}</div>
 			</div>
 		</div>
 	</div>
