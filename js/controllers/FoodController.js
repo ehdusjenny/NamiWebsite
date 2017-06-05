@@ -10,7 +10,6 @@ angular.module('namiworld')
 	 * articles.json has a list of cities.
 	 * Each city has a name, region, country, and a list of articles with title, filename, synopsis, created, and tags.
 	 */
-	vm.articleOpen = false;
 	$http({
 			url: '../../md/food/articles.json',
 			method: 'GET',
@@ -23,23 +22,55 @@ angular.module('namiworld')
         vm.cities = 'Error getting food articles!';
     });
 
-    function getThreeLatestArticles(city_name) {
-        console.log(vm.cities[0]);
+    function getThreeLatestArticles(cityName) {
     	for (i = 0; i < vm.cities.length; i++) {
     		city = vm.cities[i]
-    		if (city.name == city_name) {
-    			return city.articles.sort(function(a, b){return a.created < b.created}).slice(0, 2);
+    		if (city.name == cityName) {
+    			return city.articles.sort(function(a, b){return a.created < b.created}).slice(0, 3);
     		}
     	}
     	return null;
     }
+	vm.getThreeLatestArticles = getThreeLatestArticles;
 
-	vm.getThreeLatestArticles = getThreeLatestArticles
 
-    vm.md = "";
+
+
+
+	vm.cityLoaded = false;
+	function loadCity(cityName) {
+		$http({
+			url: '../../md/food/articles.json',
+			method: 'GET',
+			headers: {
+   				'Content-Type': "application/json"
+ 			}
+	    }).then(function(response){
+	        cities = response.data.cities;
+	    	for (i = 0; i < cities.length; i++) {
+	    		city = cities[i];
+	    		if (city.name == cityName) {
+	    			vm.city = city;
+	    			vm.articles = city.articles.sort(function(a, b){return a.created < b.created});
+	    			vm.cityLoaded = true;
+	    			break;
+	    		}
+	    	}
+	    }, function(error){
+	        vm.articles = 'Error fetching food articles for ' + vm.city.name + '!';
+	    });
+	}
+	vm.loadCity = loadCity;
+
+
+
+
+
+
+	vm.md = "";
     function loadArticle(filename) {
     	$http({
-			url: '../../md/food/' + filename + '.md',
+			url: '../../md/tech/' + filename + '.md', //change tech to food later
 			method: 'GET'
 	    }).then(function(response){
 	        vm.md = response.data;
@@ -51,8 +82,10 @@ angular.module('namiworld')
 	}
 	vm.loadArticle = loadArticle;
 
-	function backToOverview() {
-	    vm.articleOpen = false;
+	vm.md = "";
+    function backToCities() {
+    	vm.cityLoaded = false;
+
 	}
-	vm.backToOverview = backToOverview;
+	vm.backToCities = backToCities;
 });

@@ -8,7 +8,7 @@
 			"articles": [
 				{
 					"title": "Earlier Food Stuff",
-					"filename": "../images/food/montreal/some_food_place.jpg",
+					"filename": "oop_beginners",
 					"synopsis": "Blah blah blah blah...",
 					"created": "05/30/2017",
 					"image": "../images/food/montreal.jpg",
@@ -16,8 +16,16 @@
 				},
 				{
 					"title": "Later Food Stuff",
-					"filename": "../images/food/montreal/some_other_place.jpg",
-					"synopsis": "Hehe Hehe Hehe...",
+					"filename": "oop_beginners",
+					"synopsis": "scnd dsvsf sdcsf...",
+					"created": "05/31/2017",
+					"image": "../images/food/montreal.jpg",
+					"tags": ["French", "Dine-In"]
+				},
+				{
+					"title": "Later Food Stuff",
+					"filename": "oop_beginners",
+					"synopsis": "hello this is just an example of a synopsis i don't know what ti put, these are just fillers!!!!",
 					"created": "05/31/2017",
 					"image": "../images/food/montreal.jpg",
 					"tags": ["French", "Dine-In"]
@@ -32,7 +40,7 @@
 			"articles": [
 				{
 					"title": "Earlier Toronto Place",
-					"filename": "../images/food/toronto/some_other_toronto_place.jpg",
+					"filename": "oop_beginners",
 					"synopsis": "Yay Yoy Yey...",
 					"created": "02/30/2017",
 					"image": "../images/food/toronto.jpg",
@@ -40,7 +48,15 @@
 				},
 				{
 					"title": "Later Toronto Place",
-					"filename": "../images/food/toronto/some_toronto_place.jpg",
+					"filename": "oop_beginners",
+					"synopsis": "Yip Yap Yop...",
+					"created": "04/30/2017",
+					"image": "../images/food/toronto.jpg",
+					"tags": ["Cafe", "Dessert"]
+				},
+				{
+					"title": "Later Toronto Place",
+					"filename": "oop_beginners",
 					"synopsis": "Yip Yap Yop...",
 					"created": "04/30/2017",
 					"image": "../images/food/toronto.jpg",

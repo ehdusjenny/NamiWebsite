@@ -9,8 +9,8 @@
 			</div>
 		</div>
 	</div>
-	<div><button class="back-to-overview" ng-class="{ 'set-display' : vm.articleOpen }" ng-click="vm.backToOverview()">Back To Content List</button><div>
 	<div class="article article-slider" ng-class="{ 'article-slider-open' : vm.articleOpen }">
 		<div class="article-inner" id="article-inner" markdown-to-html="vm.md"></div>
 	</div>
+	<div><button class="back-button set-display-off" ng-class="{ 'set-display' : vm.articleOpen }" ng-click="vm.backToOverview()">Back To Content List</button><div>
 </div>

@@ -21,23 +21,22 @@
 	<div class="my-navbar">
 		<a ui-sref="main"><div class="top-logo"></div></a>
 		<ul>
-			<li><a ui-sref="music" class="nav-category music-nav"><div ui-sref-active="active">MUSIC</div></a></li>
-			<li><a ui-sref="food" class="nav-category food-nav"><div ui-sref-active="active">FOOD</div></a></li>
-			<li><a ui-sref="tech" class="nav-category tech-nav"><div ui-sref-active="active">TECH</div></a></li>
-			<li><a ui-sref="bio" class="nav-category bio-nav"><div ui-sref-active="active">BIO</div></a></li>
+			<li><a ui-sref="music" class="nav-category music-nav" ui-sref-active="active">MUSIC</a></li>
+			<li><a ui-sref="food" class="nav-category food-nav" ui-sref-active="active">FOOD</a></li>
+			<li><a ui-sref="tech" class="nav-category tech-nav" ui-sref-active="active">TECH</a></li>
+			<li><a ui-sref="bio" class="nav-category bio-nav" ui-sref-active="active">BIO</a></li>
 		</ul>
 	</div>
 
-	<ui-view>
-		<div></div>
-	</ui-view>
+	<div ui-view></div>
 
 	<div class="footer">
 		<div class="footer-icons">
-			<a class="footer-link"><span class="fa fa-facebook"></span></a>
-			<a class="footer-link"><span class="fa fa-instagram"></span></a>
-			<a class="footer-link"><span class="fa fa-linkedin"></span></a>
-			<a class="footer-link"><span class="fa fa-envelope-o"></span></a>
+			<a class="footer-link" href="https://www.facebook.com/tsunami.kim" target="_blank"><span class="fa fa-facebook footer-fa"></span></a>
+			<a class="footer-link" href="https://www.instagram.com/nami.doyeon.kim" target="_blank"><span class="fa fa-instagram footer-fa"></span></a>
+			<a class="footer-link" href="https://www.linkedin.com/in/doyeon-kim-415b2b88" target="_blank"><span class="fa fa-linkedin footer-fa"></span></a>
+			<!-- Create a form for emailing! -->
+			<a class="footer-link" href=""><span class="fa fa-envelope-o footer-fa"></span></a> 
 		</div>
 		<div class="footer-info">
 			SOFTWARE DEVELOPER &#9702; DOYEON NAMI KIM &#9702; pls hire me

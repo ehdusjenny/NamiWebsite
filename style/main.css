@@ -4,7 +4,8 @@
 
 [ng-click],
 [data-ng-click],
-[x-ng-click] {
+[x-ng-click],
+[ui-sref] {
     cursor: pointer;
 }
 
@@ -42,7 +43,7 @@
 		    letter-spacing: 2px;
 		}
 
-		.top-logo {--
+		.top-logo {
 			position: absolute;
 			background: url('../images/top-logo.png');
 			background-size: 100% 100%;
@@ -67,6 +68,10 @@
 
 		.food-nav:hover {
 			background-color: #ac90f0;
+		}
+
+		.active {
+			background-color: #56595e;
 		}
 
 		.nav-category:hover {
@@ -99,7 +104,7 @@
 			text-decoration: none;
 		}
 
-		.fa {
+		.footer-fa {
 			background-color: #58965c;
 			padding: 20px;
 			border-radius: 50px;
@@ -312,7 +317,7 @@
 		}
 
 		.bio-image {
-			background: url('../images/main/bio.jpg');
+			background: url('../images/main/bio2.jpg');
 			background-size: 100% 100%;
 			border-color: #579389;
 		}
@@ -476,8 +481,12 @@
  	.overview-box {
 		width: 90%;
 		height: 170px;
-		border-radius: 10px;
 		margin: 5%;
+		opacity: 0.8;
+ 	}
+
+ 	.overview-box:hover {
+ 		opacity: 1;
  	}
 
  	.set-display-off {
@@ -487,33 +496,33 @@
  	.tech-article-title {
  		display: inline-block;
  		bottom: 4%;
-	  	font-weight: 600;
+	  	font-weight: 500;
 	  	color: white;
 	  	font-size: 20px;
 	  	text-shadow: 1px 1px 1px grey;
  	}
 
  	.Java-background {
- 		background-image: url('../images/tech/Java2.png');
+ 		background-image: url('../images/tech/Java.png');
    		background-position: center; 
  	}
 
  	.CSS-background {
- 		background-image: url('../images/tech/CSS2.png');
+ 		background-image: url('../images/tech/CSS.png');
    		background-position: center; 
  	}
 
  	.Javascript-background {
- 		background-image: url('../images/tech/Javascript2.jpg');
+ 		background-image: url('../images/tech/Javascript.jpg');
    		background-position: center; 
  	}
 
  	.Miscellaneous-background {
- 		background-image: url('../images/tech/Miscellaneous2.jpg');
+ 		background-image: url('../images/tech/Miscellaneous.jpg');
    		background-position: center; 
  	}
 
-	.back-to-overview {
+	.back-button {
 	    background-color: #f0b790;
 	    border: none;
 	    color: white;
@@ -521,7 +530,7 @@
 	    text-align: center;
 	    text-decoration: none;
 	    font-size: 16px;
-		display: none;
+	    margin-bottom: 30px;
 	}
 
 	.set-display {
@@ -552,7 +561,6 @@
 	.article-inner {
 		display: inline-block;
 		text-align: left;
-		/*visibility: hidden;*/
 	}
 
 	h1 {
@@ -595,13 +603,26 @@
 
  	.cities {
  		display: inline-block;
- 		width: 80%;
- 		margin-top: 40px;
+		overflow: hidden;
+		max-height: 1000px;
+
+		transition-property: all;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transition: 1s cubic-bezier(0, 0.4, 1.6, 1);
+ 		width: 70%;
  	}
+
+	.cities-closed {
+		max-height: 0px;
+	}
 
  	.city {
  		width: 100%;
  		overflow: hidden;
+	 	height: 350px;
+	 	margin-top: 40px;
+	 	margin-bottom: 40px;
  	}
 
  	.city-image-outer {
@@ -611,29 +632,78 @@
  		overflow: hidden;
  	}
 
+ 	.city-gradient-overlay {
+ 		background-color: black;
+    	background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    	background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    	background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    }
+
+    .city-image {
+    	opacity: 0.8;
+    }
+
  	.city-title {
  		left: 0;
-	    position:absolute;
-	    text-align:center;
+	    position: absolute;
+	    text-align: center;
 	    bottom: 40%;
 	    width: 100%;
 	    font-size: 40px;
 	    color: white;
  	}
 
+ 	.city-plus-icon {
+ 		left: 0;
+	    position: absolute;
+	    text-align: center;
+	    bottom: 20%;
+	    width: 100%;
+	    color: white;
+	    font-size: 40px;
+ 	}
+
+ 	.fa-plus-circle:hover {
+ 		color: #ac90f0;
+ 	}
+
  	.city-top-articles {
  		float: left;
  		position: relative;
  		overflow: hidden;
+ 		width: 20%;
+ 		margin-left: 3%;
+		text-align: center;
+		height: 80%;
+		margin-top: 2.5%;
+		opacity: 0.9;
+ 	}
+
+ 	.city-top-articles:hover {
+ 		opacity: 1;
+ 	}
+
+ 	.food-article-gradient-overlay {
+ 		background-color: black;
+    	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 60%);
+    	background: -o-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 60%);
+    	background: -moz-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 60%);
+    	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 60%);
+    }
+
+ 	.food-article-image {
+ 		height: 90%;
+ 		opacity: 0.8;
  	}
 
  	.food-article-title {
  		left: 0;
 	    position: absolute;
 	    text-align: center;
-	    font-size: 25px;
+	    font-size: 20px;
 	    color: white;
-	    bottom: 40%;
+	    top: 5%;
 	    width: 100%;
  	}
 
@@ -643,10 +713,83 @@
 	    text-align: center;
 	    font-size: 12px;
 	    color: white;
-	    bottom: 0%;
+	    top: 50%;
 	    width: 100%;
  	}
 
  	.food-article-tags {
-
+	    position: absolute;
+	    text-align: center;
+	    font-size: 12px;
+	    color: white;
+	    bottom: 2%;
+	    left: 2%;
+	    width: 100%;
+ 		display: inline-block;
  	}
+
+ 	.food-article-tag {
+ 		float: left;
+ 		margin-left: 1px;
+ 		margin-right: 1px;
+ 		padding-left: 5px;
+ 		padding-right: 5px;
+ 		background-color: rgba(90, 94, 89, 0.6);
+ 	}
+
+/*
+ * Food City Section
+ */
+
+	.food-city-section {
+		overflow: hidden;
+		width: 100%;
+		max-height: 0px;
+		text-align: center;
+
+		transition-property: all;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transition: 1s cubic-bezier(0, 0.4, 1.6, 1);
+ 	}
+
+	.food-city-section-open {
+		max-height: 10000px;
+	}
+
+	.food-city-inner {
+		width: 80%;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.food-city-header {
+ 		position: relative;
+ 		float: left;
+ 		width: 100%;
+ 		overflow: hidden;
+		margin-top: 20px;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.food-city-image {
+		position: relative;
+		display: inline;
+		width: 400px;
+		height: 100px;
+		object-fit: cover;
+	}
+
+	.food-city-title {
+ 		left: 0;
+	    position: absolute;
+	    text-align: center;
+	    bottom: 20%;
+	    width: 100%;
+	    font-size: 40px;
+	    color: white;
+	}
+
+	.food-city-article {
+	}

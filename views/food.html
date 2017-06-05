@@ -2,24 +2,50 @@
 
 <!-- 
 	List of cities on the left, on the right are latest 3 food articles from the corresponding city.
-	 
-	Click on the city, everything vanishes except for the city picture which grows bigger and moves to the top left, with the city name next to it (animation: slides out from the left, as if unrolling from the picture), each article link is a block with a photo on the left, large title top right, beginning few words from the first paragraph... (animation: bring up articles from bottom, one by one in a "bouncy" fashion, maybe using cubic-bezier).
 
 	Click on an article (whether it be from the cities page or a single city page), everything slides to the left, and the article slides in at the same time. There is a button to go back and the reverse sliding brings back whatever page it was before.
- -->
+-->
 <div class="food-section" ng-controller="FoodController as vm">
-	<div class="cities">
+	<div class="cities"  ng-class="{ 'cities-closed' : vm.cityLoaded }">
 		<div ng-repeat="city in vm.cities" class="city">
 			<div class="city-image-outer">
-				<img class="city-image" src="{{city.image}}"/>
+				<div class="city-gradient-overlay">
+					<img class="city-image" ng-src="{{city.image}}"/>
+				</div>
 				<span class="city-title">{{city.name}}</span>
+				<span class="city-plus-icon" ng-click="vm.loadCity(city.name)"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
 			</div>
 			<div ng-repeat="article in vm.getThreeLatestArticles(city.name)" class="city-top-articles">
-				<img class="food-article-image" src="{{article.image}}" height="250" width="250"/>
+				<div class="food-article-gradient-overlay">
+					<img class="food-article-image" ng-src="{{article.image}}"/>
+				</div>
 				<span class="food-article-title">{{article.title}}</span>
 				<span class="food-article-synopsis">{{article.synopsis}}</span>
-				<div class="food-article-tags" ng-repeat="tag in article.tags">{{tag}}</div>
+				<div class="food-article-tags">
+					<div class="food-article-tag" ng-repeat="tag in article.tags">{{tag}}</div>
+				</div>
 			</div>
 		</div>
 	</div>
+
+	<div class="food-city-section" ng-class="{ 'food-city-section-open' : vm.cityLoaded }">
+		<div class="food-city-inner">
+			<div class="food-city-header">
+				<img class="food-city-image" ng-src="{{vm.city.image}}"/>
+				<span class="food-city-title">{{vm.city.name}}</span>
+			</div>
+			<!-- <div ng-repeat="article in vm.articles" class="food-city-article">
+				<img class="food-city-article-image" ng-src="{{article.image}}"/>
+				<span class="food-city-article-title">{{article.title}}</span>
+				<span class="food-city-article-synopsis">{{article.synopsis}}</span>
+				<div class="food-city-article-tags">
+					<div class="food-article-tag" ng-repeat="tag in article.tags">{{tag}}</div>
+				</div>
+			</div> -->
+		</div>
+		<div>
+			<button class="back-button" ng-click="vm.backToCities()">Back To Cities</button>
+		</div>
+	</div>
 </div>
+
