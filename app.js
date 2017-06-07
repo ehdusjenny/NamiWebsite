@@ -6,7 +6,7 @@ angular.module('namiworld', ['ui.router', 'ui.router.title', 'ui.bootstrap', 'ng
     $stateProvider
     .state('main', {
         url: "/main",
-        controller : 'MainController',
+        controller : 'MainController as vm',
         templateUrl : 'views/main.html',
         resolve: {
             $title: function() {
@@ -16,7 +16,7 @@ angular.module('namiworld', ['ui.router', 'ui.router.title', 'ui.bootstrap', 'ng
     })
     .state('bio', {
     	url: "/bio",
-    	controller : 'BioController',
+    	controller : 'BioController as vm',
     	templateUrl : 'views/bio.html',
         resolve: {
             $title: function() {
@@ -26,7 +26,7 @@ angular.module('namiworld', ['ui.router', 'ui.router.title', 'ui.bootstrap', 'ng
     })
     .state('tech', {
         url: "/tech",
-        controller : 'TechController',
+        controller : 'TechController as vm',
         templateUrl : 'views/tech.html',
         resolve: {
             $title: function() {
@@ -36,7 +36,7 @@ angular.module('namiworld', ['ui.router', 'ui.router.title', 'ui.bootstrap', 'ng
     })
     .state('food', {
         url: "/food",
-        controller : 'FoodController',
+        controller : 'FoodController as vm',
         templateUrl : 'views/food.html',
         resolve: {
             $title: function() {

@@ -7,60 +7,84 @@
 			"image": "../images/food/montreal.jpg",
 			"articles": [
 				{
-					"title": "Earlier Food Stuff",
-					"filename": "oop_beginners",
-					"synopsis": "Blah blah blah blah...",
-					"created": "05/30/2017",
-					"image": "../images/food/montreal.jpg",
-					"tags": ["Dine-In", "Asian"]
+					"title": "Cafe Parvis",
+					"filename": "cafe_parvis.md",
+					"synopsis": "Casual dining with unique pizzas in a rustic environment",
+					"created": "06/04/2017",
+					"image": "../images/food/montreal/cafe_parvis/4.jpg",
+					"tags": ["Dine-In", "Pizza"]
 				},
 				{
-					"title": "Later Food Stuff",
-					"filename": "oop_beginners",
-					"synopsis": "scnd dsvsf sdcsf...",
-					"created": "05/31/2017",
-					"image": "../images/food/montreal.jpg",
-					"tags": ["French", "Dine-In"]
+					"title": "Cafe Tommy",
+					"filename": "cafe_tommy.md",
+					"synopsis": "Small cute cafe with delicious pastries",
+					"created": "06/03/2017",
+					"image": "../images/food/montreal/cafe_tommy/1.jpg",
+					"tags": ["Cafe", "Pastries"]
 				},
 				{
-					"title": "Later Food Stuff",
-					"filename": "oop_beginners",
-					"synopsis": "hello this is just an example of a synopsis i don't know what ti put, these are just fillers!!!!",
-					"created": "05/31/2017",
-					"image": "../images/food/montreal.jpg",
-					"tags": ["French", "Dine-In"]
+					"title": "Kanbai",
+					"filename": "kanbai.md",
+					"synopsis": "Authentic Szechuan food located in Chinatown",
+					"created": "03/25/2017",
+					"image": "../images/food/montreal/kanbai/1.jpg",
+					"tags": ["Chinatown", "Szechuan"]
+				},
+				{
+					"title": "La Banquise",
+					"filename": "la_banquise.md",
+					"synopsis": "Montreal's (IMHO, and generally agreed upon,) best poutinerie",
+					"created": "06/02/2017",
+					"image": "../images/food/montreal/la_banquise/1.jpg",
+					"tags": ["Poutine", "Canadian"]
+				},
+				{
+					"title": "La Distillerie",
+					"filename": "la_distillerie.md",
+					"synopsis": "Sweet, tangy cocktails and friendly service",
+					"created": "06/02/2017",
+					"image": "../images/food/montreal/la_distillerie/1.jpg",
+					"tags": ["Bar", "Cocktails"]
+				},
+				{
+					"title": "Le Majesthe",
+					"filename": "le_majesthe.md",
+					"synopsis": "Innovative Taiwanese fusion food to tickle your senses",
+					"created": "05/28/2017",
+					"image": "../images/food/montreal/le_majesthe/1.jpg",
+					"tags": ["Taiwanese", "Asian"]
+				},
+				{
+					"title": "O'Noir",
+					"filename": "onoir.md",
+					"synopsis": "An eye-opening experience and an opportunity to eat like a child!",
+					"created": "05/25/2017",
+					"image": "../images/food/montreal/onoir/1.jpg",
+					"tags": ["Blind", "French"]
 				}
 			]
 		},
 		{
-			"name": "Toronto",
+			"name": "Ottawa",
 			"region": "Ontario",
 			"country": "Canada",
-			"image": "../images/food/toronto.jpg",
+			"image": "../images/food/ottawa.jpg",
 			"articles": [
 				{
-					"title": "Earlier Toronto Place",
-					"filename": "oop_beginners",
-					"synopsis": "Yay Yoy Yey...",
-					"created": "02/30/2017",
-					"image": "../images/food/toronto.jpg",
-					"tags": ["Vegetarian"]
+					"title": "Panera Bread",
+					"filename": "panera_bread.md",
+					"synopsis": "Simple good food, slightly underwhelming.",
+					"created": "05/14/2017",
+					"image": "../images/food/ottawa/panera_bread/6.jpg",
+					"tags": ["Chain", "Sandwich", "Salad"]
 				},
 				{
-					"title": "Later Toronto Place",
-					"filename": "oop_beginners",
-					"synopsis": "Yip Yap Yop...",
-					"created": "04/30/2017",
-					"image": "../images/food/toronto.jpg",
-					"tags": ["Cafe", "Dessert"]
-				},
-				{
-					"title": "Later Toronto Place",
-					"filename": "oop_beginners",
-					"synopsis": "Yip Yap Yop...",
-					"created": "04/30/2017",
-					"image": "../images/food/toronto.jpg",
-					"tags": ["Cafe", "Dessert"]
+					"title": "Presotea",
+					"filename": "presotea.md",
+					"synopsis": "Refreshing and filling bubble tea!",
+					"created": "05/13/2017",
+					"image": "../images/food/ottawa/presotea/1.jpg",
+					"tags": ["Bubble Tea"]
 				}
 			]
 		}

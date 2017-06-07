@@ -5,20 +5,16 @@
 
 	Click on an article (whether it be from the cities page or a single city page), everything slides to the left, and the article slides in at the same time. There is a button to go back and the reverse sliding brings back whatever page it was before.
 -->
-<div class="food-section" ng-controller="FoodController as vm">
+<div class="food-section">
 	<div class="cities"  ng-class="{ 'cities-closed' : vm.cityLoaded }">
 		<div ng-repeat="city in vm.cities" class="city">
 			<div class="city-image-outer">
-				<div class="city-gradient-overlay">
-					<img class="city-image" ng-src="{{city.image}}"/>
-				</div>
+				<div class="city-gradient-overlay" style="background-image: url({{city.image}})"></div>
 				<span class="city-title">{{city.name}}</span>
 				<span class="city-plus-icon" ng-click="vm.loadCity(city.name)"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
 			</div>
 			<div ng-repeat="article in vm.getThreeLatestArticles(city.name)" class="city-top-articles">
-				<div class="food-article-gradient-overlay">
-					<img class="food-article-image" ng-src="{{article.image}}"/>
-				</div>
+				<div class="food-article-gradient-overlay" style="background-image: url({{article.image}})"></div>
 				<span class="food-article-title">{{article.title}}</span>
 				<span class="food-article-synopsis">{{article.synopsis}}</span>
 				<div class="food-article-tags">
@@ -31,7 +27,7 @@
 	<div class="food-city-section" ng-class="{ 'food-city-section-open' : vm.cityLoaded }">
 		<div class="food-city-inner">
 			<div class="food-city-header">
-				<img class="food-city-image" ng-src="{{vm.city.image}}"/>
+				<div class="food-city-image" style="background-image: url({{vm.city.image}})"/>
 				<span class="food-city-title">{{vm.city.name}}</span>
 			</div>
 			<!-- <div ng-repeat="article in vm.articles" class="food-city-article">

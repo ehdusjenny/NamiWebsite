@@ -1,5 +1,5 @@
 <!-- Author: DoYeon (Nami) Kim -->
-<div class="tech-section" ng-controller="TechController as vm">
+<div class="tech-section">
 	<div class="overview overview-slider" ng-class="{ 'overview-slider-closed' : vm.articleOpen }">
 		<div class="overview-box-outer" ng-repeat="article in vm.articles">
 			<div ng-click="vm.loadArticle(article.filename)" 
