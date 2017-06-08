@@ -847,3 +847,11 @@
 	.food-city-article-body {
 		float: left;
 	}
+
+	.food-city-article-title {
+		font-size: 30px;
+	}
+
+	.food-city-article-synopsis {
+		font-size: 20px;
+	}
