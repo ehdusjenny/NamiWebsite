@@ -817,11 +817,33 @@
  		left: 0;
 	    position: absolute;
 	    text-align: center;
-	    bottom: 20%;
+	    bottom: 25%;
 	    width: 100%;
 	    font-size: 40px;
 	    color: white;
 	}
 
 	.food-city-article {
+		position: relative;
+ 		float: left;
+ 		width: 100%;
+ 		overflow: hidden;
+		margin-top: 20px;
+		display: inline-block;
+		height: 200px;
+	}
+
+	.food-city-article-image {
+		float: left;
+		width: 200px;
+		height: 200px;
+		
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center;
+    	position: relative;
+	}
+
+	.food-city-article-body {
+		float: left;
 	}
