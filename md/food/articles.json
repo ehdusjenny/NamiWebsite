@@ -8,34 +8,38 @@
 			"articles": [
 				{
 					"title": "Cafe Parvis",
-					"filename": "cafe_parvis.md",
+					"filename": "cafe_parvis",
 					"synopsis": "Casual dining with unique pizzas in a rustic environment",
 					"created": "06/04/2017",
 					"image": "../images/food/montreal/cafe_parvis/4.jpg",
+					"address": "433 Mayor St, Montreal, QC H3A",
 					"tags": ["Dine-In", "Pizza"]
 				},
 				{
 					"title": "Cafe Tommy",
-					"filename": "cafe_tommy.md",
+					"filename": "cafe_tommy",
 					"synopsis": "Small cute cafe with delicious pastries",
 					"created": "06/03/2017",
 					"image": "../images/food/montreal/cafe_tommy/1.jpg",
+					"address": "British Empire Building, 200 Rue Notre-Dame Ouest, Montréal, QC H2Y 1T3",
 					"tags": ["Cafe", "Pastries"]
 				},
 				{
 					"title": "Kanbai",
-					"filename": "kanbai.md",
+					"filename": "kanbai",
 					"synopsis": "Authentic Szechuan food located in Chinatown",
 					"created": "03/25/2017",
 					"image": "../images/food/montreal/kanbai/1.jpg",
+					"address": "1110 Clark St, Montreal, QC H2Z 1K3",
 					"tags": ["Chinatown", "Szechuan"]
 				},
 				{
 					"title": "La Banquise",
-					"filename": "la_banquise.md",
+					"filename": "la_banquise",
 					"synopsis": "Montreal's (IMHO, and generally agreed upon,) best poutinerie",
 					"created": "06/02/2017",
 					"image": "../images/food/montreal/la_banquise/1.jpg",
+					"address": "994 Rue Rachel E, Montréal, QC H2J 2J3",
 					"tags": ["Poutine", "Canadian"]
 				},
 				{
@@ -44,22 +48,25 @@
 					"synopsis": "Sweet, tangy cocktails and friendly service",
 					"created": "06/02/2017",
 					"image": "../images/food/montreal/la_distillerie/1.jpg",
+					"address": "300 Ontario St E, Montreal, QC H2X 1H6",
 					"tags": ["Bar", "Cocktails"]
 				},
 				{
 					"title": "Le Majesthe",
-					"filename": "le_majesthe.md",
+					"filename": "le_majesthe",
 					"synopsis": "Innovative Taiwanese fusion food to tickle your senses",
 					"created": "05/28/2017",
 					"image": "../images/food/montreal/le_majesthe/1.jpg",
+					"address": "439 Avenue du Président-Kennedy, Montréal, QC H3A 1J5",
 					"tags": ["Taiwanese", "Asian"]
 				},
 				{
 					"title": "O'Noir",
-					"filename": "onoir.md",
+					"filename": "onoir",
 					"synopsis": "An eye-opening experience and an opportunity to eat like a child!",
 					"created": "05/25/2017",
 					"image": "../images/food/montreal/onoir/1.jpg",
+					"address": "124 Rue Prince Arthur E, Montreal, QC H2X 1B5",
 					"tags": ["Blind", "French"]
 				}
 			]
@@ -72,18 +79,20 @@
 			"articles": [
 				{
 					"title": "Panera Bread",
-					"filename": "panera_bread.md",
+					"filename": "panera_bread",
 					"synopsis": "Simple good food, slightly underwhelming.",
 					"created": "05/14/2017",
 					"image": "../images/food/ottawa/panera_bread/6.jpg",
+					"address": "320 W Hunt Club Rd, Ottawa, ON K2E 0B7",
 					"tags": ["Chain", "Sandwich", "Salad"]
 				},
 				{
 					"title": "Presotea",
-					"filename": "presotea.md",
+					"filename": "presotea",
 					"synopsis": "Refreshing and filling bubble tea!",
 					"created": "05/13/2017",
 					"image": "../images/food/ottawa/presotea/1.jpg",
+					"address": "174 Rideau St, Ottawa, ON K1N 9P1",
 					"tags": ["Bubble Tea"]
 				}
 			]

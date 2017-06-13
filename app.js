@@ -44,19 +44,6 @@ angular.module('namiworld', ['ui.router', 'ui.router.title', 'ui.bootstrap', 'ng
             }
         }
     })
-    // .state('food.city', {
-    //     url: "/{cityName}",
-    //     controller : 'FoodCityController',
-    //     templateUrl : 'views/food-city.html',
-    //     resolve: {
-    //         $title: function($stateParams) {
-    //             return $stateParams.cityName + " Food";
-    //         },
-    //         cityName: ['$stateParams', function($stateParams) {
-    //             return $stateParams.cityName;
-    //         }]
-    //     }
-    // })
     .state('music', {
     	url: "/music",
     	controller : 'MusicController',

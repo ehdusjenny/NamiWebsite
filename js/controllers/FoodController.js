@@ -5,6 +5,31 @@
 angular.module('namiworld')
 .controller('FoodController', function($http) {
 	var vm = this;
+	vm.previousPage = 'Cities';
+
+	function init_map() {
+		var geocoder = new google.maps.Geocoder();
+		var address = vm.article.address;
+		geocoder.geocode({ 'address': address}, function(results, status) {
+			if (status == google.maps.GeocoderStatus.OK) {
+				console.log(results);
+			    var myOptions = {
+			    	zoom: 14,
+			    	center: results[0].geometry.location,
+			    	mapTypeId: google.maps.MapTypeId.ROADMAP};
+		        map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+		        marker = new google.maps.Marker({
+		        	map: map,
+		        	position: results[0].geometry.location});
+		        infoWindow = new google.maps.InfoWindow({
+		        	content:vm.article.title + "<br/>" + vm.article.address});
+		        google.maps.event.addListener(marker, "click", function() {
+		        	infoWindow.open(map, marker);
+		        });
+		        infoWindow.open(map, marker);
+			}
+		}); 
+    }
 
 	/*
 	 * articles.json has a list of cities.
@@ -33,10 +58,6 @@ angular.module('namiworld')
     }
 	vm.getThreeLatestArticles = getThreeLatestArticles;
 
-
-
-
-
 	vm.cityLoaded = false;
 	function loadCity(cityName) {
 		$http({
@@ -57,35 +78,46 @@ angular.module('namiworld')
 	    		}
 	    	}
 	    }, function(error){
-	        vm.articles = 'Error fetching food articles for ' + vm.city.name + '!';
+	        vm.city = 'Error fetching food cities!';
 	    });
 	}
 	vm.loadCity = loadCity;
 
-
-
-
-
-
 	vm.md = "";
-    function loadArticle(filename) {
+    function loadArticle(article) {
     	$http({
-			url: '../../md/tech/' + filename + '.md', //change tech to food later
+			url: '../../md/food/' + article.filename + '.md',
 			method: 'GET'
 	    }).then(function(response){
+	    	vm.article = article;
 	        vm.md = response.data;
+	        if (vm.cityLoaded) {
+	        	vm.previousPage = vm.city.name;
+	        	vm.cityLoaded = false;
+	        }
 	        vm.articleOpen = true;
+		    init_map();
 	    }, function(error){
-	        vm.md = 'Error retrieving article for ' + filename + '.md!';
+	        vm.md = 'Error fetching food article for ' + article.filename + '.md!';
 	    });
 
 	}
 	vm.loadArticle = loadArticle;
 
-	vm.md = "";
-    function backToCities() {
-    	vm.cityLoaded = false;
+    function goBack() {
+    	if (vm.cityLoaded) {
+    		vm.cityLoaded = false;
+    	}
+    	else if (vm.articleOpen) {
+    		vm.articleOpen = false;
+    		if (vm.previousPage == 'Cities') {
+    			vm.cityLoaded = false;
+    		}
+    		else {
+    			vm.cityLoaded = true;
+    		}
+    	}
 
 	}
-	vm.backToCities = backToCities;
+	vm.goBack = goBack;
 });

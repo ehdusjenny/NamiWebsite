@@ -9,6 +9,10 @@
     cursor: pointer;
 }
 
+body {
+	margin: 0px;
+}
+
 /*
  *	Index Page
  */
@@ -82,8 +86,6 @@
 			transition: all 0.3s ease;
 		}
 
-
-
 	/*
 	 * Footer Section
 	 */
@@ -97,6 +99,7 @@
 	    	width: 100%;
 	    	overflow: hidden;
 	    	display: inline-block;
+	    	margin-top: 40px;
 		}
 
 		.footer-icons {
@@ -284,12 +287,12 @@
 			margin-left: 12.5%;
 			margin-right: 12.5%;
 			margin-top: 80px;
-			margin-bottom: 80px;
 		}
 
 		.info-inner {
 			float: left;
 			width: 25%;
+			margin-bottom: 40px;
 		}
 
 		.title {
@@ -309,7 +312,6 @@
 			border-style: solid;
 			border-width: 10px;
 			opacity: 0.7;
-			margin-bottom: 100px;
 		}
 
 		.info-image:hover {
@@ -418,7 +420,7 @@
 		height: 420px;
 		float: right;
 		content: url('../images/bio/selfie2.png');
-		background: url('../images/bio/selfie2.png');
+		/*background: url('../images/bio/selfie2.png');*/
 		/*background-size: 100% 100%;*/
 		shape-outside: url(../images/bio/selfie2.png);
 		shape-image-threshold: 0.5;
@@ -484,6 +486,11 @@
 		height: 170px;
 		margin: 5%;
 		opacity: 0.8;
+
+		background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center;
+    	position: relative;
  	}
 
  	.overview-box:hover {
@@ -503,26 +510,6 @@
 	  	text-shadow: 1px 1px 1px grey;
  	}
 
- 	.Java-background {
- 		background-image: url('../images/tech/Java.png');
-   		background-position: center; 
- 	}
-
- 	.CSS-background {
- 		background-image: url('../images/tech/CSS.png');
-   		background-position: center; 
- 	}
-
- 	.Javascript-background {
- 		background-image: url('../images/tech/Javascript.jpg');
-   		background-position: center; 
- 	}
-
- 	.Miscellaneous-background {
- 		background-image: url('../images/tech/Miscellaneous.jpg');
-   		background-position: center; 
- 	}
-
 	.back-button {
 	    background-color: #f0b790;
 	    border: none;
@@ -531,7 +518,6 @@
 	    text-align: center;
 	    text-decoration: none;
 	    font-size: 16px;
-	    margin-bottom: 30px;
 	}
 
 	.set-display {
@@ -543,6 +529,12 @@
     	margin-left: 20%;
     	margin-right: 20%;
     	margin-bottom: 30px;
+	}
+
+	.article img {
+		height: 300px;
+	    display: block;
+	    margin: 0 auto;
 	}
 
 	.article-slider {
@@ -566,15 +558,6 @@
 
 	h1 {
 		font-size: 30px;
-	}
-
-	h2 {
-	}
-
-	h3 {
-	}
-
-	p {
 	}
 
 	@media (max-width: 530px) {
@@ -842,16 +825,79 @@
     	background-size: cover;
     	background-position: center;
     	position: relative;
+    	opacity: 0.9;
+	}
+
+	.food-city-article-image:hover {
+    	opacity: 1;
 	}
 
 	.food-city-article-body {
 		float: left;
+		margin-left: 10px;
+		margin-top: 10px;
+		height: 100%;
 	}
 
 	.food-city-article-title {
 		font-size: 30px;
+		text-align: left;
 	}
 
 	.food-city-article-synopsis {
 		font-size: 20px;
+	}
+
+	.food-city-article-tags {
+		position: absolute;
+		bottom: 0px;
+	}
+
+	#gmap_canvas {
+		display: inline-block;
+		margin-top: 10px;
+		overflow: hidden;
+		height: 200px;
+		width: 80%;
+	}
+
+	#gmap_canvas img {
+		max-width: none !important;
+		background: none !important;
+	}
+
+/*
+ * General functions
+ */
+
+	.slider {
+		overflow: hidden;
+		transition-property: all;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transition: 1s cubic-bezier(0, 1, 0, 1);
+	}
+
+	.slider-closed {
+		max-height: 0px;
+	}
+
+	.slider-opened {
+		max-height: 1000px;
+	}
+
+	/* Needs to be coupled with background-image: url(path) */
+	.centered-background {
+	    background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		position: relative;
+	}
+
+	.horizontal-center-outer {
+		text-align: center;
+	}
+
+	.horizontal-center-inner {
+		display: inline-block;
 	}

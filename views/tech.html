@@ -3,7 +3,7 @@
 	<div class="overview overview-slider" ng-class="{ 'overview-slider-closed' : vm.articleOpen }">
 		<div class="overview-box-outer" ng-repeat="article in vm.articles">
 			<div ng-click="vm.loadArticle(article.filename)" 
-				 ng-class="{ '{{article.tags[0] + '-background'}}' : article.tags.length > 0 }" 
+				 style="background-image: url({{'../images/tech/' + article.tags[0] + '.png'}})"
 				 class="overview-box">
 				<div class="tech-article-title">{{article.title}}</div>
 			</div>
