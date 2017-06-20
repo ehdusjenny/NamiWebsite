@@ -85,7 +85,7 @@ Two ways of slicing an array:
 @weekend2 = @days[4..6];
 ```
 
-There are also splice, split, join and sort functions
+There are also `splice`, `split`, `join` and `sort` functions
 
 ```
 @odd = (1, 3, 5);
@@ -121,9 +121,19 @@ Subroutines are functions:
 sub subroutine_name {
 	$n = scalar(@_); #total number of arguments passed
 	foreach $item (@_) {
-		#do stuff
+		if (some boolean) {
+			#do stuff
+		}
+		elsif (other boolean) {
+			#do stuff
+		}
+		else {
+			#do stuff
+		}
 	}
 }
 
 subroutine_name(parameter);
 ```
+
+Perl has `unless` statements but I don't see the need for it when you can just use `if (!expression)`.
