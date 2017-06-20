@@ -753,6 +753,28 @@ body {
  		background-color: rgba(90, 94, 89, 0.6);
  	}
 
+ 	@media (max-width: 765px) {
+			.city-image-outer {
+			    width: 100%;
+			    height: 40%;
+			}
+			.city-title {
+				bottom: 45%;
+			}
+			.city-plus-icon {
+				bottom: 10%;
+			}
+			.city-top-articles {
+				width: 29%;
+			}
+			.food-article-synopsis {
+				top: 35%;
+			}
+			.food-article-tags {
+				bottom: 31%;
+			}
+		}
+
 /*
  * Food City Section
  */
