@@ -1,7 +1,8 @@
-angular.module('namiworld', ['ui.router', 'ui.router.title', 'ui.bootstrap', 'ng-showdown', 'angular-inview']) //include plugins in an array on the first line
-.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
+var app = angular.module('namiworld', ['ui.router', 'ui.router.title', 'ui.bootstrap', 'ng-showdown', 'angular-inview']); //include plugins in an array on the first line
+
+app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 	$urlRouterProvider.otherwise("/main");
-	//$locationProvider.html5Mode(true);
+	$locationProvider.html5Mode(true).hashPrefix('!')
     //you define states in the config part of your app.js
     $stateProvider
     .state('main', {
@@ -54,5 +55,7 @@ angular.module('namiworld', ['ui.router', 'ui.router.title', 'ui.bootstrap', 'ng
             }
         }
     });
-}).run(function($rootScope) {
+});
+
+app.run(function($rootScope) {
 });
