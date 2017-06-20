@@ -9,13 +9,14 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "http-server"
+    "start": "http-server",
+    "preinstall": "npm install -g http-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ehdusjenny/namiworld.git"
   },
-  "author": "",
+  "author": "DoYeon Nami Kim",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ehdusjenny/namiworld/issues"
