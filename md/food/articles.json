@@ -68,6 +68,33 @@
 					"image": "../images/food/montreal/onoir/1.jpg",
 					"address": "124 Rue Prince Arthur E, Montreal, QC H2X 1B5",
 					"tags": ["Blind", "French"]
+				},
+				{
+					"title": "Crew & Collective Cafe",
+					"filename": "crew_cafe",
+					"synopsis": "Huge cafe located in a gorgeous, historic building.",
+					"created": "06/11/2017",
+					"image": "../images/food/montreal/crew_cafe/1.jpg",
+					"address": "360 St Jacques St, Montreal, QC H2Y 2N1",
+					"tags": ["Cafe"]
+				},
+				{
+					"title": "Kanbai (2nd Round)",
+					"filename": "kanbai",
+					"synopsis": "Authentic Szechuan food located in Chinatown",
+					"created": "06/11/2017",
+					"image": "../images/food/montreal/kanbai2/6.jpg",
+					"address": "1110 Clark St, Montreal, QC H2Z 1K3",
+					"tags": ["Chinatown", "Szechuan"]
+				},
+				{
+					"title": "Kanbai (3rd Round)",
+					"filename": "kanbai",
+					"synopsis": "Authentic Szechuan food located in Chinatown",
+					"created": "06/11/2017",
+					"image": "../images/food/montreal/kanbai2/6.jpg",
+					"address": "1110 Clark St, Montreal, QC H2Z 1K3",
+					"tags": ["Chinatown", "Szechuan"]
 				}
 			]
 		},
@@ -94,6 +121,32 @@
 					"image": "../images/food/ottawa/presotea/1.jpg",
 					"address": "174 Rideau St, Ottawa, ON K1N 9P1",
 					"tags": ["Bubble Tea"]
+				}
+			]
+		},
+		{
+			"name": "Quebec City",
+			"region": "Quebec",
+			"country": "Canada",
+			"image": "../images/food/quebec_city.jpg",
+			"articles": [
+				{
+					"title": "Thang Long",
+					"filename": "thang_long",
+					"synopsis": "Average Vietnamese restaurant on the outskirts of Old Quebec",
+					"created": "06/17/2017",
+					"image": "../images/food/quebec_city/thang_long/5.jpg",
+					"address": "869 Côte d'Abraham, Ville de Québec, QC G1R 1K9",
+					"tags": ["Vietnamese"]
+				},
+				{
+					"title": "Le Bureau de Poste",
+					"filename": "le_bureau_de_poste",
+					"synopsis": "Subpar bar food living on the flatrate $5 hype",
+					"created": "06/17/2017",
+					"image": "../images/food/quebec_city/le_bureau_de_poste/1.jpg",
+					"address": "296 Rue Saint-Joseph Est, Ville de Québec, QC G1K 3B1",
+					"tags": ["Bar", "Finger Food"]
 				}
 			]
 		}

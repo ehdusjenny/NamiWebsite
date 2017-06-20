@@ -1,2 +1,15 @@
-<!-- Author: DoYeon (Nami) Kim -->
-
+<div class="music-section">
+	<div class="overview overview-slider" ng-class="{ 'slider-closed' : vm.articleOpen }">
+		<div class="overview-box-outer" ng-repeat="article in vm.articles">
+			<div ng-click="vm.loadArticle(article.filename)" 
+				 style="background-image: url({{'../images/music/' + article.tags[0] + '.png'}})"
+				 class="overview-box">
+				<div class="tech-article-title">{{article.title}}</div>
+			</div>
+		</div>
+	</div>
+	<div class="article article-slider" ng-class="{ 'article-slider-open' : vm.articleOpen }">
+		<div class="article-inner" id="article-inner" markdown-to-html="vm.md"></div>
+	</div>
+	<div><button class="back-button set-display-off" ng-class="{ 'set-display' : vm.articleOpen }" ng-click="vm.backToOverview()">Back To Content List</button><div>
+</div>

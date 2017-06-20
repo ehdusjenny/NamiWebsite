@@ -1,0 +1,38 @@
+{ 
+	"articles": [
+	{
+		"type": "video",
+		"title": "Super Mario Medley",
+		"filename": "super_mario",
+		"created": "May 26th, 2017",
+		"tags": ["Guitar", "Video"]
+	},
+	{
+		"type": "composition",
+		"title": "Random Composition",
+		"filename": "composition",
+		"created": "May 26th, 2017",
+		"tags": ["Piano", "Composition"]
+	},
+	{
+		"type": "review",
+		"title": "Random Review",
+		"filename": "review",
+		"created": "May 26th, 2017",
+		"tags": ["K-Pop", "Review"]
+	},
+	{
+		"type": "newfinds_kpop",
+		"title": "New Finds K-Pop",
+		"filename": "newfinds_kpop",
+		"created": "May 26th, 2017",
+		"tags": ["K-Pop"]
+	},
+	{
+		"type": "newfinds_misc",
+		"title": "New Finds Not K-Pop",
+		"filename": "newfinds_misc",
+		"created": "May 26th, 2017",
+		"tags": ["Hip-Hop"]
+	}
+]}

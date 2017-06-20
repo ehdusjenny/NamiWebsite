@@ -20,10 +20,12 @@ None of the toppings were overwhelming and everything blended nicely.
 
 My only complaint is that the portions were too small compared to its price, I felt they were too sparing with the toppings. Either go a bit more ham with the toppings or lower the prices by a few dollars.
 
+![Terrace](../images/food/montreal/cafe_parvis/7.jpg "Terrace")
+
 The people and the place were really nice, with plants and terrace at the front and the inside felt really cozy. Unfortunately, I think I chose a particularly bad seating that faced a wall covered in candle wax.
 
 ![Waxy Wall](../images/food/montreal/cafe_parvis/5.jpg "Wax Wall")
 
 Maybe this is an aesthetic some might like but it just seemed dirty and unappetizing to me. 
 
-Food + service 10/10!
+Overall 8.5/10!

@@ -46,7 +46,7 @@ angular.module('namiworld', ['ui.router', 'ui.router.title', 'ui.bootstrap', 'ng
     })
     .state('music', {
     	url: "/music",
-    	controller : 'MusicController',
+    	controller : 'MusicController as vm',
     	templateUrl : 'views/music.html',
         resolve: {
             $title: function() {

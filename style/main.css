@@ -54,8 +54,8 @@ body {
 			float: left;
 			width: 70px;
 			height: 50px;
-			margin-top: 18px;
 			margin-left: 14%;
+			transform: translateY(50%);
 		}
 
 		.bio-nav:hover {
@@ -346,7 +346,7 @@ body {
 	 * @media Adjustments
 	 */
 
-		@media (max-width: 840px) {
+		@media (max-width: 975px) {
 			.centertext-on-image {
 				left: 34%;
 			}
@@ -556,6 +556,11 @@ body {
 		text-align: left;
 	}
 
+	.article-inner img {
+		width: 600px;
+		height: auto;
+	}
+
 	h1 {
 		font-size: 30px;
 	}
@@ -588,7 +593,7 @@ body {
  	.cities {
  		display: inline-block;
 		overflow: hidden;
-		max-height: 1000px;
+		max-height: 10000px;
 
 		transition-property: all;
 		-webkit-transition: 1s;
@@ -867,6 +872,17 @@ body {
 	}
 
 /*
+ * Music Section
+ */
+
+	.music-section {
+		position: relative;
+		width: 100%;
+		text-align: center;
+		font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ 	}
+
+/*
  * General functions
  */
 
@@ -900,4 +916,10 @@ body {
 
 	.horizontal-center-inner {
 		display: inline-block;
+	}
+
+	.vertical-center-inner {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
 	}
