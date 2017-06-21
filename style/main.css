@@ -844,14 +844,14 @@ body {
 
 	.food-city-article-image {
 		float: left;
-		width: 200px;
-		height: 200px;
-		
-    	background-repeat: no-repeat;
-    	background-size: cover;
-    	background-position: center;
-    	position: relative;
-    	opacity: 0.9;
+	    min-width: 100px;
+	    min-height: 200px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	    position: relative;
+	    opacity: 0.9;
+	    width: 25%;
 	}
 
 	.food-city-article-image:hover {
@@ -863,6 +863,13 @@ body {
 		margin-left: 10px;
 		margin-top: 10px;
 		height: 100%;
+		width: 72%;
+	}
+
+	@media (max-width: 515px) {
+		.food-city-article-body {
+		    width: 55%;
+		}
 	}
 
 	.food-city-article-title {
@@ -870,8 +877,21 @@ body {
 		text-align: left;
 	}
 
+	@media (max-width: 765px) {
+		.food-city-article-title {
+		    font-size: 17px;
+		}
+	}
+
 	.food-city-article-synopsis {
 		font-size: 20px;
+		text-align: left;
+	}
+
+	@media (max-width: 765px) {
+		.food-city-article-synopsis {
+		    font-size: 15px;
+		}
 	}
 
 	.food-city-article-tags {
