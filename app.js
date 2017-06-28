@@ -45,6 +45,26 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
             }
         }
     })
+    .state('food-city', {
+        url: "/food/{{city}}",
+        controller : 'FoodController as vm',
+        templateUrl : 'views/food-city.html',
+        resolve: {
+            $title: function(city) {
+                return city;
+            }
+        }
+    })
+    .state('food-article', {
+        url: "/food/{{article}}",
+        controller : 'FoodController as vm',
+        templateUrl : 'views/food-article.html',
+        resolve: {
+            $title: function(article) {
+                return article;
+            }
+        }
+    })
     .state('music', {
     	url: "/music",
     	controller : 'MusicController as vm',
