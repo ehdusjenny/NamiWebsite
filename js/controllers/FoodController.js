@@ -51,11 +51,19 @@ angular.module('namiworld')
     	for (i = 0; i < vm.cities.length; i++) {
     		city = vm.cities[i]
     		if (city.name == cityName) {
-    			return city.articles.sort(function(a, b){return a.created < b.created}).slice(0, 3);
+    			var sorted = city.articles.sort(function(a, b){
+    				if (a.created.toLowerCase().localeCompare(b.created.toLowerCase()) == 0) {
+    					return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
+    				}
+    				else return a.created.localeCompare(b.created);
+    			});
+    			console.log(sorted);
+    			return sorted.slice(0, 3);
     		}
     	}
     	return null;
     }
+
 	vm.getThreeLatestArticles = getThreeLatestArticles;
 
 	vm.cityLoaded = false;

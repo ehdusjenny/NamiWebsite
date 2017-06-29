@@ -7,6 +7,15 @@
 			"image": "../images/food/montreal.jpg",
 			"articles": [
 				{
+					"title": "C'Chocolat",
+					"filename": "c'chocolat",
+					"synopsis": "A decadent outing with some good people",
+					"created": "06/13/2017",
+					"image": "../images/food/montreal/c'chocolat/1.jpg",
+					"address": "1255 Bishop St, Montreal, QC H3G",
+					"tags": ["Dessert"]
+				},
+				{
 					"title": "Cafe Parvis",
 					"filename": "cafe_parvis",
 					"synopsis": "Casual dining with unique pizzas in a rustic environment",
@@ -25,13 +34,40 @@
 					"tags": ["Cafe", "Pastries"]
 				},
 				{
-					"title": "Kanbai",
+					"title": "Crew & Collective Cafe",
+					"filename": "crew_cafe",
+					"synopsis": "Huge cafe located in a gorgeous, historic building.",
+					"created": "06/11/2017",
+					"image": "../images/food/montreal/crew_cafe/1.jpg",
+					"address": "360 St Jacques St, Montreal, QC H2Y 2N1",
+					"tags": ["Cafe"]
+				},
+				{
+					"title": "Kanbai - First Visit",
 					"filename": "kanbai",
 					"synopsis": "Authentic Szechuan food located in Chinatown",
-					"created": "03/25/2017",
+					"created": "06/13/2017",
 					"image": "../images/food/montreal/kanbai/1.jpg",
 					"address": "1110 Clark St, Montreal, QC H2Z 1K3",
 					"tags": ["Chinatown", "Szechuan"]
+				},
+				{
+					"title": "Kanbai - Second Visit",
+					"filename": "kanbai",
+					"synopsis": "Authentic Szechuan food located in Chinatown",
+					"created": "06/18/2017",
+					"image": "../images/food/montreal/kanbai2/1.jpg",
+					"address": "1110 Clark St, Montreal, QC H2Z 1K3",
+					"tags": ["Chinatown", "Szechuan"]
+				},
+				{
+					"title": "L'Artisan",
+					"filename": "l'artisan",
+					"synopsis": "Bakery too good to be true",
+					"created": "06/11/2017",
+					"image": "../images/food/montreal/l'artisan/1.jpg",
+					"address": "4780 Avenue Papineau, Montreal, QC H2H 1V5",
+					"tags": ["Dessert", "Bakery"]
 				},
 				{
 					"title": "La Banquise",
@@ -43,13 +79,13 @@
 					"tags": ["Poutine", "Canadian"]
 				},
 				{
-					"title": "La Distillerie",
-					"filename": "la_distillerie.md",
-					"synopsis": "Sweet, tangy cocktails and friendly service",
-					"created": "06/02/2017",
-					"image": "../images/food/montreal/la_distillerie/1.jpg",
-					"address": "300 Ontario St E, Montreal, QC H2X 1H6",
-					"tags": ["Bar", "Cocktails"]
+					"title": "La Cabane de Danny",
+					"filename": "la_cabane_de_danny",
+					"synopsis": "BUBBLE WAFFLE",
+					"created": "05/15/2017",
+					"image": "../images/food/montreal/la_cabane_de_danny/1.jpg",
+					"address": "52A Rue de la Gauchetière O, Montréal, QC H2Z 1C1",
+					"tags": ["Dessert", "Chinatown"]
 				},
 				{
 					"title": "Le Majesthe",
@@ -61,6 +97,15 @@
 					"tags": ["Taiwanese", "Asian"]
 				},
 				{
+					"title": "Nouilles de Lanzhou",
+					"filename": "nouilles_de_lanzhou",
+					"synopsis": "Fresh noodles, hearty meal!",
+					"created": "06/16/2017",
+					"image": "../images/food/montreal/nouilles_de_lanzhou/1.jpg",
+					"address": "1006 St Laurent Blvd, Montreal, Quebec H2Z 9Y9",
+					"tags": ["Noodles", "Chinatown"]
+				},
+				{
 					"title": "O'Noir",
 					"filename": "onoir",
 					"synopsis": "An eye-opening experience and an opportunity to eat like a child!",
@@ -70,31 +115,13 @@
 					"tags": ["Blind", "French"]
 				},
 				{
-					"title": "Crew & Collective Cafe",
-					"filename": "crew_cafe",
-					"synopsis": "Huge cafe located in a gorgeous, historic building.",
-					"created": "06/11/2017",
-					"image": "../images/food/montreal/crew_cafe/1.jpg",
-					"address": "360 St Jacques St, Montreal, QC H2Y 2N1",
-					"tags": ["Cafe"]
-				},
-				{
-					"title": "Kanbai (2nd Round)",
-					"filename": "kanbai",
-					"synopsis": "Authentic Szechuan food located in Chinatown",
-					"created": "06/11/2017",
-					"image": "../images/food/montreal/kanbai2/6.jpg",
-					"address": "1110 Clark St, Montreal, QC H2Z 1K3",
-					"tags": ["Chinatown", "Szechuan"]
-				},
-				{
-					"title": "Kanbai (3rd Round)",
-					"filename": "kanbai",
-					"synopsis": "Authentic Szechuan food located in Chinatown",
-					"created": "06/11/2017",
-					"image": "../images/food/montreal/kanbai2/6.jpg",
-					"address": "1110 Clark St, Montreal, QC H2Z 1K3",
-					"tags": ["Chinatown", "Szechuan"]
+					"title": "OPiano",
+					"filename": "opiano",
+					"synopsis": "Best bingsu in town",
+					"created": "06/15/2017",
+					"image": "../images/food/montreal/opiano/1.jpg",
+					"address": "1115 Sherbrooke St W, Montreal, QC H3A 1G6",
+					"tags": ["Bingsu", "Korean"]
 				}
 			]
 		},
