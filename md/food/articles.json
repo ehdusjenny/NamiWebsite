@@ -11,7 +11,7 @@
 					"filename": "c'chocolat",
 					"synopsis": "A decadent outing with some good people",
 					"created": "06/13/2017",
-					"image": "../images/food/montreal/c'chocolat/1.jpg",
+					"image": "../images/food/montreal/cchocolat/1.jpg",
 					"address": "1255 Bishop St, Montreal, QC H3G",
 					"tags": ["Dessert"]
 				},
@@ -34,6 +34,15 @@
 					"tags": ["Cafe", "Pastries"]
 				},
 				{
+					"title": "Copper Branch",
+					"filename": "copper_branch",
+					"synopsis": "Satifying vegetarian place downtown",
+					"created": "06/21/2017",
+					"image": "../images/food/montreal/copper_branch/1.jpg",
+					"address": "600 Boulevard de Maisonneuve O, Montréal, QC H3A",
+					"tags": ["Vegetarian"]
+				},
+				{
 					"title": "Crew & Collective Cafe",
 					"filename": "crew_cafe",
 					"synopsis": "Huge cafe located in a gorgeous, historic building.",
@@ -47,7 +56,7 @@
 					"filename": "kanbai",
 					"synopsis": "Authentic Szechuan food located in Chinatown",
 					"created": "06/13/2017",
-					"image": "../images/food/montreal/kanbai/1.jpg",
+					"image": "../images/food/montreal/kanbai/2.jpg",
 					"address": "1110 Clark St, Montreal, QC H2Z 1K3",
 					"tags": ["Chinatown", "Szechuan"]
 				},
@@ -65,7 +74,7 @@
 					"filename": "l'artisan",
 					"synopsis": "Bakery too good to be true",
 					"created": "06/11/2017",
-					"image": "../images/food/montreal/l'artisan/1.jpg",
+					"image": "../images/food/montreal/lartisan/1.jpg",
 					"address": "4780 Avenue Papineau, Montreal, QC H2H 1V5",
 					"tags": ["Dessert", "Bakery"]
 				},
@@ -92,7 +101,7 @@
 					"filename": "le_majesthe",
 					"synopsis": "Innovative Taiwanese fusion food to tickle your senses",
 					"created": "05/28/2017",
-					"image": "../images/food/montreal/le_majesthe/1.jpg",
+					"image": "../images/food/montreal/le_majesThe/1.jpg",
 					"address": "439 Avenue du Président-Kennedy, Montréal, QC H3A 1J5",
 					"tags": ["Taiwanese", "Asian"]
 				},
@@ -122,6 +131,15 @@
 					"image": "../images/food/montreal/opiano/1.jpg",
 					"address": "1115 Sherbrooke St W, Montreal, QC H3A 1G6",
 					"tags": ["Bingsu", "Korean"]
+				},
+				{
+					"title": "Momesso",
+					"filename": "momesso",
+					"synopsis": "Delicious subs for reasonable prices",
+					"created": "07/06/2017",
+					"image": "../images/food/montreal/momesso/1.jpg",
+					"address": "5562 Upper Lachine Rd, Montreal, QC H4A 2A7",
+					"tags": ["Sub", "Diner"]
 				}
 			]
 		},

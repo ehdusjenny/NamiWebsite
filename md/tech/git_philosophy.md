@@ -22,3 +22,4 @@ Your file(s) can be in one of three states: **committed**, **modified** or **sta
 Your current working tree is a single checkout of one version of the project. After you modify files, you can add them to the staging area, and then commit them together to permanently store the snapshot in your .git directory.
 
 The .git directory stores metadata and object database for your project. When you clone a repo, this is what you copy.
+

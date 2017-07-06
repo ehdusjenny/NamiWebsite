@@ -1,0 +1,18 @@
+<div class="food-city-section">
+	<div class="food-city-inner">
+		<div class="food-city-header">
+			<div class="food-city-image" style="background-image: url({{vm.city.image}})"></div>
+			<span class="food-city-title">{{vm.city.name}}</span>
+		</div>
+		<div ng-repeat="article in vm.articles" class="food-city-article" ui-sref="food-article({article:{{article}}})">
+			<div class="food-city-article-image" style="background-image: url({{article.image}})"></div>
+			<div class="food-city-article-body">
+				<div class="food-city-article-title">{{article.title}}</div>
+				<div class="food-city-article-synopsis">{{article.synopsis}}</div>
+				<div class="food-city-article-tags">
+					<div class="food-article-tag" ng-repeat="tag in article.tags">{{tag}}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

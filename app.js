@@ -45,23 +45,23 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
             }
         }
     })
-    .state('food-city', {
-        url: "/food/{{city}}",
-        controller : 'FoodController as vm',
+    .state('food.city', {
+        url: "/:cityName",
+        controller : 'FoodCityController as vm',
         templateUrl : 'views/food-city.html',
         resolve: {
-            $title: function(city) {
-                return city;
+            $title: function($stateParams) {
+                return $stateParams.cityName;
             }
         }
     })
-    .state('food-article', {
-        url: "/food/{{article}}",
-        controller : 'FoodController as vm',
+    .state('food.article', {
+        url: "/food/:articleName",
+        controller : 'FoodArticleController as vm',
         templateUrl : 'views/food-article.html',
         resolve: {
-            $title: function(article) {
-                return article;
+            $title: function() {
+                return articleName;
             }
         }
     })
