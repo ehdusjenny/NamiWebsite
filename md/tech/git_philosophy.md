@@ -1,5 +1,7 @@
 #Git
 
+To learn the technical basics of Git, please refer to [Using Git][using_git]
+
 Git is a distributed version control system.
 
 Git treats its data differently than other VCS. Most other systems store information as a set of files and the changes made to each file over time.
@@ -18,8 +20,11 @@ Your file(s) can be in one of three states: **committed**, **modified** or **sta
 **Committed** means your data is safely stored in your local database.
 **Modified** means you've changed the file but have not committed it yet.
 **Staged** means you have marked a modified file in its current version to be included in your next commit snapshot.
+**Tracked**: Files included in the last snapshot.
+**Untracked**: Files not included in the last snapshot and not in staging.
 
 Your current working tree is a single checkout of one version of the project. After you modify files, you can add them to the staging area, and then commit them together to permanently store the snapshot in your .git directory.
 
 The .git directory stores metadata and object database for your project. When you clone a repo, this is what you copy.
 
+[using_git]: http://nami.kim/tech/using_git "Using Git"

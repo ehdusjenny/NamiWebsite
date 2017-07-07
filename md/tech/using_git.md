@@ -29,4 +29,25 @@ git init
 
 `git init` creates the `.git` file.
 
+If you're cloning an existing repository, run
+```
+git clone http://github.com/username/repo_name repository_name
+```
+
+`repository_name` is optional; without it, the directory name will be `repo_name`.
+
+To check the status of the files (whether they are tracked, staged, committed, etc), run
+```
+git status
+```
+
+To track a new file, run
+```
+git add filename
+```
+
+Often, there will be files you don't Git to automatically add, like logs. You can define these in your `.gitignore` files using regex, like `*.[oa]` which will ignore all `.o` or `.a` files.
+
+
+
 [git]: https://git-scm.com/downloads "Git Download"
