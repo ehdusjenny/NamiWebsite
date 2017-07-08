@@ -1,38 +1,21 @@
 { 
 	"articles": [
 	{
-		"type": "video",
-		"title": "Super Mario Medley",
-		"filename": "super_mario",
-		"created": "May 26th, 2017",
-		"tags": ["Guitar", "Video"]
+		"title": "Algonquin Park Camping Trip!",
+		"filename": "algonquin_park",
+		"created": "July 4th, 2017",
+		"tags": ["Camping"]
 	},
 	{
-		"type": "composition",
-		"title": "Random Composition",
-		"filename": "composition",
-		"created": "May 26th, 2017",
-		"tags": ["Piano", "Composition"]
+		"title": "Potluck at Celine's!",
+		"filename": "potluck_celine",
+		"created": "June 22nd, 2017",
+		"tags": ["Potluck"]
 	},
 	{
-		"type": "review",
-		"title": "Random Review",
-		"filename": "review",
-		"created": "May 26th, 2017",
-		"tags": ["K-Pop", "Review"]
-	},
-	{
-		"type": "newfinds_kpop",
-		"title": "New Finds K-Pop",
-		"filename": "newfinds_kpop",
-		"created": "May 26th, 2017",
-		"tags": ["K-Pop"]
-	},
-	{
-		"type": "newfinds_misc",
-		"title": "New Finds Not K-Pop",
-		"filename": "newfinds_misc",
-		"created": "May 26th, 2017",
-		"tags": ["Hip-Hop"]
+		"title": "Quebec City Day Trip",
+		"filename": "quebec_city",
+		"created": "June 17th, 2017",
+		"tags": ["Trip"]
 	}
 ]}
