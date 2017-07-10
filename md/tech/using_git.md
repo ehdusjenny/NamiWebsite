@@ -120,6 +120,74 @@ git pull origin branch
 ```
 which will fetch and merge the remote branch from the remote origin server to your local, currently checked-out branch.
 
+To push your changes to upstream, run
+```
+git push remote_name branch_name
+```
+For an example, `git push origin master` will push your changes to the master branch of the remote named origin.
 
+If someone has pushed to the same upstream, you'll have to pull and merge their changes to your local workspace before you can push.
+
+To see more information on a particular remote, run
+```
+git remote show remote_name
+```
+
+To rename remotes, run
+```
+git remote rename origin origin2
+```
+
+To remove remotes, run
+```
+git remote remove origin2
+```
+
+Git allows you to tag specific points in history, ex. release points like v1.0.
+
+To list tags, run
+```
+git tag
+```
+
+To search for specific tags, like versions after 1.8, run
+```
+git tag -l "v1.8.*"
+```
+
+There are two types of tags.
+**Lightweight**: Simple pointer to a specific commit.
+**Annotated**: Stored as full objects in the Git database which are checksummed and contains the tagger name, email, date and message.
+
+To create a lightweight tag, run
+```
+git tag tag_name
+```
+
+To create an annotated tag, run
+```
+git tag -a tag_name -m "my message"
+```
+
+To see your tag information, run
+```
+git show tag_name
+```
+
+To tag a historical commit, run
+```
+git tag -a tag_name checksum_number
+```
+
+By default, `git push` does not transfer tags to remote servers.
+To explicitly push tags, run
+```
+git push origin tag_name
+```
+
+To push all your tags, run
+```
+git push origin --tags
+```
 
 [git]: https://git-scm.com/downloads "Git Download"
