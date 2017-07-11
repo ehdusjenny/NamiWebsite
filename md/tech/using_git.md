@@ -1,5 +1,7 @@
 #Using Git
 
+All images via [Git Book][https://git-scm.com/book/en/v2]
+
 To learn about Git's philosophy and how it operates, check out [this page][git_philosophy].
 
 Go download [Git][git] if you haven't done that yet.
@@ -190,4 +192,117 @@ To push all your tags, run
 git push origin --tags
 ```
 
+To create a new branch, run
+```
+git branch testing
+```
+
+![Branching](../images/tech/using_git/branching.png "branching")
+
+Both `master` and `testing` branches are pointing to the same snapshot for now, since you just created `testing`.
+
+Git has a special pointer called `HEAD`, which points to the local branch you're currently on. 
+
+To switch branches, run
+```
+git checkout testing
+```
+
+![Branching2](../images/tech/using_git/branching2.png "branching2")
+`HEAD` now points to the branch `testing`.
+
+To create and switch branches in one command, run
+```
+git checkout -b testing
+```
+
+After you've made your changes and commit, your current local branch will move forward:
+![Branching3](../images/tech/using_git/branching3.png "branching3")
+
+If you change branch to `master` and make more commits, your tree will diverge:
+![Branching4](../images/tech/using_git/branching4.png "branching4")
+
+To visualize your branching history, run
+```
+git log --oneline --decorate --graph --all
+```
+
+Alternatively, you can use [GitKraken][gitkraken], which I recommend.
+
+You're currently working on a branch `iss53` solving an issue. However, an important fix is needed so you create branch `hotfix` and fix the problem. Now you want to merge branch `hotfix` onto the production branch `master`, then go back to your own branch.
+
+The commands you'll run are
+```
+git checkout -b hotfix
+~Make some changes~
+git commit -a -m "fixed this and that"
+git checkout master
+git merge hotfix
+git checkout iss53
+``` 
+
+![Merging](../images/tech/using_git/merging.png "Merging")
+
+![Merging2](../images/tech/using_git/merging2.png "Merging 2")
+
+Simply moving the branch pointer forward up the same line of the tree is called "fast-forwarding".
+
+To delete a branch you no longer need, run
+```
+git branch -d hotfix
+```
+
+When you merge your changes from `iss53` onto `master`, since `master` has branched off from `iss53`, it cannot simply fast-forward. Instead Git creates a new snapshot that joins `iss53`'s line of commits and `master`'s line of commits.
+![Merging3](../images/tech/using_git/merging3.png "Merging 3")
+
+Merging can cause conflicts where the same part of the same file is modified by both branches you're merging. In this case, `git merge` will spit out a list of conflicts:
+```
+CONFLICT (content): Merge conflict in index.html
+CONFLICT (content): Merge conflict in app.js
+```
+
+You'll have to fix the conflicts and then commit.
+
+The merge conflicts will appear in your files like the following:
+```
+<<<<<<< HEAD: index.html
+<base href="/">
+=======
+<base href="/my-app">
+>>>>>>> iss53:index.html
+```
+
+Everything above ======= are the changes from `HEAD`, which is the `master` branch currently checked out. Everything below ======= are the changes from `iss53`. Replace the entire block with whichever change you want to keep, and then commit.
+
+To see the list of local branches, run
+```
+git branch
+```
+
+To see the last commit on each branch, run
+```
+git branch -v
+```
+
+To see which branches are merged into the checked-out branch, run
+```
+git branch --merged
+```
+
+To see which branches are not merged into the checked-out branch, run
+```
+git branch --no-merged
+```
+
+Let's say you have the following configuration:
+![Merging4](../images/tech/using_git/merging4.png "Merging 4")
+
+Let's say your `dumbidea` turns out to be good and is merged onto `master`. Also the second solution to iss91 is better over the first so you delete `iss91`.
+The resulting tree will look like the following:
+![Merging5](../images/tech/using_git/merging5.png "Merging 5")
+
+#Branching with Remotes
+
+
+[gitkraken]: https://www.gitkraken.com/ "GitKraken"
 [git]: https://git-scm.com/downloads "Git Download"

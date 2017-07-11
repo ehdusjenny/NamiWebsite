@@ -27,4 +27,11 @@ Your current working tree is a single checkout of one version of the project. Af
 
 The .git directory stores metadata and object database for your project. When you clone a repo, this is what you copy.
 
+#Branching
+Branching means you diverge from the main line of development and continue to do work without messing with the main line. You can branch off to fix a specific problem, test out a possible solution, for each programmer to have their own copy of the main line, etc. 
+
+When you commit, Git creates a commit object that contains the author name, email, message, a pointer to the previous commit (multiple pointers if the commit resulted from merging multiple branches), and a pointer to the snapshot of the content you staged. 
+
+You can branch back and forth super quickly in Git. Git Branching is simply a lightweight movable pointer to a commit.
+
 [using_git]: http://nami.kim/tech/using_git "Using Git"
