@@ -14,6 +14,6 @@ angular.module('namiworld')
 
 	vm.updateLogoCSS = updateLogoCSS;
 	
-	$('.curved').show().arctext({radius: 200});
+	$('.curved').show().arctext({radius: 180});
 
 });

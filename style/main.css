@@ -214,12 +214,13 @@ body {
 
 		.logo-background {
 			position: relative;
-			background-image: url('../images/main/ocean.jpg');
+			background-image: url('../images/main/collage.png');
 			width: 100%;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			-webkit-background-size: cover;
 		  	background-size: cover;
+		  	background-position: center;
 			height: 500px;
 		}
 

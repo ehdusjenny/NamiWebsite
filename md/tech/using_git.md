@@ -8,7 +8,7 @@ Go download [Git][git] if you haven't done that yet.
 
 All the following commands will be run from Git Bash (Linux commands).
 
-##Set-Up
+##Git Set-Up
 Configure your git account, which you only have to do once per computer.
 
 ```
@@ -20,7 +20,7 @@ To check your settings, run `git config --list`.
 
 That's all the basic set-up you need!
 
-##Setting Up Your Git Project
+##Git Project Set-Up
 If you're initializing a local Git project, run the following commands:
 ```
 cd /path/to/your/project
@@ -122,13 +122,18 @@ git pull origin branch
 ```
 which will fetch and merge the remote branch from the remote origin server to your local, currently checked-out branch.
 
-To push your changes to upstream, run
+To push your changes to a remote server, run
 ```
 git push remote_name branch_name
 ```
 For an example, `git push origin master` will push your changes to the master branch of the remote named origin.
 
 If someone has pushed to the same upstream, you'll have to pull and merge their changes to your local workspace before you can push.
+
+To push your local branch to a remote with a different name, you can run
+```
+git push remote_name local_branch_name:remote_branch_name
+```
 
 To see more information on a particular remote, run
 ```
@@ -145,6 +150,7 @@ To remove remotes, run
 git remote remove origin2
 ```
 
+##Tags
 Git allows you to tag specific points in history, ex. release points like v1.0.
 
 To list tags, run
@@ -192,6 +198,7 @@ To push all your tags, run
 git push origin --tags
 ```
 
+##Branching 
 To create a new branch, run
 ```
 git branch testing
@@ -222,6 +229,16 @@ After you've made your changes and commit, your current local branch will move f
 If you change branch to `master` and make more commits, your tree will diverge:
 ![Branching4](../images/tech/using_git/branching4.png "branching4")
 
+To see the list of local branches, run
+```
+git branch
+```
+
+To see the last commit on each branch, run
+```
+git branch -v
+```
+
 To visualize your branching history, run
 ```
 git log --oneline --decorate --graph --all
@@ -229,6 +246,7 @@ git log --oneline --decorate --graph --all
 
 Alternatively, you can use [GitKraken][gitkraken], which I recommend.
 
+##Merging
 You're currently working on a branch `iss53` solving an issue. However, an important fix is needed so you create branch `hotfix` and fix the problem. Now you want to merge branch `hotfix` onto the production branch `master`, then go back to your own branch.
 
 The commands you'll run are
@@ -274,16 +292,6 @@ The merge conflicts will appear in your files like the following:
 
 Everything above ======= are the changes from `HEAD`, which is the `master` branch currently checked out. Everything below ======= are the changes from `iss53`. Replace the entire block with whichever change you want to keep, and then commit.
 
-To see the list of local branches, run
-```
-git branch
-```
-
-To see the last commit on each branch, run
-```
-git branch -v
-```
-
 To see which branches are merged into the checked-out branch, run
 ```
 git branch --merged
@@ -302,6 +310,18 @@ The resulting tree will look like the following:
 ![Merging5](../images/tech/using_git/merging5.png "Merging 5")
 
 #Branching with Remotes
+
+Let's say you clone from a repository and make some commits locally. In the meantime, someone else has pushed some commits to the remote server. The tree will look like the following:
+![RemoteBranching](../images/tech/using_git/remote_branching.png "Remote Branching")
+
+To update your local repo to the latest changes, run
+```
+git fetch remote_name
+```
+![RemoteBranching2](../images/tech/using_git/remote_branching2.png "Remote Branching 2")
+
+You can add multiple remotes and fetch.
+![RemoteBranching3](../images/tech/using_git/remote_branching3.png "Remote Branching 3")
 
 
 [gitkraken]: https://www.gitkraken.com/ "GitKraken"
