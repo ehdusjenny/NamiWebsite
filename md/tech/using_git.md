@@ -324,5 +324,6 @@ You can add multiple remotes and fetch.
 ![RemoteBranching3](../images/tech/using_git/remote_branching3.png "Remote Branching 3")
 
 
+
 [gitkraken]: https://www.gitkraken.com/ "GitKraken"
 [git]: https://git-scm.com/downloads "Git Download"
