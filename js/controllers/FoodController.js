@@ -10,20 +10,29 @@ angular.module('namiworld')
 	 * articles.json has a list of cities.
 	 * Each city has a name, region, country, and a list of articles with title, filename, synopsis, created, and tags.
 	 */
-	$http({
-			url: '../../md/food/articles.json',
-			method: 'GET',
-			headers: {
-   				'Content-Type': "application/json"
- 			}
+
+    var url = window.location.href;
+    var last_word = url.substring(url.lastIndexOf("/") + 1, url.length);
+	if (last_word != 'food') {
+        vm.articleOpen = true;
+    }
+    else {
+        vm.articleOpen = false;
+        vm.cityLoaded = false;
+    }
+    
+    $http({
+            url: '../../md/food/articles.json',
+            method: 'GET',
+            headers: {
+                'Content-Type': "application/json"
+            }
     }).then(function(response){
         vm.cities = response.data.cities;
     }, function(error){
         vm.cities = 'Error getting food articles!';
     });
-    vm.articleOpen = false;
-    vm.cityLoaded = false;
-    console.log("hi");
+
     function getThreeLatestArticles(cityName) {
     	for (i = 0; i < vm.cities.length; i++) {
     		city = vm.cities[i]
@@ -57,9 +66,19 @@ angular.module('namiworld')
 
     $rootScope.$on('$stateChangeStart', 
     function(event, toState, toParams, fromState, fromParams){ 
+        console.log(toState.name);
         if (toState.name == "food") {
             vm.articleOpen = false;
             vm.cityLoaded = false;
+            console.log("first if");
+        }
+        else if (toState.name == "food-article"){
+            vm.articleOpen = true;
+            console.log("second if");
+        }
+        else if (toState.name == "food-city"){
+            vm.cityLoaded = true;
+            console.log("third if");
         }
     })
 });
