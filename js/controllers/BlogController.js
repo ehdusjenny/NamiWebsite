@@ -3,13 +3,13 @@
  */
  
 angular.module('namiworld')
-.controller('MusicController', function($http) {
+.controller('BlogController', function($http) {
 	
 	var vm = this;
 
 	vm.articleOpen = false;
 	$http({
-			url: '../../md/music/articles.json',
+			url: '../../md/blog/articles.json',
 			method: 'GET',
 			headers: {
    				'Content-Type': "application/json"
@@ -23,7 +23,7 @@ angular.module('namiworld')
     vm.md = "";
     function loadArticle(filename) {
     	$http({
-			url: '../../md/music/' + filename + '.md',
+			url: '../../md/blog/' + filename + '.md',
 			method: 'GET'
 	    }).then(function(response){
 	        vm.md = response.data;

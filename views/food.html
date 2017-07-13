@@ -6,7 +6,7 @@
 				<span class="city-title">{{city.name}}</span>
 				<span class="city-plus-icon" ng-click="vm.goToCity(city)"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
 			</div>
-			<div ng-repeat="article in vm.getThreeLatestArticles(city.name)" class="city-top-articles" ui-sref="food-article({article:{{article}}})">
+			<div ng-repeat="article in vm.getThreeLatestArticles(city.name)" class="city-top-articles" ng-click="vm.goToArticle(article)">
 				<div class="food-article-gradient-overlay" style="background-image: url({{article.image}})"></div>
 				<span class="food-article-title">{{article.title}}</span>
 				<span class="food-article-synopsis">{{article.synopsis}}</span>
@@ -18,4 +18,3 @@
 	</div>
 	<div ui-view></div>
 </div>
-

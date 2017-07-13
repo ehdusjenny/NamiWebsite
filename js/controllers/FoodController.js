@@ -3,7 +3,7 @@
  */
  
 angular.module('namiworld')
-.controller('FoodController', function($http, $state, FoodCity) {
+.controller('FoodController', function($http, $state, $rootScope, FoodCity, FoodArticle) {
 	var vm = this;
 
 	/*
@@ -21,7 +21,9 @@ angular.module('namiworld')
     }, function(error){
         vm.cities = 'Error getting food articles!';
     });
-
+    vm.articleOpen = false;
+    vm.cityLoaded = false;
+    console.log("hi");
     function getThreeLatestArticles(cityName) {
     	for (i = 0; i < vm.cities.length; i++) {
     		city = vm.cities[i]
@@ -32,19 +34,32 @@ angular.module('namiworld')
     				}
     				else return a.created.localeCompare(b.created);
     			});
-    			console.log(sorted);
     			return sorted.slice(0, 3);
     		}
     	}
     	return null;
     }
-
 	vm.getThreeLatestArticles = getThreeLatestArticles;
 
 	function goToCity(city) {
 		FoodCity.setCity(city);
-		console.log(FoodCity.getCity());
+        vm.cityLoaded = true;
 		$state.go("food.city", {"cityName" : city.name});
 	}
 	vm.goToCity = goToCity;
+
+    function goToArticle(article) {
+        FoodArticle.setArticle(article);
+        vm.articleOpen = true;
+        $state.go("food.article", {"articleName" : article.filename});
+    }
+    vm.goToArticle = goToArticle;
+
+    $rootScope.$on('$stateChangeStart', 
+    function(event, toState, toParams, fromState, fromParams){ 
+        if (toState.name == "food") {
+            vm.articleOpen = false;
+            vm.cityLoaded = false;
+        }
+    })
 });

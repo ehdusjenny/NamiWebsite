@@ -3,15 +3,17 @@
  */
  
 angular.module('namiworld')
-.controller('FoodArticleController', function($http) {
+.controller('FoodArticleController', function($http, $scope, FoodArticle) {
 	var vm = this;
+
+	var article = FoodArticle.getArticle();
+	var address = article.address;
+	console.log("hello");
 
 	function init_map() {
 		var geocoder = new google.maps.Geocoder();
-		var address = vm.article.address;
 		geocoder.geocode({ 'address': address}, function(results, status) {
 			if (status == google.maps.GeocoderStatus.OK) {
-				console.log(results);
 			    var myOptions = {
 			    	zoom: 14,
 			    	center: results[0].geometry.location,
@@ -21,7 +23,7 @@ angular.module('namiworld')
 		        	map: map,
 		        	position: results[0].geometry.location});
 		        infoWindow = new google.maps.InfoWindow({
-		        	content:vm.article.title + "<br/>" + vm.article.address});
+		        	content:article.title + "<br/>" + article.address});
 		        google.maps.event.addListener(marker, "click", function() {
 		        	infoWindow.open(map, marker);
 		        });
@@ -33,7 +35,7 @@ angular.module('namiworld')
 	vm.md = "";
     function loadArticle() {
     	$http({
-			url: '../../md/food/' + article.filename + '.md',
+			url: '../../md/food/montreal/' + article.filename + '.md',
 			method: 'GET'
 	    }).then(function(response){
 	        vm.md = response.data;

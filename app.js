@@ -35,6 +35,16 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
             }
         }
     })
+    .state('blog', {
+        url: "/blog",
+        controller : 'BlogController as vm',
+        templateUrl : 'views/blog.html',
+        resolve: {
+            $title: function() {
+                return 'Blog';
+            }
+        }
+    })
     .state('food', {
         url: "/food",
         controller : 'FoodController as vm',
@@ -46,32 +56,25 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
         }
     })
     .state('food.city', {
-        url: "/:cityName",
+        url: "/city/:cityName",
         controller : 'FoodCityController as vm',
         templateUrl : 'views/food-city.html',
         resolve: {
             $title: function($stateParams) {
-                return $stateParams.cityName;
+                return "articleName";
             }
         }
     })
     .state('food.article', {
-        url: "/food/:articleName",
+        url: "/:articleName",
         controller : 'FoodArticleController as vm',
         templateUrl : 'views/food-article.html',
         resolve: {
-            $title: function() {
-                return articleName;
-            }
-        }
-    })
-    .state('music', {
-    	url: "/music",
-    	controller : 'MusicController as vm',
-    	templateUrl : 'views/music.html',
-        resolve: {
-            $title: function() {
-                return 'Music';
+            $title: function($stateParams) {
+                var tmp = $stateParams.articleName.replace(/_/g , " ");
+                return tmp.replace(/\w\S*/g, function(txt) {
+                    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+                });
             }
         }
     });
