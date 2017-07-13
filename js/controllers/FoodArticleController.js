@@ -3,13 +3,13 @@
  */
  
 angular.module('namiworld')
-.controller('FoodArticleController', function($http, $scope, FoodArticle) {
+.controller('FoodArticleController', function($http, $scope, $state, $timeout, FoodArticle) {
 	var vm = this;
 
 	var article = FoodArticle.getArticle();
 	var address = article.address;
 	console.log("hello");
-
+	vm.articleOpen = true;
 	function init_map() {
 		var geocoder = new google.maps.Geocoder();
 		geocoder.geocode({ 'address': address}, function(results, status) {
@@ -46,4 +46,16 @@ angular.module('namiworld')
 
 	}
 	loadArticle();
+
+	// function goBack() {
+ //        vm.articleOpen = false;
+ //        $timeout(function() {
+ //        	$state.go("food");
+ //        }, 1000);
+	// }
+	// vm.goBack = goBack;
+
+	$scope.$on('$destroy', function() {
+		vm.articleOpen = false;
+    });
 });

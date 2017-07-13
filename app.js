@@ -35,6 +35,16 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
             }
         }
     })
+    .state('tech.article', {
+        url: "/:articleName",
+        controller : 'TechAticleController as vm',
+        templateUrl : 'views/tech.html',
+        resolve: {
+            $title: function() {
+                return 'Tech';
+            }
+        }
+    })
     .state('blog', {
         url: "/blog",
         controller : 'BlogController as vm',

@@ -3,9 +3,10 @@
  */
  
 angular.module('namiworld')
-.controller('FoodCityController', function($http, FoodCity) {
+.controller('FoodCityController', function($http, $state, FoodCity, FoodArticle) {
 	var vm = this;
 	vm.city = FoodCity.getCity();
+	vm.cityLoaded = true;
 
 	function loadCity() {
 		$http({
@@ -29,4 +30,12 @@ angular.module('namiworld')
 	    });
 	}
 	loadCity();
+
+	function goToArticle(article) {
+        FoodArticle.setArticle(article);
+        vm.cityLoaded = false;
+        console.log(vm.cityLoaded);
+        $state.go("food.article", {"articleName" : article.filename});
+    }
+    vm.goToArticle = goToArticle;
 });
