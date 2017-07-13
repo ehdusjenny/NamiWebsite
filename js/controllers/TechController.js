@@ -3,7 +3,7 @@
  */
  
 angular.module('namiworld')
-.controller('TechController', function($http) {
+.controller('TechController', function($http, $state, $rootScope, FoodArticle) {
 
 	var vm = this;
 
@@ -24,19 +24,13 @@ angular.module('namiworld')
         vm.articles = 'Error getting article titles!';
     });
 
-    vm.md = "";
-    function loadArticle(filename) {
-    	$http({
-			url: '../../md/tech/' + filename + '.md',
-			method: 'GET'
-	    }).then(function(response){
-	        vm.md = response.data;
-	        vm.articleOpen = true;
-	    }, function(error){
-	        vm.md = 'Error retrieving article for ' + filename + '.md!';
-	    });
-	}
-	vm.loadArticle = loadArticle;
+	function goToArticle(article) {
+        FoodArticle.setArticle(article);
+        vm.articleOpen = true;
+        console.log("in tech");
+        $state.go("tech.article", {"articleName" : article.filename});
+    }
+    vm.goToArticle = goToArticle;
 
 	function backToOverview() {
 	    vm.articleOpen = false;
@@ -46,5 +40,11 @@ angular.module('namiworld')
 	// like on oceana.im, fade in and bring up more as you scroll down.
 	// Same for Food and Music.
 
+	$rootScope.$on('$stateChangeStart', 
+    function(event, toState, toParams, fromState, fromParams){ 
+        if (toState.name == "tech") {
+            vm.articleOpen = false;
+        }
+    })
 	
 });

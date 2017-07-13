@@ -1,15 +1,12 @@
 <div class="tech-section">
 	<div class="overview overview-slider" ng-class="{ 'overview-slider-closed' : vm.articleOpen }">
 		<div class="overview-box-outer" ng-repeat="article in vm.articles">
-			<div ng-click="vm.loadArticle(article.filename)" 
+			<div ng-click="vm.goToArticle(article)" 
 				 style="background-image: url({{'../images/tech/' + article.tags[0] + '.png'}})"
 				 class="overview-box">
 				<div class="tech-article-title">{{article.title}}</div>
 			</div>
 		</div>
 	</div>
-	<div class="article article-slider" ng-class="{ 'article-slider-open' : vm.articleOpen }">
-		<div class="article-inner" id="article-inner" markdown-to-html="vm.md"></div>
-	</div>
-	<div><button class="back-button set-display-off" ng-class="{ 'set-display' : vm.articleOpen }" ng-click="vm.backToOverview()">Back To Content List</button><div>
+	<div ui-view></div>
 </div>

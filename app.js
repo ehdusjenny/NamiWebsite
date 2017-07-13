@@ -37,11 +37,14 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
     })
     .state('tech.article', {
         url: "/:articleName",
-        controller : 'TechAticleController as vm',
-        templateUrl : 'views/tech.html',
+        controller : 'TechArticleController as vm',
+        templateUrl : 'views/tech-article.html',
         resolve: {
-            $title: function() {
-                return 'Tech';
+            $title: function($stateParams) {
+                var tmp = $stateParams.articleName.replace(/_/g , " ");
+                return tmp.replace(/\w\S*/g, function(txt) {
+                    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+                });
             }
         }
     })
@@ -71,7 +74,7 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
         templateUrl : 'views/food-city.html',
         resolve: {
             $title: function($stateParams) {
-                return "articleName";
+                return $stateParams.cityName;
             }
         }
     })
