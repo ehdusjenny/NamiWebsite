@@ -2,7 +2,7 @@ var app = angular.module('namiworld', ['ui.router', 'ui.router.title', 'ui.boots
 
 app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 	$urlRouterProvider.otherwise("/main");
-	$locationProvider.html5Mode(true).hashPrefix('!')
+	//$locationProvider.html5Mode(true).hashPrefix('!')
     //you define states in the config part of your app.js
     $stateProvider
     .state('main', {
