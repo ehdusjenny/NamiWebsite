@@ -8,7 +8,9 @@ angular.module('namiworld')
 	var vm = this;
 
 	var url = window.location.href;
+	console.log(url);
     var last_word = url.substring(url.lastIndexOf("/") + 1, url.length);
+    console.log(last_word);
 	if (last_word != 'tech') {
         vm.articleOpen = true;
         console.log('poop');
@@ -55,5 +57,4 @@ angular.module('namiworld')
             vm.articleOpen = false;
         }
     })
-	
 });
