@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines" : { 
+    "node" : "8.1.4" 
+  },
   "dependencies": {
     "bootstrap": "^3.3.7",
     "wiredep": "^4.0.0",
