@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "engines" : { 
-    "node" : "8.1.4" 
+    "node" : "4.8.4" 
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
