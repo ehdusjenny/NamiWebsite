@@ -13,7 +13,7 @@ angular.module('namiworld')
 
     var url = window.location.href;
     var last_word = url.substring(url.lastIndexOf("/") + 1, url.length);
-	if (last_word != 'food') {
+	if (last_word != 'tech' || last_word != 'blog' || last_word != 'bio' || last_word != 'main' || last_word != 'food') {
         vm.articleOpen = true;
     }
     else {

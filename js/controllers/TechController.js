@@ -11,7 +11,7 @@ angular.module('namiworld')
 	console.log(url);
     var last_word = url.substring(url.lastIndexOf("/") + 1, url.length);
     console.log(last_word);
-	if (last_word != 'tech') {
+	if (last_word != 'tech' || last_word != 'blog' || last_word != 'bio' || last_word != 'main' || last_word != 'food') {
         vm.articleOpen = true;
         console.log('poop');
     }
