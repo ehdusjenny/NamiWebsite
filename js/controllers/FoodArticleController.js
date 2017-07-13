@@ -24,7 +24,6 @@ angular.module('namiworld')
 		        for (var i = 0; i < vm.cities[j].articles.length; i++) {
 		        	if (vm.cities[j].articles[i].filename == filename) {
 		        		vm.article = vm.cities[j].articles[i];
-		        		console.log(vm.article);
 		        		break;
 		        	}
 		        }

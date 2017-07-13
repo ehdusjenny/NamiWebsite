@@ -70,15 +70,6 @@ angular.module('namiworld')
         if (toState.name == "food") {
             vm.articleOpen = false;
             vm.cityLoaded = false;
-            console.log("first if");
-        }
-        else if (toState.name == "food-article"){
-            vm.articleOpen = true;
-            console.log("second if");
-        }
-        else if (toState.name == "food-city"){
-            vm.cityLoaded = true;
-            console.log("third if");
         }
     })
 });

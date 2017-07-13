@@ -7,11 +7,20 @@ angular.module('namiworld')
 
 	var vm = this;
 
+	var url = window.location.href;
+    var last_word = url.substring(url.lastIndexOf("/") + 1, url.length);
+	if (last_word != 'tech') {
+        vm.articleOpen = true;
+        console.log('poop');
+    }
+    else {
+        vm.articleOpen = false;
+    }
+
 	/*
 	 * articles.json has a list of articles,
 	 * and each article has a title, filename, tags, and created properties.
 	 */
-	vm.articleOpen = false;
 	$http({
 			url: '../../md/tech/articles.json',
 			method: 'GET',
@@ -27,7 +36,7 @@ angular.module('namiworld')
 	function goToArticle(article) {
         FoodArticle.setArticle(article);
         vm.articleOpen = true;
-        console.log("in tech");
+        console.log(article.filename);
         $state.go("tech.article", {"articleName" : article.filename});
     }
     vm.goToArticle = goToArticle;

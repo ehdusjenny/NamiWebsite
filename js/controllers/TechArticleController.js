@@ -5,10 +5,19 @@
 angular.module('namiworld')
 .controller('TechArticleController', function($scope, $state, $http, FoodArticle) {
 	var vm = this;
-	
-	vm.md = "";
-	var filename = FoodArticle.getArticle().filename;
 
+	var article = FoodArticle.getArticle();
+	var filename;
+	if (!article) {
+		var url = window.location.href;
+		filename = url.substring(url.lastIndexOf("/") + 1, url.length);
+	}
+	else {
+		filename = article.filename;
+	}
+
+
+	vm.md = "";
     function loadArticle() {
     	$http({
 			url: '../../md/tech/' + filename + '.md',
