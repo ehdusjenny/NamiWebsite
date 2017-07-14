@@ -120,7 +120,7 @@ You can also run
 ```
 git pull origin branch
 ```
-which will fetch and merge the remote branch from the remote origin server to your local, currently checked-out branch.
+which will fetch and merge (`git fetch; git merge`) the remote branch from the remote origin server to your local, currently checked-out branch.
 
 To push your changes to a remote server, run
 ```
@@ -223,6 +223,11 @@ To create and switch branches in one command, run
 git checkout -b testing
 ```
 
+To create a local branch from a remote branch, run
+```
+git checkout -b testing origin/testing
+```
+
 After you've made your changes and commit, your current local branch will move forward:
 ![Branching3](../images/tech/using_git/branching3.png "branching3")
 
@@ -245,6 +250,23 @@ git log --oneline --decorate --graph --all
 ```
 
 Alternatively, you can use [GitKraken][gitkraken], which I recommend.
+
+Note that when you clone a repo or checkout a branch, Git automatically tracks which server/branch to fetch from and merge into. In this case, you can run `git pull` without specifying the remote or the branch name.
+
+To explicitly set-up a branch to track, run
+```
+git branch -u remote_name/branch_name
+```
+
+To see your branch tracking information, run
+```
+git branch -vv
+```
+
+To delete a remote branch, run
+```
+git push origin --delete branch_name
+```
 
 ##Merging
 You're currently working on a branch `iss53` solving an issue. However, an important fix is needed so you create branch `hotfix` and fix the problem. Now you want to merge branch `hotfix` onto the production branch `master`, then go back to your own branch.
@@ -323,7 +345,25 @@ git fetch remote_name
 You can add multiple remotes and fetch.
 ![RemoteBranching3](../images/tech/using_git/remote_branching3.png "Remote Branching 3")
 
+##Rebase
 
+Rebasing is an alternative to merging that creates a cleaner, linear history.
+
+With merging, your history looks like:
+![MergingVsRebasing](../images/tech/using_git/merging_vs_rebasing.png "Merging vs Rebasing")
+
+Rebasing branch A onto branch B will go to the common ancestor of the two branches and apply the commits from A onto B. Merge afterwards to fast-forward.
+
+To rebase, run:
+```
+git checkout experiment
+git rebase master
+git checkout master
+git merge experiment
+```
+
+With rebasing, your history looks like:
+![MergingVsRebasing](../images/tech/using_git/merging_vs_rebasing2.png "Merging vs Rebasing")
 
 [gitkraken]: https://www.gitkraken.com/ "GitKraken"
 [git]: https://git-scm.com/downloads "Git Download"
