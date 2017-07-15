@@ -1,4 +1,4 @@
-#Using Git
+#Git Basics
 
 All images via [Git Book][https://git-scm.com/book/en/v2]
 

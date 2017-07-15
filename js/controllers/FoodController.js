@@ -13,14 +13,15 @@ angular.module('namiworld')
 
     var url = window.location.href;
     var last_word = url.substring(url.lastIndexOf("/") + 1, url.length);
-	if (last_word != 'tech' && last_word != 'blog' && last_word != 'bio' && last_word != 'main' && last_word != 'food') {
+    //some major hardcoded hacky poop
+	if (last_word != 'tech' && last_word != 'blog' && last_word != 'bio' && last_word != 'main' && last_word != 'food'
+        && !url.includes('/tech/') && !url.includes('/blog/') && !url.includes('/bio/') && !url.includes('/main/')) {
         vm.articleOpen = true;
     }
     else {
         vm.articleOpen = false;
         vm.cityLoaded = false;
     }
-    
     $http({
             url: '../../md/food/articles.json',
             method: 'GET',

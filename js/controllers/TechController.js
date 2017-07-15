@@ -10,10 +10,9 @@ angular.module('namiworld')
 	var url = window.location.href;
 	console.log(url);
     var last_word = url.substring(url.lastIndexOf("/") + 1, url.length);
-    console.log(last_word);
-	if (last_word != 'tech' && last_word != 'blog' && last_word != 'bio' && last_word != 'main' && last_word != 'food') {
+	if (last_word != 'tech' && last_word != 'blog' && last_word != 'bio' && last_word != 'main' && last_word != 'food'
+        && !url.includes('/food/') && !url.includes('/blog/') && !url.includes('/bio/') && !url.includes('/main/')) {
         vm.articleOpen = true;
-        console.log('poop');
     }
     else {
         vm.articleOpen = false;
