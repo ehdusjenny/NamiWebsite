@@ -429,14 +429,14 @@ body {
 	}
 
 	.bio-title {
-		font-size: 25px;
-	    font-family: Candara, Calibri, Segoe, "Segoe UI" ,Optima, Arial, sans-serif;
+  		line-height:1.5;
+	    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
 	    font-weight: 550;
 	}
 
 	.bio-paragraph {
-		font-size: 14px;
-	    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  		line-height:1.5;
+	    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
 		padding-top: 15px;
 		font-weight: 500;
 	}
@@ -453,7 +453,8 @@ body {
 		position: relative;
 		width: 100%;
 		text-align: center;
-		font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		line-height:1.5;
+	    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
  	}
 
  	.overview {
@@ -604,7 +605,8 @@ body {
 		position: relative;
 		width: 100%;
 		text-align: center;
-		font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		line-height:1.5;
+	    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
  	}
 
  	.cities {
@@ -945,7 +947,8 @@ body {
 		position: relative;
 		width: 100%;
 		text-align: center;
-		font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		line-height:1.5;
+	    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
  	}
 
 /*
