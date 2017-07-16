@@ -356,14 +356,34 @@ Rebasing branch A onto branch B will go to the common ancestor of the two branch
 
 To rebase, run:
 ```
-git checkout experiment
-git rebase master
+git rebase master experiment
 git checkout master
 git merge experiment
 ```
 
 With rebasing, your history looks like:
 ![MergingVsRebasing](../images/tech/using_git/merging_vs_rebasing2.png "Merging vs Rebasing")
+
+You can see rebasing as "replaying" changes from one line of work onto another in the order they were introduced, whereas merging simply merges the end results of two branches together.
+
+Let's say you have a scenario like below
+![RebaseExample](../images/tech/using_git/rebase_example.png "Rebase Example")
+
+You want to integrate the commits made in `client` onto master without integrating the commits made on server. To do so, run
+```
+git rebase --onto master server client
+```
+The resulting graph is
+![RebaseExample2](../images/tech/using_git/rebase_example2.png "Rebase Example 2")
+
+Now you can fast-forward by running
+```
+git checkout master
+git merge client
+```
+![RebaseExample3](../images/tech/using_git/rebase_example3.png "Rebase Example 3")
+
+These are the basics of Git you need to start working efficiently! Hope it was helpful.
 
 [gitkraken]: https://www.gitkraken.com/ "GitKraken"
 [git]: https://git-scm.com/downloads "Git Download"
