@@ -533,6 +533,18 @@ body {
     	margin-bottom: 30px;
 	}
 
+	.article table {
+		border-collapse: collapse;
+	}
+
+	.article tr:nth-child(even) {
+		background-color: #eff3f9;
+	}
+
+	.article th, td {
+		padding: 8px;
+	}
+
 	.article img {
 		height: 300px;
 	    display: block;

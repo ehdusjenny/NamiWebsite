@@ -34,4 +34,6 @@ When you commit, Git creates a commit object that contains the author name, emai
 
 You can branch back and forth super quickly in Git. Git Branching is simply a lightweight movable pointer to a commit.
 
-[using_git]: http://nami.kim/tech/using_git "Using Git"
+
+
+[using_git]: http://www.nami.kim/#!/tech/using_git "Using Git"

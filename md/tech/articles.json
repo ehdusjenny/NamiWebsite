@@ -17,5 +17,11 @@
 		"filename": "git_philosophy",
 		"created": "July 15th, 2017",
 		"tags": ["Git", "Philosophy"]
+	},
+	{
+		"title": "Git vs SVN",
+		"filename": "git_vs_svn",
+		"created": "July 15th, 2017",
+		"tags": ["Git", "SVN"]
 	}
 ]}
