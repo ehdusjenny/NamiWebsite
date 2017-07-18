@@ -1,27 +1,28 @@
-AngularJS Set-Up Guide
+#AngularJS Set-Up Guide
 
 Install Node.js from https://nodejs.org/en/download.
 Install Git from https://git-scm.com/downloads.
 
-npm (Node Package Manager) is installed as part of Node.js.
+**npm** (Node Package Manager) is installed as part of Node.js.
 Using npm, install bower and http-server:
-	npm install angular-http-server -g
-	npm install bower -g
+```	
+npm install http-server -g
+npm install bower -g
+```
 
-	angular-http-server will locally host your single-page web application.
-	Bower is a front-end code package manager that will fetch, install and organize the right versions of packages that your web application uses.
+http-server will locally host your single-page web application.
+Bower is a front-end package manager that will fetch, install and organize the right versions of packages that your web application uses.
 
-Aside: npm vs Bower?
-	They are both package managers. npm is most commonly used for Node modules. Bower is front-end oriented.
-
-	npm uses a pontentially heavy nested dependency tree. npm takes care of organizing different versions of the same package used in different layers of your project. It is most optimal to use when space is abundant, on a big server for an example. 
-
-	Bower uses a light flat dependency tree that installs the required packages only once for the entire project. This saves space so that the front-end component of your project can be loaded quickly, however leaving the developer with the burden of resolving the version dependencies themselves.
-
-	In short, npm saves development time, while Bower saves runtime. 
+<span style="font-size: x-small">Aside: npm vs Bower?
+They are both package managers. Bower is for front-end, npm is for node modules for back-end node.js applications.
+npm uses a pontentially heavy nested dependency tree. npm takes care of organizing different versions of the same package used in different layers of your project. It is most optimal to use when space is abundant, on a big server for an example. 
+Bower uses a light flat dependency tree that installs the required packages only once for the entire project. This saves space so that the front-end component of your project can be loaded quickly, however leaving the developer with the burden of resolving the version dependencies themselves.
+In short, npm saves development time, while Bower saves runtime. </sup>
 
 To begin a new project, create an empty directory, cd into it, and run:
-	bower init
+```
+bower init
+```
 This will create the bower.json file which keeps track of all the packages Bower installs.
 
 Install the required packages for angular:

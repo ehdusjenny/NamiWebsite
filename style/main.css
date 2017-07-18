@@ -429,13 +429,13 @@ body {
 	}
 
 	.bio-title {
-  		line-height:1.5;
+  		line-height: 1.5;
 	    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
 	    font-weight: 550;
 	}
 
 	.bio-paragraph {
-  		line-height:1.5;
+  		line-height: 1.5;
 	    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
 		padding-top: 15px;
 		font-weight: 500;
@@ -453,7 +453,7 @@ body {
 		position: relative;
 		width: 100%;
 		text-align: center;
-		line-height:1.5;
+		line-height: 1.5;
 	    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
  	}
 
@@ -566,6 +566,7 @@ body {
 	}
 
 	.article-inner {
+		width: 100%;
 		display: inline-block;
 		text-align: left;
 	}

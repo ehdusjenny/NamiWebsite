@@ -23,5 +23,17 @@
 		"filename": "git_vs_svn",
 		"created": "July 15th, 2017",
 		"tags": ["Git", "SVN"]
+	},
+	{
+		"title": "HR Tips",
+		"filename": "hr_tips",
+		"created": "July 17th, 2017",
+		"tags": ["HR"]
+	},
+	{
+		"title": "Angular Set-Up",
+		"filename": "angular_setup",
+		"created": "July 17th, 2017",
+		"tags": ["AngularJS"]
 	}
 ]}
