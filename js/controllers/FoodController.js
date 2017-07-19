@@ -11,12 +11,18 @@ angular.module('namiworld')
 	 * Each city has a name, region, country, and a list of articles with title, filename, synopsis, created, and tags.
 	 */
 
+    var cities = ['montreal', 'ottawa', 'quebec_city', 'toronto'];
+
     var url = window.location.href;
     var last_word = url.substring(url.lastIndexOf("/") + 1, url.length);
     //some major hardcoded hacky poop
 	if (last_word != 'tech' && last_word != 'blog' && last_word != 'bio' && last_word != 'main' && last_word != 'food'
         && !url.includes('/tech/') && !url.includes('/blog/') && !url.includes('/bio/') && !url.includes('/main/')) {
         vm.articleOpen = true;
+    }
+    else if (cities.includes(last_word)) {
+        vm.articleOpen = false;
+        vm.cityLoaded = true;
     }
     else {
         vm.articleOpen = false;
@@ -54,7 +60,7 @@ angular.module('namiworld')
 	function goToCity(city) {
 		FoodCity.setCity(city);
         vm.cityLoaded = true;
-		$state.go("food.city", {"cityName" : city.name});
+		$state.go("food.city", {"cityName" : city.url});
 	}
 	vm.goToCity = goToCity;
 
@@ -66,8 +72,7 @@ angular.module('namiworld')
     vm.goToArticle = goToArticle;
 
     $rootScope.$on('$stateChangeStart', 
-    function(event, toState, toParams, fromState, fromParams){ 
-        console.log(toState.name);
+    function(event, toState, toParams, fromState, fromParams){
         if (toState.name == "food") {
             vm.articleOpen = false;
             vm.cityLoaded = false;

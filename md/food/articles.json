@@ -2,6 +2,7 @@
 	"cities": [
 		{
 			"name": "Montreal",
+			"url": "montreal",
 			"region": "Quebec",
 			"country": "Canada",
 			"image": "../images/food/montreal.jpg",
@@ -62,7 +63,7 @@
 				},
 				{
 					"title": "Kanbai - Second Visit",
-					"filename": "kanbai",
+					"filename": "kanbai2",
 					"synopsis": "Authentic Szechuan food located in Chinatown",
 					"created": "06/18/2017",
 					"image": "../images/food/montreal/kanbai2/1.jpg",
@@ -145,6 +146,7 @@
 		},
 		{
 			"name": "Ottawa",
+			"url": "ottawa",
 			"region": "Ontario",
 			"country": "Canada",
 			"image": "../images/food/ottawa.jpg",
@@ -171,6 +173,7 @@
 		},
 		{
 			"name": "Quebec City",
+			"url": "quebec_city",
 			"region": "Quebec",
 			"country": "Canada",
 			"image": "../images/food/quebec_city.jpg",

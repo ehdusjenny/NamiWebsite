@@ -3,7 +3,8 @@
  */
  
 angular.module('namiworld')
-.controller('FoodArticleController', function($http, $scope, $state, $timeout, FoodArticle) {
+.controller('FoodArticleController', function($http, $scope, $window, $state, $timeout, FoodArticle) {
+	$window.scrollTo(0, 0);
 	var vm = this;
 
 

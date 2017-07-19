@@ -8,7 +8,6 @@ angular.module('namiworld')
 	var vm = this;
 
 	var url = window.location.href;
-	console.log(url);
     var last_word = url.substring(url.lastIndexOf("/") + 1, url.length);
 	if (last_word != 'tech' && last_word != 'blog' && last_word != 'bio' && last_word != 'main' && last_word != 'food'
         && !url.includes('/food/') && !url.includes('/blog/') && !url.includes('/bio/') && !url.includes('/main/')) {
@@ -37,7 +36,6 @@ angular.module('namiworld')
 	function goToArticle(article) {
         FoodArticle.setArticle(article);
         vm.articleOpen = true;
-        console.log(article.filename);
         $state.go("tech.article", {"articleName" : article.filename});
     }
     vm.goToArticle = goToArticle;

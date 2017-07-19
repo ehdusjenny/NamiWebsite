@@ -29,11 +29,5 @@
 		"filename": "hr_tips",
 		"created": "July 17th, 2017",
 		"tags": ["HR"]
-	},
-	{
-		"title": "Angular Set-Up",
-		"filename": "angular_setup",
-		"created": "July 17th, 2017",
-		"tags": ["AngularJS"]
 	}
 ]}

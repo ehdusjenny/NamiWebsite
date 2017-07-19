@@ -3,9 +3,17 @@
  */
  
 angular.module('namiworld')
-.controller('FoodCityController', function($http, $state, FoodCity, FoodArticle) {
+.controller('FoodCityController', function($http, $state, $window, FoodCity, FoodArticle) {
+	$window.scrollTo(0, 0);
 	var vm = this;
-	vm.city = FoodCity.getCity();
+	var url = window.location.href;
+	vm.city = url.substring(url.lastIndexOf("/") + 1, url.length);
+	console.log(vm.city);
+	var cities = ['montreal', 'ottawa', 'quebec_city', 'toronto'];
+	if (!cities.includes(vm.city)) {
+		vm.city = FoodCity.getCity().url;
+		console.log(vm.city);
+	}
 	vm.cityLoaded = true;
 
 	function loadCity() {
@@ -19,7 +27,7 @@ angular.module('namiworld')
 	        cities = response.data.cities;
 	    	for (i = 0; i < cities.length; i++) {
 	    		city = cities[i];
-	    		if (city.name == vm.city.name) {
+	    		if (city.url == vm.city) {
 	    			vm.city = city;
 	    			vm.articles = city.articles.sort(function(a, b){return a.created < b.created});
 	    			break;
@@ -34,7 +42,6 @@ angular.module('namiworld')
 	function goToArticle(article) {
         FoodArticle.setArticle(article);
         vm.cityLoaded = false;
-        console.log(vm.cityLoaded);
         $state.go("food.article", {"articleName" : article.filename});
     }
     vm.goToArticle = goToArticle;

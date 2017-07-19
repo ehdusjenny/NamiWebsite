@@ -2,10 +2,6 @@
 
 Okay, it's not actually my first, but it's my first documented visit. We can pretend the previous ones never existed.
 
-I came here with my mom.
-
-![Mom](../images/food/montreal/kanbai/1.jpg "Mom")
-
 We ordered Kung Pow Shrimps, chicken fried rice, beef satay, shrimp wonton soup and sweet and sour soup.
 
 ![Shrimp](../images/food/montreal/kanbai/2.jpg "Shrimp")

@@ -19,7 +19,6 @@ angular.module('namiworld')
     }, function(error){
         vm.articles = 'Error getting article titles!';
     });
-    console.log(vm.articleOpen);
     vm.md = "";
     function loadArticle(filename) {
     	$http({
