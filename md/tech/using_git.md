@@ -135,6 +135,12 @@ To push your local branch to a remote with a different name, you can run
 git push remote_name local_branch_name:remote_branch_name
 ```
 
+To set the remote branch as the upstream for your current checked out branch, run
+```
+git branch --set-upstream local_branch remote_name/remote_branch
+```
+Now when you run `git push`, your commits will automatically be pushed to `remote_name/remote_branch`.
+
 To see more information on a particular remote, run
 ```
 git remote show remote_name
