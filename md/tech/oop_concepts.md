@@ -1,22 +1,50 @@
 # Object Oriented Programming Concepts
 
-What is a programming language? Programming language is a human-friendly language designed to communicate with machines and give machines instructions.
-
-This tutorial we'll be covering an Object Oriented Language - Java. This tutorial requires you to have a very basic programming background.
-
 ### Topics to cover:
 1. Introduction to Objects
-1. Inhertance
+1. Inheritance
 1. polymorphism
 
 ## Introduction to Objects
-An **object** is a representation of anything that has a <span class="blue">*state*</span> and <span class="red">*behaviour*</span>. So an object can be a dog, a dog is <span class="blue">happy</span>, <span class="blue">sad</span>, <span class="blue">excited</span>, etc, and the dog can <span class="red">run</span>, <span class="red">jump</span>, <span class="red">bite</span>, etc.
+An **object** is a representation of anything that has a *state* and a *behaviour*. So an object can be a dog. 
 
-<Create a little Java app that shows images of dogs doing things corresponding to the function>
+A dog is (*state*):
+1. happy, sad, excited
 
-So you can create a dog object and do all kinds of dog things.
+A dog can (*behaviour*):
+1. run, jump, bite
 
-The blueprint that defines what an object <span class="blue">is</span> and can <span class="red">do</span> is called a **class**.
+The blueprint that defines what an object is and can do is called a **class**.
+```
+public class Dog {
+    String mood = "";
+    public Dog(String pMood) {
+        mood = pMood;
+        System.out.println("I am a dog and I am " + this.mood + ".");
+    }
+    public void setMood(String pMood) {
+        mood = pMood;
+        System.out.println("I am " + this.mood + ".");
+    }
+    public void run() {
+        System.out.println("I am running.");
+    }
+    public void jump() {
+        System.out.println("I am jumping.");
+    }
+    public void bite() {
+        System.out.println("I am biting.");
+    }
+
+    public static void main(String[] args) {
+        Dog charles = new Dog("Happy");
+        charles.run();
+    }
+}
+```
+This is a class defining what a dog can be and do. 
+A class can have many **functions**, which are blocks of code designed to achieve a single goal. In this case, there are functions to run, jump and bite, as well as setting the mood of the dog. A class can also have **attributes**, which are 
+Create a happy dog object called charles with the following declaration: `Dog charles = new Dog("Happy")`. Make this dog run with `charles.run()`. 
 
 ## Inheritance
 A class can *inherit* attributes and methods from another class.

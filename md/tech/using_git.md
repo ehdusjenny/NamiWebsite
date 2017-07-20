@@ -391,5 +391,7 @@ git merge client
 
 These are the basics of Git you need to start working efficiently! Hope it was helpful.
 
+To add: un-stage files, diff between local and remote
+
 [gitkraken]: https://www.gitkraken.com/ "GitKraken"
 [git]: https://git-scm.com/downloads "Git Download"
