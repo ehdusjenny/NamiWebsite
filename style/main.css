@@ -13,6 +13,10 @@ body {
 	margin: 0px;
 }
 
+code {
+	background-color: #d2def2;
+}
+
 /*
  *	Index Page
  */
