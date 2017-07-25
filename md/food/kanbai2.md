@@ -6,13 +6,13 @@ We ordered double fried pork with szechuan style sauce, chicken with chinese mus
 
 ![Chicken](../images/food/montreal/kanbai2/1.jpg "Chicken")
 
-![Beef](../images/food/montreal/kanbai2/1.jpg "Beef")
+![Beef](../images/food/montreal/kanbai2/2.jpg "Beef")
 
-![Shrimp](../images/food/montreal/kanbai2/1.jpg "Shrimp")
+![Shrimp](../images/food/montreal/kanbai2/3.jpg "Shrimp")
 
-![Pork](../images/food/montreal/kanbai2/1.jpg "Pork")
+![Pork](../images/food/montreal/kanbai2/4.jpg "Pork")
 
-![Rice](../images/food/montreal/kanbai2/1.jpg "Rice")
+![Rice](../images/food/montreal/kanbai2/5.jpg "Rice")
 
 Chicken and beef were super, duper tender. Shrimp was good too, although I wasn't too fond of eating it with the shell. Chow fun was overcooked, trying to use chopsticks would instantly break the noodles. 
 
