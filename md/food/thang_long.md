@@ -3,9 +3,9 @@
 For the dinner of our Quebec Day Trip, we tried out a Vietnamese restaurant. 
 
 We tried the Hue noodles with vermicelli and beef, Thailandaise with chicken, and General Tao chicken, shown in that respective order. 
-![Hue](../images/food/montreal/thang_long/3.jpg "Hue")
-![Thailandaise](../images/food/montreal/thang_long/4.jpg "Thailandaise")
-![Chicken](../images/food/montreal/thang_long/5.jpg "Chicken")
+![Hue](../images/food/quebec_city/thang_long/3.jpg "Hue")
+![Thailandaise](../images/food/quebec_city/thang_long/4.jpg "Thailandaise")
+![Chicken](../images/food/quebec_city/thang_long/5.jpg "Chicken")
 
 So the beef in the Hue was too tough and cut too thick so it was difficult to eat. I really liked the soup though! It warmed me up in the chilly evening. The portion was just okay, the bowl was mostly filled with soup but not enough noodles which is a rare case since every Vietnamese place I've been to previously gave me way more than enough. 
 
