@@ -28,8 +28,9 @@ During the hiring process, make sure to send your HR a quick **thank-you e-mail*
 ##FOR INTERVIEWS
 Do prepare around 3 questions to ask, about the company, about the workflow of your team, company products, etc. It shows you care, or at least made the effort to pretend you care.
 
+
 ##FOR TECH FAIRS AND OTHER NETWORKING
-Research the job/company beforehand, and show that you've researched them. 
+Research the job/company thoroughly beforehand, and show that you've researched them. You can never know too much about the company.
 
 Good eye-contact and a firm handshake goes a long way. Make your presence known.
 
