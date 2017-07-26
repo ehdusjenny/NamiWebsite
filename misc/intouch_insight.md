@@ -28,12 +28,34 @@ Improve response rate with incentives - draws, coupons, gamification, social med
 Automatic email notifications to location managers.
 JIRA-like issue tracking.
 
-### InTouchAudit
+### InTouchCheck
+Mobile form builder for audits, checklists, field reports and inspection. Works on any mobile device or desktop. Form fields include yes/no, multiple choice, multi-select, numeric, text, date, and auto-calculation. Works offline. Data is securely stored and submitted once network is online.
 
-My relevant experience:
-HighCharts
-Grafana
-Microservices with Kubernetes and Docker containers
+Real-time submission and automated insights. Auto-notification of issues and list of open problems.
+
+### My relevant experience:
+1. PHP
+1. JavaScript - will translate into TypeScript
+1. AngularJS
+1. MySQL
+1. ElasticSearch
+1. HighCharts
+1. Agile scrum
+1. Grafana
+1. Object-oriented programming
+1. Docker
+1. Git
+1. Microservices
+1. REST APIs
+1. Design patterns
+1. Unit testing
+
+### Look into:
+1. Redis
+1. Laravel
+1. AWS
+1. SASS
+1. Functional and Regression testing
 
 ### Question
 Proprietary software or built on open-source software?
