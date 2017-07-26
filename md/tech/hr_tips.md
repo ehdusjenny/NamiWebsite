@@ -27,6 +27,7 @@ During the hiring process, make sure to send your HR a quick **thank-you e-mail*
 
 ##FOR INTERVIEWS
 Do prepare around 3 questions to ask, about the company, about the workflow of your team, company products, etc. It shows you care, or at least made the effort to pretend you care.
+For design or coding questions, ask questions to clarify their instructions. The initial instructions are often intentionally unclear for you to ask the right type of questions. While coding, explain everything you're doing step by step. Don't leave the interviewer waiting.
 
 ##FOR TECH FAIRS AND OTHER NETWORKING
 Research the job/company beforehand, and show that you've researched them. 

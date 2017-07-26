@@ -29,5 +29,11 @@
 		"filename": "hr_tips",
 		"created": "July 17th, 2017",
 		"tags": ["HR"]
+	},
+	{
+		"title": "Algorithm Questions and (My) Solutions",
+		"filename": "alg_questions",
+		"created": "July 25th, 2017",
+		"tags": ["Algorithm"]
 	}
 ]}

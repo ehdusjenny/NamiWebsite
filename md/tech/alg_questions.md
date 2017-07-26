@@ -77,11 +77,218 @@ else:
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+def iter_fib(n):
+    first = 0
+    second = 1
+    for i in range(n):
+        tmp = second
+        second = first + second
+        first = tmp
+    print first
 
+def recur_fib(first, second, n):
+    if n > 0:
+        return recur_fib(second, first + second, n-1)
+    else:
+        print first
+    
+n = 6
+iter_fib(n)
+recur_fib(0, 1, n)
+
+fib_arr = {0: 0, 1: 1}
+def dp_fib(n):
+    if n in fib_arr:
+        return fib_arr[n]
+    else:
+        fib_arr[n] = dp_fib(n-2) + dp_fib(n-1)
+        return fib_arr[n]
+
+n = 12
+dp_fib(n)
+print fib_arr[n]
 ```
 </div>
 
+## Question: Find the only element in an array that only occurs once.
 
+**Solution**:
+<div style="background-color: #d2def2">
+```
+arr = [2, 4, 6, 12, 3, 6, 4, 2, 3]
 
+num_map = {}
+for num in arr:
+    if num not in num_map:
+        num_map[num] = 1
+    else:
+        num_map[num] = num_map[num] + 1
+
+for key in num_map:
+    if num_map[key] == 1:
+        print key
+```
+</div>
+
+## Question: Find the common elements of 2 int arrays.
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+arr = [2, 4, 6, 12, 3, 6, 4, 2, 3]
+arr2 = [4, 6, 11]
+
+num_set = set()
+for num in arr:
+    num_set.add(num)
+
+for num in arr2:
+    if num in num_set:
+        print num
+```
+</div>
+
+## Question: Implement binary search of a sorted array of integers.
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+arr = [1, 5, 8, 12, 22, 78, 79, 92, 100, 101]
+
+def binary_search(i, j, num):
+    mid_pt = i + (j - i)/2
+    if i == mid_pt:
+        if arr[i] == num:
+            return i
+        elif arr[j] == num:
+            return j
+        else:
+            return -1
+    if arr[mid_pt] < num:
+        return binary_search(mid_pt, j, num)
+    elif arr[mid_pt] > num:
+        return binary_search(i, mid_pt, num)
+    else:
+        return mid_pt
+    
+num = 101
+print binary_search(0, len(arr) - 1, num)
+```
+</div>
+
+## Question: Implement binary search in a rotated array (ex. {5,6,7,8,1,2,3}).
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+rotated_arr = [5, 6, 7, 8, 1, 2, 3]
+
+cut = -1
+for i in range(len(rotated_arr) - 1):
+    if rotated_arr[i] > rotated_arr[i+1]:
+        cut = i
+        break
+print cut
+arr = rotated_arr[cut+1:]
+arr.extend(rotated_arr[0:cut+1])
+
+#perform binary search like above
+```
+</div>
+
+## Question: Use dynamic programming to find the first X prime numbers.
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+prime_nums = [1]
+
+def is_prime(num):
+    for tmp in range(2, num/2):
+        if num%tmp == 0:
+            return False
+    return True
+
+def n_primes(n):
+    num = prime_nums[len(prime_nums)-1] + 1
+    while len(prime_nums) < n:
+        print num
+        print prime_nums
+        if is_prime(num):
+            prime_nums.append(num)
+        num = num + 1    
+    return prime_nums[:n]
+
+n_primes(100)
+```
+</div>
+
+##Question: Write a function that prints out the binary form of an int.
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+def int_to_binary(num):
+    result = ""
+    while num != 0:
+        result = str(num%2) + result
+        num = num/2
+    print result
+
+int_to_binary(333)
+```
+</div>
+
+##Question: Implement parseInt.
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+str_to_num = {'1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '0': 0}
+
+def parseInt(strNum):
+    if strNum == "":
+        print "String is empty"
+        return
+    digit = 10**(len(strNum) - 1)
+    result = 0
+    for char in strNum:
+        if char in str_to_num:
+            result = result + str_to_num[char]*digit
+            digit = digit/10
+        else:
+            print "Parameter contains non-integer value"
+            return
+    print result
+    
+parseInt("132264")
+```
+</div>
+
+##Question: Implement parseInt
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+str_to_num = {'1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '0': 0}
+
+def parseInt(strNum):
+    if strNum == "":
+        print "String is empty"
+        return
+    digit = 10**(len(strNum) - 1)
+    result = 0
+    for char in strNum:
+        if char in str_to_num:
+            result = result + str_to_num[char]*digit
+            digit = digit/10
+        else:
+            print "Parameter contains non-integer value"
+            return
+    print result
+    
+parseInt("132264")
+```
+</div>
 
 [alg_post]: https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/ "Reddit Algorithm Post"
