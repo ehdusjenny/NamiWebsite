@@ -21,6 +21,7 @@ angular.module('namiworld')
 	 * articles.json has a list of articles,
 	 * and each article has a title, filename, tags, and created properties.
 	 */
+    mapping = {true: -1, false: 1};
 	$http({
 			url: '../../md/tech/articles.json',
 			method: 'GET',
@@ -28,7 +29,7 @@ angular.module('namiworld')
    				'Content-Type': "application/json"
  			}
     }).then(function(response){
-        vm.articles = response.data.articles;
+        vm.articles = response.data.articles.sort(function(a, b){return mapping[a.created > b.created]});
     }, function(error){
         vm.articles = 'Error getting article titles!';
     });

@@ -11,7 +11,7 @@
 					"title": "C'Chocolat",
 					"filename": "c'chocolat",
 					"synopsis": "A decadent outing with some good people",
-					"created": "06/13/2017",
+					"created": "2017/06/13",
 					"image": "../images/food/montreal/cchocolat/1.jpg",
 					"address": "1255 Bishop St, Montreal, QC H3G",
 					"tags": ["Dessert"]
@@ -20,7 +20,7 @@
 					"title": "Cafe Parvis",
 					"filename": "cafe_parvis",
 					"synopsis": "Casual dining with unique pizzas in a rustic environment",
-					"created": "06/04/2017",
+					"created": "2017/06/04",
 					"image": "../images/food/montreal/cafe_parvis/4.jpg",
 					"address": "433 Mayor St, Montreal, QC H3A",
 					"tags": ["Dine-In", "Pizza"]
@@ -29,7 +29,7 @@
 					"title": "Cafe Tommy",
 					"filename": "cafe_tommy",
 					"synopsis": "Small cute cafe with delicious pastries",
-					"created": "06/03/2017",
+					"created": "2017/06/03",
 					"image": "../images/food/montreal/cafe_tommy/1.jpg",
 					"address": "British Empire Building, 200 Rue Notre-Dame Ouest, Montréal, QC H2Y 1T3",
 					"tags": ["Cafe", "Pastries"]
@@ -38,7 +38,7 @@
 					"title": "Copper Branch",
 					"filename": "copper_branch",
 					"synopsis": "Satifying vegetarian place downtown",
-					"created": "06/21/2017",
+					"created": "2017/06/21",
 					"image": "../images/food/montreal/copper_branch/1.jpg",
 					"address": "600 Boulevard de Maisonneuve O, Montréal, QC H3A",
 					"tags": ["Vegetarian"]
@@ -47,7 +47,7 @@
 					"title": "Crew & Collective Cafe",
 					"filename": "crew_cafe",
 					"synopsis": "Huge cafe located in a gorgeous, historic building.",
-					"created": "06/11/2017",
+					"created": "2017/06/11",
 					"image": "../images/food/montreal/crew_cafe/1.jpg",
 					"address": "360 St Jacques St, Montreal, QC H2Y 2N1",
 					"tags": ["Cafe"]
@@ -56,7 +56,7 @@
 					"title": "Kanbai - First Visit",
 					"filename": "kanbai",
 					"synopsis": "Authentic Szechuan food located in Chinatown",
-					"created": "06/13/2017",
+					"created": "2017/06/13",
 					"image": "../images/food/montreal/kanbai/2.jpg",
 					"address": "1110 Clark St, Montreal, QC H2Z 1K3",
 					"tags": ["Chinatown", "Szechuan"]
@@ -65,7 +65,7 @@
 					"title": "Kanbai - Second Visit",
 					"filename": "kanbai2",
 					"synopsis": "Authentic Szechuan food located in Chinatown",
-					"created": "06/18/2017",
+					"created": "2017/06/18",
 					"image": "../images/food/montreal/kanbai2/1.jpg",
 					"address": "1110 Clark St, Montreal, QC H2Z 1K3",
 					"tags": ["Chinatown", "Szechuan"]
@@ -74,7 +74,7 @@
 					"title": "L'Artisan",
 					"filename": "l'artisan",
 					"synopsis": "Bakery too good to be true",
-					"created": "06/11/2017",
+					"created": "2017/06/11",
 					"image": "../images/food/montreal/lartisan/1.jpg",
 					"address": "4780 Avenue Papineau, Montreal, QC H2H 1V5",
 					"tags": ["Dessert", "Bakery"]
@@ -83,7 +83,7 @@
 					"title": "La Banquise",
 					"filename": "la_banquise",
 					"synopsis": "Montreal's (IMHO, and generally agreed upon,) best poutinerie",
-					"created": "06/02/2017",
+					"created": "2017/06/02",
 					"image": "../images/food/montreal/la_banquise/1.jpg",
 					"address": "994 Rue Rachel E, Montréal, QC H2J 2J3",
 					"tags": ["Poutine", "Canadian"]
@@ -92,7 +92,7 @@
 					"title": "La Cabane de Danny",
 					"filename": "la_cabane_de_danny",
 					"synopsis": "BUBBLE WAFFLE",
-					"created": "05/15/2017",
+					"created": "2017/05/15",
 					"image": "../images/food/montreal/la_cabane_de_danny/1.jpg",
 					"address": "52A Rue de la Gauchetière O, Montréal, QC H2Z 1C1",
 					"tags": ["Dessert", "Chinatown"]
@@ -101,7 +101,7 @@
 					"title": "Le Majesthe",
 					"filename": "le_majesthe",
 					"synopsis": "Innovative Taiwanese fusion food to tickle your senses",
-					"created": "05/28/2017",
+					"created": "2017/05/28",
 					"image": "../images/food/montreal/le_majesthe/1.jpg",
 					"address": "439 Avenue du Président-Kennedy, Montréal, QC H3A 1J5",
 					"tags": ["Taiwanese", "Asian"]
@@ -110,7 +110,7 @@
 					"title": "Nouilles de Lanzhou",
 					"filename": "nouilles_de_lanzhou",
 					"synopsis": "Fresh noodles, hearty meal!",
-					"created": "06/16/2017",
+					"created": "2017/06/16",
 					"image": "../images/food/montreal/nouilles_de_lanzhou/1.jpg",
 					"address": "1006 St Laurent Blvd, Montreal, Quebec H2Z 9Y9",
 					"tags": ["Noodles", "Chinatown"]
@@ -119,7 +119,7 @@
 					"title": "O'Noir",
 					"filename": "onoir",
 					"synopsis": "An eye-opening experience and an opportunity to eat like a child!",
-					"created": "05/25/2017",
+					"created": "2017/05/25",
 					"image": "../images/food/montreal/onoir/1.jpg",
 					"address": "124 Rue Prince Arthur E, Montreal, QC H2X 1B5",
 					"tags": ["Blind", "French"]
@@ -128,7 +128,7 @@
 					"title": "OPiano",
 					"filename": "opiano",
 					"synopsis": "Best bingsu in town",
-					"created": "06/15/2017",
+					"created": "2017/06/15",
 					"image": "../images/food/montreal/opiano/1.jpg",
 					"address": "1115 Sherbrooke St W, Montreal, QC H3A 1G6",
 					"tags": ["Bingsu", "Korean"]
@@ -137,7 +137,7 @@
 					"title": "Momesso",
 					"filename": "momesso",
 					"synopsis": "Delicious subs for reasonable prices",
-					"created": "07/06/2017",
+					"created": "2017/07/06",
 					"image": "../images/food/montreal/momesso/1.jpg",
 					"address": "5562 Upper Lachine Rd, Montreal, QC H4A 2A7",
 					"tags": ["Sub", "Diner"]
@@ -155,7 +155,7 @@
 					"title": "Panera Bread",
 					"filename": "panera_bread",
 					"synopsis": "Simple good food, slightly underwhelming.",
-					"created": "05/14/2017",
+					"created": "2017/05/14",
 					"image": "../images/food/ottawa/panera_bread/6.jpg",
 					"address": "320 W Hunt Club Rd, Ottawa, ON K2E 0B7",
 					"tags": ["Chain", "Sandwich", "Salad"]
@@ -164,7 +164,7 @@
 					"title": "Presotea",
 					"filename": "presotea",
 					"synopsis": "Refreshing and filling bubble tea!",
-					"created": "05/13/2017",
+					"created": "2017/05/13",
 					"image": "../images/food/ottawa/presotea/1.jpg",
 					"address": "174 Rideau St, Ottawa, ON K1N 9P1",
 					"tags": ["Bubble Tea"]
@@ -182,7 +182,7 @@
 					"title": "Thang Long",
 					"filename": "thang_long",
 					"synopsis": "Average Vietnamese restaurant on the outskirts of Old Quebec",
-					"created": "06/17/2017",
+					"created": "2017/06/17",
 					"image": "../images/food/quebec_city/thang_long/5.jpg",
 					"address": "869 Côte d'Abraham, Ville de Québec, QC G1R 1K9",
 					"tags": ["Vietnamese"]
@@ -191,7 +191,7 @@
 					"title": "Le Bureau de Poste",
 					"filename": "le_bureau_de_poste",
 					"synopsis": "Subpar bar food living on the flatrate $5 hype",
-					"created": "06/17/2017",
+					"created": "2017/06/17",
 					"image": "../images/food/quebec_city/le_bureau_de_poste/1.jpg",
 					"address": "296 Rue Saint-Joseph Est, Ville de Québec, QC G1K 3B1",
 					"tags": ["Bar", "Finger Food"]

@@ -40,6 +40,7 @@ angular.module('namiworld')
         vm.cities = 'Error getting food articles!';
     });
 
+    mapping = {true: -1, false: 1};
     function getThreeLatestArticles(cityName) {
     	for (i = 0; i < vm.cities.length; i++) {
     		city = vm.cities[i]
@@ -48,7 +49,7 @@ angular.module('namiworld')
     				if (a.created.toLowerCase().localeCompare(b.created.toLowerCase()) == 0) {
     					return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
     				}
-    				else return a.created.localeCompare(b.created);
+                    else return mapping[a.created > b.created];
     			});
     			return sorted.slice(0, 3);
     		}

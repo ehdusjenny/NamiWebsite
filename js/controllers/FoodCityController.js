@@ -16,6 +16,7 @@ angular.module('namiworld')
 	}
 	vm.cityLoaded = true;
 
+	mapping = {true: -1, false: 1};
 	function loadCity() {
 		$http({
 			url: '../../md/food/articles.json',
@@ -29,7 +30,10 @@ angular.module('namiworld')
 	    		city = cities[i];
 	    		if (city.url == vm.city) {
 	    			vm.city = city;
-	    			vm.articles = city.articles.sort(function(a, b){return a.created < b.created});
+	    			console.log(city.articles);
+	    			console.log('2017/06/11' < '2017/07/06');
+	    			vm.articles = city.articles.sort(function(a, b){return mapping[a.created > b.created]});
+	    			console.log(vm.articles);
 	    			break;
 	    		}
 	    	}

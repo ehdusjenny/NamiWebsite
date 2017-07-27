@@ -3,37 +3,43 @@
 	{
 		"title": "OOP Concepts",
 		"filename": "oop_concepts",
-		"created": "July 20th, 2017",
+		"created": "2017/07/20",
 		"tags": ["Java", "OOP", "Programming"]
 	},
 	{
 		"title": "Git Basics",
 		"filename": "using_git",
-		"created": "July 15th, 2017",
+		"created": "2017/07/15",
 		"tags": ["Git"]
 	},
 	{
 		"title": "Git Philosophy",
 		"filename": "git_philosophy",
-		"created": "July 15th, 2017",
+		"created": "2017/07/15",
 		"tags": ["Git", "Philosophy"]
 	},
 	{
 		"title": "Git vs SVN",
 		"filename": "git_vs_svn",
-		"created": "July 15th, 2017",
+		"created": "2017/07/15",
 		"tags": ["Git", "SVN"]
 	},
 	{
 		"title": "HR Tips",
 		"filename": "hr_tips",
-		"created": "July 17th, 2017",
+		"created": "2017/07/17",
 		"tags": ["HR"]
 	},
 	{
 		"title": "Algorithm Questions and (My) Solutions",
 		"filename": "alg_questions",
-		"created": "July 25th, 2017",
+		"created": "2017/07/25",
 		"tags": ["Algorithm"]
+	},
+	{
+		"title": "Docker - A Brief Summary for Dummies",
+		"filename": "docker",
+		"created": "2017/07/26",
+		"tags": ["Docker"]
 	}
 ]}

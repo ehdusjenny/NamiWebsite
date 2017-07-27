@@ -491,6 +491,7 @@ code {
 		height: 170px;
 		margin: 5%;
 		opacity: 0.8;
+		overflow: hidden;
 
 		background-repeat: no-repeat;
     	background-size: cover;
