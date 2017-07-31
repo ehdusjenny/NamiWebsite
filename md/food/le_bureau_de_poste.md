@@ -19,7 +19,7 @@ We chose lemon & salt flavoring for the wings, but it just tasted salty. The win
 
 Their perogies were the only saving grace. The crispy bacon and the green onions were a good compliment to the cheesy fillings.
 
-![Nachos](../images/food/quebec_city/le_bureau_de_poste/8.jpg "Nachos")
+![Nachos](../images/food/quebec_city/le_bureau_de_poste/10.jpg "Nachos")
 
 The dip was super rich, warm and creamy. The nachos were meh, the bread was good.
 

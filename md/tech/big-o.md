@@ -113,3 +113,34 @@
     <td></td>
   </tr>
 </table>
+
+<table style="width: 100%;">
+  <tr>
+    <th>Sorting Algorithms</th>
+    <th colspan="2">Big-O Time Complexity</th>
+    <th>Space Complexity</th> 
+  </tr>
+  <tr>
+    <th></th>
+    <th>Average</th>
+    <th>Worst</th> 
+  </tr>
+  <tr>
+    <th style="white-space: nowrap">Quicksort</td>
+    <td>nlog(n)</td>
+    <td>n<sup>2</sup></td>
+    <td>log(n)</td>
+  </tr>
+  <tr>
+    <th style="white-space: nowrap">Mergesort</td>
+    <td>nlog(n)</td>
+    <td>nlog(n)</td>
+    <td>n</td>
+  </tr>
+  <tr>
+    <th style="white-space: nowrap">Heapsort</td>
+    <td>1</td>
+    <td>n</td>
+    <td>n</td>
+  </tr>
+</table>

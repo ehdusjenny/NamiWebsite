@@ -59,3 +59,7 @@ Real-time submission and automated insights. Auto-notification of issues and lis
 
 ### Question
 Proprietary software or built on open-source software?
+
+### Questions I stumped on
+What other languages/technologies are you looking to learn?
+Differences/pros/cons of languages?
