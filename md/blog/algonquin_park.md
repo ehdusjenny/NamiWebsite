@@ -35,4 +35,4 @@ See the raindrops on the water. It got a lot worse once we started canoeing. It 
 A little celebration after getting on land!
 ![Celebration](../images/blog/algonquin_park/12.jpg "Celebration")
 
-Here came the hardest part of our journey: portaging (carrying the canoe on your shoulders) for 1.6 KM. 
+Here came the hardest part of our journey: portaging (carrying the canoe on your shoulders) for 1.6 KM. Our saviour Tara did the ENTIRE route by herself with few breaks in between, which I'm 100% sure I can't do.
