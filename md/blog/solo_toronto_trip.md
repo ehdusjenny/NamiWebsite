@@ -9,7 +9,7 @@ Gooderham Building
 Brookfield Place
 Waterfront Toronto
 Ripley's Aquarium of Canada
-Budget: $80 for food
+Budget: $33 for Aquarium, $50 for food
 
 Sunday:
 Chinatown

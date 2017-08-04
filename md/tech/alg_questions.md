@@ -265,29 +265,93 @@ parseInt("132264")
 ```
 </div>
 
-##Question: Implement parseInt
+##Question: Find the first non-repeated character in a String.
 
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-str_to_num = {'1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '0': 0}
+sentence = "abcdefabgcdef"
 
-def parseInt(strNum):
-    if strNum == "":
-        print "String is empty"
-        return
-    digit = 10**(len(strNum) - 1)
-    result = 0
-    for char in strNum:
-        if char in str_to_num:
-            result = result + str_to_num[char]*digit
-            digit = digit/10
-        else:
-            print "Parameter contains non-integer value"
-            return
-    print result
-    
-parseInt("132264")
+char_dict = {}
+def find_first_nonrepeat():
+  for char in sentence:
+    if not char.isalpha():
+      continue
+    if char.lower() in char_dict:
+      char_dict[char.lower()] = char_dict[char.lower()] + 1
+    else:
+      char_dict[char.lower()] = 1
+      
+  for char in sentence:
+    if not char.isalpha():
+      continue
+    if char_dict[char.lower()] == 1:
+      print char.lower()
+      return
+  print char_dict
+
+find_first_nonrepeat()
+```
+</div>
+
+##Question: Reverse a String iteratively and recursively.
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+sentence = "Reverse this String, please."
+
+def reverse_string_iter(to_reverse):
+  reversed = ""
+  for char in to_reverse:
+    reversed = char + reversed
+  print reversed
+
+reverse_string_iter(to_reverse)
+
+def reverse_string_recur(to_reverse):
+  if len(to_reverse) == 1:
+    return to_reverse
+  else:
+    return reverse_string_recur(to_reverse[1:]) + to_reverse[0]
+  
+print reverse_string_recur(sentence)
+```
+</div>
+
+##Question: 
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: 
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: 
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: 
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
 ```
 </div>
 
