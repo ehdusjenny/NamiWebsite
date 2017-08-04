@@ -319,7 +319,7 @@ print reverse_string_recur(sentence)
 ```
 </div>
 
-##Question: 
+##Question: Determine if 2 Strings are anagrams
 
 **Solution**:
 <div style="background-color: #d2def2">
