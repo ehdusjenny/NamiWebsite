@@ -61,6 +61,9 @@ I am running.
 </div>
 
 ## Inheritance
+Inheritance in Java can be done in two ways: extending a superclass, or implementing an interface. Let's first look at extending a superclass.
+
+### extends
 A class can *inherit* attributes and methods from another class. Let's say all animals can have emotions, run, jump and bite. When we want to create a `Cat` class, it seems a bit redundant to create the same functions that the Dog class already has. So let's create a **superclass** called `Animal` that encompasses all things that both dogs and cats can do.
 
 ### Example 1
@@ -97,6 +100,9 @@ public class Cat extends Animal {
     public void meow() {
         System.out.println("Meow.");
     }
+}
+
+public class testing {
     public static void main(String[] args) {
         Cat miku = new Cat("Scared");
         miku.run();
@@ -127,17 +133,48 @@ Ruff.
 
 Inheritance can be seen as a one-way **IS-A** relationship; a dog IS AN animal. However, the inverse is not necessarily true; an animal is not necessarily a dog.
 
-## Polymorphism
+### implements
 In Java, there is another type called **interfaces**. Interfaces can contain constants and method signatures, but *not the actual implementation*.
 <div style="background-color: #d2def2">
 ```
-public Interface Shape {
-    
+public Interface Human {
+    public int getAge();
+    public int getHeightInCM();
+}
+
+public Interface Employee {
+    public int getSalary();
+    public String getPosition();
+}
+
+public class Nami implements Human, Employee{
+    int age = 23;
+    int heightInCM = 167;
+    int salary = 90000;
+    String position = "Software Developer";
+    public int getAge() {
+        return age;
+    }
+    public int getHeightInCM() {
+        return heightInCM;
+    }
+    public int getSalary() {
+        return salary;
+    }
+    public String getPosition() {
+        return position;
+    }
 }
 ```
 </div>
-<Show interface example Shape, with Circle and Square implementing it>
-`Circle` and `Square` classes implement the `Shape` interface, which means the `Circle` class and `Square` class have to implement the methods defined by the Shape class. It also inherits the constants. This is basically saying if your class is defining a shape, it should be able to compute its area and the perimeter.
+`Nami` is a class that implements two interfaces, `Human` and `Employee`. Then the `Nami` class has to implement all the methods from `Human` and `Employee` interfaces. A `Nami` Object **IS-A** `Human` and `Employee`.
+
+Note that you cannot extend multiple classes, but you can implement multiple interfaces.
+
+## Polymorphism
+Polymorphism is the ability for an object to take on many forms. In OOP, a parent class reference can be used to refer to a child class object.
+
+
 
 ### Polymorphism in Action:
 Why is polymorphism useful? Here's an example.
