@@ -6,6 +6,8 @@ This tutorial assumes you know basic Java syntax.
 1. Introduction to Objects and Classes
 1. Inheritance
 1. Polymorphism
+1. Overriding
+1. Overloading
 1. Abstraction
 1. Encapsulation
 
@@ -102,7 +104,7 @@ public class Cat extends Animal {
     }
 }
 
-public class testing {
+public class Inheritance {
     public static void main(String[] args) {
         Cat miku = new Cat("Scared");
         miku.run();
@@ -172,18 +174,135 @@ public class Nami implements Human, Employee{
 Note that you cannot extend multiple classes, but you can implement multiple interfaces.
 
 ## Polymorphism
-Polymorphism is the ability for an object to take on many forms. In OOP, a parent class reference can be used to refer to a child class object.
+Polymorphism is the ability for an object to take on many forms. In OOP, a parent interface/class reference can be used to refer to a child class object, i.e. the following, using the same example as above:
+```
+public class InterfacePolymorphism {
+    Nami nami = new Nami();
+    Human namiHuman = nami;
+    Employee namiEmployee = nami;
+}
+```
 
+So three references `nami`, `namiHuman`, and `namiEmployee` are all pointing to the same object. 
 
+Likewise for classes:
+```
+public class ClassPolymorphism {
+    Cat miku = new Cat();
+    Animal catAnimal = miku;
+}
+```
 
-### Polymorphism in Action:
-Why is polymorphism useful? Here's an example.
-<A function that can take in a superclass as input parameter>
+## Overriding
+With polymorphism comes another concept: overriding. A subclass inherits all methods from its superclass. A subclass can choose to **override** any of these methods, i.e.:
+```
+public class Animal {
+    public void run() {
+        System.out.println("I am running.");
+    }
+}
 
-Instead of worrying about the detailed implementations, you only need to look at the method signatures in the interfaces to make the right call.
+public class Dog extends Animal {
+    public void run() {
+        System.out.println("I am running like a dog.");
+    }
+}
 
-Those two I believe are the most fundamental concepts of OOP. There are more that comes with it, such as [Abstraction][abstraction], [Encapsulation][encapsulation], [Overloading][overloading].
+public class Overriding {
+    public static void main(String[] args) {
+        Dog charles = new Dog();
+        charles.run();
+    }
+}
+```
+The above will print
+```
+"I am running like a dog."
+```
 
-[abstraction]: https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html "Abstraction in Java"
-[encapsulation]: https://en.wikipedia.org/wiki/Encapsulation_(computer_programming) "Encapsulation"
-[overloading]: http://beginnersbook.com/2013/05/method-overloading/ "Overloading in Java"
+Now, what would print if you ran the following?
+```
+Animal charles = new Dog();
+charles.run();
+```
+The above will print
+```
+I am running like a dog.
+```
+The object `charles` has a static type of `Animal`, which is determined at *compile time*. It has a dynamic type of `Dog`, which is determined at *runtime*. Method overrides are determined at runtime, and the dynamic binding has precedence over the static binding.
+
+## Overloading
+When two or more methods have the same method name, but with different input parameters.
+For an example,
+```
+public class FeedAnimals {
+    public void feed(Dog dog) {
+        System.out.println("I am feeding a dog.");
+    }
+    public void feed(Cat cat) {
+        System.out.println("I am feeding a cat.");
+    }
+    public static void main(String[] args) {
+        Cat cat = new Cat();
+        Dog dog = new Dog();
+        FeedAnimals fa = new FeedAnimals();
+        fa.feed(cat);
+        fa.feed(dog);
+    }
+}
+```
+will print
+```
+I am feeding a cat.
+I am feeding a dog.
+```
+
+Unlike overrides, overloaded method calls are resolved during compile time. Therefore, static binding has precedence over dynamic binding.
+The following code
+```
+public class FeedAnimals {
+    public void feed(Animal animal) {
+        System.out.println("I am feeding an animal.");
+    }
+    public void feed(Cat cat) {
+        System.out.println("I am feeding a cat.");
+    }
+    public static void main(String[] args) {
+        Animal cat = new Cat();
+        FeedAnimals fa = new FeedAnimals();
+        fa.feed(cat);
+    }
+}
+```
+will print
+```
+I am feeding an animal.
+```
+
+## Abstraction
+In OOP, Abstraction is a way of hiding implementation details that are irrelevant/unnecessary to the user by providing only the functionality details. This can be done using abstract classes as well as interfaces, which we've already discussed.
+
+An **abstract class** is a class that *may* contain **abstract methods**, which are methods without implementation, unlike an interface where none of the methods can have implementations.
+The following is an abstract class:
+```
+public abstract class Character {
+    String name;
+    int age;
+
+    public Character(String pName, int pAge) {
+        name = pName;
+        age = pAge;
+    }
+
+    public abstract void talk(String sentence);
+}
+```
+To extend an abstract class, the subclass must either implement all the abstract methods it inherits, or declare itself as abstract.
+
+An abstract class cannot be instantiated, i.e. you cannot declare:
+```
+Character person = new Character();
+```
+
+## Encapsulation
+Encapsulation is a process of binding or wrapping the data and the codes that operate on the data into a single entity. 
