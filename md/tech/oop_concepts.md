@@ -3,13 +3,17 @@
 This tutorial assumes you know basic Java syntax.
 
 ### Topics to cover:
-1. Introduction to Objects and Classes
+1. Objects and Classes
 1. Inheritance
+    * Superclasses and `extends`
+    * Interfaces and `implements`
 1. Polymorphism
 1. Overriding
 1. Overloading
 1. Abstraction
+    * Abstract classes
 1. Encapsulation
+    * Access modifiers: private, package-private, protected, and public
 
 ## Introduction to Objects
 An **object** is a representation of anything that has a *state* and a *behaviour*. So an object can be a dog. 
@@ -51,10 +55,10 @@ public class Dog {
 ```
 </div>
 This is a class defining what a dog can be and do. 
-A class can have many **functions**, which are blocks of code designed to achieve a single goal. In this case, there are functions to run, jump and bite, as well as setting the mood of the dog. A class can also have **attributes**, which are the characteristics of object instances of the class.
+A class can have many **methods**, which are blocks of code designed to achieve a single goal. In this case, there are methods to run, jump and bite, as well as setting the mood of the dog. A class can also have **attributes**, which are the characteristics of object instances of the class.
 Create a happy dog object called charles with the following declaration: `Dog charles = new Dog("Happy")`. Make this dog run with `charles.run()`. 
 
-Calling the `main` function will print
+Calling the `main` method will print
 <div style="background-color: #d2def2">
 ```
 I am a dog and I am Happy.
@@ -66,7 +70,7 @@ I am running.
 Inheritance in Java can be done in two ways: extending a superclass, or implementing an interface. Let's first look at extending a superclass.
 
 ### extends
-A class can *inherit* attributes and methods from another class. Let's say all animals can have emotions, run, jump and bite. When we want to create a `Cat` class, it seems a bit redundant to create the same functions that the Dog class already has. So let's create a **superclass** called `Animal` that encompasses all things that both dogs and cats can do.
+A class can *inherit* attributes and methods from another class. Let's say all animals can have emotions, run, jump and bite. When we want to create a `Cat` class, it seems a bit redundant to create the same methods that the Dog class already has. So let's create a **superclass** called `Animal` that encompasses all things that both dogs and cats can do.
 
 ### Example 1
 <div style="background-color: #d2def2">
@@ -118,10 +122,10 @@ public class Inheritance {
 ```
 </div>
 
-The `Dog` class inherits properties and methods from the `Animal` superclass, since a dog is also an animal. The same goes for the `Cat` class. This means a `Dog` object has a mood, can run, jump and bite. A `Cat` object also has a mood and can run, jump and bite. Calling `miku.run()` will call the `run()` function of the `Animal` class.
-Properties and methods within the `Dog` class belong only to `Dog` instances. A `Dog` object can bark, but not a `Cat` object since it has no function to bark. Likewise, a `Cat` object can meow, but a `Dog` object cannot. 
+The `Dog` class inherits properties and methods from the `Animal` superclass, since a dog is also an animal. The same goes for the `Cat` class. This means a `Dog` object has a mood, can run, jump and bite. A `Cat` object also has a mood and can run, jump and bite. Calling `miku.run()` will call the `run()` method of the `Animal` class.
+Properties and methods within the `Dog` class belong only to `Dog` instances. A `Dog` object can bark, but not a `Cat` object since it has no method to bark. Likewise, a `Cat` object can meow, but a `Dog` object cannot. 
 
-Calling the `main` function will print
+Calling the `main` method will print
 <div style="background-color: #d2def2">
 ```
 I am an animal and I am Scared.
@@ -327,3 +331,5 @@ Character person = new Character();
 
 ## Encapsulation
 Encapsulation is a process of binding or wrapping the data and the codes that operate on the data into a single entity. 
+
+In Java, encapsulation is done through access modifiers.
