@@ -332,4 +332,121 @@ Character person = new Character();
 ## Encapsulation
 Encapsulation is a process of binding or wrapping the data and the codes that operate on the data into a single entity. 
 
-In Java, encapsulation is done through access modifiers.
+In Java, encapsulation is done through access modifiers. Access modifiers are used to set the access levels for classes, interfaces, variables, methods and contructors. They *encapsulate* their data/code so the outside world cannot access them.
+
+### No modifier (package-private)
+If you don't specify a modifier, then that class, variable, mthod or constructor is visible only to the package it belongs to. 
+
+A **package** is a group of similar types of classes, interfaces, and sub-packages that work together. Common Java packages are *java*, *lang*, and *javax*.
+
+An example code using no modifier:
+<div style="background-color: #d2def2">
+```
+String returnHello() {
+    return "Hello";
+}
+```
+</div>
+
+### `private`
+A private method, variable, or constructor is accessible only within the class it belongs to. Classes and interfaces cannot be private.
+
+Private is the most restrictive access control and provides the strongest encapsulation.
+
+An example code using private:
+<div style="background-color: #d2def2">
+```
+private String sentence;
+
+public void setSentence(String pSentence) {
+    sentence = pSentence;
+}
+
+public String getSentence() {
+    return sentence;
+}
+```
+</div>
+
+`sentence` is private. It is only accessible through setter and getter methods. 
+
+### protected
+Protected variables, methods and constructors are accessible only by its subclasses in any package, and by any classes within its own package.
+
+Classes, interfaces, and methods and fields in an interface cannot be declared protected.
+
+An example code using protected:
+<div style="background-color: #d2def2">
+```
+class Runner {
+    protected void run() {
+        //implementation
+    }
+}
+
+class LongDistanceRunner extends Runner {
+    public void run() {
+        for (int i = 0; i < 3; i++) {
+           super.run();
+        }
+    }
+}
+```
+</div>
+
+Note that `LongDistanceRunner` extends `Runner`, i.e. it is a subclass of `Runner`.
+When a LongDistanceRunner object calls its `run()` function, the super class `Runner`'s `run()` function will be called three times.
+The Runner's `run()` method cannot be called outside of its package or by a non-subclass.
+
+### public
+Public classes, methods, constructors, interfaces, or variables can be accessed anywhere. They are open to the world. 
+
+For an example, the main method is always public since it needs to be called by a Java interpreter:
+<div style="background-color: #d2def2">
+```
+public static void main(String[] args) {
+    // ...
+}
+```
+</div>
+
+Note that to access something public in a different package, you must import it first.
+
+Here's a simple table summarizing the accessibility of the modifiers:
+<table style="width: 100%;">
+  <tr>
+    <th>Modifier</th>
+    <th>Class</th>
+    <th>Package</th> 
+    <th>Subclass</th> 
+    <th>World</th> 
+  </tr>
+  <tr>
+    <th style="white-space: nowrap">private</th>
+    <td>Y</td>
+    <td>N</td>
+    <td>N</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <th style="white-space: nowrap"><i>no modifier</i></th>
+    <td>Y</td>
+    <td>Y</td>
+    <td>N</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <th style="white-space: nowrap">protected</th>
+    <td>Y</td>
+    <td>Y</td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <th style="white-space: nowrap">public</th>
+    <td>Y</td>
+    <td>Y</td>
+    <td>Y</td>
+    <td>Y</td>
+  </tr>
+</table>
