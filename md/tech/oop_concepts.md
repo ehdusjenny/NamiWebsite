@@ -175,6 +175,7 @@ Note that you cannot extend multiple classes, but you can implement multiple int
 
 ## Polymorphism
 Polymorphism is the ability for an object to take on many forms. In OOP, a parent interface/class reference can be used to refer to a child class object, i.e. the following, using the same example as above:
+<div style="background-color: #d2def2">
 ```
 public class InterfacePolymorphism {
     Nami nami = new Nami();
@@ -182,19 +183,21 @@ public class InterfacePolymorphism {
     Employee namiEmployee = nami;
 }
 ```
-
+</div>
 So three references `nami`, `namiHuman`, and `namiEmployee` are all pointing to the same object. 
 
 Likewise for classes:
+<div style="background-color: #d2def2">
 ```
 public class ClassPolymorphism {
     Cat miku = new Cat();
     Animal catAnimal = miku;
 }
 ```
-
+</div>
 ## Overriding
 With polymorphism comes another concept: overriding. A subclass inherits all methods from its superclass. A subclass can choose to **override** any of these methods, i.e.:
+<div style="background-color: #d2def2">
 ```
 public class Animal {
     public void run() {
@@ -215,25 +218,32 @@ public class Overriding {
     }
 }
 ```
+</div>
 The above will print
+<div style="background-color: #d2def2">
 ```
 "I am running like a dog."
 ```
-
+</div>
 Now, what would print if you ran the following?
+<div style="background-color: #d2def2">
 ```
 Animal charles = new Dog();
 charles.run();
 ```
+</div>
 The above will print
+<div style="background-color: #d2def2">
 ```
 I am running like a dog.
 ```
+</div>
 The object `charles` has a static type of `Animal`, which is determined at *compile time*. It has a dynamic type of `Dog`, which is determined at *runtime*. Method overrides are determined at runtime, and the dynamic binding has precedence over the static binding.
 
 ## Overloading
 When two or more methods have the same method name, but with different input parameters.
 For an example,
+<div style="background-color: #d2def2">
 ```
 public class FeedAnimals {
     public void feed(Dog dog) {
@@ -251,14 +261,18 @@ public class FeedAnimals {
     }
 }
 ```
+</div>
 will print
+<div style="background-color: #d2def2">
 ```
 I am feeding a cat.
 I am feeding a dog.
 ```
+</div>
 
 Unlike overrides, overloaded method calls are resolved during compile time. Therefore, static binding has precedence over dynamic binding.
 The following code
+<div style="background-color: #d2def2">
 ```
 public class FeedAnimals {
     public void feed(Animal animal) {
@@ -274,16 +288,20 @@ public class FeedAnimals {
     }
 }
 ```
+</div>
 will print
+<div style="background-color: #d2def2">
 ```
 I am feeding an animal.
 ```
+</div>
 
 ## Abstraction
 In OOP, Abstraction is a way of hiding implementation details that are irrelevant/unnecessary to the user by providing only the functionality details. This can be done using abstract classes as well as interfaces, which we've already discussed.
 
 An **abstract class** is a class that *may* contain **abstract methods**, which are methods without implementation, unlike an interface where none of the methods can have implementations.
 The following is an abstract class:
+<div style="background-color: #d2def2">
 ```
 public abstract class Character {
     String name;
@@ -297,12 +315,15 @@ public abstract class Character {
     public abstract void talk(String sentence);
 }
 ```
+</div>
 To extend an abstract class, the subclass must either implement all the abstract methods it inherits, or declare itself as abstract.
 
 An abstract class cannot be instantiated, i.e. you cannot declare:
+<div style="background-color: #d2def2">
 ```
 Character person = new Character();
 ```
+</div>
 
 ## Encapsulation
 Encapsulation is a process of binding or wrapping the data and the codes that operate on the data into a single entity. 
