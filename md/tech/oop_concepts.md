@@ -348,7 +348,7 @@ String returnHello() {
 ```
 </div>
 
-### `private`
+### private
 A private method, variable, or constructor is accessible only within the class it belongs to. Classes and interfaces cannot be private.
 
 Private is the most restrictive access control and provides the strongest encapsulation.
