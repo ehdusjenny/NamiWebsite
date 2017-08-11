@@ -1,4 +1,4 @@
-# Spring and Maven
+# Maven
 
 ## Basics of Maven
 **Apache Maven** is a build automation tool based on the concept of project object model (POM). 
@@ -137,11 +137,6 @@ Maven also has special build-in properties:
     <td>The full build version of the current Maven execution</td>
   </tr>
 </table>
-
-## Basics of Spring
-**Spring** is a framework to support dependency injection, Aspect-Oriented Programming, Spring MVC web application, RESTful web service framework, support for JDBC, JPA, JMS, and more.
-
-
 
 [superpom]: http://maven.apache.org/ref/3.0.4/maven-model-builder/super-pom.html "Super POM"
 [//]: # (Look into Josh Bloch's Effective Java discussing Aggregation vs Inheritance)

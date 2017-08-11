@@ -335,7 +335,7 @@ Encapsulation is a process of binding or wrapping the data and the codes that op
 In Java, encapsulation is done through access modifiers. Access modifiers are used to set the access levels for classes, interfaces, variables, methods and contructors. They *encapsulate* their data/code so the outside world cannot access them.
 
 ### No modifier (package-private)
-If you don't specify a modifier, then that class, variable, mthod or constructor is visible only to the package it belongs to. 
+If you don't specify a modifier, then that class, variable, method or constructor is visible only to the package it belongs to. 
 
 A **package** is a group of similar types of classes, interfaces, and sub-packages that work together. Common Java packages are *java*, *lang*, and *javax*.
 
@@ -450,3 +450,5 @@ Here's a simple table summarizing the accessibility of the modifiers:
     <td>Y</td>
   </tr>
 </table>
+
+[//]: # (Add justifications for using employing these principles)
