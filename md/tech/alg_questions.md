@@ -3,6 +3,22 @@
 Questions from [reddit][alg_post].
 Please shoot me an e-mail if my solutions are wrong or not efficient!
 
+## Question List:
+1. [Find the most frequent integer in an array.](http://www.nami.kim/#!/tech/alg_questions#questionfindthemostfrequentintegerinanarray)
+1. [Find pairs in an integer array whose sum is equal to 10 (bonus: do it in linear time).](http://www.nami.kim/#!/tech/alg_questions#questionfindpairsinanintegerarraywhosesumisequalto10bonusdoitinlineartime)
+1. [Given 2 integer arrays, determine of the 2nd array is a rotated version of the 1st array. Ex. Original Array `A = {1,2,3,5,6,7,8}`, Rotated Array `B = {5,6,7,8,1,2,3}`.](http://www.nami.kim/#!/tech/alg_questions#questiongiven2integerarraysdetermineofthe2ndarrayisarotatedversionofthe1starrayexoriginalarraya1235678rotatedarrayb5678123)
+1. [Write fibbonaci iteratively and recursively (bonus: use dynamic programming).](http://www.nami.kim/#!/tech/alg_questions#questionwritefibbonaciiterativelyandrecursivelybonususedynamicprogramming)
+1. [Find the only element in an array that only occurs once.](http://www.nami.kim/#!/tech/alg_questions#questionfindtheonlyelementinanarraythatonlyoccursonce)
+1. [Find the common elements of 2 int arrays.](http://www.nami.kim/#!/tech/alg_questions#questionfindthecommonelementsof2intarrays)
+1. [Implement binary search of a sorted array of integers.](http://www.nami.kim/#!/tech/alg_questions#questionimplementbinarysearchofasortedarrayofintegers)
+1. [Implement binary search in a rotated array (ex. {5,6,7,8,1,2,3}).](http://www.nami.kim/#!/tech/alg_questions#questionimplementbinarysearchinarotatedarrayex5678123)
+1. [Use dynamic programming to find the first X prime numbers.](http://www.nami.kim/#!/tech/alg_questions#questionusedynamicprogrammingtofindthefirstxprimenumbers)
+1. [Write a function that prints out the binary form of an int.](http://www.nami.kim/#!/tech/alg_questions#questionwriteafunctionthatprintsoutthebinaryformofanint)
+1. [Implement parseInt.](http://www.nami.kim/#!/tech/alg_questions#questionimplementparseint)
+1. [Find the first non-repeated character in a String.](http://www.nami.kim/#!/tech/alg_questions#questionfindthefirstnonrepeatedcharacterinastring)
+1. [Reverse a String iteratively and recursively.](http://www.nami.kim/#!/tech/alg_questions#questionreverseastringiterativelyandrecursively)
+1. [Determine if 2 Strings are anagrams.](http://www.nami.kim/#!/tech/alg_questions#questiondetermineif2stringsareanagrams)
+
 ## Question: Find the most frequent integer in an array.
 
 **Solution**:
@@ -319,7 +335,7 @@ print reverse_string_recur(sentence)
 ```
 </div>
 
-##Question: Determine if 2 Strings are anagrams
+##Question: Determine if 2 Strings are anagrams.
 
 **Solution**:
 <div style="background-color: #d2def2">
