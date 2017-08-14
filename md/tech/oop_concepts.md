@@ -3,16 +3,16 @@
 This tutorial assumes you know basic Java syntax.
 
 ### Topics to cover:
-1. Objects and Classes
-1. Inheritance
+1. [Objects and Classes](http://www.nami.kim/#!/tech/oop_concepts#introductiontoobjects)
+1. [Inheritance](http://www.nami.kim/#!/tech/oop_concepts#inheritance)
     * Superclasses and `extends`
     * Interfaces and `implements`
-1. Polymorphism
-1. Overriding
-1. Overloading
-1. Abstraction
+1. [Polymorphism](http://www.nami.kim/#!/tech/oop_concepts#polymorphism)
+1. [Overriding](http://www.nami.kim/#!/tech/oop_concepts#overriding)
+1. [Overloading](http://www.nami.kim/#!/tech/oop_concepts#overloading)
+1. [Abstraction](http://www.nami.kim/#!/tech/oop_concepts#abstraction)
     * Abstract classes
-1. Encapsulation
+1. [Encapsulation](http://www.nami.kim/#!/tech/oop_concepts#encapsulation)
     * Access modifiers: private, package-private, protected, and public
 
 ## Introduction to Objects
@@ -451,4 +451,29 @@ Here's a simple table summarizing the accessibility of the modifiers:
   </tr>
 </table>
 
-[//]: # (Add justifications for using employing these principles)
+## Why OOP?
+Here's a table showing the pros and cons of OOP:
+<table style="width: 100%;">
+  <tr>
+    <th>Pros</th>
+    <th>Cons</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+[//]: # (Add justifications for employing these principles)

@@ -11,11 +11,13 @@ angular.module('namiworld')
 	if (!article) {
 		var url = window.location.href;
 		filename = url.substring(url.lastIndexOf("/") + 1, url.length);
+		if (filename.includes("#")) {
+			filename = filename.substring(0, filename.lastIndexOf("#"));
+		}
 	}
 	else {
 		filename = article.filename;
 	}
-
 
 	vm.md = "";
     function loadArticle() {
