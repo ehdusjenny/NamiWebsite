@@ -451,7 +451,7 @@ Here's a simple table summarizing the accessibility of the modifiers:
   </tr>
 </table>
 
-## Why OOP?
+<!-- ## Why OOP?
 Here's a table showing the pros and cons of OOP:
 <table style="width: 100%;">
   <tr>
@@ -474,6 +474,6 @@ Here's a table showing the pros and cons of OOP:
     <td></td>
     <td></td>
   </tr>
-</table>
+</table> -->
 
 [//]: # (Add justifications for employing these principles)
