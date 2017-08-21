@@ -24,9 +24,10 @@ Our car with the canoe tied:
 ![Canoe on car 2](../images/blog/algonquin_park/6.jpg "Canoe on car 2")
 
 We started our journey from Cache Lake, to canoe for 1.3 KM:
+![to Cache Lake](../images/blog/algonquin_park/to_cache_lake.png "To Cache Lake")
 ![Cache Lake](../images/blog/algonquin_park/7.jpg "Cache Lake")
 
-Look at that ominous sky. Minutes later rain started pouring HARD.
+Look at that ominous sky. Minutes later rain started pouring down HARD.
 
 ![Cache Lake](../images/blog/algonquin_park/9.jpg "Cache Lake")
 
@@ -36,3 +37,4 @@ A little celebration after getting on land!
 ![Celebration](../images/blog/algonquin_park/12.jpg "Celebration")
 
 Here came the hardest part of our journey: portaging (carrying the canoe on your shoulders) for 1.6 KM. Our saviour Tara did the ENTIRE route by herself with few breaks in between, which I'm 100% sure I can't do.
+
