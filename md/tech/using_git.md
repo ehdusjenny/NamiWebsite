@@ -1,6 +1,6 @@
 #Git Basics
 
-All images via [Git Book][https://git-scm.com/book/en/v2]
+All images via [Git Book][git_book].
 
 To learn about Git's philosophy and how it operates, check out [this page][git_philosophy].
 
@@ -395,3 +395,5 @@ To add: un-stage files, diff between local and remote
 
 [gitkraken]: https://www.gitkraken.com/ "GitKraken"
 [git]: https://git-scm.com/downloads "Git Download"
+[git_philosophy]: http://www.nami.kim/#!/tech/git_philosophy "Git Philosophy"
+[git_book]: https://git-scm.com/book/en/v2 "Git Book"
