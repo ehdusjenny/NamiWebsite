@@ -340,20 +340,38 @@ print reverse_string_recur(sentence)
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+string1 = "anagram"
+string2 = "nag a ram"
 
+def is_anagram(string1, string2):
+  list1 = list(string1)
+  list2 = list(string2)
+  list1 = [x for x in list1 if x != " "]
+  list2 = [x for x in list2 if x != " "]
+  list1.sort()
+  list2.sort()
+  return "".join(list1) == "".join(list2)
+print is_anagram(string1, string2)
 ```
 </div>
 
-##Question: 
+##Question: Check if String is a palindrome
 
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+string1 = "abcdefedcba"
 
+def is_palindrome(string1):
+  for i in range(len(string1)/2):
+    if string1[i] != string1[len(string1)-1-i]:
+      return False
+  return True
+print is_palindrome(string1)
 ```
 </div>
 
-##Question: 
+##Question: Check if a String is composed of all unique characters
 
 **Solution**:
 <div style="background-color: #d2def2">
