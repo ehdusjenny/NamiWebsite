@@ -376,11 +376,325 @@ print is_palindrome(string1)
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+string1 = "abcd"
+
+def has_only_unique_chars(string1):
+  tmp = set()
+  for char in string1:
+    if char in tmp:
+      return False
+    else:
+      tmp.add(char)
+  return True
+print has_only_unique_chars(string1)
+```
+</div>
+
+##Question: Determine if a String is an int or a double
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+import re
+
+string1 = "101"
+
+def str_int_or_double(string1):
+  if re.search('[a-zA-Z]', string1) != None:
+    return "Neither int nor double"
+  try:
+    dot_ind = string1.index(".")
+    return "Double"
+  except:
+    return "Integer"
+print str_int_or_double(string1)
+```
+</div>
+
+##Question: Find the shortest palindrome in a String
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
 
 ```
 </div>
 
-##Question: 
+##Question: Print all permutations of a String
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Implement a BST with insert and delete functions
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Print a tree using BFS and DFS
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Write a function that determines if a tree is a BST
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Find the smallest element in a BST
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Find the 2nd largest number in a BST
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Given a binary tree which is a sum tree (child nodes add to parent), write an algorithm to determine whether the tree is a valid sum tree
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Find the distance between 2 nodes in a BST and a normal binary tree
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Print the coordinates of every node in a binary tree, where root is 0,0
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Print a tree by levels
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Given a binary tree which is a sum tree, write an algorithm to determine whether the tree is a valid sum tree
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Given a tree, verify that it contains a subtree.
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Find the max distance between 2 nodes in a BST.
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Construct a BST given the pre-order and in-order traversal Strings
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Implement a stack with push and pop functions
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Implement a queue with queue and dequeue functions
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Find the minimum element in a stack in O(1) time
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Write a function that sorts a stack (bonus: sort the stack in place without extra memory)
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Implement a binary min heap. Turn it into a binary max heap
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Implement a queue using 2 stacks
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Implement a linked list (with insert and delete functions)
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Find the Nth element in a linked list
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Remove the Nth element of a linked list
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Check if a linked list has cycles
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Given a circular linked list, find the node at the beginning of the loop. Example: A-->B-->C --> D-->E -->C, C is the node that begins the loop
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Check whether a link list is a palindrome
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Reverse a linked list iteratively and recursively
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+##Question: Implement bubble sort
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+##Question: Implement selection sort
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+##Question: Implement insertion sort
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+##Question: Implement merge sort
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+##Question: Implement quick sort
 
 **Solution**:
 <div style="background-color: #d2def2">
