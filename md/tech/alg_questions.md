@@ -654,15 +654,6 @@ def is_sum_tree(root):
 ```
 </div>
 
-##Question: Given a binary tree which is a sum tree, write an algorithm to determine whether the tree is a valid sum tree
-
-**Solution**:
-<div style="background-color: #d2def2">
-```
-
-```
-</div>
-
 ##Question: Given a tree, verify that it contains a subtree.
 
 **Solution**:
@@ -695,7 +686,36 @@ def is_sum_tree(root):
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+class Stack:
+  def __init__(self):
+    self.stack = []
+    self.last_element = 0
+    
+  def push(self, item):
+    self.stack.append(item)
 
+  def pop(self):
+    if not self.stack:
+      print "Empty stack"
+      return
+    to_return = self.stack[-1]
+    del self.stack[-1]
+    return to_return
+  
+  
+stack = Stack()
+stack.push(1)
+stack.push(3)
+stack.push(5)
+
+print stack.pop()
+print stack.pop()
+
+stack.push(2)
+
+print stack.pop()
+print stack.pop()
+print stack.pop()
 ```
 </div>
 
