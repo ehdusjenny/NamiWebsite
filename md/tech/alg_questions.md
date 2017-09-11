@@ -423,9 +423,24 @@ print str_int_or_double(string1)
 ##Question: Print all permutations of a String
 
 **Solution**:
+This question took me way too long to solve... retry in the future.
 <div style="background-color: #d2def2">
 ```
+string1 = "abcd"
 
+def all_permutations(str_input):
+  if len(str_input) == 1:
+    return [str_input]
+  perm_list = []
+  for char_index in range(len(str_input)):
+    sub_perm_list = all_permutations(str_input[0:char_index] + str_input[char_index+1:len(str_input)])
+    for perm in sub_perm_list:
+      perm_list.append(str_input[char_index] + perm)
+  return perm_list
+    
+result = all_permutations(string1)
+result.sort()
+print result
 ```
 </div>
 
@@ -434,7 +449,86 @@ print str_int_or_double(string1)
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+class Node:
+  def __init__(self, parent, value):
+    self.value = value
+    self.parent = parent
+    self.left_child = None
+    self.right_child = None
+    
+def search(root, value):
+  if root.value == value:
+    return root
+  if value < root.value:
+    return search(root.left_child, value)
+  else:
+    return search(root.right_child, value)
+    
+def insert(root, value):
+  if value <= root.value:
+    if not root.left_child:
+      root.left_child = Node(root, value)
+    else:
+      insert(root.left_child, value)
+  else:
+    if not root.right_child:
+      root.right_child = Node(root, value)
+    else:
+      insert(root.right_child, value)
+  
+def delete(root, value):
+  if value == root.value:
+    if not root.left_child and not root.right_child:
+      if root.parent.left_child == root:
+        root.parent.left_child = None
+      else:
+        root.parent.right_child = None
+    elif root.left_child and not root.right_child:
+      root.value = root.left_child.value
+      delete(root.left_child, root.left_child.value)
+    elif not root.left_child and root.right_child:
+      root.value = root.right_child.value
+      delete(root.right_child, root.right_child.value)
+    else:
+      tmp = root.right_child
+      while(1):
+        if tmp.left_child:
+          tmp = tmp.left_child
+        else:
+          break
+      root.value = tmp.value
+      delete(tmp, tmp.value)
+  elif value < root.value:
+    if root.left_child:
+      delete(root.left_child, value)
+  else:
+    if root.right_child:
+      delete(root.right_child, value)
+    
+def print_tree(root, tab_num):
+  string = ""
+  for i in range(tab_num):
+    string = string + " "
+  print string + str(root.value)
+  if root.left_child:
+    print string + "left_child:"
+    print_tree(root.left_child, tab_num+1)
+  if root.right_child:
+    print string + "right_child:"
+    print_tree(root.right_child, tab_num+1)
+    
+root = Node(None, 5)
+insert(root, 8)
+insert(root, 2)
+insert(root, 3)
+insert(root, 22)
+print_tree(root, 0)
 
+delete(root, 5)
+print_tree(root, 0)
+
+node = search(root, 3)
+print node.value
 ```
 </div>
 
@@ -443,7 +537,23 @@ print str_int_or_double(string1)
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-
+def print_dfs(root):
+  print root.value
+  if root.left_child:
+    print_bfs(root.left_child)
+  if root.right_child:
+    print_bfs(root.right_child)
+    
+def print_bfs(root):
+  queue = Queue.Queue()
+  queue.put(root)
+  while not queue.empty():
+    tmp = queue.get()
+    print tmp.value
+    if tmp.left_child:
+      queue.put(tmp.left_child)
+    if tmp.right_child:
+      queue.put(tmp.right_child)
 ```
 </div>
 
@@ -452,7 +562,17 @@ print str_int_or_double(string1)
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-
+def is_bst(root):
+  result = True
+  if root.left_child:
+    if root.left_child.value > root.value:
+      return False
+    result = result and is_bst(root.left_child)
+  if root.right_child:
+    if root.right_child.value < root.value:
+      return False
+    result = result and is_bst(root.right_child)
+  return result
 ```
 </div>
 
@@ -461,7 +581,11 @@ print str_int_or_double(string1)
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-
+def smallest_element(root):
+  if root.left_child:
+    return smallest_element(root.left_child)
+  else:
+    return root
 ```
 </div>
 
@@ -470,7 +594,16 @@ print str_int_or_double(string1)
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-
+def second_largest(root, left_bit = False):
+  if root.right_child:22
+    return second_largest(root.right_child, left_bit)
+  elif root.left_child:
+    return second_largest(root.left_child, True)
+  else:
+    if left_bit:
+      return root
+    else:
+      return root.parent
 ```
 </div>
 
@@ -479,7 +612,18 @@ print str_int_or_double(string1)
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-
+def is_sum_tree(root):
+  sum = 0
+  sub_sum_tree = True
+  if not root.left_child and not root.right_child:
+    return True
+  if root.left_child:
+    sum = sum + root.left_child.value
+    sub_sum_tree = sub_sum_tree and is_sum_tree(root.left_child)
+  if root.right_child:
+    sum = sum + root.right_child.value
+    sub_sum_tree = sub_sum_tree and is_sum_tree(root.right_child)
+  return root.value == sum and sub_sum_tree
 ```
 </div>
 
