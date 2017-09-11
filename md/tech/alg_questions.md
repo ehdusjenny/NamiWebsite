@@ -689,7 +689,6 @@ def is_sum_tree(root):
 class Stack:
   def __init__(self):
     self.stack = []
-    self.last_element = 0
     
   def push(self, item):
     self.stack.append(item)
@@ -724,7 +723,55 @@ print stack.pop()
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+class EmptyQueueError(Exception):
+  pass
 
+#Linked list node
+class Node:
+  def __init__(self, value):
+    self.value = value
+    self.head_pt = None
+    self.tail_pt = None
+
+class Queue:
+  def __init__(self, node):
+    self.head = node
+    self.tail = node
+    
+  def queue(self, node):
+    self.tail.tail_pt = node
+    node.head_pt = self.tail
+    self.tail = node
+
+  def dequeue(self):
+    if self.head:
+      tmp = self.head
+    else:
+      raise EmptyQueueError
+    if self.head.tail_pt:
+      self.head = self.head.tail_pt
+    else:
+      self.head = None
+    return tmp
+        
+node = Node(3)
+node2 = Node(6)
+node3 = Node(1)
+node4 = Node(7)
+node5 = Node(2)
+
+queue = Queue(node)
+queue.queue(node2)
+queue.queue(node3)
+queue.queue(node4)
+queue.queue(node5)
+
+print queue.dequeue().value
+print queue.dequeue().value
+print queue.dequeue().value
+print queue.dequeue().value
+print queue.dequeue().value
+print queue.dequeue().value
 ```
 </div>
 
@@ -742,16 +789,82 @@ print stack.pop()
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+#Since my implementation of a stack is based on an array, I can use any list sorting function, such as the built in `sort()`` function. `sort()` uses Timsort, which is inplace.
+
+def sort(self):
+    self.stack.sort()
 
 ```
 </div>
 
-##Question: Implement a binary min heap. Turn it into a binary max heap
+##Question: Implement a binary min heap. Turn it into a binary max heap.
 
+Min Heap:
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+class BinaryMinHeap:
+  def __init__(self, value):
+    self.list = [value]
+  
+  def insert(self, value):
+    self.list.append(value)
+    self.bubble_up(len(self.list) - 1)
+      
+  def bubble_up(self, index):
+    if self.list[index/2] > self.list[index]:
+      tmp = self.list[index/2]
+      self.list[index/2] = self.list[index]
+      self.list[index] = tmp
+      self.bubble_up(index/2)
+      
+  def remove(self, index):
+    self.list[index] = self.list[len(self.list) - 1]
+    del self.list[-1]
+    bubble_down(index)
+    
+  def bubble_down(self, index):
+    if index*2 + 1 < len(self.list):
+      tmp = self.list[index*2 + 1]
+      self.list[index*2 + 1] = self.list[index]
+      self.list[index] = tmp
+      self.bubble_down(index*2 + 1)
+    
+  
+  def print_tree(self, index = 0, tab_num = 0):
+    tabs = ""
+    for i in range(tab_num):
+      tabs = tabs + "  "
+    print tabs + str(self.list[index])
+    if len(self.list) > index*2 + 1:
+      self.print_tree(index*2 + 1, tab_num+1)
+    if len(self.list) > index*2 + 2:
+      self.print_tree(index*2 + 2, tab_num+1)
 
+bmh = BinaryMinHeap(5)
+bmh.insert(6)
+bmh.insert(3)
+bmh.insert(4)
+bmh.insert(8)
+bmh.insert(2)
+bmh.insert(1)
+bmh.insert(7)
+bmh.print_tree()
+```
+</div>
+
+Max Heap:
+**Solution**:
+<div style="background-color: #d2def2">
+```
+#Only difference in bubble_up function
+
+def bubble_up(self, index):
+    if self.list[index/2] < self.list[index]:
+      tmp = self.list[index/2]
+      self.list[index/2] = self.list[index]
+      self.list[index] = tmp
+      self.bubble_up(index/2)
 ```
 </div>
 
@@ -859,6 +972,15 @@ print stack.pop()
 ```
 </div>
 ##Question: Implement quick sort
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Implement Timsort
 
 **Solution**:
 <div style="background-color: #d2def2">
