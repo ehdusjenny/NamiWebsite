@@ -516,19 +516,6 @@ def print_tree(root, tab_num):
   if root.right_child:
     print string + "right_child:"
     print_tree(root.right_child, tab_num+1)
-    
-root = Node(None, 5)
-insert(root, 8)
-insert(root, 2)
-insert(root, 3)
-insert(root, 22)
-print_tree(root, 0)
-
-delete(root, 5)
-print_tree(root, 0)
-
-node = search(root, 3)
-print node.value
 ```
 </div>
 
@@ -700,21 +687,6 @@ class Stack:
     to_return = self.stack[-1]
     del self.stack[-1]
     return to_return
-  
-  
-stack = Stack()
-stack.push(1)
-stack.push(3)
-stack.push(5)
-
-print stack.pop()
-print stack.pop()
-
-stack.push(2)
-
-print stack.pop()
-print stack.pop()
-print stack.pop()
 ```
 </div>
 
@@ -753,25 +725,6 @@ class Queue:
     else:
       self.head = None
     return tmp
-        
-node = Node(3)
-node2 = Node(6)
-node3 = Node(1)
-node4 = Node(7)
-node5 = Node(2)
-
-queue = Queue(node)
-queue.queue(node2)
-queue.queue(node3)
-queue.queue(node4)
-queue.queue(node5)
-
-print queue.dequeue().value
-print queue.dequeue().value
-print queue.dequeue().value
-print queue.dequeue().value
-print queue.dequeue().value
-print queue.dequeue().value
 ```
 </div>
 
@@ -840,16 +793,6 @@ class BinaryMinHeap:
       self.print_tree(index*2 + 1, tab_num+1)
     if len(self.list) > index*2 + 2:
       self.print_tree(index*2 + 2, tab_num+1)
-
-bmh = BinaryMinHeap(5)
-bmh.insert(6)
-bmh.insert(3)
-bmh.insert(4)
-bmh.insert(8)
-bmh.insert(2)
-bmh.insert(1)
-bmh.insert(7)
-bmh.print_tree()
 ```
 </div>
 
@@ -873,7 +816,42 @@ def bubble_up(self, index):
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+class Stack:
+  def __init__(self):
+    self.stack = []
+    
+  def push(self, item):
+    self.stack.append(item)
 
+  def pop(self):
+    if not self.stack:
+      print "Empty stack"
+      return
+    to_return = self.stack[-1]
+    del self.stack[-1]
+    return to_return
+  
+  def peek(self):
+    return self.stack[-1]
+  
+  def length(self):
+    return len(self.stack)
+
+class QueueTwoStacks:
+  def __init__(self):
+    self.stack1 = Stack()
+    self.stack2 = Stack()
+  
+  def queue(self, value):
+    self.stack1.push(value)
+    
+  def dequeue(self):
+    for i in range(self.stack1.length()):
+      self.stack2.push(self.stack1.pop())
+    tmp = self.stack2.pop()
+    for i in range(self.stack2.length()):
+      self.stack1.push(self.stack2.pop())
+    return tmp
 ```
 </div>
 
@@ -882,25 +860,74 @@ def bubble_up(self, index):
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+class Node:
+  def __init__(self, value):
+    self.value = value
+    self.prev = None
+    self.next = None
 
+class LinkedList:
+  def __init__(self):
+    self.head = None
+    self.tail = None
+    
+  def insert(self, node):
+    if self.head:
+      tmp = self.head
+      while tmp.next:
+        tmp = tmp.next
+      tmp.next = node
+      node.prev = tmp
+      self.tail = node
+    else:
+      self.head = node
+      self.tail = node
+    
+  def remove(self, node):
+    if self.head:
+      tmp = self.head
+      while tmp:
+        if tmp is node:
+          if tmp.prev and tmp.next:
+            tmp.prev.next = tmp.next
+            tmp.next.prev = tmp.prev
+          elif tmp.prev:
+            tmp.prev.next = None
+          elif tmp.next:
+            self.head = tmp.next
+            tmp.next.prev = None
+          else:
+            self.head = None
+            self.tail = None
+          break
+        else:
+          tmp = tmp.next
+          
+  def print_list(self):
+    if self.head:
+      tmp = self.head
+      print tmp.value
+      while tmp.next:
+        print tmp.next.value
+        tmp = tmp.next
 ```
 </div>
 
-##Question: Find the Nth element in a linked list
+##Question: Find and remove the Nth element in a linked list
 
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-
-```
-</div>
-
-##Question: Remove the Nth element of a linked list
-
-**Solution**:
-<div style="background-color: #d2def2">
-```
-
+def remove_nth(self, n):
+  if self.head:
+    tmp = self.head
+    for i in range(n):
+      if tmp.next:
+        tmp = tmp.next
+      else:
+        print "Stack too small!"
+    print tmp.value
+    self.remove(tmp)
 ```
 </div>
 
@@ -922,7 +949,7 @@ def bubble_up(self, index):
 ```
 </div>
 
-##Question: Check whether a link list is a palindrome
+##Question: Check whether a linked list is a palindrome
 
 **Solution**:
 <div style="background-color: #d2def2">
@@ -972,15 +999,6 @@ def bubble_up(self, index):
 ```
 </div>
 ##Question: Implement quick sort
-
-**Solution**:
-<div style="background-color: #d2def2">
-```
-
-```
-</div>
-
-##Question: Implement Timsort
 
 **Solution**:
 <div style="background-color: #d2def2">
