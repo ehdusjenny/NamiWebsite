@@ -16,7 +16,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server.js"
+    "start": "bower install && npm install && node server.js"
   },
   "repository": {
     "type": "git",
