@@ -931,21 +931,32 @@ def remove_nth(self, n):
 ```
 </div>
 
-##Question: Check if a linked list has cycles
+##Question: Check if a linked list has a cycle and print the beginning of the cycle
 
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-
-```
-</div>
-
-##Question: Given a circular linked list, find the node at the beginning of the loop. Example: A-->B-->C --> D-->E -->C, C is the node that begins the loop
-
-**Solution**:
-<div style="background-color: #d2def2">
-```
-
+  def start_of_cycle(self):
+    if self.head:
+      tortoise = self.head
+      hare = self.head
+      while True:
+        if tortoise.next:
+          tortoise = tortoise.next
+        if hare.next and hare.next.next:
+          hare = hare.next.next
+        else:
+          print "No cycle!"
+          return
+        
+        if tortoise is hare:
+          print "Cycle exists!"
+          break
+      tortoise = self.head
+      while tortoise is not hare:
+        tortoise = tortoise.next
+        hare = hare.next
+    print tortoise.value
 ```
 </div>
 
@@ -954,7 +965,19 @@ def remove_nth(self, n):
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-
+def is_palindrome(self):
+    tmp1 = self.head
+    tmp2 = self.tail
+    while tmp1.next and tmp2.prev:
+      if tmp1.value == tmp2.value:
+        if tmp1 is tmp2:
+          break
+        else:
+          tmp1 = tmp1.next
+          tmp2 = tmp2.prev
+      else:
+        return False
+    return True
 ```
 </div>
 
@@ -971,7 +994,17 @@ def remove_nth(self, n):
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-
+def bubble_sort(list):
+  while True:
+    sorted = True
+    for i in range(len(list) - 1):
+      if list[i] > list[i+1]:
+        tmp = list[i+1]
+        list[i+1] = list[i]
+        list[i] = tmp
+        sorted = False
+    if sorted:
+      return
 ```
 </div>
 ##Question: Implement selection sort
@@ -979,7 +1012,16 @@ def remove_nth(self, n):
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-
+def selection_sort(list):
+  for current_index in range(len(list)):
+    smallest_index = current_index
+    for i in range(current_index, len(list)):
+      if list[i] < list[smallest_index]:
+        smallest_index = i
+    tmp = list[current_index]
+    list[current_index] = list[smallest_index]
+    list[smallest_index] = tmp
+  print list
 ```
 </div>
 ##Question: Implement insertion sort
@@ -987,7 +1029,17 @@ def remove_nth(self, n):
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-
+def insertion_sort(list):
+  for i in range(0, len(list)):
+    value = i
+    for j in reversed(range(i)):
+      if list[value] < list[j]:
+        tmp = list[j]
+        list[j] = list[value]
+        list[value] = tmp
+      else:
+        break
+      value = j
 ```
 </div>
 ##Question: Implement merge sort
@@ -995,7 +1047,36 @@ def remove_nth(self, n):
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+def merge_sort(list):
+  merge_sort_helper(list, 0, len(list) - 1)
 
+def merge_sort_helper(list, i, j):
+  if i >= j:
+    return
+  else:
+    merge_sort_helper(list, i, (j+i)/2)
+    merge_sort_helper(list, (j+i)/2 + 1, j)
+    tmp = []
+    index1 = i
+    index2 = (j+i)/2 + 1
+    while index1 <= (j+i)/2 and index2 <= j:
+      if list[index1] < list[index2]:
+        tmp.append(list[index1])
+        index1 = index1 + 1
+      else:
+        tmp.append(list[index2])
+        index2 = index2 + 1
+    if index2 <= j:
+      for index in range(index2, j+1):
+        tmp.append(list[index])
+    elif index1 <= (j+i)/2:
+      for index in range(index1, (j+i)/2+1):
+        tmp.append(list[index])
+    
+    tmp_index = 0
+    for index in range(i, j+1):
+      list[index] = tmp[tmp_index]
+      tmp_index = tmp_index + 1
 ```
 </div>
 ##Question: Implement quick sort
@@ -1003,7 +1084,33 @@ def remove_nth(self, n):
 **Solution**:
 <div style="background-color: #d2def2">
 ```
+def quick_sort(list):
+  quick_sort_helper(list, 0, len(list) - 1)
 
+def quick_sort_helper(list, i, j):
+  if i >= j:
+    return
+  else:
+    pivot_index = j
+    index = i
+    while index < pivot_index:
+      if list[index] > list[pivot_index]:
+        if not pivot_index - index == 1:
+          #swap pivot element with element before it
+          tmp = list[pivot_index - 1]
+          list[pivot_index - 1] = list[pivot_index]
+          list[pivot_index] = tmp
+          
+        #swap element at index with element after pivot
+        tmp = list[index]
+        list[index] = list[pivot_index]
+        list[pivot_index] = tmp
+        
+        pivot_index = pivot_index - 1
+      else:
+        index = index + 1
+    quick_sort_helper(list, i, pivot_index - 1)
+    quick_sort_helper(list, pivot_index + 1, j)
 ```
 </div>
 
