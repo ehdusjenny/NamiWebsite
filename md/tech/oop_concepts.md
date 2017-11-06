@@ -453,6 +453,16 @@ Here's a simple table summarizing the accessibility of the modifiers:
   </tr>
 </table>
 
+The main method of any java program is
+<div style="background-color: #d2def2">
+```
+public static void main(String[] args) {
+    // ...
+}
+```
+</div>
+It is public and static so that java can access it without initializing the class object. The `args` array contains the arguments passed to the java program.
+
 <!-- ## Why OOP?
 Here's a table showing the pros and cons of OOP:
 <table style="width: 100%;">
