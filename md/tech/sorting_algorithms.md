@@ -4,6 +4,7 @@
 ## Merge Sort
 
 ## Insertion Sort
+The list is divided into two partitions, one sorted, other not sorted. The unsorted partition is looped through to find the smallest number and added to the sorted portion. Repeat until all is sorted. O(n^2).
 
 ## Timsort
 Timsort is a hybrid stable sorting algorithm derived from merge sort and insertion sort.

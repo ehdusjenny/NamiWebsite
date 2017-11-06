@@ -177,6 +177,8 @@ public class Nami implements Human, Employee{
 
 Note that you cannot extend multiple classes, but you can implement multiple interfaces.
 
+You can see interfaces as a type of **contract** - an interface does not care about the implementation as long as you deliver the method signatures.
+
 ## Polymorphism
 Polymorphism is the ability for an object to take on many forms. In OOP, a parent interface/class reference can be used to refer to a child class object, i.e. the following, using the same example as above:
 <div style="background-color: #d2def2">

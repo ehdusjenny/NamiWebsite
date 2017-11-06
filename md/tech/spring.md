@@ -153,4 +153,8 @@ List<String> userList = service.getUsernames();
 
 ### Aspect Oriented Programming (AOP)
 
+### Annotations
+All praise thee https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-java
+
+
 [maven]: http://www.nami.kim/#!/tech/maven "Maven"

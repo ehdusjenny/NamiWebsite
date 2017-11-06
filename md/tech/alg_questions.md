@@ -67,7 +67,7 @@ for el in tmp:
 ```
 </div>
 
-## Question: Given 2 integer arrays, determine of the 2nd array is a rotated version of the 1st array. Ex. Original Array `A = {1,2,3,5,6,7,8}`, Rotated Array `B = {5,6,7,8,1,2,3}`.
+## Question: Given 2 integer arrays, determine if the 2nd array is a rotated version of the 1st array. Ex. Original Array `A = {1,2,3,5,6,7,8}`, Rotated Array `B = {5,6,7,8,1,2,3}`.
 
 **Solution**:
 <div style="background-color: #d2def2">
@@ -411,15 +411,6 @@ print str_int_or_double(string1)
 ```
 </div>
 
-##Question: Find the shortest palindrome in a String
-
-**Solution**:
-<div style="background-color: #d2def2">
-```
-
-```
-</div>
-
 ##Question: Print all permutations of a String
 
 **Solution**:
@@ -614,57 +605,21 @@ def is_sum_tree(root):
 ```
 </div>
 
-##Question: Find the distance between 2 nodes in a BST and a normal binary tree
-
-**Solution**:
-<div style="background-color: #d2def2">
-```
-
-```
-</div>
-
-##Question: Print the coordinates of every node in a binary tree, where root is 0,0
-
-**Solution**:
-<div style="background-color: #d2def2">
-```
-
-```
-</div>
-
 ##Question: Print a tree by levels
 
 **Solution**:
 <div style="background-color: #d2def2">
 ```
-
-```
-</div>
-
-##Question: Given a tree, verify that it contains a subtree.
-
-**Solution**:
-<div style="background-color: #d2def2">
-```
-
-```
-</div>
-
-##Question: Find the max distance between 2 nodes in a BST.
-
-**Solution**:
-<div style="background-color: #d2def2">
-```
-
-```
-</div>
-
-##Question: Construct a BST given the pre-order and in-order traversal Strings
-
-**Solution**:
-<div style="background-color: #d2def2">
-```
-
+def print_by_level(root):
+  queue = Queue.Queue()
+  queue.put(root)
+  while not queue.empty():
+    tmp = queue.get()
+    if tmp.left_child:
+      queue.put(tmp.left_child)
+    if tmp.right_child:
+      queue.put(tmp.right_child)
+    print tmp.value
 ```
 </div>
 
@@ -725,15 +680,6 @@ class Queue:
     else:
       self.head = None
     return tmp
-```
-</div>
-
-##Question: Find the minimum element in a stack in O(1) time
-
-**Solution**:
-<div style="background-color: #d2def2">
-```
-
 ```
 </div>
 
@@ -981,14 +927,6 @@ def is_palindrome(self):
 ```
 </div>
 
-##Question: Reverse a linked list iteratively and recursively
-
-**Solution**:
-<div style="background-color: #d2def2">
-```
-
-```
-</div>
 ##Question: Implement bubble sort
 
 **Solution**:
@@ -1111,6 +1049,78 @@ def quick_sort_helper(list, i, j):
         index = index + 1
     quick_sort_helper(list, i, pivot_index - 1)
     quick_sort_helper(list, pivot_index + 1, j)
+```
+</div>
+
+##Question: Find the shortest palindrome in a String
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Find the distance between 2 nodes in a BST and a normal binary tree
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Print the coordinates of every node in a binary tree, where root is 0,0
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Given a tree, verify that it contains a subtree.
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Find the max distance between 2 nodes in a BST.
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Construct a BST given the pre-order and in-order traversal Strings
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Find the minimum element in a stack in O(1) time
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
+```
+</div>
+
+##Question: Reverse a linked list iteratively and recursively
+
+**Solution**:
+<div style="background-color: #d2def2">
+```
+
 ```
 </div>
 
