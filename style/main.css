@@ -13,9 +13,10 @@ body {
 	margin: 0px;
 }
 
-code {
+.code {
 	background-color: #d2def2;
 	overflow-y: scroll;
+
 }
 
 /*

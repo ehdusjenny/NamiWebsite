@@ -1,15 +1,3 @@
 { 
 	"articles": [
-	{
-		"title": "Algonquin Park Camping Trip!",
-		"filename": "algonquin_park",
-		"created": "July 4th, 2017",
-		"tags": ["Camping"]
-	},
-	{
-		"title": "Quebec City Day Trip",
-		"filename": "quebec_city",
-		"created": "June 17th, 2017",
-		"tags": ["Trip"]
-	}
 ]}

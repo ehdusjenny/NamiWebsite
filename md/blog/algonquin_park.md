@@ -24,7 +24,7 @@ Our car with the canoe tied:
 ![Canoe on car 2](../images/blog/algonquin_park/6.jpg "Canoe on car 2")
 
 We started our journey from Cache Lake, to canoe for 1.3 KM:
-![to Cache Lake](../images/blog/algonquin_park/to_cache_lake.png "To Cache Lake")
+![to Cache Lake](../images/blog/algonquin_park/to_cache_lake.PNG "To Cache Lake")
 ![Cache Lake](../images/blog/algonquin_park/7.jpg "Cache Lake")
 
 Look at that ominous sky. Minutes later rain started pouring down HARD.
