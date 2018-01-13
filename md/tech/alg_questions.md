@@ -22,7 +22,7 @@ Please shoot me an e-mail if my solutions are wrong or not efficient!
 ## Question: Find the most frequent integer in an array.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 arr = [1, 3, 6, 2, 14, 3, 2, 1, 45, 45, 45, 45, 6, 3, 36, 77, 44]
 
@@ -47,7 +47,7 @@ print most_freq
 ## Question: Find pairs in an integer array whose sum is equal to 10 (bonus: do it in linear time).
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 arr = [1, 3, 6, 2, 3, 2, 1, 9, 4, 6]
 
@@ -70,7 +70,7 @@ for el in tmp:
 ## Question: Given 2 integer arrays, determine if the 2nd array is a rotated version of the 1st array. Ex. Original Array `A = {1,2,3,5,6,7,8}`, Rotated Array `B = {5,6,7,8,1,2,3}`.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 arr = [1, 3, 6, 2, 3, 2, 1, 9, 4, 6]
 arr2 = [2, 1, 9, 4, 6, 1, 3, 6, 2, 3]
@@ -91,7 +91,7 @@ else:
 ## Question: Write fibbonaci iteratively and recursively (bonus: use dynamic programming).
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def iter_fib(n):
     first = 0
@@ -129,7 +129,7 @@ print fib_arr[n]
 ## Question: Find the only element in an array that only occurs once.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 arr = [2, 4, 6, 12, 3, 6, 4, 2, 3]
 
@@ -149,7 +149,7 @@ for key in num_map:
 ## Question: Find the common elements of 2 int arrays.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 arr = [2, 4, 6, 12, 3, 6, 4, 2, 3]
 arr2 = [4, 6, 11]
@@ -167,7 +167,7 @@ for num in arr2:
 ## Question: Implement binary search of a sorted array of integers.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 arr = [1, 5, 8, 12, 22, 78, 79, 92, 100, 101]
 
@@ -195,7 +195,7 @@ print binary_search(0, len(arr) - 1, num)
 ## Question: Implement binary search in a rotated array (ex. {5,6,7,8,1,2,3}).
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 rotated_arr = [5, 6, 7, 8, 1, 2, 3]
 
@@ -215,7 +215,7 @@ arr.extend(rotated_arr[0:cut+1])
 ## Question: Use dynamic programming to find the first X prime numbers.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 prime_nums = [1]
 
@@ -242,7 +242,7 @@ n_primes(100)
 ##Question: Write a function that prints out the binary form of an int.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def int_to_binary(num):
     result = ""
@@ -258,7 +258,7 @@ int_to_binary(333)
 ##Question: Implement parseInt.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 str_to_num = {'1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '0': 0}
 
@@ -284,7 +284,7 @@ parseInt("132264")
 ##Question: Find the first non-repeated character in a String.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 sentence = "abcdefabgcdef"
 
@@ -313,7 +313,7 @@ find_first_nonrepeat()
 ##Question: Reverse a String iteratively and recursively.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 sentence = "Reverse this String, please."
 
@@ -338,7 +338,7 @@ print reverse_string_recur(sentence)
 ##Question: Determine if 2 Strings are anagrams.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 string1 = "anagram"
 string2 = "nag a ram"
@@ -358,7 +358,7 @@ print is_anagram(string1, string2)
 ##Question: Check if String is a palindrome
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 string1 = "abcdefedcba"
 
@@ -374,7 +374,7 @@ print is_palindrome(string1)
 ##Question: Check if a String is composed of all unique characters
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 string1 = "abcd"
 
@@ -393,7 +393,7 @@ print has_only_unique_chars(string1)
 ##Question: Determine if a String is an int or a double
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 import re
 
@@ -415,7 +415,7 @@ print str_int_or_double(string1)
 
 **Solution**:
 This question took me way too long to solve... retry in the future.
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 string1 = "abcd"
 
@@ -438,7 +438,7 @@ print result
 ##Question: Implement a BST with insert and delete functions
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 class Node:
   def __init__(self, parent, value):
@@ -513,7 +513,7 @@ def print_tree(root, tab_num):
 ##Question: Print a tree using BFS and DFS
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def print_dfs(root):
   print root.value
@@ -538,7 +538,7 @@ def print_bfs(root):
 ##Question: Write a function that determines if a tree is a BST
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def is_bst(root):
   result = True
@@ -557,7 +557,7 @@ def is_bst(root):
 ##Question: Find the smallest element in a BST
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def smallest_element(root):
   if root.left_child:
@@ -570,7 +570,7 @@ def smallest_element(root):
 ##Question: Find the 2nd largest number in a BST
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def second_largest(root, left_bit = False):
   if root.right_child:22
@@ -588,7 +588,7 @@ def second_largest(root, left_bit = False):
 ##Question: Given a binary tree which is a sum tree (child nodes add to parent), write an algorithm to determine whether the tree is a valid sum tree
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def is_sum_tree(root):
   sum = 0
@@ -608,7 +608,7 @@ def is_sum_tree(root):
 ##Question: Print a tree by levels
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def print_by_level(root):
   queue = Queue.Queue()
@@ -626,7 +626,7 @@ def print_by_level(root):
 ##Question: Implement a stack with push and pop functions
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 class Stack:
   def __init__(self):
@@ -648,7 +648,7 @@ class Stack:
 ##Question: Implement a queue with queue and dequeue functions
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 class EmptyQueueError(Exception):
   pass
@@ -686,7 +686,7 @@ class Queue:
 ##Question: Write a function that sorts a stack (bonus: sort the stack in place without extra memory)
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 #Since my implementation of a stack is based on an array, I can use any list sorting function, such as the built in `sort()`` function. `sort()` uses Timsort, which is inplace.
 
@@ -700,7 +700,7 @@ def sort(self):
 
 Min Heap:
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 class BinaryMinHeap:
   def __init__(self, value):
@@ -744,7 +744,7 @@ class BinaryMinHeap:
 
 Max Heap:
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 #Only difference in bubble_up function
 
@@ -760,7 +760,7 @@ def bubble_up(self, index):
 ##Question: Implement a queue using 2 stacks
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 class Stack:
   def __init__(self):
@@ -804,7 +804,7 @@ class QueueTwoStacks:
 ##Question: Implement a linked list (with insert and delete functions)
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 class Node:
   def __init__(self, value):
@@ -862,7 +862,7 @@ class LinkedList:
 ##Question: Find and remove the Nth element in a linked list
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def remove_nth(self, n):
   if self.head:
@@ -880,7 +880,7 @@ def remove_nth(self, n):
 ##Question: Check if a linked list has a cycle and print the beginning of the cycle
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
   def start_of_cycle(self):
     if self.head:
@@ -909,7 +909,7 @@ def remove_nth(self, n):
 ##Question: Check whether a linked list is a palindrome
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def is_palindrome(self):
     tmp1 = self.head
@@ -930,7 +930,7 @@ def is_palindrome(self):
 ##Question: Implement bubble sort
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def bubble_sort(list):
   while True:
@@ -948,7 +948,7 @@ def bubble_sort(list):
 ##Question: Implement selection sort
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def selection_sort(list):
   for current_index in range(len(list)):
@@ -965,7 +965,7 @@ def selection_sort(list):
 ##Question: Implement insertion sort
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def insertion_sort(list):
   for i in range(0, len(list)):
@@ -983,7 +983,7 @@ def insertion_sort(list):
 ##Question: Implement merge sort
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def merge_sort(list):
   merge_sort_helper(list, 0, len(list) - 1)
@@ -1020,7 +1020,7 @@ def merge_sort_helper(list, i, j):
 ##Question: Implement quick sort
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 def quick_sort(list):
   quick_sort_helper(list, 0, len(list) - 1)
@@ -1055,7 +1055,7 @@ def quick_sort_helper(list, i, j):
 ##Question: Find the shortest palindrome in a String
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 
 ```
@@ -1064,7 +1064,7 @@ def quick_sort_helper(list, i, j):
 ##Question: Find the distance between 2 nodes in a BST and a normal binary tree
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 
 ```
@@ -1073,7 +1073,7 @@ def quick_sort_helper(list, i, j):
 ##Question: Print the coordinates of every node in a binary tree, where root is 0,0
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 
 ```
@@ -1082,7 +1082,7 @@ def quick_sort_helper(list, i, j):
 ##Question: Given a tree, verify that it contains a subtree.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 
 ```
@@ -1091,7 +1091,7 @@ def quick_sort_helper(list, i, j):
 ##Question: Find the max distance between 2 nodes in a BST.
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 
 ```
@@ -1100,7 +1100,7 @@ def quick_sort_helper(list, i, j):
 ##Question: Construct a BST given the pre-order and in-order traversal Strings
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 
 ```
@@ -1109,7 +1109,7 @@ def quick_sort_helper(list, i, j):
 ##Question: Find the minimum element in a stack in O(1) time
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 
 ```
@@ -1118,7 +1118,7 @@ def quick_sort_helper(list, i, j):
 ##Question: Reverse a linked list iteratively and recursively
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 
 ```

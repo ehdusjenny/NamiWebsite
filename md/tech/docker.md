@@ -35,7 +35,7 @@ There is a single persistent executable daemon that manages all the Docker conta
 A file named `Dockerfile` contains config code defining everything you need to build your image.
 
 An example `Dockerfile`:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 FROM ubuntu:14.04
 RUN apt-get update

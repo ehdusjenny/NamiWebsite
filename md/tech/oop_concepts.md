@@ -25,7 +25,7 @@ A dog can (*behaviour*):
 1. run, jump, bite
 
 The blueprint that defines what an object is and can do is called a **class**.
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public class Dog {
     String mood = "";
@@ -59,7 +59,7 @@ A class can have many **methods**, which are blocks of code designed to achieve 
 Create a happy dog object called charles with the following declaration: `Dog charles = new Dog("Happy")`. Make this dog run with `charles.run()`. 
 
 Calling the `main` method will print
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 I am a dog and I am Happy.
 I am running.
@@ -73,7 +73,7 @@ Inheritance in Java can be done in two ways: extending a superclass, or implemen
 A class can *inherit* attributes and methods from another class. Let's say all animals can have emotions, run, jump and bite. When we want to create a `Cat` class, it seems a bit redundant to create the same methods that the Dog class already has. So let's create a **superclass** called `Animal` that encompasses all things that both dogs and cats can do.
 
 ### Example 1
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public class Animal {
     String mood = "";
@@ -126,7 +126,7 @@ The `Dog` class inherits properties and methods from the `Animal` superclass, si
 Properties and methods within the `Dog` class belong only to `Dog` instances. A `Dog` object can bark, but not a `Cat` object since it has no method to bark. Likewise, a `Cat` object can meow, but a `Dog` object cannot. 
 
 Calling the `main` method will print
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 I am an animal and I am Scared.
 I am running.
@@ -141,7 +141,7 @@ Inheritance can be seen as a one-way **IS-A** relationship; a dog IS AN animal. 
 
 ### implements
 In Java, there is another type called **interfaces**. Interfaces can contain constants and method signatures, but *not the actual implementation*.
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public Interface Human {
     public int getAge();
@@ -181,7 +181,7 @@ You can see interfaces as a type of **contract** - an interface does not care ab
 
 ## Polymorphism
 Polymorphism is the ability for an object to take on many forms. In OOP, a parent interface/class reference can be used to refer to a child class object, i.e. the following, using the same example as above:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public class InterfacePolymorphism {
     Nami nami = new Nami();
@@ -193,7 +193,7 @@ public class InterfacePolymorphism {
 So three references `nami`, `namiHuman`, and `namiEmployee` are all pointing to the same object. 
 
 Likewise for classes:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public class ClassPolymorphism {
     Cat miku = new Cat();
@@ -203,7 +203,7 @@ public class ClassPolymorphism {
 </div>
 ## Overriding
 With polymorphism comes another concept: overriding. A subclass inherits all methods from its superclass. A subclass can choose to **override** any of these methods, i.e.:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public class Animal {
     public void run() {
@@ -226,20 +226,20 @@ public class Overriding {
 ```
 </div>
 The above will print
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 "I am running like a dog."
 ```
 </div>
 Now, what would print if you ran the following?
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 Animal charles = new Dog();
 charles.run();
 ```
 </div>
 The above will print
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 I am running like a dog.
 ```
@@ -249,7 +249,7 @@ The object `charles` has a static type of `Animal`, which is determined at *comp
 ## Overloading
 When two or more methods have the same method name, but with different input parameters.
 For an example,
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public class FeedAnimals {
     public void feed(Dog dog) {
@@ -269,7 +269,7 @@ public class FeedAnimals {
 ```
 </div>
 will print
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 I am feeding a cat.
 I am feeding a dog.
@@ -278,7 +278,7 @@ I am feeding a dog.
 
 Unlike overrides, overloaded method calls are resolved during compile time. Therefore, static binding has precedence over dynamic binding.
 The following code
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public class FeedAnimals {
     public void feed(Animal animal) {
@@ -296,7 +296,7 @@ public class FeedAnimals {
 ```
 </div>
 will print
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 I am feeding an animal.
 ```
@@ -307,7 +307,7 @@ In OOP, Abstraction is a way of hiding implementation details that are irrelevan
 
 An **abstract class** is a class that *may* contain **abstract methods**, which are methods without implementation, unlike an interface where none of the methods can have implementations.
 The following is an abstract class:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public abstract class Character {
     String name;
@@ -325,7 +325,7 @@ public abstract class Character {
 To extend an abstract class, the subclass must either implement all the abstract methods it inherits, or declare itself as abstract.
 
 An abstract class cannot be instantiated, i.e. you cannot declare:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 Character person = new Character();
 ```
@@ -342,7 +342,7 @@ If you don't specify a modifier, then that class, variable, method or constructo
 A **package** is a group of similar types of classes, interfaces, and sub-packages that work together. Common Java packages are *java*, *lang*, and *javax*.
 
 An example code using no modifier:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 String returnHello() {
     return "Hello";
@@ -356,7 +356,7 @@ A private method, variable, or constructor is accessible only within the class i
 Private is the most restrictive access control and provides the strongest encapsulation.
 
 An example code using private:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 private String sentence;
 
@@ -378,7 +378,7 @@ Protected variables, methods and constructors are accessible only by its subclas
 Classes, interfaces, and methods and fields in an interface cannot be declared protected.
 
 An example code using protected:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 class Runner {
     protected void run() {
@@ -404,7 +404,7 @@ The Runner's `run()` method cannot be called outside of its package or by a non-
 Public classes, methods, constructors, interfaces, or variables can be accessed anywhere. They are open to the world. 
 
 For an example, the main method is always public since it needs to be called by a Java interpreter:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public static void main(String[] args) {
     // ...
@@ -454,7 +454,7 @@ Here's a simple table summarizing the accessibility of the modifiers:
 </table>
 
 The main method of any java program is
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public static void main(String[] args) {
     // ...

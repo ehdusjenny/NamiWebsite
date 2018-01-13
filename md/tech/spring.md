@@ -5,7 +5,7 @@
 
 ### Quick Integration of Spring
 To add spring framework into your project, add it as a dependency in your [Maven][maven] POM file:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 <dependencies>
     <dependency>
@@ -46,7 +46,7 @@ A business model typically contains service objects, data access objects (DAOs),
 
 `bikeStore.daos.Accounts`
 
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public class Accounts {
   ArrayList<Account> accounts;
@@ -64,7 +64,7 @@ public class Accounts {
 
 `bikeStore.daos.Items`
 
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public class Items {
   ArrayList<Item> items;
@@ -78,7 +78,7 @@ public class Items {
 
 `bikeStore.services.MainBikeServiceProvider`
 
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public class MainBikeServiceProvider {
   Accounts accounts;
@@ -94,7 +94,7 @@ public class MainBikeServiceProvider {
 
 `services.xml`: 
 
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -113,7 +113,7 @@ public class MainBikeServiceProvider {
 
 `daos.xml`: 
 
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -138,7 +138,7 @@ Term definition:
 
 To use the container, you can do the following:
 
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 // create and configure beans
 ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");

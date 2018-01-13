@@ -11,7 +11,7 @@ Please shoot me an e-mail if any of my solutions are wrong!
 ## Question: What is the CSS Box Model?
 
 **Solution**:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 
 ```

@@ -20,7 +20,7 @@ This article assumes you have basic Java syntax knowledge.
 A class can *inherit* attributes and methods from another class. Let's say all animals can have emotions, run, jump and bite. When we want to create `Cat` abd `Dog` classes, it seems a bit redundant to create the same methods for both of them. Let's create a **superclass** called `Animal` that encompasses all things that both dogs and cats can do.
 
 ### Example 1
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 public class Animal {
     String mood = "";
@@ -73,7 +73,7 @@ The `Dog` class inherits properties and methods from the `Animal` superclass, si
 Properties and methods within the `Dog` class belong only to `Dog` instances. A `Dog` object can bark, but a `Cat` object cannot since it has no method to bark. Likewise, a `Cat` object can meow, but a `Dog` object cannot. 
 
 Calling the `main` method will print
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 I am an animal and I am Scared.
 I am running.

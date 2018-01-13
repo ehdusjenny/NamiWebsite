@@ -9,7 +9,7 @@
 Executing maven will look for a `pom.xml` file in the current directory.
 
 Minimum configuration for a POM:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 <project>
   <modelVersion>1.0.0</modelVersion>
@@ -30,7 +30,7 @@ An example of project inheritance is Maven's default POM called the [**Super POM
 The default packaging type is `jar`, and the default repository for dependencies is `http://repo.maven.apache.org/maven2`.
 
 To inherit your own custom POM file:
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 <project>
   <parent>
@@ -49,7 +49,7 @@ To inherit your own custom POM file:
 ## Project Aggregation/Composition
 Instead of specifying the parent in the child projects, you can specify child projects in the parent. The parent project must specify the packaging type to `pom` and list the child projects to include under the `modules` tag.
 
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 <project>
   <modelVersion>1.0.0</modelVersion>
@@ -74,7 +74,7 @@ Aggregation/composition may be used to simplify the build tree. Instead of multi
 ## Project Interpolation
 If you find yourself using the same value multiple times in different locations, you can use custom and pre-defined variables.
 
-<div style="background-color: #d2def2">
+<div class="code">
 ```
 <project>
   <parent>
