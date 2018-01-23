@@ -7,6 +7,9 @@
 				<div class="tech-article-title">{{article.title}}</div>
 			</div>
 		</div>
+		<div ng-if="vm.articles.length == 0">
+			No blog available :(
+		</div>
 	</div>
 	<div class="article article-slider" ng-class="{ 'article-slider-open' : vm.articleOpen }">
 		<div class="article-inner" id="article-inner" markdown-to-html="vm.md"></div>
