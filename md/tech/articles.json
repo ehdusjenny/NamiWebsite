@@ -53,5 +53,11 @@
 		"filename": "advanced_java",
 		"created": "2018/01/13",
 		"tags": ["Java"]
+	},
+	{
+		"title": "LDAP Overview",
+		"filename": "ldap",
+		"created": "2018/01/23",
+		"tags": ["Network"]
 	}
 ]}
