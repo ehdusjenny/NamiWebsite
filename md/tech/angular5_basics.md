@@ -20,6 +20,8 @@ Run the following commands:
 
 To run your project in a browser, run `ng serve`.
 
+Note that the app will be reloaded automatically when changes are made to any of the source files.
+
 ## Components
 Angular Components are the basic building blocks of your app.
 
@@ -28,9 +30,9 @@ In your newly created project, you can see everything you need to create a compo
 ```
 >src
 	>app
-		app.component.ts 		// Component file
-		app.component.html 		// Template
-		app.component.scss 		// Styling
+		app.component.ts 		// TypeScript Component file
+		app.component.html 		// HTML Template
+		app.component.scss 		// SCSS Styling
 ```
 </div>
 
@@ -82,6 +84,58 @@ ng generate component home
 ng g c home
 ```
 </div>
+
+Go ahead and create two components `home` and `about`. You will see two folders appear under `src/app`, each corresponding to the aforementioned components.
+
+Replace `src/app/app.component.html` with the following:
+<div class="code">
+```
+<ul>
+  <li><a routerLink="about">About</a></li>
+</ul>
+
+<app-home></app-home>
+
+<router-outlet></router-outlet>
+```
+</div>
+
+In `app.module.ts`, add the following:
+<div class="code">
+```
+...
+import { RouterModule } from '@angular/router';
+...
+
+@NgModule({
+  ...
+  imports: [
+  	...
+    RouterModule.forRoot([
+    {
+      path: 'about',
+      component: AboutComponent
+    }
+    ])
+  ],
+  ...
+})
+```
+</div>
+
+The `app-home` tag is the name specified in `src/app/home/home.component.ts`.
+
+The `router-outlet` tag is a placeholder to display the component you route to.
+Run the app on the browser. When you click the About link, the About page should be displayed in place of the`router-outlet` tag.
+
+In the end, you should see the texts `home works!` and `about works!`.
+
+## Interpolation
+
+To inject objects from the component class to the template, you can use interpolation. 
+
+The format for interpolation is: `{{ variableName }}`.
+
 
 
 [node]: https://nodejs.org/en/download/ "Download Node"
