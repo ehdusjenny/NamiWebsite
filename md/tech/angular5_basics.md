@@ -136,6 +136,31 @@ To inject objects from the component class to the template, you can use interpol
 
 The format for interpolation is: `{{ variableName }}`.
 
+In `src/app/home.component.ts`, replace the class with:
+<div class="code">
+```
+export class HomeComponent implements OnInit {
 
+  name: string = "World";
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+```
+</div>
+
+In `home.component.html`, replace the content with:
+<div class="code">
+```
+<p>
+  Hello {{ name }}!
+</p>
+```
+</div>
+
+When you open the app on the browser, you should see "Hello World!" printed.
 
 [node]: https://nodejs.org/en/download/ "Download Node"
