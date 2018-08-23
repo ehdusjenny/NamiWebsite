@@ -1,4 +1,4 @@
-# AngularJS Basics
+# AngularJS 5 Basics
 
 ## Prerequisite
 Install [Node][node].

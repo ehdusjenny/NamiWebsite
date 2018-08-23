@@ -14,7 +14,9 @@
     "method-override": "~2.0.2",
     "wiredep": "^4.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@angular/cli": "^6.1.4"
+  },
   "scripts": {
     "start": "node server.js"
   },
